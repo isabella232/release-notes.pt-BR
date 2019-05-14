@@ -10,7 +10,7 @@ tutorials-url: https://helpx.adobe.com/br/experience-cloud/tutorials.html
 mini-toc-levels: '1'
 git-repo: https://github.com/AdobeDocs/release-notes.en
 index: false
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
 
 ---
@@ -18,21 +18,21 @@ source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
 
 # Metadados para uso interno
 
-O arquivo metadata. md inclui metadados de nível de reposição que passam até o guia TOC. md do guia do usuário no repo. Se desejar alterar o conteúdo metadata. md para qualquer guia do usuário, faça isso em qualquer arquivo TOC. md.
+O arquivo metadata. md inclui metadados de nível de reposição transmitidos para os arquivos TOC. md do guia do usuário na reposição. Se desejar alterar o conteúdo metadata. md para qualquer guia do usuário, faça isso em qualquer arquivo TOC. md.
 
 | metadata | o que faz |
 |--- |--- |
-| título da solução | Usado no cabeçalho do artigo como link |
+| solution-title | Usado no cabeçalho do artigo como link |
 | solução-hub-url | Abre a página helpx hub |
-| ícone de solução | Exibe o ícone da solução próximo ao título da solução. Ainda não implementado |
+| solution-icon | Exibe o ícone da solução próximo ao título da solução. Ainda não implementado |
 | getting-started-title | Raramente usado quando os tutoriais não são apropriados |
 | getting-started-url | Link para a página de introdução ao helpx |
-| tutoriais-título | Raramente usado quando os tutoriais não são apropriados |
-| tutorials-url | Tutoriais de link para tutoriais em vídeo—tutoriais helpx ou tutoriais do KT |
+| tutorials-title | Raramente usado quando os tutoriais não são apropriados |
+| tutorials-url | Link para tutoriais em vídeo—tutoriais helpx ou tutoriais do KT |
 | mini-toc-levels | Determina o número de níveis de cabeçalho que aparecem no painel à direita. o padrão é 2 |
-| git-repo | Especifica o local do repo de colaboração. Usar o espelhamento github.com para documentos que lidos pelo público |
+| git-repo | Especifica o local do repo de colaboração. Use o espelhamento github.com para documentos lidos pelo público |
 
-No arquivo TOC. md
+No arquivo TOC.md
 
 | metadata | o que faz |
 |--- |--- |
