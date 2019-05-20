@@ -2,10 +2,10 @@
 title: Notas de versão da Adobe Experience Cloud
 description: Modelo para notas de versão da Experience Cloud
 doc-type: notas de versão
-last-update: maio de 2019
+last-update: Maio de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3be54c2a7d063c6ebc9c0535efd6712abada071d
+source-git-commit: c5d973e002c607c1b9b7422c9d3abaa9c827a000
 
 ---
 
@@ -20,7 +20,7 @@ Novos recursos e correções na Adobe Experience Cloud.
 
 **Data de lançamento: maio de 2019**
 
-* [Plataforma de experiência](#platform)
+* [Adobe Experience Platform](#platform)
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -30,11 +30,15 @@ Novos recursos e correções na Adobe Experience Cloud.
 * [Magento](#magento)
 * [Primetime](#primetime)
 
-## Plataforma de experiência {#platform}
+## Adobe Experience Platform {#platform}
 
-Notas de versão da plataforma da Experience Cloud, incluindo Administração, Ativação (Lançamento da Experience Platform Launch), Serviço de ID, Ativos, Ofertas e Pessoas.
+### Notas de versão da Adobe Experience Platform
 
-### Lançamento da plataforma da experiência
+Versão 1.0, 15 de maio de 25 19
+
+* Consulte [Notas de versão da Plataforma de experiências](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) no Adobe. io para obter as últimas atualizações da Experience Platform.
+
+### Experience Platform Launch
 
 * Consulte [Launch Platform Launch](https://docs.adobelaunch.com/) para obter as informações mais recentes.
 
@@ -42,9 +46,9 @@ Notas de versão da plataforma da Experience Cloud, incluindo Administração, A
 
 Lançamento em **13 de maio de 2019**
 
-* Suporte à API de visitante 4.3.0
-* Suporte ao ITP 2.1.
-* Correção de um problema com a configuração securecookie.
+* Suporte para a API de visitante 4.3.0
+* Suporte para o ITP 2.1.
+* Correção de um problema relacionado à configuração do secureCookie.
 
 ## Analytics {#analytics}
 
@@ -65,10 +69,10 @@ Para obter a documentação do produto, consulte [Página inicial de ajuda do An
 
 **Correções da Analysis Workspace**
 
-* Correção de um problema que afetava Tempo gasto na página. Os relatórios do espaço de trabalho não usarão mais Nome da página ao calcular intervalos de Tempo gasto, permitindo que as ocorrências granulares e com intervalos sejam contadas. (AN-140479)
-* Correção de problemas de desempenho de visualização de Linha como parte de um esforço maior para melhorar o desempenho do espaço de trabalho. (AN-174878)
+* Correção de um problema que afetava Tempo gasto na página. Os relatórios do Workspace não usarão mais Nome da página ao calcular intervalos de Tempo gasto, permitindo que as ocorrências granulares e com intervalos sejam contadas. (AN-140479)
+* Correção de problemas de desempenho de visualização de Linha como parte de um esforço maior para melhorar o desempenho do Workspace. (AN-174878)
 * Correção de um problema de falta de codificação UTF-8 em arquivos .csv baixados. (AN-178393)
-* Correção de problemas de desempenho lento de projetos do espaço de trabalho. (AN-177710)
+* Correção de problemas de desempenho lento de projetos do Workspace. (AN-177710)
 * Correção de problemas de exibição da visualização de linha com pequenos intervalos na granularidade do eixo y. (AN-176467)
 
 **Outras correções do Analytics**
@@ -80,7 +84,7 @@ Para obter a documentação do produto, consulte [Página inicial de ajuda do An
 
 ### Avisos importantes para administradores do Analytics {#aa-notices}
 
-| Aviso | Data de adição   ou atualização | Descrição |
+| Aviso | Data de adição ou atualização | Descrição |
 | -----------| ---------- | ---------- |
 | Futura alteração para cálculos de _Total de relatório_ | 16 de abril de 2019 | Em **13 de junho de 2019**, o Adobe Analytics disponibilizará os cálculos de _Total de relatório_ de maneira consistente em todas as dimensões e métricas. Isso resultará em uma alteração aos totais referentes a alguns relatórios (tipicamente, relatórios de ou de Atributos do cliente). Antes desta alteração, alguns Totais de relatório incluíam ou excluíam de maneira inconsistente o item de linha _Não especificado_ no total, independentemente de _Não especificado_ aparecer no relatório. <br/>A partir de 13 de junho de 2019, _Não especificado_ sempre aparecerá no total do relatório, mesmo se não aparecer como um item de linha no mesmo. Além disso, segmentos que usam a lógica _existe_ ou _não existe_ poderão apresentar resultados diferentes para algumas dimensões após essa mudança. Essa alteração afetará as soluções Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder e a API de relatórios. |
 | Atualização de downloads em CSV na Analysis Workspace | 10 de abril de 2019 | A partir de 11 de abril de 2019, várias alterações serão feitas a downloads CSV (e Copiar para área de transferência) da Analysis Workspace para remover a formatação de dados exportados.  <ul><li>O separador de milhares não será mais incluído. Além disso, o separador decimal continuará a ser incluído, e vai aderir ao formato definido em **Componentes** &gt; **Configurações de relatórios** &gt; **Separador de milhar**. Observação: valores numéricos que usam uma vírgula como separador decimal continuarão a ser incluídos entre aspas no CSV exportado.</li><li>Nenhum símbolo de moeda será exibido.</li><li>Nenhum símbolo de porcentagem será exibido. As porcentagens estarão em formato decimal. Por exemplo, 75% será representado como 0,75.</li><li>O tempo será exibido em segundos.</li><li>As Tabelas de coorte mostrarão somente valores brutos; as porcentagens serão removidas.</li><li>Se um número for inválido, uma célula vazia será exibida.</li></ul> |
