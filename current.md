@@ -5,7 +5,7 @@ doc-type: notas de versão
 last-update: Maio de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c5d973e002c607c1b9b7422c9d3abaa9c827a000
+source-git-commit: eb567f2f7b740c2fab9b95540cfdf240cf1f6955
 
 ---
 
@@ -63,6 +63,7 @@ Para obter a documentação do produto, consulte [Página inicial de ajuda do An
 
 | Recurso | Descrição |
 | -----------| ---------- |  
+| **Appmeasurement versão 2.14.0** <ul><li>Correção de problemas com o gerenciamento do estado dos parâmetros do rastreador quando várias ocorrências estavam pendentes. (AN -176931, AN -176629, DTM -12758)</li><li>Atualização do appmeasurement para incluir Visitor. js 4.3.0 (AN -180049)</li></ul> |
 | **Analysis Workspace:** Nova _definição de visualização de_ Fluxo de instâncias repetidas | A configuração de fluxo _Incluir instâncias de repetição_ oferece a opção de incluir ou excluir instâncias repetidas, como Recarregamentos de página. Além disso, todas as visualizações de Fluxo agora são baseadas apenas em instâncias. |
 | **Análise ad hoc:** Compatibilidade com Java 11 | A Ad Hoc Analysis agora é compatível com o Java 11. Saiba como executar [a Análise ad hoc no Java 11](https://marketing.adobe.com/resources/help/en_US/dsc/adhoc-java.html). |
 | **Coleta de dados:** Novo cookie s_ ecid | Um um novo cookie de servidor primário foi adicionado, s_ecid, em que a coleta de dados armazena a ECID do visitante. |
