@@ -7,7 +7,7 @@ seo-title: Notas de versão de 2014 e anterior da Adobe Experience Cloud
 topic: Notas de versão
 uuid: c56a1064-0f2c-4241-93c6-ca4b1f267763
 translation-type: tm+mt
-source-git-commit: b11b987b10725d8b524e828452ebdc6806f34ff7
+source-git-commit: 9dcd8e8ea0e020c56906e5e4635d68eeceb070a0
 
 ---
 
