@@ -5,7 +5,7 @@ doc-type: notas de versão
 last-update: junho de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1f156e4fcbd0d39b27f2c254e2117ad2e4e0b793
+source-git-commit: 1055e2ece605b5c1147f92cfd06cf103860e3d4c
 
 ---
 
@@ -60,6 +60,7 @@ Para obter a documentação do produto, consulte [Página inicial de ajuda do An
 | **Segmentação** | New segment operators: **[!UICONTROL Equals Any of]** and **[!UICONTROL Does not Equal Any of]**. |
 | **Depurador** | Quando conectado com sua Adobe ID, agora você tem a opção de recuperar ocorrências processadas no depurador da Experience Cloud. As ocorrências pós-processadas são chamadas do servidor após terem passado pelas [!UICONTROL Regras] de processamento e Regras VISTA, permitindo validar [!UICONTROL Regras] de processamento e regras VISTA. **Observação**: Se você estiver usando A 4 T (Complementares aldataid), os dados pós-processamento poderão levar alguns minutos para retornar. |
 | **Analysis Workspace:** | Novos filtros prontos para uso na pesquisa do trilho à esquerda. Além do que você verá hoje (Dimensões, Métricas, Aprovado etc.), novos filtros como Métricas calculadas, Atributos do cliente, evars, Props, Vídeo etc. foram adicionados para facilitar a localização dos componentes necessários. |
+| **Analysis Workspace** | Adicionamos um aviso à visualização de Fallout que será exibida quando você adicionar um segmento como ponto de contato - determinadas combinações de contêiner de segmento inválidas resultarão em diagramas de fallout inválidos, como <ul><li>Usar um segmento com base em visitantes como um ponto de contato dentro de uma visualização de Fallout de contexto do visitante</li><li>Usar um segmento com base em visitantes como um ponto de contato dentro de uma visualização de Fallout de contexto de visitas</li><li>Usar um segmento com base em visita como um ponto de contato dentro de uma visualização de Fallout de contexto de visitas</li></ul> <br> [Mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) </br> |
 
 **Correções da Analysis Workspace**
 
