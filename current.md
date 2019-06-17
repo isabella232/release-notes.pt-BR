@@ -5,7 +5,7 @@ doc-type: notas de versão
 last-update: Junho de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7708f905e8f5baf0843e7ccb6c652a3450dd5d82
+source-git-commit: 9fbbe902ba5f95b86f8bf2eed7d3e85b4785ba6e
 
 ---
 
@@ -34,7 +34,7 @@ Novos recursos e correções na Adobe Experience Cloud.
 
 ### Notas de versão da Adobe Experience Platform
 
-* See [[!DNL Experience Platform] release notes](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) on Adobe.io for the latest updates to [!DNL Experience Platform].
+* Consulte [Notas de versão da Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) no Adobe. io para obter [!DNL Experience Platform]as atualizações mais recentes.
 
 ### [!DNL Experience Platform Launch]
 
