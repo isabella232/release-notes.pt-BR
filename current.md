@@ -23,7 +23,7 @@ Novos recursos e correções na Adobe Experience Cloud.
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [! [Campanha DNL](#ac)]
+* [!DNL Campaign](#ac)]
 * [Mobile Services](#mobile)
 * [Advertising Cloud](#adcloud)
 * [Target Standard/Premium 19.6.1](#target)
@@ -38,7 +38,7 @@ Novos recursos e correções na Adobe Experience Cloud.
 
 ### [!DNL Experience Platform Launch]
 
-* Consulte [[! Lançamento da plataforma de experiência DNL]](https://docs.adobelaunch.com/) para obter as informações mais recentes.
+* Consulte [!DNL Experience Platform Launch](https://docs.adobelaunch.com/) para obter as informações mais recentes.
 
 ## Analytics {#analytics}
 
