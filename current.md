@@ -5,7 +5,7 @@ doc-type: notas de versão
 last-update: Junho de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6af4853d00495a347671d31700c969c4d431b9b8
+source-git-commit: bce30f27c81de2552fca9cce91235f7a649b0d91
 
 ---
 
@@ -20,7 +20,7 @@ Novos recursos e correções na Adobe Experience Cloud.
 **Data de lançamento: 13 de junho de 2019**
 
 * [Adobe Experience Platform](#platform)
-* [Analytics](#analytics) **(atualizado em 25 de junho de 25 19)**
+* [Analytics](#analytics) **(atualizado em 27 de junho de 27 19)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -45,7 +45,7 @@ Novos recursos e correções na Adobe Experience Cloud.
 Novos recursos e correções no Adobe Analytics:
 
 * [Novos recursos e correções no Adobe Analytics](#aa-features)
-* [Avisos importantes para administradores do Analytics](#aa-notices) **(atualizado em Updated 5 de junho de 25 19)**
+* [Avisos importantes para administradores do Analytics](#aa-notices) **(atualizado em Updated 7 de junho de 27 19)**
 
 Para obter a documentação do produto, consulte [Página inicial de ajuda do Analytics](https://marketing.adobe.com/resources/help/en_US/reference/).
 
@@ -77,7 +77,8 @@ Para obter a documentação do produto, consulte [Página inicial de ajuda do An
 ### Avisos importantes para administradores do Analytics {#aa-notices}
 
 | Aviso | Data de adição ou atualização | Descrição |
-| -----------| ---------- | ---------- | 
+| -----------| ---------- | ---------- |
+| Atualização da coleta de dados | Adicionado em 27 de junho de 2019 | All Adobe Analytics cookies with the “same-site-by-default-cookies” flag now have this flag set to `SameSite=None`. |
 | Alterações na interface do usuário do log de auditoria | Atualizado em 25 de junho de 25 19 | In the API `Logs.GetUsageLog`, the following changes were made to the UI: <ul><li>The response headers in the API were changed: a) from `timestamp` to `dateCreated`, b) from `login` to `companyLogin`, c) from `event_num` to `eventType`, d) from `event_type` to `event_type`, e) from `ip_address` to `ipAddress`, f) from `report_suite` to `rsid`, g) from `event_details` to `logText`. </li><li>O formato de carimbo de data e hora alterado de Unix timestamp para ISO 8601 time</li></ul><br>Na API, bem como na interface do usuário do log de administração, os resultados de logs de auditoria agora contêm a ID do conjunto de relatórios em vez do nome do conjunto de relatórios. |
 | Limites do construtor de regras de classificação | Adicionado em 5 de junho de 2019 | These limits are not new, but have been added to the documentation [here](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
 | Limites de operadores de novos segmento | Adicionado em 31 de maio de 2019 | A partir de 18 de julho de 2019, os operadores de segmento &quot;contém qualquer um de&quot;, &quot;não contém qualquer um&quot;, e &quot;contêm todos de&quot; e &quot;não contêm todos de&quot; serão limitados a 100 palavras por campo de entrada. O limite será aplicado a todos os segmentos novos e modificados após essa data. Os segmentos existentes que excedem o limite continuarão sendo suportados, mas não poderão ser modificados ou salvos até que o campo de entrada seja reduzido. Esses limites estão sendo aplicados como parte de um esforço contínuo para melhorar o desempenho da consulta. |
