@@ -5,7 +5,7 @@ doc-type: notas de versão
 last-update: Março de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9bb54a57fa2b905fcc01951c81fd32e6444c8cd6
+source-git-commit: 450d03363720b88254413d7387665fc3d0eb0819
 
 ---
 
@@ -15,16 +15,16 @@ source-git-commit: 9bb54a57fa2b905fcc01951c81fd32e6444c8cd6
 Novos recursos e correções na Adobe Experience Cloud.
 
 >[!IMPORTANT]
->>Esta página apresenta conteúdo de pré-lançamento e está sujeito a alterações até o lançamento da versão planejada.
-
+>
+>Esta página apresenta conteúdo de pré-lançamento e está sujeito a alterações até o lançamento da versão planejada.
 
 >[!NOTE]
->>Assine a [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) para ser notificado por email sobre versões futuras. Você receberá um aviso três a cinco dias úteis antes do lançamento da versão. Novas informações publicadas após o lançamento serão marcadas com a data da publicação.
-
+>
+>Assine a [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) para ser notificado por email sobre versões futuras. Você receberá um aviso três a cinco dias úteis antes do lançamento da versão. Novas informações publicadas após o lançamento serão marcadas com a data da publicação.
 
 **Data de lançamento: 2019**
 
-* [Serviços principais e administração da Experience Cloud](#experiencecloud)
+* [Principais serviços e administração](#experiencecloud)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -33,21 +33,22 @@ Novos recursos e correções na Adobe Experience Cloud.
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (links para a ajuda da solução)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (links para a ajuda da solução)
 
-## Serviços principais e administração da Experience Cloud {#experiencecloud}
+## Core services and administration {#experiencecloud}
 
-Notas de versão da interface da Experience Cloud, incluindo serviços essenciais da [!UICONTROL plataforma] e administração de produtos.
+Release notes for the Experience Cloud interface, including [!UICONTROL Platform] core services, product administration, and security bulletins.
 
 * [Serviços principais](#core-services)
 * [Serviço da Experience Cloud ID](#ecid)
 * [Mobile Services e SDK móvel](#mobile)
 * [Administração e desenvolvedor](#admin)
-* [Lançamento da Experience Cloud](https://docs.adobelaunch.com/) (links para a ajuda do produto)
+* [Experience Platform Launch](#launch)
+* [Boletins e conselhos de segurança](https://helpx.adobe.com/security.html) (todos os produtos da Adobe)
 
 ### Core services {#core-services}
 
 Destaques e correções.
 
-For product documentation, see [Experience Cloud and Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/)
+For product documentation, see [Experience Cloud and Core Services](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
 
 ### Serviço da Experience Cloud ID {#ecid}
 
@@ -68,15 +69,19 @@ Descrição dos novos recursos. Use cabeçalhos ou uma tabela.
 * Correção
 * Correção
 
-Para obter a documentação do produto, consulte [Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/).
+Para obter a documentação do produto, consulte [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html).
 
-Para obter mais informações sobre os Mobile SDKs, consulte: [Android SDK 4.x para Soluções da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mobile/android/) e [iOS SDK 4.x para Soluções da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mobile/ios/).
+Para obter mais informações sobre os Mobile SDKs, consulte: [Android SDK 4.x para Soluções da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mobile/android/) e [iOS SDK 4.x para Soluções da Experience Cloud](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
 
 ### Administration and developer {#admin}
 
 Destaques e correções.
 
 Para obter a documentação do produto, consulte [Serviço da Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+
+### Experience Platform Launch {#launch}
+
+See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) for release notes and product documentation.
 
 ## [!DNL Analytics] {#analytics}
 
@@ -86,7 +91,7 @@ Novos recursos e correções no Adobe Analytics:
 * [Media Analytics SDK para iOS e Android (anteriormente chamado de VHL SDK)](#aa-va)
 * [Avisos importantes para administradores do Analytics](analytics-important-notices.md)
 
-For product documentation, see [Adobe Analytics Help Home](https://marketing.adobe.com/resources/help/en_US/reference/).
+For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
 ### Novos recursos no Adobe Analytics {#aa-features}
 
@@ -123,7 +128,7 @@ Consulte as [Notas de versão do Data Workbench](https://marketing.adobe.com/res
 * Correção
 * Correção
 
-Consulte o [Histórico de versões do AppMeasurement](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/index.html) para obter um histórico das versões do AppMeasurement nas seguintes plataformas:
+Consulte o [Histórico de versões do AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html) para obter um histórico das versões do AppMeasurement nas seguintes plataformas:
 
 * JavaScript
 * iOS
@@ -222,7 +227,7 @@ Os conjuntos de documentação do AEM a seguir foram migrados para uma nova plat
 * Correção
 * Correção
 
-## [!DNL Campaign] {#ac}
+## [!DNL Campaign {#ac}
 
 O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagens individuais por canais de marketing online e offline. Agora, é possível prever o que seus clientes desejam usando as experiências determinadas por seus hábitos e preferências.
 
@@ -240,11 +245,6 @@ O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagen
 * Correção
 
 Para obter a documentação do produto, consulte:
-
-* [Notas de versão do Adobe Campaign Classic](https://docs.campaign.adobe.com/doc/AC/en/RN.html)
-* [Aprendizagem e suporte do Adobe Campaign Classic](https://helpx.adobe.com/support/campaign/classic.html)
-* [Notas de versão do Adobe Campaign Standard](https://helpx.adobe.com/campaign/standard/rn/rn.html)
-* [Aprendizagem e suporte do Adobe Campaign Standard](https://helpx.adobe.com/support/campaign/standard.html)
 
 ## Advertising Cloud {#adcloud}
 
