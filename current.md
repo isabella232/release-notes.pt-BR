@@ -5,7 +5,7 @@ doc-type: notas de versão
 last-update: julho de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 91126cc2d75b6c50afe429a1b4313309ab76108a
+source-git-commit: 19b6c0547d06a3ec5887f6fd17bcd662528844ca
 
 ---
 
@@ -25,7 +25,7 @@ Novos recursos e correções na Adobe Experience Cloud.
 **Data de lançamento: 18 de julho de 2019**
 
 * [Serviços principais e administração da Experience Cloud](#experiencecloud)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics)**(Atualizado em July 5 de julho)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -84,7 +84,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 ## [!DNL Analytics] {#analytics}
 
-* [Novos recursos e correções no Adobe Analytics](#aa-features)
+* [Novos recursos e correções no Adobe Analytics](#aa-features) **(atualizado em July 5 de julho)**
 * [Avisos importantes para administradores do Analytics](#aa-notices)
 
 ### Novos recursos no [!DNL Analytics] {#aa-features}
@@ -95,7 +95,7 @@ Para obter a documentação do produto, consulte [Página inicial de ajuda do An
 | -----------| ---------- |   
 | Analysis Workspace - Melhorias na análise de coorte | Novas configurações de Análise de coorte foram adicionadas: <ul><li>Mostrar somente %</li><li>Arredondar % ao inteiro mais próximo</li><li>Mostrar uma linha média % ao longo da parte superior</li></ul> |
 | Analysis Workspace | In the left rail, users now have the option to _Show items from last 18 months_. Anteriormente, o período de pesquisa era de um máximo de 6 meses. Isso facilita a comparação com páginas ou campanhas do ano passado, até 18 meses atrás. |
-| Feed de dados do Analytics | Users can now see the history for all feeds that are enabled with the _Make Feed Visible to Customer_ flag. |
+| Novo modelo da Analysis Workspace | Adicionamos um novo modelo chamado &quot;Magento: Marketing e comércio &quot;para a Analysis Workspace. Ela foi projetada especificamente para clientes de comércio eletrônico, mas qualquer varejista pode usá-lo para obter insights exclusivos sobre suas atividades de comércio. |
 
 #### [!DNL Analysis Workspace] correções
 
@@ -103,9 +103,10 @@ Para obter a documentação do produto, consulte [Página inicial de ajuda do An
 * Correção de um problema com erros de visualização. Agora, exibimos uma barra de erro vermelha quando ocorre um erro de visualização.(AN-175542)
 * Correção de um problema em que os nomes das dimensões apareciam como inglês em ambientes localizados.(AN-178695)
 
-#### [!DNL Reports & Analytics] correções
+#### [!DNL Analytics] correções
 
 * Correção de um problema que fazia com que o gráfico de linha em um relatório detalhado em tempo real ficasse em branco. (AN-181690)
+* Correção de um problema em que, em algumas circunstâncias, partes do histórico de feed de dados não eram exibidas na interface do usuário do Console de administração. (AN-176219)
 
 ### Avisos importantes para administradores do [!DNL Analytics] {#aa-notices}
 
