@@ -5,7 +5,7 @@ doc-type: notas de versão
 last-update: julho de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b4a91b853cfb5d228fc2195d65b4370e607475f2
+source-git-commit: 9d10de6924f3c40435d172602746f312195a675e
 
 ---
 
@@ -95,7 +95,7 @@ Para obter a documentação do produto, consulte [Página inicial de ajuda do An
 | -----------| ---------- |   
 | Analysis Workspace - Melhorias na análise de coorte | Novas configurações de Análise de coorte foram adicionadas: <ul><li>Mostrar somente %</li><li>Arredondar % ao inteiro mais próximo</li><li>Mostrar uma linha média % ao longo da parte superior</li></ul> |
 | Analysis Workspace | In the left rail, users now have the option to _Show items from last 18 months_. Anteriormente, o período de pesquisa era de um máximo de 6 meses. Isso facilita a comparação com páginas ou campanhas do ano passado, até 18 meses atrás. |
-| Novo modelo da Analysis Workspace | Adicionamos um novo modelo chamado &quot;Magento: Marketing e comércio &quot;para a Analysis Workspace. Ela foi projetada especificamente para clientes de comércio eletrônico, mas qualquer varejista pode usá-lo para obter insights exclusivos sobre suas atividades de comércio. |
+| Novo modelo da Analysis Workspace | Adicionamos um novo modelo chamado "Magento: Marketing e comércio "para a Analysis Workspace. Ela foi projetada especificamente para clientes de comércio eletrônico, mas qualquer varejista pode usá-lo para obter insights exclusivos sobre suas atividades de comércio. |
 
 #### [!DNL Analysis Workspace] correções
 
@@ -113,9 +113,9 @@ Para obter a documentação do produto, consulte [Página inicial de ajuda do An
 | Aviso | Data de adição ou atualização | Descrição |
 | -----------| ---------- | ---------- |
 | Limites do construtor de regras de classificação | Adicionado em 5 de junho de 2019 | These limits are not new, but have been added to the documentation [here](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
-| Limites de operadores de novos segmento | Adicionado em 31 de maio de 2019 | A partir de 18 de julho de 2019, os operadores de segmento &quot;contém qualquer um de&quot;, &quot;não contém qualquer um&quot;, e &quot;contêm todos de&quot; e &quot;não contêm todos de&quot; serão limitados a 100 palavras por campo de entrada. O limite será aplicado a todos os segmentos novos e modificados após essa data. Os segmentos existentes que excedem o limite continuarão sendo suportados, mas não poderão ser modificados ou salvos até que o campo de entrada seja reduzido. Esses limites estão sendo aplicados como parte de um esforço contínuo para melhorar o desempenho da consulta. |
+| Limites de operadores de novos segmento | Adicionado em 31 de maio de 2019 | A partir de 18 de julho de 2019, os operadores de segmento "contém qualquer um de", "não contém qualquer um", e "contêm todos de" e "não contêm todos de" serão limitados a 100 palavras por campo de entrada. O limite será aplicado a todos os segmentos novos e modificados após essa data. Os segmentos existentes que excedem o limite continuarão sendo suportados, mas não poderão ser modificados ou salvos até que o campo de entrada seja reduzido. Esses limites estão sendo aplicados como parte de um esforço contínuo para melhorar o desempenho da consulta. |
 | Futuras alterações de suporte das Classificações **[!UICONTROL ativadas por data]** e **[!UICONTROL numéricas 2]** | Atualizado em 28 de maio de 2019 | A capacidade de importar classificações Numérico 2 e Ativadas por data foi removida da base de código. Essa alteração será aplicada na Versão de manutenção de julho de 2019. Se você tiver colunas Numéricas ou Ativadas por data no arquivo de importação, essas células serão ignoradas silenciosamente e todos os outros dados nesse arquivo serão importados normalmente. <br/>As classificações existentes ainda podem ser exportadas por meio do fluxo de trabalho de classificação padrão, e continuarão disponíveis nos relatórios. |
-| Futura alteração para cálculos de _Total de relatório_ | atualizado em: 9 de julho de 2019 | Em **18 de junho de 2019**, o Adobe Analytics disponibilizará os cálculos de _Total de relatório_ de maneira consistente em todas as dimensões e métricas. Isso resultará em uma alteração aos totais referentes a alguns relatórios (tipicamente, relatórios de ou de Atributos do cliente). Antes desta alteração, alguns Totais de relatório incluíam ou excluíam de maneira inconsistente o item de linha _Não especificado_ no total, independentemente de _Não especificado_ aparecer no relatório. <br/>A partir de 18 de junho de 2019, _Não especificado_ sempre aparecerá no total do relatório, mesmo se não aparecer como um item de linha no mesmo. Additionally, segments using _exists_ or _does not exist_ logic may see different results for some dimensions after this change, specifically dimensions where _Unspecified_ has a special name such as the &quot;Typed/Bookmarked&quot; line item for Referrer Type dimension or the &quot;Other&quot; line item for the Device Type dimension. Essa alteração afetará as soluções Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder e a API de relatórios. |
+| Futura alteração para cálculos de _Total de relatório_ | atualizado em: 9 de julho de 2019 | Em **18 de junho de 2019**, o Adobe Analytics disponibilizará os cálculos de _Total de relatório_ de maneira consistente em todas as dimensões e métricas. Isso resultará em uma alteração aos totais referentes a alguns relatórios (tipicamente, relatórios de ou de Atributos do cliente). Antes desta alteração, alguns Totais de relatório incluíam ou excluíam de maneira inconsistente o item de linha _Não especificado_ no total, independentemente de _Não especificado_ aparecer no relatório. <br/>A partir de 18 de junho de 2019, _Não especificado_ sempre aparecerá no total do relatório, mesmo se não aparecer como um item de linha no mesmo. Additionally, segments using _exists_ or _does not exist_ logic may see different results for some dimensions after this change, specifically dimensions where _Unspecified_ has a special name such as the "Typed/Bookmarked" line item for Referrer Type dimension or the "Other" line item for the Device Type dimension. Essa alteração afetará as soluções Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder e a API de relatórios. |
 | Atualização de downloads em CSV da [!DNL Analysis Workspace] | 10 de abril de 2019 | A partir de 11 de abril de 2019, várias alterações foram feitas a **[!UICONTROL downloads CSV]** (e **[!UICONTORL Copiar para área de transferência]**) da [!DNL Analysis Workspace] para remover a formatação de dados exportados.  <ul><li>O separador de milhares não está mais incluído. Além disso, o separador decimal continuará a ser incluído, e vai aderir ao formato definido em **[!UICONTROL Componentes &gt; Configurações de relatórios &gt; Separador de milhar]**. Observação: valores numéricos que usam uma vírgula como separador decimal continuarão a ser incluídos entre aspas no CSV exportado.</li><li>Nenhum símbolo de moeda será exibido.</li><li>Nenhum símbolo de porcentagem será exibido. As porcentagens estarão em formato decimal. Por exemplo, 75% será representado como 0,75.</li><li>O tempo será exibido em segundos.</li><li>As Tabelas de coorte mostrarão somente valores brutos; as porcentagens serão removidas.</li><li>Se um número for inválido, uma célula vazia será exibida.</li></ul> |
 | Alteração futura no comando do depurador da [!DNL Analysis Workspace] | 4 de abril de 2019 | O comando do Console para ativar o depurador da [!DNL Analysis Workspace] será alterado para adobeTools.debug.includeOberonXml em **13 de junho de 2019**. adobe.tools.debug.includeOberonXml parará de funcionar após essa data. |
 | Números de versão do navegador em dispositivo móvel | 7 de fevereiro de 2019 | Em 8 de janeiro de 2019, alteramos o nível de truncação para os números de versão do navegador móvel de 2 para 1. A partir dessa data, as versões exibirão somente os dois primeiros níveis (por exemplo, _Firefox 64.0.2_ agora é exibido como _Firefox 64.0_). |
@@ -128,12 +128,12 @@ Para obter a documentação do produto, consulte [Página inicial de ajuda do An
 
 ### AppMeasurement {#appm}
 
-Lançamento em 15 de julho de 25 19
+Lançado em 15 de julho de 2019:
 
-**JavaScript 2.15.0**
+**Appmeasurement para javascript 2.15.0**
 
-* Adicionado DIL 7.2 para appmeasurememt. (AN-175142)
-* Correção de um problema que ocorria quando a optin do serviço da Experience Cloud ID era definida como true e a MID não era gerada na chamada s. t () sem um recarregamento de página. (CORE-30890)
+* Rastreamento de alcance de rolagem do Mapa de atividade adicionado à extensão do Activity Map (AN -172949)
+* Adicionado DIL 9.2 ao appmeasurement. (AN-182472)
 
 Consulte o [Histórico de versões do AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html) para obter um histórico das versões do AppMeasurement nas seguintes plataformas:
 
@@ -159,9 +159,9 @@ Consulte as [Notas de versão do Data Workbench](https://marketing.adobe.com/res
 **Correções e aprimoramentos**
 
 * On the [!UICONTROL Segments Overview] page, the width of the segment storage folder is now flexible. Isso permite distinguir entre segmentos com nomes mais longos. (AAM-48400)
-* Fixed an issue in [!UICONTROL Algorithmic Models], where moving the **Adjust Reach &amp; Accuracy** slider did not affect the model&#39;s reach or accuracy. (AAM-47996)
+* Fixed an issue in [!UICONTROL Algorithmic Models], where moving the **Adjust Reach &amp; Accuracy** slider did not affect the model's reach or accuracy. (AAM-47996)
 * Correção de um problema nos destinos do Analytics em que o botão para baixar um arquivo. csv de segmentos que entravam em conflito com controles de exportação de dados e/ou políticas de compartilhamento de dados de terceiros era interrompido. (AAM-48100)
-* Correção de um problema em que os clientes visualizavam erros aleatórios &quot;Acesso negado&quot; ao fazer logon na interface do usuário do Audience Manager. (AAM-47632)
+* Correção de um problema em que os clientes visualizavam erros aleatórios "Acesso negado" ao fazer logon na interface do usuário do Audience Manager. (AAM-47632)
 
 ## Experience Manager {#aem}
 
