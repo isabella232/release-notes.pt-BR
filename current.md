@@ -1,11 +1,11 @@
 ---
-title: Notas de versão da Adobe Experience Cloud
-description: Notas de versão de julho de 2019 da Experience Cloud
+title: Notas de versão técnica da Adobe Experience Cloud
+description: Notas de versão de doc técnico da Experience Cloud july 019
 doc-type: notas de versão
 last-update: Julho de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 700dc5c07df31cf744588cd79f6d51c05234c0a0
+source-git-commit: 41b4cbb1b93fe857c80cebd631a785e234e2ce07
 
 ---
 
@@ -89,7 +89,7 @@ Para obter a documentação do produto, consulte [Página inicial de ajuda do An
 
 | Componente | Descrição |
 | -----------| ---------- |   
-| Analysis Workspace - Melhorias na análise de coorte | New [Cohort Analysis settings](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html) have been added: <ul><li>Mostrar somente porcentagem</li><li>Arredondar porcentagem para mais próximo</li><li>Mostrar uma linha de porcentagem média</li></ul> |
+| Analysis Workspace - Melhorias na análise de coorte | New [Cohort Analysis settings](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html) have been added: <ul><li>Mostrar somente a porcentagem</li><li>Arredondar porcentagem ao inteiro mais próximo</li><li>Mostrar uma linha de porcentagem média</li></ul> |
 | Analysis Workspace | No painel à esquerda, os usuários agora têm a opção de _Mostrar itens dos últimos 18 meses_. Anteriormente, o período de pesquisa era de no máximo 6 meses. Isso facilita a comparação com páginas ou campanhas do ano passado, até 18 meses atrás. |
 | Novo modelo do Analysis Workspace | We added a new template called ["Magento: Marketing &amp; Commerce"](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) to Analysis Workspace. Ele foi projetado especificamente para clientes de comércio eletrônico do Magento, mas qualquer varejista pode usá-lo para obter informações exclusivas sobre suas atividades de comércio. |
 
@@ -126,10 +126,10 @@ Para obter a documentação do produto, consulte [Página inicial de ajuda do An
 
 Lançado em 15 de julho de 2019:
 
-**Appmeasurement para javascript 2.15.0**
+**AppMeasurement para JavaScript 2.15.0**
 
-* Rastreamento de alcance de rolagem do Mapa de atividade adicionado à extensão do Activity Map (AN -172949)
-* Adicionado DIL 9.2 ao appmeasurement. (AN-182472)
+* Adicionado rastreamento de alcance de tolagem do Activity Map à extensão do Activity Map (AN-172949)
+* DIL 9.2 adicionado ao AppMeasurement. (AN-182472)
 
 Consulte o [Histórico de versões do AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html) para obter um histórico das versões do AppMeasurement nas seguintes plataformas:
 
