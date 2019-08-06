@@ -5,7 +5,7 @@ doc-type: notas de versão
 last-update: agosto de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b3fa98427b027218e9600cb4c5e10dd2ba880f89
+source-git-commit: 2229815ac75b0a7bd60571b39bd0f2780f20195e
 
 ---
 
@@ -66,8 +66,9 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | Recurso | Descrição |
 | -----------| ---------- |  
-| Suporte para configurações de cookie do samesite | A configuração de cookie samesite será adicionada a todos os conjuntos de cookies do Analytics. Essa alteração permite que você seja compatível com as alterações do Chrome exigindo o campo de cookie samesite. |
+| Suporte para configurações de cookie do samesite | A configuração de cookie [samesite](https://web.dev/samesite-cookies-explained) será adicionada a todos os conjuntos de cookies do Analytics. Essa alteração permite que você seja compatível com as alterações do Chrome exigindo o campo de cookie samesite. Os cookies do Analytics `none`serão padronizados. Se você tiver usado exclusivamente um domínio próprio (por exemplo, stats.domain.com), você pode ter o Adobe clientcare configurado para `lax` a configuração para domínios de coleção próprios. |
 | Área de trabalho: Aumentar limite de item para o filtro suspenso de 50 a 200 | Aumentamos o limite de itens que podem ser colocados em um filtro suspenso de 50 a 200. Esse aprimoramento acomoda uma variedade de casos de uso, como adicionar todos os países (195) a um filtro, ou todos os estados e municípios dos EUA (52). |
+| IQ de atribuição ativado para métricas A 4 T | Ativamos duas métricas do Analytics para Target (A 4 T) para Atribuição IQ: Impressões da atividade e conversão de atividade. Na Analysis Workspace até o momento, essas métricas foram infladas em comparação com o Relatórios e análises. Com essa alteração, os usuários podem aplicar um modelo de atribuição "mesmo toque", que colocará a Analysis Workspace em conformidade com os Relatórios e análises. |
 
 #### Correções
 
