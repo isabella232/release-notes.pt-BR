@@ -2,38 +2,34 @@
 title: Notas de versão da Adobe Experience Cloud
 description: Modelo para notas de versão da Experience Cloud
 doc-type: notas de versão
-last-update: agosto de 2019
+last-update: Agosto de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6e1d9c4b083968fe1632d1309900058c90206fe1
+source-git-commit: ff825ca4322605f70df2d61e00caa2330164ba6f
 
 ---
 
 
-# Acesso antecipado - Notas de versão da Adobe Experience Cloud
+# Notas de versão da Adobe Experience Cloud
 
 Novos recursos e correções na Adobe Experience Cloud.
-
->[!IMPORTANT]
->
->Esta página apresenta conteúdo de pré-lançamento e está sujeito a alterações até o lançamento da versão planejada.
 
 >[!NOTE]
 >
 >Assine a [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) para ser notificado por email sobre versões futuras. Você receberá um aviso três a cinco dias úteis antes do lançamento da versão. Novas informações publicadas após o lançamento serão marcadas com a data da publicação.
 
-**Data de lançamento: agosto de 2019**
+**Data de lançamento: 8 de agosto de 2019**
 
-* [Plataforma de experiência e administração](#platform)
+* [Experience Platform e administração](#platform)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (links para a ajuda da solução)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (links para a ajuda da solução)
 
-## [!UICONTROL Plataforma de experiência] e administração {#platform}
+## [!UICONTROL Experience Platform] e administração {#platform}
 
-Notas de versão da interface [!UICONTROL da Experience Platform], da interface da Experience Cloud, da administração de produtos, da Experience Platform Launch, do Serviço de identidade e dos marcadores de segurança.
+Notas de versão da [!UICONTROL Experience Platform], interface da Experience Cloud, administração de produtos, Experience Platform Launch, Serviço de identidades e boletins de segurança.
 
 * [Interface da Experience Cloud](#core-services)
 * [Experience Platform Launch](#launch)
@@ -41,10 +37,10 @@ Notas de versão da interface [!UICONTROL da Experience Platform], da interface 
 
 ### Interface da Experience Cloud {#core-services}
 
-* Correção de um problema crítico no logon da Experience Cloud que levou ao logout da sessão para alguns usuários. (MCUI-6908)
-* Atualização do logon da Experience Cloud para melhorar o desempenho e reduzir a latência. (MCUI -6854, MCUI -6869, MCUI -6883)
-* Interface atualizada de forma uniforme. (MCUI -6861, MCUI -6911, MCUI -6862)
-* Correção de um problema com [!UICONTROL Acionadores da Experience Cloud] que resultava na interpretação incorreta da cláusula _Curtir_ na definição [!UICONTROL Acionar] . (MCUI-6611)
+* Correção de um problema crítico no login da Experience Cloud que resultava no logout da sessão para alguns usuários. (MCUI-6908)
+* Atualização do login da Experience Cloud para melhorar o desempenho e reduzir a latência. (MCUI-6854, MCUI-6869, MCUI-6883)
+* Atualização da aparência da interface. (MCUI-6861, MCUI-6911, MCUI-6862)
+* Correção de um problema com os [!UICONTROL Triggers] da Experience Cloud que resultava na interpretação incorreta da cláusula _Curtir_ na definição do [!UICONTROL Acionador]. (MCUI-6611)
 
 For product documentation, see [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
 
@@ -56,35 +52,35 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
 
 Novos recursos e correções no Adobe Analytics:
 
-* [Novos recursos, melhorias e correções no Adobe Analytics](#aa-features)
+* [Novos recursos, aprimoramentos e correções no Adobe Analytics](#aa-features)
 * [Avisos importantes para administradores do Analytics](#aa-notices)
 * [AppMeasurement](#appm)
 
 For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
-### New features, enhancements, and fixes in Adobe Analytics {#aa-features}
+### Novos recursos, aprimoramentos e correções no Adobe Analytics{#aa-features}
 
 | Recurso | Descrição |
 | -----------| ---------- |  
-| Suporte para configurações de cookie do samesite | A configuração de cookie [samesite](https://web.dev/samesite-cookies-explained) será adicionada a todos os conjuntos de cookies do Analytics. Essa alteração permite que você seja compatível com as alterações do Chrome exigindo o campo de cookie samesite. Os cookies do Analytics `none`serão padronizados. Se você tiver usado exclusivamente um domínio próprio (por exemplo, stats.domain.com), você pode ter o Adobe clientcare configurado para `lax` a configuração para domínios de coleção próprios. |
-| Área de trabalho: Aumentar limite de item para o filtro suspenso de 50 a 200 | Aumentamos o limite de itens que podem ser colocados em um filtro suspenso de 50 a 200. Esse aprimoramento acomoda uma variedade de casos de uso, como adicionar todos os países (195) a um filtro, ou todos os estados e municípios dos EUA (52). |
+| Suporte para configurações de cookie SameSite | The [SameSite cookie setting](https://web.dev/samesite-cookies-explained) will be added to all cookies sets by Analytics. Essa alteração possibilita a compatibilidade com as alterações do Chrome que exigem o campo de cookie SameSite. Os cookies do Analytics `none`serão padronizados. Se você tiver usado exclusivamente um domínio próprio (por exemplo, stats.domain.com), você pode ter o Adobe clientcare configurado para `lax` a configuração para domínios de coleção próprios. |
+| Workspace: aumentar limite de itens para o filtro suspenso de 50 para 200 | Aumentamos o limite de itens que podem ser colocados em um filtro suspenso de 50 para 200. Esse aprimoramento abrange uma variedade de casos de uso, como adicionar todos os países (195) a um filtro, ou todos os estados e províncias dos EUA (52). |
 | Impressões de atividade e conversões de atividade do A 4 T ativadas para IQ de atribuição | Ativamos duas métricas do Analytics para Target (A 4 T) para Atribuição IQ: Impressões da atividade e conversão de atividade. Na Analysis Workspace até o momento, essas métricas foram infladas em comparação com o Relatórios e análises. Com essa alteração, os usuários podem aplicar um modelo de atribuição "mesmo toque", que colocará a Analysis Workspace em conformidade com os Relatórios e análises. |
 
 #### Correções
 
-* Correção de um problema com o texto exibido em relatórios em tempo real quando no modo de tela cheia. (AN-183168)
+* Correção de um problema com a exibição de texto nos relatórios em tempo real no modo de tela cheia. (AN-183168)
 
 ### Avisos importantes para administradores do [!DNL Analytics] {#aa-notices}
 
 | Aviso | Data de adição ou atualização | Descrição |
 | -----------| ---------- | ---------- |
-| Suporte para deslocamentos de fuso horário históricos | Th de agosto de 2019 | O Analytics agora manipular automaticamente deslocamentos de fuso horário para ocorrências com carimbo de data e hora. Após essa mudança em 8 de agosto, os sistemas que carregam dados para o processamento histórico não precisarão mais ajustar para deslocamentos de fuso horário antes de enviar os dados. |
+| Suporte para deslocamentos de fuso horário históricos | 8 de agosto de 2019 | O Analytics agora manipular automaticamente deslocamentos de fuso horário para ocorrências com carimbo de data e hora. Após essa mudança em 8 de agosto, os sistemas que carregam dados para o processamento histórico não precisarão mais ajustar para deslocamentos de fuso horário antes de enviar os dados. |
 | Limites do construtor de regras de classificação | Adicionado em 5 de junho de 2019 | Esses limites não são novos, mas foram adicionados à documentação [aqui](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html). |
 | Limites de operadores de novos segmento | Adicionado em 31 de maio de 2019 | Starting July 18, 2019, the segment operators _contains any of_, _does not contain any of_, _contains all of_ and _does not contain all_ of will be limited to 100 words per input field. O limite será aplicado a todos os segmentos novos e modificados após essa data. Os segmentos existentes que excedem o limite continuarão sendo suportados, mas não poderão ser modificados ou salvos até que o campo de entrada seja reduzido. Esses limites estão sendo aplicados como parte de um esforço contínuo para melhorar o desempenho da consulta. |
 | Futuras alterações de suporte das Classificações **[!UICONTROL ativadas por data]** e **[!UICONTROL numéricas 2]** | Atualizado em 28 de maio de 2019 | A capacidade de importar classificações Numérico 2 e Ativadas por data foi removida da base de código. Essa alteração será aplicada na Versão de manutenção de julho de 2019. Se você tiver colunas Numéricas ou Ativadas por data no arquivo de importação, essas células serão ignoradas silenciosamente e todos os outros dados nesse arquivo serão importados normalmente. <br/>As classificações existentes ainda podem ser exportadas por meio do fluxo de trabalho de classificação padrão, e continuarão disponíveis nos relatórios. |
 | Futura alteração para cálculos de _Total de relatório_ | atualizado em: 9 de julho de 2019 | Em **18 de junho de 2019**, o Adobe Analytics disponibilizará os cálculos de _Total de relatório_ de maneira consistente em todas as dimensões e métricas. Isso resultará em uma alteração aos totais referentes a alguns relatórios (tipicamente, relatórios de ou de Atributos do cliente). Antes desta alteração, alguns Totais de relatório incluíam ou excluíam de maneira inconsistente o item de linha _Não especificado_ no total, independentemente de _Não especificado_ aparecer no relatório. <br/>A partir de 18 de junho de 2019, _Não especificado_ sempre aparecerá no total do relatório, mesmo se não aparecer como um item de linha no mesmo. Além disso, os segmentos que usam a lógica _existe_ ou _não existe_ podem ver resultados diferentes para algumas dimensões após essa mudança, especificamente dimensões em que _Não especificado_ tem um nome especial, como o item de linha "Digitado/Marcado" da dimensão Tipo de referenciador ou o item de linha "Outro" da dimensão Tipo de dispositivo. Essa alteração afetará as soluções Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder e a API de relatórios. |
 | Atualização de downloads em CSV da [!DNL Analysis Workspace] | 10 de abril de 2019 | A partir de 11 de abril de 2019, várias alterações foram feitas a **[!UICONTROL downloads CSV]** (e **[!UICONTORL Copiar para área de transferência]**) da [!DNL Analysis Workspace] para remover a formatação de dados exportados.  <ul><li>O separador de milhares não está mais incluído. Além disso, o separador decimal continuará a ser incluído, e vai aderir ao formato definido em **[!UICONTROL Componentes &gt; Configurações de relatórios &gt; Separador de milhar]**. Observação: valores numéricos que usam uma vírgula como separador decimal continuarão a ser incluídos entre aspas no CSV exportado.</li><li>Nenhum símbolo de moeda será exibido.</li><li>Nenhum símbolo de porcentagem será exibido. As porcentagens estarão em formato decimal. Por exemplo, 75% será representado como 0,75.</li><li>O tempo será exibido em segundos.</li><li>As Tabelas de coorte mostrarão somente valores brutos; as porcentagens serão removidas.</li><li>Se um número for inválido, uma célula vazia será exibida.</li></ul> |
-| Alteração futura no comando do depurador da[!DNL Analysis Workspace] | 4 de abril de 2019 | O comando do Console para ativar o depurador da [!DNL Analysis Workspace] será alterado para adobeTools.debug.includeOberonXml em **13 de junho de 2019**. adobe.tools.debug.includeOberonXml parará de funcionar após essa data. |
+| Alteração futura no comando do depurador da [!DNL Analysis Workspace] | 4 de abril de 2019 | O comando do Console para ativar o depurador da [!DNL Analysis Workspace] será alterado para adobeTools.debug.includeOberonXml em **13 de junho de 2019**. adobe.tools.debug.includeOberonXml parará de funcionar após essa data. |
 | Números de versão do navegador em dispositivo móvel | 7 de fevereiro de 2019 | Em 8 de janeiro de 2019, alteramos o nível de truncação para os números de versão do navegador móvel de 2 para 1. A partir dessa data, as versões exibirão somente os dois primeiros níveis (por exemplo, _Firefox 64.0.2_ agora é exibido como _Firefox 64.0_). |
 | Término da vida útil da [!DNL Ad Hoc Analysis] | 29 de janeiro de 2019 | Em 6 de agosto de 2018, a Adobe anunciou a intenção de encerrar a vida útil da [!DNL Ad Hoc Analysis]. Uma data para o fim da vida útil será compartilhada assim que estiver disponível.<br/>Para obter mais informações, incluindo quais versões do Java serão compatíveis durante esse período, visite [Discover Workspace](https://adobe.ly/discoverworkspace). |
 | Links encurtados de [!DNL Analytics] relatórios do | 14 de janeiro de 2019 | Os links encurtados de [!DNL Analytics] relatórios do que não forem visitados em um ano serão excluídos, a partir de quinta-feira, 17 de janeiro de 2019, em uma programação contínua. |
@@ -95,19 +91,19 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 ### AppMeasurement {#appm}
 
-[!UICONTROL Versões do appmeasurement] 2.16.0 em 8 de agosto de 2019.
+Versões 2.16.0 do [!UICONTROL AppMeasurement] em 8 de agosto de 2019.
 
 | Recurso | Descrição |
 | -----------| ---------- |
-| `sendBeacon` suporte para links de saída | Suporte implementado `sendBeacon` no [!UICONTROL appmeasurement] para links de saída. Isso melhorará o rastreamento de links de saída e provavelmente resultará em maior tráfego. |
-| Valores de ECID/fid | Os valores ECID/fid são agora armazenados em cache na primeira ocorrência, mesmo se as configurações optin forem alteradas. |
-| DIL 9.3 | Módulo de gerenciamento de público-alvo atualizado para DIL 9.3 |
-| Rastreamento de alcance de rolagem | Foi exposto em s. activitymap. trackscrollalcance para ativar ou desativar o rastreamento de alcance de rolagem. |
-| Serviço de ID do visitante 4.4.0 | Appmeasurement atualizado para usar o Serviço de ID do visitante 4.4.0. |
+| `sendBeacon` suporte para links de saída | Implementação de `sendBeacon` suporte no [!UICONTROL AppMeasurement] para links de saída. Isso melhorará o rastreamento de links de saída e provavelmente resultará em maior tráfego. |
+| Valores de ECID/fid | Os valores de ECID/fid são agora armazenados em cache na primeira ocorrência, mesmo se as configurações OptIn forem alteradas. |
+| DIL 9.3 | Atualização do módulo Gerenciamento de Público-Alvo para DIL 9.3 |
+| Rastreamento de alcance de rolagem | Exibição do botão no s.ActivityMap.trackScrollReach para ativar ou desativar o rastreamento de alcance de rolagem. |
+| Serviço de ID de Visitante 4.4.0 | Atualização do AppMeasurement para usar o Serviço de ID de Visitante 4.4.0. |
 
 #### Correções
 
-* Correção de um bug na fila appmeasurement que ocorria antes de isreadytotrack ser verdadeiro.
+* Correção de um bug na fila do AppMeasurement que ocorreu antes do isReadyToTrack ser verdadeiro.
 
 Consulte o [Histórico de versões do AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html) para obter um histórico das versões do AppMeasurement nas seguintes plataformas:
 
@@ -126,11 +122,11 @@ Consulte o [Histórico de versões do AppMeasurement](https://docs.adobe.com/con
 
 **Correções e melhorias**
 
-* A guia Administração agora aparece somente para contas de usuário com privilégios administrativos (AAM -48557).
-* A API de usuários da lista agora retorna os detalhes completos do usuário (AAM -48662).
-* Agora é possível redimensionar a lista de pastas de características (AAM -48800).
-* Diversas otimizações de acessibilidade da interface do usuário (AAM -48865, AAM -48933).
-* Carregando otimizações para as páginas Administração e Fontes de dados (AAM -48514).
+* A guia Administração agora é exibida somente para contas de usuário com privilégios administrativos (AAM-48557).
+* A API de usuários da lista agora retorna os detalhes completos do usuário (AAM-48662).
+* Agora é possível redimensionar a lista de pastas de características (AAM-48800).
+* Diversas otimizações de acessibilidade da interface do usuário (AAM-48865, AAM-48933).
+* Otimizações de carregamento para as páginas Administração e Fontes de dados (AAM-48514).
 
 ## [!DNL Campaign] {#ac}
 
@@ -142,8 +138,8 @@ O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagen
 
 | Recurso | Descrição |
 | -----------| ---------- |  
-| Atividade de API externa (Beta público) | Para personalização mais profunda, a Atividade de API externa permite que você coloque dados de sistemas externos em um fluxo de trabalho por meio de uma chamada REST API. Os pontos finais REST podem ser um sistema de gerenciamento de cliente, Adobe I/O Runpoint ou terminal REST da Adobe Experience Cloud (por exemplo, Plataforma de dados, Target, Analytics, Campanha). No momento, esse recurso está em beta público. Para obter mais informações, consulte a documentação [detalhada](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) e o vídeo [passo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html)a passo. |
-| Relatório sobre o segmento do fluxo de trabalho | Esse recurso permite que os profissionais de marketing analisem o desempenho de entrega por código de segmento. Quando você cria um fluxo de trabalho e usa uma atividade de segmentação para atribuir segmentos à população de entrega, esses segmentos agora podem entrar na mesma entrega. Isso permite exibir as estatísticas de aberturas/cliques com base em vários segmentos em uma única entrega. Para obter mais informações, consulte a documentação [detalhada](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/customizing-reports/creating-a-report-workflow-segment.html) e o vídeo [passo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html)a passo. |
+| Atividade da API externa (Beta público) | Para maior personalização, a Atividade da API externa permite que você insira dados de sistemas externos em um fluxo de trabalho por meio de uma chamada de API REST. Os endpoints REST podem ser um sistema de gerenciamento de clientes, tempo de execução de E/S da Adobe ou endpoint REST da Adobe Experience Cloud (por exemplo, Plataforma de dados, Target, Analytics, Campaign). No momento, esse recurso está em beta público. Para obter mais informações, consulte a documentação [detalhada](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) e o vídeo [passo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html)a passo. |
+| Relatório sobre o segmento do fluxo de trabalho | Esse recurso permite que os profissionais de marketing analisem seu desempenho de entrega por código de segmento. Ao criar um fluxo de trabalho e usar uma atividade de segmentação para atribuir segmentos à população de entrega, esses segmentos agora podem fazer parte da mesma entrega. Isso permite exibir as estatísticas de aberturas/cliques com base em vários segmentos em uma única entrega. Para obter mais informações, consulte a documentação [detalhada](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/customizing-reports/creating-a-report-workflow-segment.html) e o vídeo [passo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html)a passo. |
 
 ### Adobe Campaign Classic
 
@@ -153,7 +149,7 @@ O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagen
 
 [Os novos recursos do Painel de controle](https://helpx.adobe.com/campaign/kb/control-panel-instance-settings.html) incluem a capacidade de adicionar urls que o Campaign Classic conecta-se a transferências de dados/arquivos.
 
-Observe que o Painel [!UICONTROL de controle] está disponível para clientes do Adobe Campaign Classic e do Adobe Campaign Standard hospedados em AWS. Nenhuma atualização é necessária para acessar o Painel de controle.
+Observe que o [!UICONTROL Painel de controle] está disponível para clientes do Adobe Campaign Classic e do Adobe Campaign Standard hospedados na AWS. Nenhuma atualização é necessária para acessar o Painel de controle.
 
 ### Recursos adicionais
 
