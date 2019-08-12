@@ -5,7 +5,7 @@ doc-type: notas de versão
 last-update: Agosto de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1e8bca79345949fe99903857eb24771d8a9d9f98
+source-git-commit: 4c069f031b48a2e1eccecc09e21e2a202da874b1
 
 ---
 
@@ -23,6 +23,7 @@ Novos recursos e correções na Adobe Experience Cloud.
 * [Experience Platform e administração](#platform)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
+* [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [!DNL Ad Cloud](#adcloud)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (links para a ajuda da solução)
@@ -128,6 +129,25 @@ Consulte o [Histórico de versões do AppMeasurement](https://docs.adobe.com/con
 * Agora é possível redimensionar a lista de pastas de características (AAM-48800).
 * Diversas otimizações de acessibilidade da interface do usuário (AAM-48865, AAM-48933).
 * Otimizações de carregamento para as páginas Administração e Fontes de dados (AAM-48514).
+
+## Experience Manager {#aem}
+
+Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). A Adobe recomenda que os clientes com implantações locais implantem os patches mais recentes como um modo de assegurar estabilidade, segurança e desempenho superiores.
+
+### Fim do produto
+
+A Digital Publishing Suite Classic (DPSC) será encerrada em 31 de agosto de 21 19. Para obter mais informações, consulte [as Perguntas frequentes do Digital Publishing Suite Classic Classic](https://helpx.adobe.com/digital-publishing-suite/help/eol-statement-for-dpsc.html).
+
+### Recursos adicionais
+
+* [Página inicial de Aprendizagem e suporte do AEM 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html)
+* [Página inicial de Aprendizagem e suporte do AEM 6.4](https://helpx.adobe.com/support/experience-manager/6-4.html)
+* [Página inicial de Aprendizagem e suporte do AEM 6.3](https://helpx.adobe.com/support/experience-manager/6-3.html)
+* [Página inicial de Aprendizagem e suporte do AEM 6.2](https://helpx.adobe.com/support/experience-manager/6-2.html)
+* [Guia do Usuário do Cloud Manager](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
+* [Versões anteriores da documentação do AEM](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
+* [Notas de versão do Scene7 Publishing System](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
+* [Notas de versão do Livefyre](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
 ## [!DNL Campaign] {#ac}
 
