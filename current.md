@@ -5,7 +5,7 @@ doc-type: notas de versão
 last-update: Agosto de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ec590d7cbf63b67cfaf869f54c3707dbb5c2e83
+source-git-commit: 3bd946a9ef7d6d6d2e17cec4385a2dd53a41df97
 
 ---
 
@@ -21,7 +21,7 @@ Novos recursos e correções na Adobe Experience Cloud.
 **Data de lançamento: 8 de agosto de 2019**
 
 * [Experience Cloud e Experience Platform](#platform)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics) (**Atualizado em 20 de agosto de 2019**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -35,7 +35,7 @@ Notas de versão da [!UICONTROL Experience Platform], interface da Experience Cl
 
 * [Interface da Experience Cloud](#core-services)
 * [Experience Platform Launch](#launch)
-* [Boletins e conselhos de segurança](https://helpx.adobe.com/security.html) (todos os produtos da Adobe)
+* [Boletins e conselhos de segurança](https://helpx.adobe.com/security.html) (Todos os produtos da Adobe)
 
 ### Interface da Experience Cloud {#core-services}
 
@@ -54,7 +54,7 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
 
 Novos recursos e correções no Adobe Analytics:
 
-* [Novos recursos, aprimoramentos e correções no Adobe Analytics](#aa-features)
+* [Novos recursos, aprimoramentos e correções no Adobe Analytics](#aa-features)  (**Atualizado em 20 de agosto de 2019**)
 * [Avisos importantes para administradores do Analytics](#aa-notices)
 * [AppMeasurement](#appm)
 
@@ -64,13 +64,16 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | Recurso | Descrição |
 | -----------| ---------- |  
-| Suporte para configurações de cookie SameSite | A [configuração do cookie SameSite](https://web.dev/samesite-cookies-explained) será aplicada a todos os conjuntos de cookies do Analytics. Essa alteração possibilita a compatibilidade com as alterações do Chrome que exigem o campo de cookie SameSite. Os cookies do Analytics `none` serão padronizados. Se você tiver usado exclusivamente um domínio próprio (por exemplo, stats.domain.com), você pode ter o Adobe clientcare configurado para `lax` a configuração para domínios de coleção próprios. |
+| Suporte para configurações de cookie SameSite | The [SameSite cookie setting](https://web.dev/samesite-cookies-explained) will be added to all cookies set by Analytics. Essa alteração possibilita a compatibilidade com as alterações do Chrome que exigem o campo de cookie SameSite. Os cookies do Analytics `none` serão padronizados. Se você tiver usado exclusivamente um domínio próprio (por exemplo, stats.domain.com), você pode ter o Adobe clientcare configurado para `lax` a configuração para domínios de coleção próprios. |
 | Workspace: aumentar limite de itens para o filtro suspenso de 50 para 200 | Aumentamos o limite de itens que podem ser colocados em um filtro suspenso de 50 para 200. Esse aprimoramento abrange uma variedade de casos de uso, como adicionar todos os países (195) a um filtro, ou todos os estados e províncias dos EUA (52). |
-| Impressões de atividade e conversões de atividade do A4T ativadas para Attribution IQ | Ativamos duas métricas do Analytics para Target (A4T) para Attribution IQ: Impressões da atividade e conversão de atividade. Na Analysis Workspace até o momento, essas métricas foram infladas em comparação com o Reports &amp; Analytics. Com essa alteração, os usuários podem aplicar um modelo de atribuição "mesmo toque", que colocará a Analysis Workspace em conformidade com os Reports &amp; Analytics. |
+| Impressões de atividade e conversões de atividade do A4T ativadas para Attribution IQ | Ativamos duas métricas do Analytics para Target (A4T) para Attribution IQ: Impressões da atividade e conversão de atividade. Anteriormente, na Analysis Workspace, essas métricas eram infladas em relação ao Relatórios e análises. Com essa alteração, os usuários podem aplicar um modelo de atribuição "mesmo toque", que colocará a Analysis Workspace em conformidade com os Reports &amp; Analytics. |
 
 #### Correções
 
 * Correção de um problema com a exibição de texto nos relatórios em tempo real no modo de tela cheia. (AN-183168)
+* (**Atualizado em 20 de agosto de 20 19**) A coleta de dados agora rejeita urls de redirecionamento que contêm «@» para impedir que invasores redirecionem para sites maliciosos por domínios de lista de permissões.
+* (**Atualizado em 20 de agosto de 20 19**) A Migração do visitante agora é desativada para todas as ocorrências que vêm de navegadores que não oferecem suporte ao atributo de cookie samesite e se a ocorrência contém um cookie de terceiros.
+* (**Atualizado em August 0 de agosto de 20 19**) Corrigido um problema no qual as primeiras ocorrências não enviavam o cookie s_ vi para um novo visitante.
 
 ### Avisos importantes para administradores do [!DNL Analytics] {#aa-notices}
 
