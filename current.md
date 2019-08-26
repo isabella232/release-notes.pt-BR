@@ -5,7 +5,7 @@ doc-type: notas de versão
 last-update: Agosto de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 71a796a132a752b69a10b9ac9cce3530b7d02b27
+source-git-commit: bf128d5ab0d16a15935f73fd8b80c7eab12b4e1f
 
 ---
 
@@ -35,7 +35,7 @@ Notas de versão da [!UICONTROL Experience Platform], interface da Experience Cl
 
 * [Interface da Experience Cloud](#core-services)
 * [Experience Platform Launch](#launch)
-* [Boletins e conselhos de segurança](https://helpx.adobe.com/security.html) (Todos os produtos da Adobe)
+* [Boletins e conselhos de segurança](https://helpx.adobe.com/security.html) (todos os produtos da Adobe)
 
 ### Interface da Experience Cloud {#core-services}
 
@@ -64,7 +64,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | Recurso | Descrição |
 | -----------| ---------- |  
-| Suporte para configurações de cookie SameSite | A [configuração do cookie SameSite](https://web.dev/samesite-cookies-explained) será aplicada a todos os conjuntos de cookies do Analytics. Essa alteração possibilita a compatibilidade com as alterações do Chrome que exigem o campo de cookie SameSite. Os cookies do Analytics `none` serão padronizados. Se você tiver usado exclusivamente um domínio próprio (por exemplo, stats.domain.com), você pode ter o Adobe clientcare configurado para `lax` a configuração para domínios de coleção próprios. |
+| Suporte para configurações de cookie SameSite | A [configuração do cookie SameSite](https://web.dev/samesite-cookies-explained) será aplicada a todos os conjuntos de cookies do Analytics. Essa alteração possibilita a compatibilidade com as alterações do Chrome que exigem o campo de cookie SameSite. Os cookies do Analytics `none` serão padronizados. If you have exclusively used a 1st-party domain (e.g. stats.domain.com) you can have Adobe Customer Care set it to `lax` for 1st-party collection domains. |
 | Workspace: aumentar limite de itens para o filtro suspenso de 50 para 200 | Aumentamos o limite de itens que podem ser colocados em um filtro suspenso de 50 para 200. Esse aprimoramento abrange uma variedade de casos de uso, como adicionar todos os países (195) a um filtro, ou todos os estados e províncias dos EUA (52). |
 | Impressões de atividade e conversões de atividade do A4T ativadas para Attribution IQ | Ativamos duas métricas do Analytics para Target (A4T) para Attribution IQ: Impressões da atividade e conversão de atividade. Anteriormente, na Analysis Workspace, essas métricas eram infladas em relação ao Reports &amp; Analytics. Com essa alteração, os usuários podem aplicar um modelo de atribuição "mesmo toque", que colocará a Analysis Workspace em conformidade com os Reports &amp; Analytics. |
 
