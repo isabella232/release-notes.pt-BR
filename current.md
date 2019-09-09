@@ -5,7 +5,7 @@ doc-type: notas de versão
 last-update: setembro de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2cf514449e70523a47b16dceb35d93ec7eff0824
+source-git-commit: 3b26af48364509946706cd183c1261ea8c15eab2
 
 ---
 
@@ -87,7 +87,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | Recurso | Descrição |
 | -----------| ---------- |  
-| **IQ da jornada: Análise entre dispositivos** | Em setembro de 2019, o Adobe Analytics está introduzindo acesso antecipado aos clientes do Analytics Ultimate para um novo recurso poderoso chamado Jornada IQ: Análise entre dispositivos. O Analytics (CDA) transforma o Adobe Analytics de um dispositivo centrado em uma ferramenta de análise centrada em pessoas. Usando a CDA, você pode responder perguntas como: <ul><li>Quantas pessoas interagem com minha marca? Quantos tipos de dispositivos eles usam? Como eles se sobrepõem?</li><li>Com que frequência as pessoas iniciam uma tarefa em um dispositivo móvel e depois se movem para um PC de desktop para concluir a tarefa? Os click-throughs da campanha que chegam em um dispositivo levam a conversão em outro lugar?</li><li>Qual é a minha compreensão da eficácia da campanha se eu levar em conta os trajetos entre dispositivos? Como a minha análise de funil muda?</li><li>Quais são os caminhos mais comuns que os usuários levam de um dispositivo para outro? Onde eles desistem? Onde eles têm sucesso?</li><li>Como o comportamento de usuários com vários dispositivos difere dos usuários com um único dispositivo?</li></ul><br/>Para saber mais, visite `adobe.ly/aacda`. |
+| **IQ da jornada: Análise entre dispositivos** | Em setembro de 2019, o Adobe Analytics está introduzindo acesso antecipado aos clientes do Analytics Ultimate para um novo recurso poderoso chamado Jornada IQ: Análise entre dispositivos. O Analytics (CDA) transforma o Adobe Analytics de um dispositivo centrado em uma ferramenta de análise centrada em pessoas. Usando a CDA, você pode responder perguntas como: <ul><li>Quantas pessoas interagem com minha marca? Quantos tipos de dispositivos eles usam? Como eles se sobrepõem?</li><li>Com que frequência as pessoas iniciam uma tarefa em um dispositivo móvel e depois se movem para um PC de desktop para concluir a tarefa? Os click-throughs da campanha que chegam em um dispositivo levam a conversão em outro lugar?</li><li>Qual é a minha compreensão da eficácia da campanha se eu levar em conta os trajetos entre dispositivos? Como a minha análise de funil muda?</li><li>Quais são os caminhos mais comuns que os usuários levam de um dispositivo para outro? Onde eles desistem? Onde eles têm sucesso?</li><li>Como o comportamento de usuários com vários dispositivos difere dos usuários com um único dispositivo?</li></ul><br/>Para saber mais, visite [adobe.ly/aacda](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/). |
 | **Arquitetura de classificações atualizadas** | A partir de setembro, uma atualização para a arquitetura Classificações será migrada para os clientes ao longo de um período de vários meses. A versão de setembro inclui migração para um pequeno número de participantes antecipados.<br/>A atualização reduz significativamente o tempo necessário para que os uploads (incluindo a lógica da regra) sejam importados/assimilados e disponibilizados para relatório. |
 
 #### Correções
