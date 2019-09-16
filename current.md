@@ -5,7 +5,7 @@ doc-type: notas de versão
 last-update: Setembro de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: adb17defaa34adc0866985a5eb5a621e9fb36c7d
+source-git-commit: 8e959510cb32eef2e619f562cd998b4e75c2c8d3
 
 ---
 
@@ -44,7 +44,7 @@ Notas de versão da Experience Platform, da Experience Platform Launch, do Servi
 
 * [Experience Platform Launch](#launch)
 * [Mobile Services e SDK móvel](#mobile)
-* [Boletins e conselhos de segurança](https://helpx.adobe.com/security.html) (todos os produtos da Adobe)
+* [Boletins e recomendações](https://helpx.adobe.com/security.html) de segurança (Todos os produtos da Adobe)
 
 ### Experience Platform Launch {#launch}
 
@@ -83,14 +83,14 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | Recurso | Descrição |
 | -----------| ---------- |  
-| **IQ da jornada: análise entre dispositivos** | Em setembro de 2019, o Adobe Analytics está apresentando um novo recurso poderoso chamado Jornada IQ: Análise entre dispositivos. (Observe que este recurso está disponível somente para clientes do Analytics Ultimate.) A Análise entre dispositivos (CDA) transforma o Adobe Analytics de centrado em um dispositivo para uma ferramenta de análise centrada em pessoas. Usando a CDA, você pode responder a perguntas como: <ul><li>Quantas pessoas interagem com minha marca? Quantos e quais tipos de dispositivos eles usam? Como eles se sobrepõem?</li><li>Com que frequência as pessoas iniciam uma tarefa em um dispositivo móvel e depois movem para um PC de desktop para concluí-la? Os click-throughs da campanha direcionados a um dispositivo levam para a conversão em outro lugar?</li><li>O quanto muda minha compreensão da eficácia da campanha se eu levar em conta as jornadas entre dispositivos? Como a minha análise de funil muda?</li><li>Quais são os caminhos mais comuns que os usuários fazem de um dispositivo para outro? Onde eles desistem? Onde eles têm sucesso?</li><li>Como o comportamento de usuários com vários dispositivos difere dos usuários com um único dispositivo?</li></ul><br/>Para saber mais, visite [adobe.ly/aacda](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/). |
+| **IQ da jornada: análise entre dispositivos** | Em setembro de 2019, o Adobe Analytics está introduzindo um novo e poderoso recurso chamado IQ da jornada: Análise entre dispositivos. (Observe que esse recurso está disponível somente para clientes do Analytics Ultimate.) A Análise entre dispositivos (CDA) transforma o Adobe Analytics de centrado em um dispositivo para uma ferramenta de análise centrada em pessoas. Usando a CDA, você pode responder a perguntas como: <ul><li>Quantas pessoas interagem com minha marca? Quantos e quais tipos de dispositivos eles usam? Como eles se sobrepõem?</li><li>Com que frequência as pessoas iniciam uma tarefa em um dispositivo móvel e depois movem para um PC de desktop para concluí-la? Os click-throughs da campanha direcionados a um dispositivo levam para a conversão em outro lugar?</li><li>O quanto muda minha compreensão da eficácia da campanha se eu levar em conta as jornadas entre dispositivos? Como a minha análise de funil muda?</li><li>Quais são os caminhos mais comuns que os usuários fazem de um dispositivo para outro? Onde eles desistem? Onde eles têm sucesso?</li><li>Como o comportamento de usuários com vários dispositivos difere dos usuários com um único dispositivo?</li></ul><br/>Para saber mais, visite [adobe.ly/aacda](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/). |
 | **Arquitetura de classificações atualizada** | A partir de setembro, uma atualização na arquitetura de Classificações será migrada para os clientes ao longo de um período de vários meses. A versão de setembro inclui a migração para um pequeno número de participantes antecipados.<br/>A atualização reduz significativamente o tempo necessário para que os uploads (incluindo a lógica da regra) sejam importados/assimilados e disponibilizados para relatório. |
 
 #### Correções
 
 * Correção de um problema com os serviços principais de [!UICONTROL Pessoas] e [!UICONTROL Ofertas] que não eram acessíveis no menu principal da Experience Cloud. (AN-184294)
 * Correção de um problema com o painel à esquerda na [!UICONTROL Analysis Workspace] que oscila entre ter e não ter uma barra de rolagem, o que causava um efeito de oscilação. (AN-183904)
-* Correção de problemas com o relatório de erros. Você começará a ver mensagens de erro mais específicas em vez de apenas o indicador de erro vermelho. Mais especificamente, isso deve ajudá-lo a entender quando o problema é causado por carga pesada, por um erro ou por criar uma solicitação de relatório muito complexa. (AN -184135) [Mais…](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/optimizing-performance.html)
+* Correção de problemas com o relatório de erros. Você começará a ver mensagens de erro mais específicas em vez de apenas o indicador de erro vermelho. Mais especificamente, isso deve ajudá-lo a entender quando o problema é causado por carga pesada, por um erro ou por criar uma solicitação de relatório muito complexa. (AN-184135) [Mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/optimizing-performance.html)
 * Correção de um problema que impedia o download bem-sucedido dos relatórios de fallout nos formatos `.pdf/.xls/.rtf`. (AN-183165)
 * Correção de problemas ao fazer logon na Experience Cloud e alternar para diferentes soluções da Experience Cloud ou alternar para outra empresa de logon. (AN-183376)
 * Correção de um problema com a transferência de ativos de projetos agendados que não funcionavam corretamente. Agora os grupos são gerenciados no [!UICONTROL Admin Console], portanto, não os copiamos entre os usuários ao transferir ativos. (AN-183751)
@@ -100,7 +100,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | Aviso | Data de adição ou atualização | Descrição |
 | -----------| ---------- | ---------- |
-| Atualização dos totais da tabela de forma livre da Analysis Workspace | 12 de setembro de 2019 | Em outubro de 2019, as linhas do total da tabela de forma livre começarão a contabilidade para [filtros de relatório](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) aplicados. Até hoje, os totais eram contabilizados somente para segmentação. Com essa alteração, as visualizações dependentes serão atualizadas (ex: visualizações vinculadas de [!UICONTROL Número de resumo]), bem como dados CSV e PDF exportados. |
+| Atualização dos totais da tabela de forma livre da Analysis Workspace | 12 de setembro de 2019 | Em outubro de 2019, o total de linhas da tabela de forma livre começará a contabilidade dos filtros [de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) relatório aplicados. Até hoje, os totais eram contabilizados somente para segmentação. Com essa alteração, as visualizações dependentes serão atualizadas (ex: visualizações vinculadas de [!UICONTROL Número de resumo]), bem como dados CSV e PDF exportados. |
 | Alteração futura em relação ao campo `createDate` para usuários do Analytics | 30 de agosto de 2019 | Em outubro ou novembro de 2019, o campo `createDate` para os usuários do Analytics será atualizado da Hora do Pacífico dos EUA para um valor de data/hora corretamente formatado com as informações de fuso horário. (AN-183468) |
 | Suporte para deslocamentos de fuso horário históricos | 8 de agosto de 2019 | O Analytics agora manipular automaticamente deslocamentos de fuso horário para ocorrências com carimbo de data e hora. Após essa mudança em 8 de agosto, os sistemas que carregam dados para o processamento histórico não precisarão mais ajustar para deslocamentos de fuso horário antes de enviar os dados. |
 | Limites do construtor de regras de classificação | Adicionado em 5 de junho de 2019 | Esses limites não são novos, mas foram adicionados à documentação [aqui](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html). |
@@ -119,7 +119,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 ### [!DNL AppMeasurement] {#appm}
 
-Consulte [appmeasurement para notas de versão do Javascript](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html).
+Consulte [AppMeasurement para notas](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)de versão do Javascript.
 
 ## Audience Manager {#aam}
 
@@ -129,8 +129,8 @@ Novos recursos, melhorias e correções no Audience Manager.
 
 | Recurso | Descrição |
 | -----------| ---------- |  
-| **[[! Destinos com base em pessoas]](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)** | [!DNL People-Based Destinations] é um complemento pago do Audience Manager que ajuda a ativar segmentos de público-alvo primários em ambientes baseados em pessoas, como o Facebook, usando identificadores com hash, como endereços de email. |
-| **[Configuração de públicos-alvo adaptados do Twitter como destino baseado em dispositivo autoatendimento](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/device-based/twitter-tailored-audiences.html)** | Estamos migrando os destinos do Twitter para um modelo de configuração de autoatendimento. Este artigo explica o que você precisa fazer nas integrações existentes do Twitter para continuar trabalhando após a migração. |
+| **[[!DNL Destinos Baseados em Pessoas]](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)** | [!DNL People-Based Destinations] é um complemento pago do Audience Manager que ajuda a ativar segmentos de público-alvo primários em ambientes baseados em pessoas, como o Facebook, usando identificadores com hash, como endereços de email. |
+| **[Configurando públicos-alvo personalizados do Twitter como um destino baseado em dispositivo autoatendimento](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/device-based/twitter-tailored-audiences.html)** | Estamos migrando os destinos do Twitter para um modelo de configuração de autoatendimento. Este artigo explica o que você precisa fazer nas integrações existentes do Twitter para continuar trabalhando após a migração. |
 | **[Exemplos de cobrança do Audience Marketplace](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/audience-marketplace/audience-marketplace-for-data-buyers/marketplace-buyer-billing.html#billing-examples)** | Adicionamos um novo exemplo, Caso 3, em que detalhamos como o faturamento funciona para segmentos com casos de uso de ativação e de modelagem. |
 
 **Correções e melhorias**
@@ -155,7 +155,7 @@ A versão 2019.8.0 do Cloud Manager corrige uma variedade de pequenos erros, mel
 
 **Distribuição de software**
 
-[Distribuição de software](https://downloads.experiencecloud.adobe.com/) é a nova interface de usuário criada para simplificar a pesquisa e o download dos pacotes do AEM. No momento, ele está em um status beta e pode ser acessado apenas para clientes do Adobe Managed Services.
+[Distribuição](https://downloads.experiencecloud.adobe.com/) de software é a nova interface do usuário projetada para simplificar a pesquisa e o download de pacotes AEM. Atualmente, ele está em status beta e só pode ser acessado pelos clientes do Adobe Managed Services.
 
 * [O Compartilhamento](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html#PackageShare) de pacotes permanecerá acessível até que todos os clientes tenham acesso à Distribuição de software.
 * Todos os pacotes estão disponíveis em Compartilhamento de pacotes e Distribuição de software.
@@ -164,24 +164,24 @@ A versão 2019.8.0 do Cloud Manager corrige uma variedade de pequenos erros, mel
 
 **Roteiro da versão de manutenção do AEM**
 
-Consulte o roteiro da versão de manutenção do AEM, conforme publicado [aqui](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
+Consulte o roteiro da versão de manutenção do AEM conforme publicado [aqui](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html).
 
 ### Autoajuda
 
 **Pré-lançamento do Asset Link 1.1**
 
-* [Sobre o pré-lançamento do link de ativos da Adobe](https://helpx.adobe.com/enterprise/using/adobe-asset-link-prerelease.html)
-* [Configuração do AEM para o link de ativos da Adobe para pré-lançamento](https://helpx.adobe.com/enterprise/using/configure-aem-for-aal-prerelease.html)
+* [Sobre o pré-lançamento do Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link-prerelease.html)
+* [Configuração do AEM para Adobe Asset Link para pré-lançamento](https://helpx.adobe.com/enterprise/using/configure-aem-for-aal-prerelease.html)
 
 **AEM Desktop App 2.0**
 
 O AEM Desktop App 2.0 para MAC foi lançado em 30 de agosto de 2019. O AEM Desktop App 2.0 para Windows será lançado no começo de setembro.
 
-Acesse a documentação e baixe [aqui](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html).
+Acesse a documentação e os downloads [aqui](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html).
 
 **Tags inteligentes do Assets**
 
-Saiba como atualizar um certificado depois que ele expirar [aqui](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-smart-tagging.html#Obtainpubliccertificate).
+Saiba como atualizar um certificado depois de expirar [aqui](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-smart-tagging.html#Obtainpubliccertificate).
 
 **Guia do usuário do AEM 6.5 Screens**
 
@@ -189,7 +189,7 @@ Agora está disponível uma nova documentação sobre as _Diretrizes de implanta
 
 **Serviço de conversão de formulários automatizado**
 
-A documentação do serviço de conversão automatizada dos formulários do AEM Forms agora está disponível. Consulte [Introdução ao serviço Automatizado de conversão de formulários](https://helpx.adobe.com/experience-manager/Automated-Forms-Conversion-Service/introduction-to-automated-form-conversion-service.html).
+A documentação do serviço de conversão automatizada dos formulários do AEM Forms agora está disponível. Consulte [Introdução ao serviço](https://helpx.adobe.com/experience-manager/Automated-Forms-Conversion-Service/introduction-to-automated-form-conversion-service.html)de conversão de formulários automatizados.
 
 ### Comunidade
 
@@ -205,7 +205,7 @@ A documentação do serviço de conversão automatizada dos formulários do AEM 
    | _Experiências fluídas_ | 17 de setembro de 2019 |
    | _Criar e gerenciar multi-língue, multi-nacional para projetar uma estrutura global de site_ | 24 de setembro de 2019 |
 
-* [Ativos Adobe Experience Manager](https://forums.adobe.com/thread/2647743)
+* [Ativos do Adobe Experience Manager](https://forums.adobe.com/thread/2647743)
 
    | Webinário | Data |
    | -----------| ---------- |  
@@ -215,7 +215,7 @@ A documentação do serviço de conversão automatizada dos formulários do AEM 
    | _Mídia dinâmica_ | 19 de setembro de 2019 |
    | _Asset Link_ | 26 de setembro de 2019 |
 
-* [Formulários do Adobe Experience Manager](https://forums.adobe.com/thread/2647744)
+* [Adobe Experience Manager Forms](https://forums.adobe.com/thread/2647744)
 
    | Webinário | Data |
    | -----------| ---------- |  
@@ -223,7 +223,7 @@ A documentação do serviço de conversão automatizada dos formulários do AEM 
    | _Conectar formulários aos bancos de dados, Criar fluxos de trabalho e Integrar formulários com assinaturas eletrônicas_ | 11 de setembro de 2019 |
    | _Criar comunicações interativas e prontas para impressão responsivas para dispositivos móveis na Web_ | 25 de setembro de 2019 |
 
-* [Gerenciador da Adobe Experience Manager Cloud](https://forums.adobe.com/thread/2647745)
+* [Adobe Experience Manager Cloud Manager](https://forums.adobe.com/thread/2647745)
 
    | Webinário | Data |
    | -----------| ---------- |  
@@ -245,7 +245,7 @@ A documentação do serviço de conversão automatizada dos formulários do AEM 
 
 ### Fim da vida útil do produto
 
-O [!DNL Digital Publishing Suite Classic] (DPSC) será encerrado em 31 de agosto de 2019. Para obter mais informações, consulte o [[! Perguntas frequentes sobre o fim da vida útil do DNL Digital Publishing Suite](https://helpx.adobe.com/digital-publishing-suite/help/eol-statement-for-dpsc.html).
+O [!DNL Digital Publishing Suite Classic] (DPSC) será encerrado em 31 de agosto de 2019. Para obter mais informações, consulte as Perguntas frequentes sobre o [[!DNL Digital Publishing Suite Classic] End-of-Life](https://helpx.adobe.com/digital-publishing-suite/help/eol-statement-for-dpsc.html).
 
 ### Recursos adicionais
 
@@ -264,10 +264,13 @@ O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagen
 
 ### Adobe Campaign Classic
 
-* [Atualização do Campaign Classic 19.1.4](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032) - compilação 9032
-* [Atualização do Campaign Classic 19.1.5](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9033) - compilação 9033
+* [Atualização](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032) do Campaign Classic 19.1.4 - compilação 9032
+* [Atualização](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9033) do Campaign Classic 19.1.5 - compilação 9033
 
 ### [!UICONTROL Painel de controle] do Adobe Campaign
+
+Adicionamos novos recursos para usuários administradores a endereços IP de lista de permissões para conectar-se a instâncias do Campaign Classic.
+Além disso, os usuários administradores agora podem exibir a lista de instâncias e a qualificação para atualizações de compilação. For more information, refer to the [dedicated documentation](https://helpx.adobe.com/campaign/kb/control-panel-instance-settings.html).
 
 Adicionamos novos recursos para que usuários administradores recebam notificações antes que os certificados SSL de seus domínios expirem. Para obter mais informações, consulte a [documentação detalhada](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html).
 
