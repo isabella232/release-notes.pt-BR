@@ -5,7 +5,7 @@ doc-type: notas de versão
 last-update: Setembro de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: eb150b48019a2fc54c3de3fa58475a9eb475505f
+source-git-commit: b8639c07c29e929b786b515b0d8e1e3cb89fa45a
 
 ---
 
@@ -44,15 +44,13 @@ Notas de versão da Experience Platform, da Experience Platform Launch, do Servi
 
 * [Experience Platform Launch](#launch)
 * [Mobile Services e SDK móvel](#mobile)
-* [Security bulletins and advisories](https://helpx.adobe.com/security.html) (All Adobe products)
+* [Security bulletins and advisories (All Adobe products)](https://helpx.adobe.com/security.html)
 
 ### Experience Platform Launch {#launch}
 
 See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) for release notes and product documentation.
 
 ### Mobile Services e SDK móvel {#mobile}
-
-Data de lançamento: **26 de setembro**
 
 **iOS: Versão 4.18.8**
 
@@ -62,10 +60,10 @@ Data de lançamento: 20 de setembro de 2019
    * On devices running iOS 10 or newer, the UserNotifications framework is now used to schedule local notifications for apps that are linked to the UserNotifications.framework .
    * Fullscreen messages now use WKWebViews from WebKit.framework, which must be linked in your Xcode project.
    * Correção de um bug no qual a carga de click-through de push não podia ser usada como características para mensagens no aplicativo.
-   * Corrigido um problema de falha.
-* General - Fixed a bug where SDK data was synchronized to the paired watchOS app on every Analytics call.
+   * Fixed a crash issue.
+* Geral - Corrigido um erro no qual os dados do SDK eram sincronizados com o aplicativo WatchOS emparelhado em cada chamada do Analytics.
 
-**Android: Version 4.17.10**
+**Android: Versão 4.17.10**
 
 Data de lançamento: 20 de setembro de 2019
 
@@ -91,14 +89,14 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | Recurso | Descrição |
 | -----------| ---------- |  
-| **IQ da jornada: análise entre dispositivos** | Em setembro de 2019, o Adobe Analytics está lançamento um novo recurso robusto, chamado IQ da jornada: análise entre dispositivos. (Observe que este recurso está disponível somente para clientes do Analytics Ultimate.) A Análise entre dispositivos (CDA) transforma o Adobe Analytics de centrado em um dispositivo para uma ferramenta de análise centrada em pessoas. Usando a CDA, você pode responder a perguntas como: <ul><li>Quantas pessoas interagem com minha marca? Quantos e quais tipos de dispositivos eles usam? Como eles se sobrepõem?</li><li>Com que frequência as pessoas iniciam uma tarefa em um dispositivo móvel e depois movem para um PC de desktop para concluí-la? Os click-throughs da campanha direcionados a um dispositivo levam para a conversão em outro lugar?</li><li>O quanto muda minha compreensão da eficácia da campanha se eu levar em conta as jornadas entre dispositivos? Como a minha análise de funil muda?</li><li>Quais são os caminhos mais comuns que os usuários fazem de um dispositivo para outro? Onde eles desistem? Onde eles têm sucesso?</li><li>Como o comportamento de usuários com vários dispositivos difere dos usuários com um único dispositivo?</li></ul><br/>Para saber mais, visite [adobe.ly/aacda](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/). |
+| **IQ da jornada: análise entre dispositivos** | Em setembro de 2019, o Adobe Analytics está lançamento um novo recurso robusto, chamado IQ da jornada: análise entre dispositivos. (Observe que este recurso está disponível somente para clientes do Analytics Ultimate.) A Análise entre dispositivos (CDA) transforma o Adobe Analytics de centrado em um dispositivo para uma ferramenta de análise centrada em pessoas. Usando a CDA, você pode responder a perguntas como: <ul><li>Quantas pessoas interagem com minha marca? Quantos e quais tipos de dispositivos eles usam? Como eles se sobrepõem?</li><li>Com que frequência as pessoas iniciam uma tarefa em um dispositivo móvel e depois movem para um PC de desktop para concluí-la? Os click-throughs da campanha direcionados a um dispositivo levam para a conversão em outro lugar?</li><li>O quanto muda minha compreensão da eficácia da campanha se eu levar em conta as jornadas entre dispositivos? Como a minha análise de funil muda?</li><li>Quais são os caminhos mais comuns que os usuários fazem de um dispositivo para outro? Onde eles desistem? Onde eles têm sucesso?</li><li>Como o comportamento de usuários com vários dispositivos difere dos usuários com um único dispositivo?</li></ul><br/>To learn more, visit [adobe.ly/aacda](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/). |
 | **Arquitetura de classificações atualizada** | A partir de setembro, uma atualização na arquitetura de Classificações será migrada para os clientes ao longo de um período de vários meses. A versão de setembro inclui a migração para um pequeno número de participantes antecipados.<br/>A atualização reduz significativamente o tempo necessário para que os uploads (incluindo a lógica da regra) sejam importados/assimilados e disponibilizados para relatório. |
 
 #### Correções
 
 * Correção de um problema com os serviços principais de [!UICONTROL Pessoas] e [!UICONTROL Ofertas] que não eram acessíveis no menu principal da Experience Cloud. (AN-184294)
 * Correção de um problema com o painel à esquerda na [!UICONTROL Analysis Workspace] que oscila entre ter e não ter uma barra de rolagem, o que causava um efeito de oscilação. (AN-183904)
-* Correção de problemas com o relatório de erros. Você começará a ver mensagens de erro mais específicas em vez de apenas o indicador de erro vermelho. Mais especificamente, isso deve ajudá-lo a entender quando o problema é causado por carga pesada, por um erro ou por criar uma solicitação de relatório muito complexa. (AN-184135) [Mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/optimizing-performance.html)
+* Correção de problemas com o relatório de erros. Você começará a ver mensagens de erro mais específicas em vez de apenas o indicador de erro vermelho. Mais especificamente, isso deve ajudá-lo a entender quando o problema é causado por carga pesada, por um erro ou por criar uma solicitação de relatório muito complexa. (AN-184135) [More…](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/optimizing-performance.html)
 * Correção de um problema que impedia o download bem-sucedido dos relatórios de fallout nos formatos `.pdf/.xls/.rtf`. (AN-183165)
 * Correção de problemas ao fazer logon na Experience Cloud e alternar para diferentes soluções da Experience Cloud ou alternar para outra empresa de logon. (AN-183376)
 * Correção de um problema com a transferência de ativos de projetos agendados que não funcionavam corretamente. Agora os grupos são gerenciados no [!UICONTROL Admin Console], portanto, não os copiamos entre os usuários ao transferir ativos. (AN-183751)
@@ -108,7 +106,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | Aviso | Data de adição ou atualização | Descrição |
 | -----------| ---------- | ---------- |
-| Atualização dos totais da tabela de forma livre da Analysis Workspace | 12 de setembro de 2019 | Em outubro de 2019, o total de linhas da tabela de forma livre começará a contabilidade dos filtros [de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) relatório aplicados. Até hoje, os totais eram contabilizados somente para segmentação. Com essa alteração, as visualizações dependentes serão atualizadas (ex: visualizações vinculadas de [!UICONTROL Número de resumo]), bem como dados CSV e PDF exportados. |
+| Atualização dos totais da tabela de forma livre da Analysis Workspace | 12 de setembro de 2019 | In October 2019, freeform table total rows will begin accounting for report filters applied. [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) Até hoje, os totais eram contabilizados somente para segmentação. Com essa alteração, as visualizações dependentes serão atualizadas (ex: visualizações vinculadas de [!UICONTROL Número de resumo]), bem como dados CSV e PDF exportados. |
 | Alteração futura em relação ao campo `createDate` para usuários do Analytics | 30 de agosto de 2019 | Em outubro ou novembro de 2019, o campo `createDate` para os usuários do Analytics será atualizado da Hora do Pacífico dos EUA para um valor de data/hora corretamente formatado com as informações de fuso horário. (AN-183468) |
 | Suporte para deslocamentos de fuso horário históricos | 8 de agosto de 2019 | O Analytics agora manipular automaticamente deslocamentos de fuso horário para ocorrências com carimbo de data e hora. Após essa mudança em 8 de agosto, os sistemas que carregam dados para o processamento histórico não precisarão mais ajustar para deslocamentos de fuso horário antes de enviar os dados. |
 | Limites do construtor de regras de classificação | Adicionado em 5 de junho de 2019 | Esses limites não são novos, mas foram adicionados à documentação [aqui](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html). |
