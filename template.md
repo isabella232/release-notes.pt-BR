@@ -31,7 +31,7 @@ Novos recursos e correções na Adobe Experience Cloud.
 * [!DNL Campaign](#ac)
 * [Advertising Cloud](#adcloud)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (links para a ajuda da solução)
-* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (links to solution help)
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (links para a ajuda da solução)
 
 ## Experience Cloud e Experience Platform{#platform}
 
@@ -42,7 +42,7 @@ Notas de versão da Experience Platform, interface da Experience Cloud, administ
 * [Mobile Services e SDK móvel](#mobile)
 * [Administração e desenvolvedor](#admin)
 * [Experience Platform Launch](#launch)
-* [Boletins e conselhos de segurança](https://helpx.adobe.com/security.html) (Todos os produtos da Adobe)
+* [Boletins e conselhos de segurança](https://helpx.adobe.com/security.html) (All Adobe products)
 
 ### Serviços principais {#core-services}
 
