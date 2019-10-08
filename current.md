@@ -5,7 +5,7 @@ doc-type: notas de versão
 last-update: Outubro de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ef4569f130fe606dc9119a11e288f57205b7c0e
+source-git-commit: 6660591c30a677b429967c0b7dbee6a306ed7f54
 
 ---
 
@@ -81,6 +81,8 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 * Corrigido um problema de limite de tempo ao não conseguir carregar segmentos no Ad Hoc Analysis. (AN-184654)
 * Correção de um problema que ocorria quando o conjunto de relatórios usado pela última vez era oculto posteriormente ou quando você não tinha mais permissões para acessar esse conjunto de relatórios. Nesse caso, não é mais possível fazer logon via Experience Cloud. (AN-181777)
 * Corrigido um problema de limite de tempo em segmentos que dificultava a criação de um VRS com base em um segmento. (AN-179684)
+* Correção de um problema em que os dados eram truncados se houvesse uma codificação incorreta em casos raros. (AN-186707)
+* Os Mecanismos de Pesquisa Yandex agora são devidamente divididos por país. (AN-181728)
 
 ### Avisos importantes para administradores do [!DNL Analytics] {#aa-notices}
 
