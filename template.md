@@ -5,7 +5,7 @@ doc-type: notas de versão
 last-update: Outubro de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bf2c8f512aac526511b959108b00023f02765de3
+source-git-commit: f29249827ee258caa8f4cc7e78d45ae4e6f84e08
 
 ---
 
@@ -244,9 +244,9 @@ O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagen
 * Correção
 * Correção
 
-### Recursos adicionais
+**Recursos adicionais**
 
-* Adobe Campaign Standard: [Documentação](https://helpx.adobe.com/support/campaign/standard.html) - [Notas de versão](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - Planejamento de [versão](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* Adobe Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic: [Documentação](https://helpx.adobe.com/support/campaign/classic.html) - [Notas de versão](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
 ## Advertising Cloud {#adcloud}
