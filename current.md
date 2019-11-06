@@ -5,12 +5,12 @@ doc-type: notas de versão
 last-update: de novembro de 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 69b1516bd6bea67429843ba6a47082bf7e211a4c
+source-git-commit: 0fba1b7a9cef1262a4fa03188ba81b1d1a15a2e4
 
 ---
 
 
-# Notas de versão da Adobe Experience Cloud - novembro de 2019
+# Notas de versão da Adobe Experience Cloud - Novembro de 2019
 
 Novos recursos e correções na Adobe Experience Cloud.
 
@@ -28,7 +28,7 @@ Novos recursos e correções na Adobe Experience Cloud.
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (links para a ajuda da solução)
 * [!DNL Advertising Cloud](#adcloud) (Atualizado em 11/1)
 
-Procurando ajuda em casa? See [Experience Cloud Learn &amp; Support](https://helpx.adobe.com/support/experience-cloud.html).
+Procurando a página principal da ajuda? Consulte [Aprendizagem e suporte da Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html).
 
 ## Interface da Experience Cloud {#ecloud}
 
@@ -68,7 +68,7 @@ Para obter a documentação do produto, consulte a [Página inicial de ajuda do 
 
 | Recurso | Descrição |
 | -----------| ---------- | 
-| Análise da jornada do cliente | Em 21 de novembro de 2019, a Adobe disponibilizará a [Análise da jornada do cliente](https://www.adobe.com/analytics/customer-journey-analytics.html) como um complemento do Adobe Analytics.<br><br/>Com a Análise da jornada do cliente, você pode inserir os dados dos seus clientes (de qualquer canal, seja online ou offline) na Adobe Experience Platform e analisá-los do mesmo modo como analisa seus dados digitais no Analysis Workspace. Além disso, a Análise da jornada do cliente permite que você decida como conectar seus dados online e offline no Analysis Workspace, em qualquer ID de cliente comum, permitindo o controle da atribuição, da segmentação, do fluxo, do fallout, entre outros, em todo o conjunto de dados de clientes no Adobe Analytics.<br><br/>Os clientes do Analytics Select, Prime e Ultimate podem adquirir esse produto complementar. Entre em contato com a equipe de sua conta da Adobe para obter mais informações. |
+| Análise da jornada do cliente | On November 21, 2019, [Customer Journey Analytics](https://www.adobe.com/analytics/customer-journey-analytics.html) becomes available as an add-on to Adobe Analytics.<br><br/>A Análise de jornada do cliente permite que você forneça os dados do cliente de qualquer canal que você escolher. tanto online como offline — na Adobe Experience Platform e, em seguida, analise esses dados da mesma forma que faria com seus dados digitais existentes usando a Analysis Workspace hoje. Além disso, a Análise da jornada do cliente permite que você decida como conectar seus dados online e offline no Analysis Workspace, em qualquer ID de cliente comum, permitindo o controle da atribuição, da segmentação, do fluxo, do fallout, entre outros, em todo o conjunto de dados de clientes no Adobe Analytics.<br><br/>Os clientes do Analytics Select, Prime e Ultimate podem adquirir esse produto complementar. Entre em contato com a equipe de sua conta da Adobe para obter mais informações. |
 | API do Privacy Service: CCPA | A Lei de Privacidade do Consumidor da Califórnia (California Consumer Privacy Act, ou CCPA) aprimora os direitos de privacidade e a proteção do consumidor para os moradores da Califórnia, nos Estados Unidos. Esta lei deve entrar em vigor em 1º de janeiro de 2020.<br><br/>A CCPA oferece novos direitos de privacidade de dados aos moradores da Califórnia, como o direito de acessar e excluir seus dados pessoais, de saber se seus dados pessoais são vendidos ou divulgados (e para quem) e de recusar a venda de seus dados pessoais.<br><br/>Em antecipação à CCPA, o Privacy Service dará suporte a solicitações de recusa de permissão da venda de dados pessoais.<br><br/>O Privacy Service era anteriormente chamado de GDPR Service e mantém todas as funcionalidades anteriores, agora estendidas para oferecer suporte à CCPA.<br/><br/>[CCPA no Analytics](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/an-ccpa-overview.html)<br><br/>[Visão geral de privacidade](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) |
 | Relatórios de privacidade: Admin Console do Analytics | Habilitar o Relatório de privacidade no Analytics adiciona um conjunto de variáveis reservadas a um conjunto de relatórios.  As variáveis são projetadas para ajudar na coleta de dados de consentimento do consumidor no nível da ocorrência.<br><br/>Novas dimensões:<br/><ul><li>Recusa no gerenciamento de consentimento</li><li>Aceitação no gerenciamento de Consentimento</li><li>[Variáveis do gerenciamento de consentimento](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/consent-variables.html)</li></ul> |
 | Analytics de áudio e vídeo: suporte à privacidade | Duas novas variáveis foram adicionadas à API Media Collection:<br/><ul><li>analytics.optOutServerSideForwarding</li><li>analytics.optOutShare</li></ul><br/><br/>Essas são variáveis opcionais que podem ser usadas para capturar o status do consentimento do consumidor no momento da ocorrência.<br/><br/>[Documentação da API de coleta de mídia](https://docs.adobe.com/content/help/en/media-analytics/using/media-collection-api/mc-api-overview.html)<br/><br/>As novas variáveis de dados de contexto do Gerenciamento de consentimento do Analytics foram adicionadas ao formulário do Federated Analytics. Essas variáveis agora estão disponíveis para uso na sinalização de Desativar compartilhamento ou Venda de hits para federação.<br/><br/>[Faça o download do formulário federado](https://docs.adobe.com/content/help/en/media-analytics/using/federated-analytics.html#download-the-federated-analytics-form) |
