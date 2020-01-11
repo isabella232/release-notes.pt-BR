@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d48cab564bb6a45022d5c8a388dd71d52a1b63f1
+source-git-commit: 51e45852d84bd30b5d0fb21640b2e9f31080840c
 
 ---
 
@@ -63,9 +63,9 @@ A Adobe está atualizando o domínio e o cabeçalho da interface para unificar e
 
 As atualizações incluem:
 
-* Novos URLs de solução: `experience.adobe.com/<application name>.` Todos os produtos irão eventualmente adotar esse padrão de URL. Procure novos URLs para se tornarem efetivos durante o mês. A Adobe recomenda atualizar seus marcadores depois de ver os redirecionamentos para os novos domínios.
+* Novos URLs de solução: `experience.adobe.com/<application name>.` Todos os produtos irão eventualmente adotar esse padrão de URL. Procure novos URLs para se tornarem efetivos durante o mês.
 * É mais fácil alternar entre suas organizações ou para um aplicativo diferente.
-* Ajuda do produto aprimorada: A [!UICONTROL Experience League] é integrada ao produto para que a pesquisa de ajuda inclua também resultados de fóruns da comunidade e conteúdo de vídeo. Essa alteração simplifica o acesso a mais conteúdo e ajuda a aproveitar ao máximo a Experience Cloud. Além disso, clique em **[!UICONTROL Ajuda]**>**[!UICONTROL  Feedback]** para reportar problemas ou compartilhar suas ideias com a equipe de documentação do produto.
+* Ajuda do produto aprimorada: A [!UICONTROL Experience League] é integrada ao produto para que a pesquisa de ajuda inclua também resultados de fóruns da comunidade e conteúdo de vídeo. Essa alteração simplifica o acesso a mais conteúdo e ajuda a aproveitar ao máximo a Experience Cloud. Além disso, clique em **[!UICONTROL Ajuda]**>**[!UICONTROL  Feedback]** para reportar problemas ou compartilhar suas ideias com o produto Adobe.
 * Notificações aprimoradas: O menu suspenso [!UICONTROL Notificações] agora tem duas guias, uma para suas próprias notificações de produtos e outra para anúncios de produtos globais.
 
 **** Observação: A página do [!UICONTROL Feed] está sendo substituída em janeiro de 2020. Procure um aviso de desativação no produto.
