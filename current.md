@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7ec12529edf495c36cc153028458257939782e41
+source-git-commit: d92cffebc2db7e6a6d7d7b531390b6e307b2943e
 
 ---
 
@@ -63,8 +63,10 @@ A Adobe está atualizando o domínio e o cabeçalho da interface para unificar e
 
 As atualizações incluem:
 
-* Novos URLs de solução: `experience.adobe.com/<application name>.` Todos os produtos irão eventualmente adotar esse padrão de URL. Procure novos URLs para se tornarem efetivos durante o mês. Notas:
-   * A alteração de domínio pode causar problemas de cookie no Safari. Unchecking _Prevent cross-site tracking_ in the Safari Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Experience Cloud to function on this new domain. Você pode usar outros navegadores sem problemas, pois isso afeta somente os usuários do Safari.
+* Novos URLs de solução: `experience.adobe.com/<application name>`:
+   * Todos os produtos acabarão por adotar este padrão de URL. Procure novos URLs para se tornarem efetivos durante o mês.
+   * Os navegadores suportados incluem [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox]e [!DNL Safari]e [!DNL Opera] (versões mais recentes).
+   * ([!DNL Safari] somente) A alteração de domínio pode causar problemas de cookie em [!DNL Safari]. Unchecking _Prevent cross-site tracking_ in the [!DNL Safari] Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Experience Cloud to function on this new domain.
 * É mais fácil alternar entre suas organizações ou para um aplicativo diferente.
 * Ajuda do produto aprimorada: A [!UICONTROL Experience League] é integrada ao produto para que a pesquisa de ajuda inclua também resultados de fóruns da comunidade e conteúdo de vídeo. Essa alteração simplifica o acesso a mais conteúdo e ajuda a aproveitar ao máximo a Experience Cloud. Além disso, clique em **[!UICONTROL Ajuda]**>**[!UICONTROL  Feedback]** para reportar problemas ou compartilhar suas ideias com a Adobe.
 * Notificações aprimoradas: O menu suspenso [!UICONTROL Notificações] agora tem duas guias, uma para suas próprias notificações de produtos e outra para anúncios de produtos globais.
