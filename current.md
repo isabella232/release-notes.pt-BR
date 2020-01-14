@@ -195,6 +195,14 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
 
 ### Versões do produto
 
+* **NOVO:AEM como um serviço em nuvem**
+
+   [O Adobe Experience Manager](https://www.adobe.com/marketing/experience-manager.html) (AEM) agora está disponível como um serviço em nuvem.
+
+   * [Introdução](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/overview/introduction.html)
+   * [Informações da versão](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/home.html)
+   * [Documentação](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
+
 * **Serviço de conversão de formulários automatizado**
 
    O serviço de conversão automatizada de formulários, o serviço para converter automaticamente formulários PDF em lindos formulários HTML prontos para dispositivos móveis, tornou-se disponível para consumo geral em 12 de dezembro de 2019.
@@ -220,6 +228,7 @@ Consulte [Visualizar ativos](https://docs.adobe.com/content/help/en/experience-m
 
 ### Recursos adicionais
 
+* [AEM como um serviço em nuvem](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
 * [Página inicial de aprendizagem e suporte do AEM 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html)
 * [Página inicial de aprendizagem e suporte do AEM 6.4](https://helpx.adobe.com/support/experience-manager/6-4.html)
 * [Página inicial de Aprendizagem e suporte do AEM 6.3](https://helpx.adobe.com/support/experience-manager/6-3.html)
