@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d92cffebc2db7e6a6d7d7b531390b6e307b2943e
+source-git-commit: e49bdb89cd3cf434a4932d1669d6f3a2df973769
 
 ---
 
@@ -65,7 +65,7 @@ As atualizações incluem:
 
 * Novos URLs de solução: `experience.adobe.com/<application name>`:
    * Todos os produtos acabarão por adotar este padrão de URL. Procure novos URLs para se tornarem efetivos durante o mês.
-   * Os navegadores suportados incluem [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox]e [!DNL Safari]e [!DNL Opera] (versões mais recentes).
+   * Suporte ao navegador:Os navegadores suportados incluem [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox]e [!DNL Safari]e [!DNL Opera] (versões mais recentes). **** Observação: Embora a interface da Experience Cloud seja compatível com esses navegadores, as soluções individuais podem não ser compatíveis com todos os navegadores. (Por exemplo, o [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) não é compatível [!DNL Opera]e o [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) não é compatível [!DNL Safari].)
    * ([!DNL Safari] somente) A alteração de domínio pode causar problemas de cookie em [!DNL Safari]. Unchecking _Prevent cross-site tracking_ in the [!DNL Safari] Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Experience Cloud to function on this new domain.
 * É mais fácil alternar entre suas organizações ou para um aplicativo diferente.
 * Ajuda do produto aprimorada: A [!UICONTROL Experience League] é integrada ao produto para que a pesquisa de ajuda inclua também resultados de fóruns da comunidade e conteúdo de vídeo. Essa alteração simplifica o acesso a mais conteúdo e ajuda a aproveitar ao máximo a Experience Cloud. Além disso, clique em **[!UICONTROL Ajuda]**>**[!UICONTROL  Feedback]** para reportar problemas ou compartilhar suas ideias com a Adobe.
