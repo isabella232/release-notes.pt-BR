@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0a9f95d1d9a2bba69cecada0d0c39f70e507c995
+source-git-commit: d2b03da33ea1c49d683fc9486ae8b7d7bc59c87f
 
 ---
 
@@ -156,10 +156,13 @@ Correções e recursos adicionados ao Audience Manager.
 |----|----|
 | [Relatório de uso de atividade](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/activity-usage-reporting.html) | O Relatório [!UICONTROL de uso da] atividade ajuda a visualizar e rastrear o uso da atividade da sua instância do Audience Manager, fornecendo uma ideia clara de como o uso da atividade se compara ao compromisso contratual. |
 
-<!-- ### Fixes and Improvements {#aam-fixes-and-improvements}
+### Correções e melhorias {#aam-fixes-and-improvements}
 
-* Fixes
-* Fixes -->
+* Correção de um erro que resultava na quebra do fluxo de criação da interface do usuário para a seleção de Contas integradas (AAM-52414).
+* Correção de um bug que resultava na quebra da interface do usuário ao navegar pelo fluxo de criação de Modelos algorítmicos (AAM-37942).
+* Corrigido um erro que fazia com que a seleção de Exportação de dados não fosse salva ao salvar os Controles de exportação de dados para destinos novos ou existentes, para clientes que usam a integração da plataforma Adobe Experience (AAM-52814).
+* Corrigido um erro que fazia com que as recomendações de características de terceiros funcionassem incorretamente para características que contêm caracteres de barra vertical (`|`) no nome (AAM-51635).
+* Várias melhorias de acessibilidade na interface do usuário.
 
 ## Experience Manager {#aem}
 
