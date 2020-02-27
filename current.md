@@ -5,12 +5,12 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d6c2892cedd2641f35556f36c149b4a8a8203683
+source-git-commit: 8ee099db4445862bdae3c94010f70ba2696798f9
 
 ---
 
 
-# Notas de versão da Adobe Experience Cloud - fevereiro de 2020
+# Notas de versão da Adobe Experience Cloud - Fevereiro de 2020
 
 Novos recursos e correções na Adobe Experience Cloud.
 
@@ -21,13 +21,13 @@ Novos recursos e correções na Adobe Experience Cloud.
 
 (as datas de lançamento de produtos específicos podem variar)
 
-Última atualização: 21 de fevereiro de 2020
+Última atualização: 26 de fevereiro de 2020
 
 * [Status de sistema da Adobe](#status)
-* [Interface da Experience Cloud e dos serviços principais](#ecloud)
+* [Interface da Experience Cloud e dos serviços principais](#ecloud) (Atualização: **26 de fevereiro de 2020**)
 * [Experience Platform](#platform)
 * [Mobile Services e SDKs móveis](#mobile)
-* [!DNL Analytics](#analytics) (Atualizado em 21 de fevereiro de 2020)
+* [!DNL Analytics](#analytics) (Atualização: 21 de fevereiro de 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -35,6 +35,7 @@ Novos recursos e correções na Adobe Experience Cloud.
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (links para a ajuda da solução)
 * [!DNL Advertising Cloud](#adcloud)
 * [!DNL Magento](#magento)
+* [!DNL Marketo](#marketo) (Atualização: **26 de fevereiro de 2019**)
 
 Procurando a página principal da ajuda? Consulte [Documentação da Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html).
 
@@ -56,7 +57,13 @@ O [!UICONTROL Status de sistema da Adobe] fornece informações detalhadas, atua
 
 ## Interface da Experience Cloud e dos serviços principais {#ecloud}
 
+Atualização da versão: 26 **de fevereiro de 2016**
+
 Novos recursos e correções na interface da Experience Cloud, incluindo administração e serviços principais (atributos do cliente, públicos-alvo, acionadores, cookies etc.).
+
+| Recurso | Descrição |
+| -----------| ---------- |
+| Ferramenta de administração - exibir detalhes do usuário | Os administradores podem exibir uma lista classificável e filtrável de todos os usuários da Experience Cloud e seus detalhes na nova Ferramenta de administração. Os detalhes do usuário incluem o acesso ao produto, as funções e as últimas informações acessadas de um usuário. Consulte a ajuda da [Experience Cloud Admin Tool](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) para obter detalhes. |
 
 **Correções**
 
@@ -87,7 +94,7 @@ Notas de versão da Experience Platform, da Experience Platform Launch, do Servi
 
 * [Notas de versão da Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
-* [Boletins e conselhos de segurança](https://helpx.adobe.com/security.html)  (Todos os produtos da Adobe)
+* [Boletins e conselhos de segurança](https://helpx.adobe.com/security.html) (Todos os produtos da Adobe)
 
 ### Experience Platform Launch {#launch}
 
@@ -129,7 +136,7 @@ Para obter a documentação do produto, consulte a [Página inicial de ajuda do 
 
 ### Avisos importantes para administradores do [!DNL Analytics] {#aa-notices}
 
-| Aviso | Data de adição  ou atualização | Descrição |
+| Aviso | Data de adição ou atualização | Descrição |
 | -----------| ---------- | ---------- |
 | Novo domínio do Adobe Analytics | 18 de dezembro de 2019 | Em 16 de janeiro de 2020, o Adobe Analytics começou a migrar para um novo domínio - `https://experience.adobe.com/analytics.`<br>**Observação:** essa alteração se aplica a todos os usuários que acessam o Analytics com sua Adobe ID ou Enterprise ID.<ul><li>O domínio pode causar problemas de cookie ao carregar o Analytics no Safari. Ao desmarcar _Impedir rastreamento entre sites_ nas Preferências de privacidade do Safari, os cookies serão ativados nos domínios (e em todas as experiências entre sites) e o Analytics poderá funcionar nesse novo domínio da Adobe Experience Cloud. Você pode usar outros navegadores sem problemas, pois isso afeta somente os usuários do Safari.</li><li>A alteração de domínio pode fazer com que o [!UICONTROL Activity Map] pare de funcionar para alguns clientes [em casos específicos](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html).</li></ul> |
 | Fim da vida útil - APIs antigas do Analytics | 9 de janeiro de 2020 | Em novembro de 2020, os seguintes serviços de API do Analytics Legacy chegarão ao fim da vida útil e serão encerrados. As integrações atuais criadas com esses serviços deixarão de funcionar. <ul><li>APIs do Analytics 1.3</li><li>APIs do SOAP Analytics 1.4</li><li>Autenticação OAuth herdada (OAuth e JWT)</li></ul>Fornecemos uma seção [Perguntas frequentes sobre EOL da API herdada](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) para ajudar a responder suas perguntas e fornecer orientação sobre como proceder. As integrações de API que empregam esses serviços podem migrar para as [APIs REST do Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou as [APIs do Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). As contas OAuth herdadas podem migrar para uma conta de integração do [Adobe IO](https://console.adobe.io/home?mv=email) Analytics, que pode ser usada para acessar as APIs do Analytics 1.4 e as APIs do Analytics 2.0. |
@@ -237,3 +244,40 @@ Para ver as notas de versão do Magento, consulte:
 
 * [Magento Commerce 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html)
 * [Magento Open Source 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-open-source.html)
+
+## [!DNL Marketo] {#marketo}
+
+[!DNL Marketo Engage] é uma solução completa para o gerenciamento de clientes potenciais e para os profissionais de marketing B2B que procuram transformar as experiências dos clientes ao se envolverem em todos os estágios de compras complexas.
+
+### Atualizações do Core Marketing para Mobilizar
+
+Data de lançamento: 21 de fevereiro de 2020
+
+* **_Proprietário de_Alteração do Microsoft Dynamics na Ação de Fluxo da Microsoft** : Altere um cliente potencial ou proprietário de contato diretamente de Marketing para Mobilizar.
+* **Melhorias nas chamadas de API:**
+   * APIs de gerenciamento de usuários
+   * APIs de esquema de objeto personalizadas
+   * APIs de regras de redirecionamento de página inicial
+* **** Cache do descritor de formulário: Melhorias em páginas de aterrissagem e formulários.
+
+See [!DNL Marketo] release notes for [February 2020](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720) for more information.
+
+### Recursos futuros
+
+Os seguintes recursos estão sendo lançados ao longo do trimestre:
+
+| Exibir | Recurso |
+|------|---------|
+| [!DNL Bizible] | <ul><li>Nova segmentação baseada em conta</li><li>Salvar filtros específicos do painel</li><li>Exportar painéis Bizible como PDFs</li></ul> |
+| Conexão de vendas | Compor atualizações/aprimoramentos da Janela e do Centro de comando |
+
+### Anúncios
+
+**・** Centro de sucesso do Marketing Engage: Lançamento em fevereiro de 2020. O Centro de sucesso é um centro de ajuda no produto que permite pesquisar Documentos de produto e a Comunidade, lançar guias passo a passo, acessar conteúdo de adoção e muito mais. Observação: Este recurso será lançado como um beta na ANZ e será lançado para a América do Norte mais tarde no trimestre.
+
+### Desaprovações
+
+* **** Parâmetro &quot;_method&quot; da API de ativo: Depois de setembro de 2020, os Pontos finais da API de ativos não aceitarão mais &quot;_method&quot; para passar os Parâmetros de consulta em um corpo POST para ignorar as limitações de comprimento de URI.
+* **** Substituição do suporte do Internet Explorer: A partir do lançamento realizado em 31 de julho de 2020, a interface do usuário do Marketing Cloud não será mais compatível com o Internet Explorer.
+
+Para obter as notas de versão cumulativas e históricas, consulte Notas [de versão do](https://docs.marketo.com/x/CgA6Ag)Marketo.
