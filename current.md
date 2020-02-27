@@ -102,7 +102,7 @@ Consulte [Experience Platform Launch](https://docs.adobe.com/content/help/en/lau
 
 ## Mobile Services e SDKs móveis {#mobile}
 
-**4 de fevereiro de 2020: Versão 4.19.0**
+4 de fevereiro de 2020: Versão 4.19.0
 
 A seguinte atualização foi efetuada nesta versão:
 
@@ -266,14 +266,14 @@ See [!DNL Marketo] release notes for [February 2020](https://docs.marketo.com/di
 
 Os seguintes recursos estão sendo lançados ao longo do trimestre:
 
-| Exibir | Recurso |
+| Recurso | Descrição |
 |------|---------|
 | [!DNL Bizible] | <ul><li>Nova segmentação baseada em conta</li><li>Salvar filtros específicos do painel</li><li>Exportar painéis Bizible como PDFs</li></ul> |
 | Conexão de vendas | Compor atualizações/aprimoramentos da Janela e do Centro de comando |
 
 ### Anúncios
 
-**・** Centro de sucesso do Marketing Engage: Lançamento em fevereiro de 2020. O Centro de sucesso é um centro de ajuda no produto que permite pesquisar Documentos de produto e a Comunidade, lançar guias passo a passo, acessar conteúdo de adoção e muito mais. Observação: Este recurso será lançado como um beta na ANZ e será lançado para a América do Norte mais tarde no trimestre.
+**** Centro de sucesso de envolvimento de marketing: Lançamento em fevereiro de 2020. O Centro de sucesso é um centro de ajuda no produto que permite pesquisar Documentos de produto e a Comunidade, lançar guias passo a passo, acessar conteúdo de adoção e muito mais. Observação: Este recurso será lançado como um beta na ANZ e será lançado para a América do Norte mais tarde no trimestre.
 
 ### Desaprovações
 
