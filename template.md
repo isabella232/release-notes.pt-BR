@@ -4,8 +4,8 @@ description: Modelo para notas de versão da Experience Cloud
 doc-type: release notes
 last-update: October 2019
 author: mfrei
-translation-type: ht
-source-git-commit: e0ea377ac18fc016416612b92e41dbefdd3fc931
+translation-type: tm+mt
+source-git-commit: 562b27b201dd095236fdb8a6a10f8db798b615e1
 
 ---
 
@@ -31,10 +31,12 @@ Novos recursos e correções na Adobe Experience Cloud.
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [!DNL Target](https://docs.adobe.com/content/help/pt-BR/target/using/release-notes/target-release-notes.html) (links para a ajuda da solução)
-* [!DNL Primetime](https://helpx.adobe.com/br/primetime/user-guide.html) (links para a ajuda da solução)
+* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (links para a ajuda da solução)
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (links para a ajuda da solução)
+* [!DNL Magento](#magento)
+* [!DNL Marketo](#marketo)
 
-Procurando a página principal da ajuda? Consulte [Documentação da Adobe Experience Cloud](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.html).
+Procurando a página principal da ajuda? Consulte [Documentação da Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html).
 
 ## Status de sistema da Adobe {#status}
 
@@ -51,19 +53,19 @@ Notas de versão da Experience Platform, interface da Experience Cloud, administ
 * [Mobile Services e SDK móvel](#mobile)
 * [Administração e desenvolvedor](#admin)
 * [Experience Platform Launch](#launch)
-* [Boletins e conselhos de segurança](https://helpx.adobe.com/br/security.html)  (Todos os produtos da Adobe)
+* [Boletins e conselhos de segurança](https://helpx.adobe.com/security.html)  (Todos os produtos da Adobe)
 
 ### Serviços principais {#core-services}
 
 Destaques e correções.
 
-Para obter a documentação do produto, consulte [Experience Cloud e Serviços principais](https://docs.adobe.com/content/help/pt-BR/core-services/interface/experience-cloud.html)
+Para obter a documentação do produto, consulte [Experience Cloud e Serviços principais](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
 
 ### Serviço da Experience Cloud ID {#ecid}
 
 Destaques e correções.
 
-Para obter a documentação do produto, consulte [Serviço da Experience Cloud ID](https://marketing.adobe.com/resources/help/pt_BR/mcvid/).
+Para obter a documentação do produto, consulte [Serviço da Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 ### Mobile Services e SDK móvel {#mobile}
 
@@ -78,15 +80,15 @@ Descrição dos novos recursos. Use cabeçalhos ou uma tabela.
 * Correção
 * Correção
 
-Para obter a documentação do produto, consulte [Mobile Services](https://docs.adobe.com/content/help/pt-BR/mobile-services/using/home.html).
+Para obter a documentação do produto, consulte [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html).
 
-Para obter mais informações sobre os Mobile SDKs, consulte: [Android SDK 4.x para Soluções da Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/mobile/android/) e [iOS SDK 4.x para Soluções da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/mobile-services/ios/overview.html).
+Para obter mais informações sobre os Mobile SDKs, consulte: [Android SDK 4.x para Soluções da Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mobile/android/) e [iOS SDK 4.x para Soluções da Experience Cloud](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
 
 ### Administração e desenvolvedor {#admin}
 
 Destaques e correções.
 
-Para obter a documentação do produto, consulte [Gerenciar usuários e produtos](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Para obter a documentação do produto, consulte [Gerenciar usuários e produtos](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ## Experience Platform {#platform}
 
@@ -94,11 +96,11 @@ Notas de versão da Experience Platform, da Experience Platform Launch, do Servi
 
 * [Notas de versão da Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
-* [Boletins e conselhos de segurança](https://helpx.adobe.com/br/security.html)  (Todos os produtos da Adobe)
+* [Boletins e conselhos de segurança](https://helpx.adobe.com/security.html)  (Todos os produtos da Adobe)
 
 ### Experience Platform Launch {#launch}
 
-Consulte [Experience Platform Launch](https://docs.adobe.com/content/help/pt-BR/launch/using/intro/release-notes/current.html) para obter as notas de versão e a documentação do produto.
+Consulte [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) para obter as notas de versão e a documentação do produto.
 
 ## [!DNL Analytics] {#analytics}
 
@@ -108,7 +110,7 @@ Novos recursos e correções no Adobe Analytics:
 * [Media Analytics SDK para iOS e Android (anteriormente chamado de VHL SDK)](#aa-va)
 * [Avisos importantes para administradores do Analytics](analytics-important-notices.md)
 
-Para obter a documentação do produto, consulte a [Página inicial de ajuda do Adobe Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/landing/home.html).
+Para obter a documentação do produto, consulte a [Página inicial de ajuda do Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
 ### Novos recursos no Adobe Analytics {#aa-features}
 
@@ -145,7 +147,7 @@ Consulte as [Notas de versão do Data Workbench](https://marketing.adobe.com/res
 * Correção
 * Correção
 
-Consulte o [Histórico de versões do AppMeasurement](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html) para obter um histórico das versões do AppMeasurement nas seguintes plataformas:
+Consulte o [Histórico de versões do AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html) para obter um histórico das versões do AppMeasurement nas seguintes plataformas:
 
 * JavaScript
 * iOS
@@ -206,13 +208,13 @@ Os conjuntos de documentação do AEM a seguir foram migrados para uma nova plat
 
 ### Recursos adicionais
 
-* [Página inicial de Aprendizagem e suporte do AEM 6.4](https://helpx.adobe.com/br/support/experience-manager/6-4.html)
-* [Página inicial de Aprendizagem e suporte do AEM 6.3](https://helpx.adobe.com/br/support/experience-manager/6-3.html)
-* [Página inicial de Aprendizagem e suporte do AEM 6.2](https://helpx.adobe.com/br/support/experience-manager/6-2.html)
-* [Guia do Usuário do Cloud Manager](https://helpx.adobe.com/br/experience-manager/cloud-manager/user-guide.html)
-* [Versões anteriores da documentação do AEM](https://helpx.adobe.com/br/experience-manager/aem-previous-versions.html)
+* [Página inicial de Aprendizagem e suporte do AEM 6.4](https://helpx.adobe.com/support/experience-manager/6-4.html)
+* [Página inicial de Aprendizagem e suporte do AEM 6.3](https://helpx.adobe.com/support/experience-manager/6-3.html)
+* [Página inicial de Aprendizagem e suporte do AEM 6.2](https://helpx.adobe.com/support/experience-manager/6-2.html)
+* [Guia do Usuário do Cloud Manager](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
+* [Versões anteriores da documentação do AEM](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
 * [Notas de versão do Scene7 Publishing System](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
-* [Notas de versão do Livefyre](https://docs.adobe.com/content/help/pt-BR/livefyre/using/release-notes/c-rn.html)
+* [Notas de versão do Livefyre](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
 ### Livefyre {#livefyre}
 
@@ -263,8 +265,8 @@ O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagen
 
 **Recursos adicionais**
 
-* Adobe Campaign Standard: [Documentação](https://helpx.adobe.com/br/support/campaign/standard.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-notes.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [Planejamento de versão](https://helpx.adobe.com/br/campaign/kb/acs-release-planning.html)
-* Adobe Campaign Classic: [Documentação](https://helpx.adobe.com/br/support/campaign/classic.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/campaign-classic-home.translate.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Adobe Campaign Standard: [Documentação](https://helpx.adobe.com/support/campaign/standard.html) - [Notas de versão](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [Planejamento de versão](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* Adobe Campaign Classic: [Documentação](https://helpx.adobe.com/support/campaign/classic.html) - [Notas de versão](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
 ## Advertising Cloud {#adcloud}
 
@@ -280,3 +282,16 @@ O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagen
 * Correção
 * Correção
 * Correção
+
+## [!DNL Magento] {#magento}
+
+Para ver as notas de versão do Magento, consulte:
+
+* [Magento Commerce 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html)
+* [Magento Open Source 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-open-source.html)
+
+## [!DNL Marketo] {#marketo}
+
+[!DNL Marketo Engage] é uma solução completa para o gerenciamento de clientes potenciais e para os profissionais de marketing B2B que procuram transformar as experiências dos clientes ao se envolverem em todas as jornadas de compras complexas.
+
+Para obter as notas de versão cumulativas e históricas, consulte [Notas de versão do Marketo](https://docs.marketo.com/x/CgA6Ag).
