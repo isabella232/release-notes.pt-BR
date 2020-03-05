@@ -7,7 +7,7 @@ getting-started-title: Introdução
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutoriais
 tutorials-url: https://helpx.adobe.com/br/experience-cloud/tutorials.html
-mini-toc-levels: '1'
+mini-toc-levels: 1
 git-repo: https://github.com/AdobeDocs/release-notes.en
 index: true
 translation-type: ht
@@ -18,7 +18,7 @@ source-git-commit: f7e667b83c7b82376ad9cf51b4495eb30b5707ed
 
 # Metadados para uso interno
 
-O arquivo metadata. md inclui metadados de nível de reposição transmitidos para os arquivos TOC. md do guia do usuário na reposição. Se desejar alterar o conteúdo metadata. md para qualquer guia do usuário, faça isso em qualquer arquivo TOC. md.
+O arquivo metadata.md inclui metadados de nível de repositório transmitidos para os arquivos TOC.md do guia do usuário no repositório. Se desejar alterar o conteúdo metadata. md para qualquer guia do usuário, faça isso em qualquer arquivo TOC. md.
 
 | metadata | o que faz |
 |--- |--- |
@@ -30,7 +30,7 @@ O arquivo metadata. md inclui metadados de nível de reposição transmitidos pa
 | tutorials-title | Raramente usado quando os tutoriais não são apropriados |
 | tutorials-url | Link para tutoriais em vídeo—tutoriais helpx ou tutoriais do KT |
 | mini-toc-levels | Determina o número de níveis de cabeçalho que aparecem no painel à direita. o padrão é 2 |
-| git-repo | Especifica o local do repo de colaboração. Use o espelhamento github.com para documentos lidos pelo público |
+| git-repo | Especifica o local do repositório de colaboração. Use o espelhamento github.com para documentos lidos pelo público |
 
 No arquivo TOC.md
 
