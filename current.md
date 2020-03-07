@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e9fdb1166b47f17256afeaa7bced60f884de8d16
+source-git-commit: 101b94ed00ae148e946f17c134037ae880badc5d
 
 ---
 
@@ -133,7 +133,6 @@ Para obter a documentação do produto, consulte a [Página inicial de ajuda do 
 * Correção de um problema em que os modelos de primeiro e último toque no QI de Atribuição não calculavam o crédito corretamente para alguns itens de linha em algumas dimensões da caixa.
 * Correção de um problema em que detalhar uma dimensão de data por outra dimensão de data retornava resultados incorretos.
 * Correção de um problema em que, às vezes, as métricas de entrada ou saída eram contadas incorretamente quando aplicadas a &quot;Não especificado&quot; em um relatório de dimensão classificado.
-
 
 ### Avisos importantes para administradores do [!DNL Analytics] {#aa-notices}
 
