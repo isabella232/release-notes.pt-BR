@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: ecee1c664485d710a62c9455e64eea3a16966780
+source-git-commit: e9fdb1166b47f17256afeaa7bced60f884de8d16
 
 ---
 
@@ -128,6 +128,12 @@ Para obter a documentação do produto, consulte a [Página inicial de ajuda do 
 
 * Correção de um problema no [!UICONTROL Relatórios e análises] que impedia o download de `.xls` relatórios.(AN-206541, AN-204008)
 * O lançamento de um novo shell corrigiu vários problemas do cliente relacionados à alternância entre as organizações da Experience Cloud.(AN-200844, AN-186920)
+* Correção de um problema em que fazer um detalhamento no item de linha _Não especificado_ (ou em alguns outros itens de linha de relatório), ao não incluir _Não especificado (Nenhum)_ nos filtros de pesquisa do detalhamento, não retornaria resultados no detalhamento.
+* Correção de um problema que ocorria ao usar uma dimensão classificada, os totais da métrica de entrada ou saída não correspondiam ao total do item de linha em um detalhamento.
+* Correção de um problema em que os modelos de primeiro e último toque no QI de Atribuição não calculavam o crédito corretamente para alguns itens de linha em algumas dimensões da caixa.
+* Correção de um problema em que detalhar uma dimensão de data por outra dimensão de data retornava resultados incorretos.
+* Correção de um problema em que, às vezes, as métricas de entrada ou saída eram contadas incorretamente quando aplicadas a &quot;Não especificado&quot; em um relatório de dimensão classificado.
+
 
 ### Avisos importantes para administradores do [!DNL Analytics] {#aa-notices}
 
