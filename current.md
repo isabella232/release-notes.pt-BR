@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dcbcc2fff5026c07898e7887b837767e9a71dbf3
+source-git-commit: 897f8d8138403d42ee0387d3582464b41fd1a54c
 
 ---
 
@@ -27,6 +27,7 @@ Novos recursos e correções na Adobe Experience Cloud.
 * [Status de sistema da Adobe](#status)
 * [Interface da Experience Cloud e dos serviços principais](#ecloud)
 * [Experience Platform](#platform)
+* [Orquestração de Jornadas](#journey)
 * [Mobile Services e SDKs móveis](#mobile)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
@@ -103,11 +104,7 @@ A versão do primeiro trimestre foi publicada. [Leia mais](https://docs.adobe.co
 
 ### Recursos adicionais
 
-[Documentação](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html)
-
-[Notas de versão](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html)
-
-[Vídeos de procedimentos](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+[Documentação](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [Notas](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) de versão - vídeos [como fazer](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ## Mobile Services e SDKs móveis {#mobile}
 
@@ -200,7 +197,7 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
 
 * **AEM Assets Brand Portal**
 
-   O AEM Assets Brand Portal 6.4, Service Pack 6 (6.4.6 lançado em 5 de março de 2020) altera a forma como os ativos AEM são configurados com o Portal [!UICONTROL da marca.] Além disso, a versão inclui outros aprimoramentos e correções de erros.
+   O AEM Assets Brand Portal 6.4, Service Pack 6 (6.4.6 lançado em 5 de março de 2020) altera a forma como os ativos AEM são configurados com o Portal de [!UICONTROL marca.] Além disso, a versão inclui outros aprimoramentos e correções de erros.
    * [Notas de versão](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html)
 
 ### Autoajuda
