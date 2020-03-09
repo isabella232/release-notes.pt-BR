@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 897f8d8138403d42ee0387d3582464b41fd1a54c
+source-git-commit: 8cfd93b9e4e5800eb9222a78571ec89e546e6a6f
 
 ---
 
@@ -137,7 +137,7 @@ Para obter a documentação do produto, consulte a [Página inicial de ajuda do 
 
 #### Correções
 
-* Correção de um problema no [!UICONTROL Relatórios e análises] que impedia o download de `.xls` relatórios.(AN-206541, AN-204008)
+* Correção de um problema no [!UICONTROL Relatórios e análises] que impedia o download de `.xls` relatórios. Esta questão afetou os clientes que utilizavam moedas que não o dólar dos EUA e o euro. (AN-206541, AN-204008)
 * O lançamento de um novo shell corrigiu vários problemas do cliente relacionados à alternância entre as organizações da Experience Cloud.(AN-200844, AN-186920)
 * Correção de um problema em que fazer um detalhamento no item de linha _Não especificado_ (ou em alguns outros itens de linha de relatório), ao não incluir _Não especificado (Nenhum)_ nos filtros de pesquisa do detalhamento, não retornaria resultados no detalhamento.
 * Correção de um problema que ocorria ao usar uma dimensão classificada, os totais da métrica de entrada ou saída não correspondiam ao total do item de linha em um detalhamento.
@@ -197,7 +197,7 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
 
 * **AEM Assets Brand Portal**
 
-   O AEM Assets Brand Portal 6.4, Service Pack 6 (6.4.6 lançado em 5 de março de 2020) altera a forma como os ativos AEM são configurados com o Portal de [!UICONTROL marca.] Além disso, a versão inclui outros aprimoramentos e correções de erros.
+   O AEM Assets Brand Portal 6.4, Service Pack 6 (6.4.6 lançado em 5 de março de 2020) altera a forma como os ativos AEM são configurados com o Portal [!UICONTROL da marca.] Além disso, a versão inclui outros aprimoramentos e correções de erros.
    * [Notas de versão](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html)
 
 ### Autoajuda
