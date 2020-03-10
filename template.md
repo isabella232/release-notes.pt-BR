@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8486e0014a6ea57fca43ce2e95e0ac9762c170f7
+source-git-commit: 2fca65aeb62ff60e4776492857af064ec3ef707f
 
 ---
 
@@ -26,6 +26,7 @@ Novos recursos e correções na Adobe Experience Cloud.
 
 * [Status de sistema da Adobe](#status)
 * [Experience Cloud e Experience Platform](#platform)
+* [Orquestração de Jornadas](#journey)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -103,6 +104,14 @@ Notas de versão da Experience Platform, da Experience Platform Launch, do Servi
 ### Experience Platform Launch {#launch}
 
 Consulte [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) para obter as notas de versão e a documentação do produto.
+
+## Orquestração de Jornadas {#journey}
+
+Usando a plataforma Adobe Experience, orquestre viagens individuais de clientes em escala nos canais de experiência, antecipando de forma inteligente as necessidades de cada indivíduo em tempo real, onde quer que sua jornada as leve.
+
+### Recursos adicionais
+
+[Documentação](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [Notas](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) de versão - vídeos [como fazer](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ## [!DNL Analytics] {#analytics}
 
@@ -248,27 +257,15 @@ Os conjuntos de documentação do AEM a seguir foram migrados para uma nova plat
 * Correção
 * Correção
 
-## [!DNL Campaign {#ac}
+## [!DNL Campaign] {#ac}
 
 O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagens individuais por canais de marketing online e offline. Agora, é possível prever o que seus clientes desejam usando as experiências determinadas por seus hábitos e preferências.
 
-| Recurso | Descrição |
-| -----------| ---------- |  
-| Recurso A | Texto |
-| Recurso B | Texto |
-| Recurso C | Texto |
-
-**Correções**
-
-* Correção
-* Correção
-* Correção
-* Correção
-
-**Recursos adicionais**
+### Recursos adicionais
 
 * Adobe Campaign Standard: [Documentação](https://helpx.adobe.com/support/campaign/standard.html) - [Notas de versão](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [Planejamento de versão](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic: [Documentação](https://helpx.adobe.com/support/campaign/classic.html) - [Notas de versão](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 
 ## Advertising Cloud {#adcloud}
 
