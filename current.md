@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8cfd93b9e4e5800eb9222a78571ec89e546e6a6f
+source-git-commit: b58151e366ba9aef341a8bd6742d6275d5cd8b30
 
 ---
 
@@ -245,6 +245,10 @@ Consulte [Ao trabalhar com o Smart Crop](https://docs.adobe.com/content/help/en/
 ## [!DNL Campaign] {#ac}
 
 O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagens individuais por canais de marketing online e offline. Agora, é possível prever o que seus clientes desejam usando as experiências determinadas por seus hábitos e preferências.
+
+### Campaign Classic
+
+* [Atualização do Campaign Classic 19.1.4](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/previous-releases/release--19-1.html#release-19-1-4-build-9032)
 
 ### Recursos adicionais
 
