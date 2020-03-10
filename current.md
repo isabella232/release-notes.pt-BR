@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b58151e366ba9aef341a8bd6742d6275d5cd8b30
+source-git-commit: 2282dd7a9b0575021f2262e43f644af4b1dc3f0b
 
 ---
 
@@ -131,7 +131,7 @@ Para obter a documentação do produto, consulte a [Página inicial de ajuda do 
 
 ### Novos recursos, aprimoramentos e correções no Adobe Analytics {#aa-features}
 
-* **Vários conjuntos de relatórios na[!UICONTROL Analysis Workspace ]**: Agora é possível trazer dados de vários conjuntos de relatórios para um único projeto da[!UICONTROL Analysis Workspace]para visualização lado a lado. Esse recurso será lançado para todos os clientes durante várias semanas.[Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)
+* **Vários conjuntos de relatórios na[!UICONTROL Analysis Workspace ]**: Agora você pode trazer dados de vários conjuntos de relatórios para um único projeto da[!UICONTROL Analysis Workspace]para visualização em painéis lado a lado.[Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)
 * **Otimização** do público-alvo da Experience Cloud: Esse recurso permite que você publique segmentos na Experience Cloud dentro de 8 horas (em vez do tempo de processamento anterior de 48 horas). [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 * **Analysis Workspace - Modelo** do tutorial de treinamento: Este novo modelo padrão orienta você pela terminologia e etapas comuns para criar sua primeira análise no Workspace. Ele está disponível como um modelo padrão no modal [!UICONTROL Novo projeto] e substitui o projeto de amostra que existe hoje para novos usuários que não têm outros projetos em sua lista.
 
