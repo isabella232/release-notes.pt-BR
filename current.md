@@ -5,12 +5,14 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e2cb2ca3bd773fb8d8de24142c876e5ed1f32e97
+source-git-commit: 6fa8ddb48734849f15490dce814b1fd8763051d3
 
 ---
 
 
 # Acesso antecipado - Notas de versão da Adobe Experience Cloud - março de 2020
+
+![Banner](/assets/experience-cloud-banner-3.png)
 
 Novos recursos e correções na [!DNL Adobe Experience Cloud].
 
@@ -22,13 +24,11 @@ Novos recursos e correções na [!DNL Adobe Experience Cloud].
 
 **Data de lançamento: março de 2020**
 
-(as datas de lançamento de produtos específicos podem variar)
+Última atualização: 11 de março de 2020
 
 * [Status de sistema da Adobe](#status)
 * [Interface da Experience Cloud e dos serviços principais](#ecloud)
 * [Experience Platform](#platform)
-* [Orquestração de Jornadas](#journey)
-* [Mobile Services e SDKs móveis](#mobile)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -42,7 +42,9 @@ Novos recursos e correções na [!DNL Adobe Experience Cloud].
 
 Procurando a página principal da ajuda? Consulte [Documentação da Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html).
 
-## Status de sistema da Adobe {#status}
+(as datas de lançamento de produtos específicos podem variar.)
+
+## ![Ícone](/assets/adobe.png) Status do sistema Adobe {#status}
 
 O [!UICONTROL Status de sistema da Adobe] fornece informações detalhadas, atualizações de status e notificações por email sobre produtos e serviços em nuvem da Adobe, interrupção e eventos de manutenção. Confira em [status.adobe.com](https://status.adobe.com/).
 
@@ -58,7 +60,7 @@ O [!UICONTROL Status de sistema da Adobe] fornece informações detalhadas, atua
 | Experiência personalizada com base nas preferências do usuário | <ul><li>A preferência Fuso horário com base na configuração do navegador é usada em notificações por email.</li><li>Confirmação de email enviada ao assinar/cancelar a assinatura com todas as preferências selecionadas.</li></ul> |
 | Melhor entrega de mensagens de evento | <ul><li>O histórico de eventos foi classificado com base em atualizações de eventos cronológicos.</li><li>Carimbo de data e hora da resolução do evento adicionado aos problemas principais/secundários fechados.</li></ul> |
 
-## Interface da Experience Cloud e dos serviços principais {#ecloud}
+## ![Icon](/assets/experience-cloud.png) interface da Experience Cloud e principais serviços {#ecloud}
 
 Novos recursos e correções na interface da Experience Cloud, incluindo administração e serviços principais (atributos do cliente, públicos-alvo, acionadores, cookies etc.).
 
@@ -84,29 +86,31 @@ As atualizações incluem:
 
 For product documentation, see [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html) help.
 
-## Experience Platform {#platform}
+## ![Plataforma de experiência de ícone](/assets/platform.png){#platform}
 
 Release notes for the [!UICONTROL Experience Platform,] [!UICONTROL Experience Platform Launch,] [!UICONTROL Identity Service,] and security bulletins.
 
 * [Notas de versão da Experience Platform](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
+* [Orquestração de Jornadas](#journey)
+* [Mobile Services e SDKs móveis](#mobile)
 * [Boletins e conselhos de segurança](https://helpx.adobe.com/security.html)  (Todos os produtos da Adobe)
 
 ### Experience Platform Launch {#launch}
 
 Consulte [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) para obter as notas de versão e a documentação do produto.
 
-## Orquestração de Jornadas {#journey}
+### Orquestração de Jornadas {#journey}
 
 Usando a plataforma Adobe Experience, orquestre viagens individuais de clientes em escala nos canais de experiência, antecipando de forma inteligente as necessidades de cada indivíduo em tempo real, onde quer que sua jornada as leve.
 
 A versão do primeiro trimestre foi publicada. [Leia mais](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html#q1-release---march-2020)
 
-### Recursos adicionais
+**Recursos adicionais**
 
 [Documentação](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [Notas](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) de versão - vídeos [como fazer](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
-## Mobile Services e SDKs móveis {#mobile}
+### Mobile Services e SDKs móveis {#mobile}
 
 **iOS v4.19.1**
 
@@ -117,7 +121,7 @@ A versão do primeiro trimestre foi publicada. [Leia mais](https://docs.adobe.co
 
 * [!DNL Target] - [!DNL Target] A ID da sessão agora será adicionada como um parâmetro de dados de contexto &quot;a.target.sessionId&quot; na ocorrência interna do [!UICONTROL Analytics-for-Target] enviada para o Adobe Analytics.
 
-## [!DNL Analytics] {#analytics}
+## ![Ícone](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
 Data de lançamento: **12 de março de 2020**
 
@@ -160,7 +164,7 @@ Para obter a documentação do produto, consulte a [Página inicial de ajuda do 
 
 Consulte [AppMeasurement para notas de versão do Javascript](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html). A versão 2.20.0 foi lançada em 5 de março de 2020.
 
-## Audience Manager {#aam}
+## ![Ícone](/assets/audience-manager.png) Audience Manager {#aam}
 
 Novos recursos e atualizações do Audience Manager:
 
@@ -172,7 +176,7 @@ Novos recursos e atualizações do Audience Manager:
 * Correção de um bug na API [!UICONTROL de] segmentos em que, por causa de alguns segmentos sem descrição, a interface congelava quando os usuários tentavam acessar esses segmentos e os usuários tinham que sair dessa página. (AAM-53071)
 * Várias melhorias de acessibilidade na interface. (AAM-48952, AAM-48969, AAM-48979, AAM-48993, AAM-49048, AAM-49057, AAM-49058,AAM-493 n.º 211
 
-## Experience Manager {#aem}
+## ![Ícone](/assets/aem.png) Experience Manager {#aem}
 
 Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). A Adobe recomenda que os clientes com implantações locais que implantem os patches mais recentes de forma a assegurar maior estabilidade, segurança e desempenho.
 
@@ -197,7 +201,7 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
 
 * **AEM Assets Brand Portal**
 
-   O AEM Assets Brand Portal 6.4, Service Pack 6 (6.4.6 lançado em 5 de março de 2020) altera a forma como os ativos AEM são configurados com o Portal de [!UICONTROL marca.] Além disso, a versão inclui outros aprimoramentos e correções de erros.
+   O AEM Assets Brand Portal 6.4, Service Pack 6 (6.4.6 lançado em 5 de março de 2020) altera a forma como os ativos AEM são configurados com o Portal [!UICONTROL da marca.] Além disso, a versão inclui outros aprimoramentos e correções de erros.
    * [Notas de versão](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html)
 
 ### Autoajuda
@@ -242,7 +246,7 @@ Consulte [Ao trabalhar com o Smart Crop](https://docs.adobe.com/content/help/en/
 * [Notas de versão do Dynamic Media](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Notas de versão do Livefyre](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
-## [!DNL Campaign] {#ac}
+## ![Ícone](/assets/campaign.png) [!DNL Campaign] {#ac}
 
 O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagens individuais por canais de marketing online e offline. Agora, é possível prever o que seus clientes desejam usando as experiências determinadas por seus hábitos e preferências.
 
@@ -256,7 +260,7 @@ O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagen
 * Adobe Campaign Classic: [Documentação](https://helpx.adobe.com/support/campaign/classic.html) - [Notas de versão](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 * Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 
-## Advertising Cloud {#adcloud}
+## ![Icon](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
 Atualizado em 10 de fevereiro de 2020, para lançamento em 8 de fevereiro:
 
@@ -266,14 +270,14 @@ Atualizado em 10 de fevereiro de 2020, para lançamento em 8 de fevereiro:
 | [!UICONTROL Pesquisar] > [!UICONTROL Bulksheets] | Agora você pode criar, editar e excluir anúncios de pesquisa responsivos do Google (RSAs) usando bulksheets. Anteriormente, o suporte estava disponível somente por meio da interface de gerenciamento de campanha padrão em **[!UICONTROL Pesquisar]** > **[!UICONTROL Campanhas]** |
 | [!UICONTROL Pesquisar] > [!UICONTROL Campanhas, Relatórios] | As métricas de destaque do Google Ads `Impr. (Abs. Top) %` e `Impr. (Top) %` agora estão disponíveis em todos os relatórios básicos e exibições de gerenciamento de campanha no nível da entidade, exceto para grupos de produtos de compras, nos relatórios de [!UICONTROL Compartilhamento de impressão diária da campanha] e [!UICONTROL Compartilhamento de impressões diárias de palavra-chave], bem como nas exibições de rótulos e restrições. |
 
-## [!DNL Magento] {#magento}
+## ![Ícone](/assets/magento.png) [!DNL Magento] {#magento}
 
 Para ver as notas de versão do Magento, consulte:
 
 * [Magento Commerce 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html)
 * [Magento Open Source 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-open-source.html)
 
-## [!DNL Marketo] {#marketo}
+## ![Ícone](/assets/marketo.png) [!DNL Marketo] {#marketo}
 
 [!DNL Marketo Engage] é uma solução completa para o gerenciamento de clientes potenciais e para os profissionais de marketing B2B que procuram transformar as experiências dos clientes ao se envolverem em todas as jornadas de compras complexas.
 
@@ -310,7 +314,7 @@ Os seguintes recursos serão lançados ao longo do trimestre:
 
 Para obter as notas de versão cumulativas e históricas, consulte [Notas de versão do Marketo](https://docs.marketo.com/x/CgA6Ag).
 
-## Nova documentação e tutoriais {#selfhelp}
+## ![Ícone](/assets/experience-cloud.png) Nova documentação e tutoriais {#selfhelp}
 
 Artigos e vídeos de autoajuda novos e recentes. <!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
 
