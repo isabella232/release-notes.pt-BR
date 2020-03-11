@@ -5,14 +5,14 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2282dd7a9b0575021f2262e43f644af4b1dc3f0b
+source-git-commit: e2cb2ca3bd773fb8d8de24142c876e5ed1f32e97
 
 ---
 
 
 # Acesso antecipado - Notas de versão da Adobe Experience Cloud - março de 2020
 
-Novos recursos e correções na Adobe Experience Cloud.
+Novos recursos e correções na [!DNL Adobe Experience Cloud].
 
 >[!IMPORTANT]
 >Esta página apresenta conteúdo de pré-lançamento e está sujeito a alterações até o lançamento da versão planejada.
@@ -197,7 +197,7 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
 
 * **AEM Assets Brand Portal**
 
-   O AEM Assets Brand Portal 6.4, Service Pack 6 (6.4.6 lançado em 5 de março de 2020) altera a forma como os ativos AEM são configurados com o Portal [!UICONTROL da marca.] Além disso, a versão inclui outros aprimoramentos e correções de erros.
+   O AEM Assets Brand Portal 6.4, Service Pack 6 (6.4.6 lançado em 5 de março de 2020) altera a forma como os ativos AEM são configurados com o Portal de [!UICONTROL marca.] Além disso, a versão inclui outros aprimoramentos e correções de erros.
    * [Notas de versão](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html)
 
 ### Autoajuda
