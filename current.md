@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 745a054c15f05d7957e8c98b8adfa41b665b6fa6
+source-git-commit: 11dd1c361df84ef52b54734e2cbd231fce0cfda3
 
 ---
 
@@ -159,7 +159,7 @@ Para obter a documentação do produto, consulte a [Página inicial de ajuda do 
 | Novo domínio do Adobe Analytics | 18 de dezembro de 2019 | Em 16 de janeiro de 2020, o Adobe Analytics começou a migrar para um novo domínio - `https://experience.adobe.com/analytics.`<br>**Observação:** essa alteração se aplica a todos os usuários que acessam o Analytics com sua Adobe ID ou Enterprise ID.<ul><li>O domínio pode causar problemas de cookie ao carregar o Analytics no Safari. Ao desmarcar _Impedir rastreamento entre sites_ nas Preferências de privacidade do [!DNL Safari], os cookies serão ativados nos domínios (e em todas as experiências entre sites) e o Analytics poderá funcionar nesse novo domínio da Adobe Experience Cloud. Você pode usar outros navegadores sem problemas, pois isso afeta somente os usuários do [!DNL Safari].</li><li>A alteração de domínio pode fazer com que o [!UICONTROL Activity Map] pare de funcionar para alguns clientes [em casos específicos](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html).</li></ul> |
 | Fim da vida útil - APIs antigas do Analytics | 9 de janeiro de 2020 | Em novembro de 2020, os seguintes serviços de API do Analytics Legacy chegarão ao fim da vida útil e serão encerrados. As integrações atuais criadas com esses serviços deixarão de funcionar. <ul><li>APIs do Analytics 1.3</li><li>APIs do SOAP Analytics 1.4</li><li>Autenticação OAuth herdada (OAuth e JWT)</li></ul>Fornecemos uma seção [Perguntas frequentes sobre EOL da API herdada](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) para ajudar a responder suas perguntas e fornecer orientação sobre como proceder. As integrações de API que empregam esses serviços podem migrar para as [APIs REST do Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou as [APIs do Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). As contas OAuth herdadas podem migrar para uma conta de integração do [Adobe IO](https://console.adobe.io/home?mv=email) Analytics, que pode ser usada para acessar as APIs do Analytics 1.4 e as APIs do Analytics 2.0. |
 | Ponto de FTP Broker em San Jose usado para Londres e Singapura | Julho de 2020 | Para clientes em Londres e Cingapura, não apoiaremos mais a intermediação de dados entre Londres ou Cingapura e o data center de San Jose [ftp.omniture.com](ftp://ftp.omniture.com/).<br/><ul><li>Para Londres, use [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>Para Cingapura, use [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul> |
-| EOL da análise ad hoc | 6 de ago de 2018 | A Adobe anunciou a intenção de encerrar a análise ad hoc. Uma data para o fim da vida útil será compartilhada assim que estiver disponível. Para obter mais informações, visite [Descubra a Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
+| EOL da Análise ad hoc | 6 de ago de 2018 | A Adobe anunciou a intenção de encerrar a Análise ad hoc. Uma data para o fim da vida útil será compartilhada assim que estiver disponível. Para obter mais informações, visite [Descubra a Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 
 ### [!DNL AppMeasurement] {#appm}
 
@@ -272,9 +272,11 @@ Atualizado em 20 de março de 2020, para o lançamento em 21 de março:
 
 | Exibir | Recurso |
 |------|---------|
-| [!UICONTROL Portfólios] | Agora é possível adicionar [!DNL Yahoo!] campanhas da Rede de exibição do Japão (YDN) para portfólios, a fim de otimizar os orçamentos da campanha e os lances de nível de grupo de anúncios. A mesma licitação é aplicada a todos os anúncios em um grupo de publicidade. Os dados para campanhas da Rede de exibição do Japão são incluídos nas simulações do portfólio. |
-| [!UICONTROL Pesquisar] > [!UICONTROL Bulksheets] | Agora você pode criar, editar e excluir anúncios de pesquisa responsivos do Google (RSAs) usando bulksheets. Anteriormente, o suporte estava disponível somente por meio da interface de gerenciamento de campanha padrão em **[!UICONTROL Pesquisar]** > **[!UICONTROL Campanhas]** |
-| [!UICONTROL Pesquisar] > [!UICONTROL Campanhas, Relatórios] | As métricas de destaque do Google Ads `Impr. (Abs. Top) %` e `Impr. (Top) %` agora estão disponíveis em todos os relatórios básicos e exibições de gerenciamento de campanha no nível da entidade, exceto para grupos de produtos de compras, nos relatórios de [!UICONTROL Compartilhamento de impressões diárias da campanha] e [!UICONTROL Compartilhamento de impressões diárias de palavra-chave], bem como nos rótulos e exibições de restrições. |
+| [!UICONTROL Portfólios] | Para obter diretrizes sobre como gerenciar seus portfólios para levar em conta as alterações de tráfego resultantes da COVID-19, entre em contato com o gerente da conta. |
+|  | (campanhas do Google Ads e Microsoft Ads) Em portfólios otimizados com a opção &quot;Otimizar automaticamente valores de ajuste de lance&quot;, a Advertising Cloud não otimiza mais automaticamente as configurações de ajuste de lance para campanhas usando a estratégia de lance de custo por clique (eCPC) aprimorada. O mecanismo de pesquisa otimiza todos os ajustes de lance no momento do leilão. A Advertising Cloud ainda otimiza as licitações básicas e — quando a opção &quot;Ajustar automaticamente os limites de orçamento de campanha&quot; estiver ativada — o orçamento campanha. |
+| [!UICONTROL Beta de alertas] | (Recurso Beta) Agora você pode criar modelos de alertas para identificar quando qualquer portfólio atende a condições específicas. como as métricas de desempenho — durante um período especificado e gerar um alerta. Você pode criar alertas em nível de portfólio de **[!UICONTROL Insights e Relatórios]** > **[!UICONTROL Alertas (Beta)]** , mas não de **[!UICONTROL Otimização]** > **[!UICONTROL Portfólios)]**. **Observação:** Quaisquer alertas criados a partir da versão herdada dos Alertas Beta, que foi substituída em janeiro, não estarão mais disponíveis. |
+|  |
+| [!UICONTROL Administrador] > Propriedades [!UICONTROL da transação] | Uma nova coluna &quot;ID de propriedade&quot; mostra a ID de propriedade exclusiva para cada propriedade de transação. Você pode pesquisar em qualquer sequência contida nos valores da coluna. |
 
 ## ![Ícone](/assets/magento.png) [!DNL Magento] {#magento}
 
