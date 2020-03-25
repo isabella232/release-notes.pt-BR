@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 84d38312b8486b99fe12ada6d358682e3ae43847
+source-git-commit: 01a3dab2c109edf6664ed79814022d61d2b82675
 
 ---
 
@@ -275,7 +275,6 @@ Atualizado em 20 de março de 2020, para o lançamento em 21 de março:
 | [!UICONTROL Portfólios] | Para obter diretrizes sobre como gerenciar seus portfólios para levar em conta as alterações de tráfego resultantes da COVID-19, entre em contato com o gerente da conta. |
 | campanhas do Google Ads e Microsoft Ads | Em portfólios otimizados com a opção &quot;Otimizar automaticamente valores de ajuste de lance&quot;, a Advertising Cloud não otimiza mais automaticamente as configurações de ajuste de lance para campanha usando a estratégia de lance de custo por clique (eCPC) aprimorada. O mecanismo de pesquisa otimiza todos os ajustes de lance no momento do leilão. A Advertising Cloud ainda otimiza as licitações básicas e — quando a opção &quot;Ajustar automaticamente os limites de orçamento de campanha&quot; estiver ativada — o orçamento campanha. |
 | [!UICONTROL Beta de alertas] | (Recurso Beta) Agora você pode criar modelos de alertas para identificar quando qualquer portfólio atende a condições específicas. como as métricas de desempenho — durante um período especificado e gerar um alerta. Você pode criar alertas em nível de portfólio de **[!UICONTROL Insights e Relatórios]** > **[!UICONTROL Alertas (Beta)]** , mas não de **[!UICONTROL Otimização]** > **[!UICONTROL Portfólios)]**. **Observação:** Quaisquer alertas criados a partir da versão herdada dos Alertas Beta, que foi substituída em janeiro, não estarão mais disponíveis. |
-|  |
 | [!UICONTROL Administrador] > Propriedades [!UICONTROL da transação] | Uma nova coluna &quot;ID de propriedade&quot; mostra a ID de propriedade exclusiva para cada propriedade de transação. Você pode pesquisar em qualquer sequência contida nos valores da coluna. |
 
 ## ![Ícone](/assets/magento.png) [!DNL Magento] {#magento}
