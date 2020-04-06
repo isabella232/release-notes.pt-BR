@@ -4,8 +4,8 @@ description: Modelo para notas de versão da Experience Cloud
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: abf763ddf0ed4ae9d8df5b7dcef4e664db4cf682
+translation-type: tm+mt
+source-git-commit: 870c6694107d7ca60a4b9c20031fb0e6c6d68645
 
 ---
 
@@ -60,7 +60,7 @@ O [!UICONTROL Status de sistema da Adobe] fornece informações detalhadas, atua
 | Experiência personalizada com base nas preferências do usuário | <ul><li>A preferência de fuso horário com base na configuração do navegador é usada nas notificações por email.</li><li>Confirmação de email enviada ao assinar/cancelar a assinatura com todas as preferências selecionadas.</li></ul> |
 | Melhor entrega das mensagens de eventos | <ul><li>O histórico de eventos foi classificado com base nas atualizações de eventos cronológicos.</li><li>Adição do carimbo de data e hora da resolução de eventos aos problemas principais/secundários encerrados.</li></ul> |
 
-## ![Ícone](/assets/experience-cloud.png) Interface da Experience Cloud e dos serviços principais{#ecloud}
+## ![Ícone](/assets/ec_appicon_24.png) Interface da Experience Cloud e dos serviços principais{#ecloud}
 
 Novos recursos e correções na interface da Experience Cloud, incluindo administração e serviços principais (atributos do cliente, públicos-alvo, acionadores, cookies etc.).
 
@@ -86,7 +86,7 @@ As atualizações incluem:
 
 Para obter a documentação do produto, consulte a ajuda da [Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/experience-cloud.html).
 
-## ![Ícone](/assets/platform.png) Experience Platform{#platform}
+## ![Ícone](/assets/experience_platform_appicon_24.png) Experience Platform{#platform}
 
 Notas de versão para a [!UICONTROL Experience Platform,] [!UICONTROL Experience Platform Launch,] [!UICONTROL Serviço de identidade,] Orquestração de jornadas, Mobile Services e informativos de segurança.
 
@@ -321,7 +321,7 @@ Os seguintes recursos serão lançados ao longo do trimestre:
 
 Para obter as notas de versão cumulativas e históricas, consulte [Notas de versão do Marketo](https://docs.marketo.com/x/CgA6Ag).
 
-## ![Ícone](/assets/experience-cloud.png) Nova documentação e tutoriais{#selfhelp}
+## ![Ícone](/assets/ec_appicon_24.png) Nova documentação e tutoriais{#selfhelp}
 
 Artigos e vídeos de autoajuda novos e recentes. <!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
 
