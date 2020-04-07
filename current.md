@@ -63,7 +63,7 @@ Novos recursos e correções na interface da Experience Cloud, incluindo adminis
 
 | Recurso | Data de lançamento | Descrição |
 | ----|----|---- |
-| Ferramenta de administração - exibir detalhes do usuário | 26 de fevereiro de 2020 | Os administradores podem exibir uma lista classificável e filtrável de todos os usuários da Experience Cloud e seus detalhes na nova Ferramenta de administração. Os detalhes do usuário incluem o acesso ao produto, as funções e as últimas informações acessadas de um usuário. Consulte a ajuda da [Ferramenta de administração da Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) para obter detalhes. |
+| Ferramenta de administração - exibir detalhes do usuário | 26 de fevereiro de 2020 | Os administradores podem exibir uma lista classificável e filtrável de todos os usuários da Experience Cloud e seus detalhes na nova Ferramenta de administração. Os detalhes do usuário incluem o acesso ao produto, as funções e as últimas informações acessadas de um usuário. Consulte a ajuda da [Ferramenta de administração da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) para obter detalhes. |
 
 ### Domínio de produto unificado
 
