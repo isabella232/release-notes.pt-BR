@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 870c6694107d7ca60a4b9c20031fb0e6c6d68645
+source-git-commit: 5147d6252a3bf0bcf0426490c3d3bd96cb1739d5
 
 ---
 
@@ -29,7 +29,7 @@ Novos recursos e correções na [!DNL Adobe Experience Cloud].
 * [Status de sistema da Adobe](#status)
 * [Interface da Experience Cloud e dos serviços principais](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) - Data de lançamento: **12 de março de 2020**  (Atualizado em 27 de março de 2020)
+* [!DNL Analytics](#analytics) - Data de lançamento: **12 de março de 2020**  (Atualizado em 7 de abril de 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -128,7 +128,7 @@ Data de lançamento: **12 de março de 2020**
 Novos recursos e correções no Adobe Analytics:
 
 * [Novos recursos, aprimoramentos e correções no Adobe Analytics](#aa-features)
-* [Avisos importantes para administradores do Analytics](#aa-notices)  (Atualizado em 27 de março de 2020)
+* [Avisos importantes para administradores do Analytics](#aa-notices)  (Atualizado em 7 de abril de 2020)
 * [AppMeasurement](#appm)
 
 Para obter a documentação do produto, consulte a [Página inicial de ajuda do Adobe Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/landing/home.html).
@@ -153,6 +153,7 @@ Para obter a documentação do produto, consulte a [Página inicial de ajuda do 
 
 | Aviso | Data de adição   ou atualização | Descrição |
 | -----------| ---------- | ---------- |
+| Alteração na forma como as Entradas/Saídas são calculadas no Workspace | 7 de abril de 2020 | Na área de trabalho da Análise, a partir de março de 2020, alteramos a forma como o valor &quot;Nenhum&quot; interage com Entradas/Saídas. Como agora é possível ativar e desativar &quot;Nones&quot; na área de trabalho da Análise, aplicamos &quot;Nenhum&quot; após a entrada ou saída, enquanto (para eVars) costumava ser aplicado antes. Por exemplo, suponha que a primeira ocorrência de uma visita não tenha valor para eVarx, mas a segunda ocorrência tem. No Relatórios e análises, será exibido como &quot;Não especificado&quot; para a Entrada, mas na Área de trabalho da Análise será exibido como o valor na segunda ocorrência. |
 | EOL da configuração **[!UICONTROL Nível de conversão]** | 3 de março de 2020 | A configuração inoperante [Nível de conversão](https://docs.adobe.com/content/help/pt-BR/analytics/admin/admin-tools/general-acct-settings-admin.html) em **[!UICONTROL Ferramentas de administração] > [!UICONTROL Conjuntos de relatórios] > [!UICONTROL Configurações gerais da conta]** será removida da interface do usuário em 12 de março de 2020. |
 | EOL do **[!UICONTROL Arquivo do painel]** | 27 de março de 2020 | A configuração **[!UICONTROL Exibir arquivo]** em **[!UICONTROL Gerenciar painéis]** no [!UICONTROL Reports &amp; Analytics] não estará mais disponível a partir de março de 2020. |
 | Fim de suporte para TLS 1.1 | 3 de outubro de 2019 | Até 31 de março de 2020, o Adobe Analytics removerá o suporte ao TLS 1.1. Essa alteração faz parte de nossos esforços contínuos para manter os mais altos padrões de segurança e promover a segurança dos dados do cliente. |
