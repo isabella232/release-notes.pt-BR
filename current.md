@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 80852c2797ad1a26b6c4a806fa2cf3ef59f84707
+source-git-commit: 1cbba06183a2cd2897303e99dd7da89041a2d106
 
 ---
 
@@ -181,7 +181,7 @@ Novos recursos e correções no Adobe Audience Manager:
 
 | Recurso | Descrição |
 | -----------| ---------- |  
-| [Principais problemas de suporte ao cliente](../support-issues/support-issues-overview.md) | Adicionamos uma nova seção ao nosso portal de documentação, que inclui respostas às perguntas mais frequentes recebidas pela nossa equipe de suporte ao cliente. |
+| Principais problemas de suporte ao cliente | Adicionamos uma nova seção ao nosso portal de documentação, que inclui respostas às perguntas mais frequentes recebidas pela nossa equipe de suporte ao cliente. |
 
 * Corrigido um problema que fazia com que os botões Teste [!UICONTROL de] Duplicado e Modelo [!UICONTROL de alocação de] Duplicados no Laboratório [!UICONTROL de] Audiências não funcionassem. (AAM-53388)
 * Correção de um problema que fazia com que as Audiências [!UICONTROL de Taxa] de [!UICONTROL correspondência e de Endereçamento de] segmento fossem exibidas como 0 quando um destino era configurado para exportar UUIDs. As Audiências [!UICONTROL Taxa] de [!UICONTROL correspondência e Endereçamento] do segmento agora são exibidas como 100%. (AAM-51615)
