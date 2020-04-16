@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: be1e03f7420ea4a1bd9c2797a087cbb42246049c
+source-git-commit: 6bd8e1af2afa691e6796769ad1f8cb5f29433d8e
 
 ---
 
@@ -116,7 +116,7 @@ Unidade 4.19.0 (10 de março de 2020):
 
 >[!IMPORTANT]
 >
->A maior parte da versão de manutenção de abril do Adobe Analytics foi transferida para 21 de maio de 2020. Para obter as informações mais recentes da versão do Analytics, consulte as notas de versão de [março](c-legacy-releases/2020/03122020.md)
+>A versão de manutenção de abril do Adobe Analytics foi transferida para 21 de maio de 2020. Para obter as informações mais recentes da versão do Analytics, consulte as notas de versão de [março](c-legacy-releases/2020/03122020.md)
 
 * [Análise da jornada do cliente](#cust-journey)
 <!--* [New features in Adobe Analytics](#aa-features)-->
