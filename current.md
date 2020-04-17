@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8b516bbbc35cd7cbf450ac423b05ea69ded4b091
+source-git-commit: f2687895a6795bb636ddb5c10f60fe9d6231e8c5
 
 ---
 
@@ -29,7 +29,6 @@ Novos recursos e correções na [!DNL Adobe Experience Cloud].
 (As datas de lançamento da solução específica podem variar.)
 
 * [Status de sistema da Adobe](#status)
-* [Interface da Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [!DNL Analytics](#analytics) **(Alteração na data de lançamento - consulte a atualização em 15 de abril)**
 * [Audience Manager](#aam)
@@ -59,7 +58,7 @@ O [!UICONTROL Status de sistema da Adobe] fornece informações detalhadas, atua
 
 ## ![Interface do ícone](/assets/ec_appicon_24.png) da Experience Cloud {#ecloud}
 
-Novos recursos e correções na interface da Experience Cloud, incluindo administração e serviços como atributos do cliente, audiências, acionadores e assim por diante):
+Novos recursos e correções na interface da Experience Cloud:
 
 * A página do [!UICONTROL Feed] da Experience Cloud foi substituída. (EXC-8505)
 * A página de logon da Experience Cloud foi atualizada para refletir os novos elementos de marca. (EXC-10747)
@@ -81,7 +80,7 @@ As atualizações incluem:
 
 ## ![Ícone](/assets/experience_platform_appicon_24.png) Experience Platform{#platform}
 
-Notas de versão para a [!UICONTROL Experience Platform,] [!UICONTROL Experience Platform Launch,] [!UICONTROL Serviço de identidade,] Orquestração de jornadas, Mobile Services e informativos de segurança.
+Notas de versão para [!DNL Experience Platform,] incluir a [!DNL Experience Platform Launch,] Journey Orchestration [!UICONTROL ,]Oferta [!UICONTROL ,]People [!UICONTROL ,]Places , serviços móveis, e boletins de segurança.
 
 ### Orquestração da jornada {#journey}
 
