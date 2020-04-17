@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6bd8e1af2afa691e6796769ad1f8cb5f29433d8e
+source-git-commit: 8b516bbbc35cd7cbf450ac423b05ea69ded4b091
 
 ---
 
@@ -29,7 +29,7 @@ Novos recursos e correções na [!DNL Adobe Experience Cloud].
 (As datas de lançamento da solução específica podem variar.)
 
 * [Status de sistema da Adobe](#status)
-* [Interface da Experience Cloud e dos serviços principais](#ecloud)
+* [Interface da Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [!DNL Analytics](#analytics) **(Alteração na data de lançamento - consulte a atualização em 15 de abril)**
 * [Audience Manager](#aam)
@@ -57,9 +57,9 @@ O [!UICONTROL Status de sistema da Adobe] fornece informações detalhadas, atua
 | subscrições personalizadas com base em direitos | <ul><li>Recomendações de subscrição pré-selecionadas com base nos direitos DX do usuário.</li><li>As subscrições recomendadas são destacadas na parte superior da lista do produto para uma visualização rápida.</li><li>As notificações por e-mail recebidas são relevantes para os direitos do usuário ao produto.</li></ul> |
 | Gerenciamento mais fácil de Subscrições | <ul><li>**[!UICONTROL O Gerenciamento do Subscrição]** tem uma nova experiência de usuário para gerenciar subscrições de produtos e eventos.</li><li>Nova opção para visualização e edição de subscrições de produtos e eventos separadamente.</li><li>A opção **[!UICONTROL Excluir]** permite cancelar a inscrição de um produto ou subscrição.</li><li>A opção **[!UICONTROL Cancelar inscrição de todos]** com um clique está disponível para as subscrições do produto.</li><li>O suporte UX está disponível para superfícies Web/Mobile/Tablet e localização em 19 idiomas.</li></ul> |
 
-## ![Ícone](/assets/ec_appicon_24.png) Interface da Experience Cloud e dos serviços principais{#ecloud}
+## ![Interface do ícone](/assets/ec_appicon_24.png) da Experience Cloud {#ecloud}
 
-Novos recursos e correções na interface da Experience Cloud, incluindo administração e principais serviços (atributos do cliente, audiências, acionadores, cookies etc.):
+Novos recursos e correções na interface da Experience Cloud, incluindo administração e serviços como atributos do cliente, audiências, acionadores e assim por diante):
 
 * A página do [!UICONTROL Feed] da Experience Cloud foi substituída. (EXC-8505)
 * A página de logon da Experience Cloud foi atualizada para refletir os novos elementos de marca. (EXC-10747)
