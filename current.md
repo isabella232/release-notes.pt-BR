@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ae9a44aa90a578b681ec1449d65781d3e3b7b65
+source-git-commit: 16804e8f1eeb1d836b904c85a8c538077166242b
 
 ---
 
@@ -26,7 +26,7 @@ Novos recursos e correções na [!DNL Adobe Experience Cloud].
 
 **Data de lançamento: abril de 2020**
 
-(As datas de lançamento da solução específica podem variar.)
+(As datas de lançamento específicas podem variar.)
 
 * [Status de sistema da Adobe](#status)
 * [Experience Platform](#platform)
@@ -34,10 +34,10 @@ Novos recursos e correções na [!DNL Adobe Experience Cloud].
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
-* [!DNL Target](https://docs.adobe.com/content/help/pt-BR/target/using/release-notes/target-release-notes.html) (links para a página de ajuda da solução)
+* [!DNL Target](https://docs.adobe.com/content/help/pt-BR/target/using/release-notes/target-release-notes.html) (links para a página de ajuda do Público alvo)
 * [!DNL Magento](#magento)
 * [!DNL Marketo](#marketo)
-* [!DNL Primetime](https://helpx.adobe.com/br/primetime/user-guide.html) (links para a página de ajuda da solução)
+* [!DNL Primetime](https://helpx.adobe.com/br/primetime/user-guide.html) (links para a página de ajuda do Primetime)
 
 Procurando a página principal da ajuda? Consulte [Documentação da Adobe Experience Cloud](https://docs.adobe.com/content/help/pt-BR/experience-cloud/user-guides/home.html).
 
@@ -71,9 +71,9 @@ A Adobe está atualizando o domínio e o cabeçalho da interface para unificar e
 
 As atualizações incluem:
 
-* Novos URLs das soluções: `experience.adobe.com/<application name>`:
+* Novos URLs de aplicativo: `experience.adobe.com/<application name>`:
    * Todos os produtos acabarão por adotar esse padrão de URL. Procure novos URLs para se tornarem efetivos durante o mês.
-   * Compatibilidade de navegador: os navegadores compatíveis incluem [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari] e [!DNL Opera] (versões mais recentes). **Observação:** embora a interface da Experience Cloud seja compatível com esses navegadores, as soluções individuais podem não ser compatíveis com todos os navegadores. (Por exemplo, o [Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/admin/sys-reqs.html) não é compatível com o [!DNL Opera] e o [Target](https://docs.adobe.com/help/pt-BR/target/using/implement-target/before-implement/supported-browsers.html) não é compatível com o [!DNL Safari].)
+   * Compatibilidade de navegador: os navegadores compatíveis incluem [!DNL Microsoft Edge], [!DNL Google Chrome], [!DNL Firefox], [!DNL Safari] e [!DNL Opera] (versões mais recentes). **Observação:** Embora a interface da Experience Cloud seja compatível com esses navegadores, os aplicativos individuais podem não ser compatíveis com todos os navegadores. (Por exemplo, o [Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/admin/sys-reqs.html) não é compatível com o [!DNL Opera] e o [Target](https://docs.adobe.com/help/pt-BR/target/using/implement-target/before-implement/supported-browsers.html) não é compatível com o [!DNL Safari].)
    * (Somente para o [!DNL Safari]) A alteração de domínio pode causar problemas de cookie no [!DNL Safari]. Ao desmarcar _Impedir rastreamento entre sites_ nas Preferências de privacidade do [!DNL Safari], os cookies serão ativados nos domínios (e em todas as experiências entre sites) e o Experience Cloud poderá funcionar nesse novo domínio.
 * É mais fácil alternar entre suas organizações ou para um aplicativo diferente.
 * Ajuda do produto aprimorada: a [!UICONTROL Experience League] está integrada ao produto para que a pesquisa de ajuda também inclua resultados de fóruns da comunidade e conteúdo em vídeo. Essa alteração simplifica o acesso a mais conteúdo e ajuda a aproveitar ao máximo a Experience Cloud. Além disso, clique em **[!UICONTROL Ajuda]** > **[!UICONTROL Feedback]** para relatar problemas ou compartilhar suas ideias com a Adobe.
@@ -194,7 +194,7 @@ Novos recursos e correções no Adobe Audience Manager:
 * Corrigido um problema que fazia com que os botões Teste [!UICONTROL de] Duplicado e Modelo [!UICONTROL de alocação de] Duplicados no Laboratório [!UICONTROL de] Audiências não funcionassem. (AAM-53388)
 * Correção de um problema que fazia com que as Audiências [!UICONTROL de Taxa] de [!UICONTROL correspondência e de Endereçamento de] segmento fossem exibidas como 0 quando um destino era configurado para exportar UUIDs. As Audiências [!UICONTROL Taxa] de [!UICONTROL correspondência e Endereçamento] do segmento agora são exibidas como 100%. (AAM-51615)
 * Corrigido um problema que fazia com que os nomes de características que contêm caracteres especiais fossem codificados duas vezes em HTML. (AAM-54001)
-* Correção de um problema que impedia alguns usuários de alternarem para outras soluções da Adobe Experience Cloud na interface do [!DNL Audience Manager] usuário. (AAM-52917)
+* Correção de um problema que impedia alguns usuários de alternarem para outros aplicativos da Adobe Experience Cloud na interface do [!DNL Audience Manager] usuário. (AAM-52917)
 * Correção de um problema que impedia que alguns usuários criassem uma fonte de dados SHA256 para destinos baseados em Pessoas. (AAM-53525)
 * Várias melhorias de acessibilidade na interface. (AAM-48986, AAM-49009, AAM-48984, AAM-48939, AAM-48940, AAM-48964, AAM-49032, AAM-49360)
 
@@ -307,7 +307,7 @@ Para ver as notas de versão do Magento, consulte:
 
 ## ![Ícone](/assets/marketo.png) [!DNL Marketo] {#marketo}
 
-[!DNL Marketo Engage] é uma solução completa para o gerenciamento de clientes potenciais e para os profissionais de marketing B2B que procuram transformar as experiências dos clientes ao se envolverem em todas as jornadas de compras complexas.
+[!DNL Marketo Engage] é um aplicativo completo para o gerenciamento de clientes potenciais e profissionais de marketing B2B que buscam transformar as experiências dos clientes ao se envolverem em todos os estágios de compras complexas.
 
 ### Atualizações do Core Marketo Engage
 
