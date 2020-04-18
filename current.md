@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 14d29e8e2baf7f09929353acbb71466eee3b0de2
+source-git-commit: 2d9a0e6ae9e796bdb09ce7d27e4e4a765462283a
 
 ---
 
@@ -59,7 +59,7 @@ Novos recursos e correções na interface da Experience Cloud:
 * A página do [!UICONTROL Feed] da Experience Cloud foi substituída. (EXC-8505)
 * A página de logon da Experience Cloud foi atualizada para refletir os novos elementos de marca. (EXC-10747)
 
-Para obter a documentação do produto, consulte a ajuda da [Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/experience-cloud.html).
+For product documentation, see [Experience Cloud interface help](https://docs.adobe.com/content/help/pt-BR/core-services/interface/experience-cloud.html).
 
 ### Domínio de produto unificado
 
