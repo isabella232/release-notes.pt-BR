@@ -4,8 +4,8 @@ description: Modelo para notas de versão da Experience Cloud
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 3a66c0ee04a336a702ea9ff502a0f2ce6c5b2109
+translation-type: tm+mt
+source-git-commit: bdd987971b9bb9afbc97847642c5d797f122e67d
 
 ---
 
@@ -22,11 +22,13 @@ Novos recursos e correções na [!DNL Adobe Experience Cloud].
 
 **Data de lançamento: abril de 2020**
 
+Última atualização: 29 **de abril de 2020**
+
 (As datas de lançamento específicas podem variar.)
 
 * [Status de sistema da Adobe](#status)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) **(Atualizado em 16 de abril)**
+* [!DNL Analytics](#analytics) **(Atualizado em 29 de abril)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -123,6 +125,7 @@ Unidade 4.19.0 (10 de março de 2020):
 
 | Recurso | Descrição |
 | -----------| ---------- |
+| Data Workbench 6.74 (**Update 4/29/2020**) | Atualização da análise de certificado TLS do IMS (Identity Management Service) na implementação do servidor. Essa atualização expande a análise da correspondência de sequência para a expressão regular, incluindo a capacidade de lidar com certificados de nome alternativo do assunto (SAN). See [Data Workbench release notes](https://docs.adobe.com/content/help/en/data-workbench/using/release-notes/release-notes.html) for more information. |
 | [!UICONTROL Customer Journey Analytics]: preenchimento retroativo automático de conjunto de dados | Esta nova opção permite importar todos os dados históricos de uma conexão no [!UICONTROL Customer Journey Analytics]. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics-platform/using/cja-connections/create-connection.translate.html) |
 
 <!--### New features in Adobe Analytics {#aa-features}
