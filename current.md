@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a9f229b5766e90c4fef37d5c35f055856aa42f5a
+source-git-commit: d3802d290f1d5192e5bc31f4003ee12fd0ad1ff4
 
 ---
 
@@ -22,14 +22,14 @@ Novos recursos e correções na [!DNL Adobe Experience Cloud].
 
 **Data de lançamento: abril de 2020**
 
-Última atualização: 29 **de abril de 2020**
+Última atualização: 30 **de abril de 2020**
 
 (As datas de lançamento específicas podem variar.)
 
 * [Status de sistema da Adobe](#status)
 * [Experience Platform](#platform)
 * [!DNL Analytics](#analytics) **(Atualizado em 29 de abril)**
-* [Audience Manager](#aam)
+* [Gerenciador](#aam) de Audiências **(atualizado em 30 de abril)**
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/pt-BR/target/using/release-notes/target-release-notes.html) (links para a página de ajuda do Target)
@@ -185,6 +185,8 @@ Acesse a [Página de ajuda do Adobe Analytics](https://docs.adobe.com/content/he
 ## ![Ícone](/assets/audience-manager.png) Audience Manager {#aam}
 
 Novos recursos e correções no Adobe Audience Manager:
+
+**(Atualizado em 30 de abril)**
 
 | Recurso | Descrição |
 | -----------| ---------- |  
