@@ -4,11 +4,11 @@ description: Modelo para notas de versão da Experience Cloud
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77e4ac05707d9aa42ddf2e7fb93027b3226058e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3632'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Notas de versão para [!DNL Experience Platform,] incluir [!DNL Experience Platf
 Usando a Adobe Experience Platform, orquestre as jornadas individuais dos clientes em escala em todos os canais de experiência, prevendo de forma inteligente as necessidades de cada cliente em tempo real, onde quer que a jornada o leve.
 
 * [Documentação](https://docs.adobe.com/content/help/pt-BR/journeys/using/journey-orchestration-home.html)
-* [Notas de versão](http://www.adobe.com/go/platform-release-notes-en)
+* [Notas de versão](https://docs.adobe.com/content/help/pt-BR/experience-platform/release-notes/latest.translate.html)
 * [Vídeos tutoriais](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ### Mobile Services e SDKs móveis {#mobile}
@@ -197,7 +197,7 @@ Novos recursos e correções no Adobe Audience Manager:
 | Melhorias das [!UICONTROL regras de mesclagem de perfis] | [!UICONTROL As Regras de mesclagem de perfis] oferecem aos clientes do Audience Manager a capacidade de definir, gerenciar e ativar segmentos de público com base na identidade em vez de dispositivos. <br><br> A partir de 29 de abril, os clientes do Audience Manager poderão entender melhor a discriminação das populações de dispositivos e IDs entre dispositivos para características e segmentos, tanto na segmentação individual quanto nos relatórios em massa na interface do usuário do Audience Manager. <br><br> Isso permitirá melhores insights de identidade no Audience Manager, dando aos clientes uma visualização holística sobre a população total de segmentos por dispositivo, pessoa e residência. As exportações de características em massa de IDs de dispositivo também serão atualizadas para refletir esses aprimoramentos.<br><br>  As atualizações específicas incluem a capacidade de: <ul><li>Relatórios sobre [IDs entre dispositivos](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reference/ids-in-aam.html) nos relatórios [Geral](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reporting/general-reports.html) e [Tendência](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reporting/trend-reports.html);</li><li>Aprimorar o [!UICONTROL Seletor de características] no [Construtor de segmentos](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/segments/segment-builder.html) para incluir populações de características destacadas nas [IDs do CRM](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reference/ids-in-aam.html);</li><li>Crie exportações de características precisas, destacadas por [IDs entre dispositivos](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reference/ids-in-aam.html);</li><li>Crie exportações de características precisas destacadas por [IDs de dispositivo](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reference/ids-in-aam.html) (deve excluir características autenticadas);</li><li>Retorna as contagens corretas de características associadas às [IDs de CRM](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reference/ids-in-aam.html) quando solicitado usando a ferramenta [BAAAM](https://docs.adobe.com/help/pt-BR/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html).</li></ul> |
 | [Principais problemas do Suporte ao cliente](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/top-support-issues/support-issues-overview.html) | Adicionamos uma nova seção ao nosso portal de documentação, que inclui respostas às perguntas mais frequentes recebidas pela nossa equipe de suporte ao cliente. |
 
-* Correção de um problema que resultava em relatórios impreciso de [públicos endereçáveis](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/addressable-audiences.html) para segmentos que continham IDs de dispositivos móveis. Após esta atualização, você poderá ver um aumento nos [Públicos endereçáveis](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/addressable-audiences.html).
+* Correção de um problema que resultava em relatórios impreciso de [Públicos endereçáveis](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/addressable-audiences.html) para segmentos que continham IDs de dispositivos móveis. Após esta atualização, você poderá ver um aumento nos [Públicos endereçáveis](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/addressable-audiences.html).
 * Correção de um problema que fazia com que os botões [!UICONTROL Duplicar teste] e [!UICONTROL Duplicar modelo de alocação] no [!UICONTROL Audience Lab] não funcionassem. (AAM-53388)
 * Correção de um problema que fazia com que [!UICONTROL Taxa de correspondência] e [!UICONTROL Segmentar públicos endereçáveis] fossem exibidos como 0 quando um destino estava configurado para exportar UUIDs. [!UICONTROL Taxa de correspondência] e [!UICONTROL Segmentar públicos endereçáveis] agora são exibidos como 100%. (AAM-51615)
 * Correção de um problema que fazia com que nomes de características que continham caracteres especiais fossem codificados em HTML duas vezes. (AAM-54001)
@@ -256,7 +256,7 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
 | [Configurar o AEM Runtime local](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html) | O Adobe Experience Manager (AEM) pode ser executado localmente usando o AEM como um [!UICONTROL QuickStart Jar] do SDK do Cloud Service. Isso permite que os desenvolvedores implantem e testem código, configuração e conteúdo personalizados antes de confirmá-los no controle de origem e implantá-los em um AEM como um ambiente de serviço na nuvem. |
 | [Navegação](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/authoring/navigation.html) | Explore as noções básicas de navegação no AEM Assets. |
 | [Versões](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/collaboration/versions.html) | Explore como o AEM cria e mantém versões de ativos. |
-| [AEM - [!DNL Magento] Integração usando a [!UICONTROL Commerce Integration Framework]](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/getting-started.html) | Este vídeo o orienta pela configuração da integração entre o AEM e o [!DNL Magento]. |
+| [AEM - [!DNL Magento] Integração usando a [!UICONTROL Estrutura de integração do Commerce]](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/getting-started.html) | Este vídeo o orienta pela configuração da integração entre o AEM e o [!DNL Magento]. |
 | [Introdução à pilha de arquitetura do AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-architecture.html) | O arquétipo do projeto CIF cria um projeto CIF mínimo do Adobe Experience Manager (AEM) como ponto de partida para projetos de clientes que usam os componentes principais do CIF. |
 | [Introdução ao OSGi](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-osgi.html) | Uma introdução ao OSGi, uma arquitetura modular dinâmica para aplicativos Java que é a base do Adobe Experience Manager. |
 | [Introdução ao Java Content Repository (JCR)](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/underlying-technology/introduction-jcr.html) | Uma introdução ao Java Content Repository (JCR) usado pelo Adobe Experience Manager. |
@@ -298,7 +298,7 @@ O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagen
 ### Recursos adicionais de ajuda do Campaign
 
 * Adobe Campaign Standard: [Documentação](https://helpx.adobe.com/br/support/campaign/standard.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-notes.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [Planejamento de versão](https://helpx.adobe.com/br/campaign/kb/acs-release-planning.html)
-* Adobe Campaign Classic: [Documentação](https://helpx.adobe.com/br/support/campaign/classic.html) - [Notas de versão](https://docs.campaign.adobe.com/doc/AC/pt-BR/RN.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Adobe Campaign Classic: [Documentação](https://helpx.adobe.com/br/support/campaign/classic.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/release-notes/latest-release.translate.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 * Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html)
 
 <!-- ## ![Icon](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
