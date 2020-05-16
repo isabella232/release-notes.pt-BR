@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: ea42901b975981a10d42b9681d494604c385018c
+source-git-commit: 8ed0b98440cd68357d792abaec2a99dccbfa47dc
 workflow-type: tm+mt
 source-wordcount: '4766'
 ht-degree: 38%
@@ -29,7 +29,7 @@ Esta página fornece novos recursos, correções e avisos importantes em [!DNL A
 
 **Data de lançamento: maio de 2020**
 
-Última atualização: **15 de maio de 2020**
+Última atualização: **16 de maio de 2020**
 
 * [Status de sistema da Adobe](#status)
 * [Interface da Experience Cloud](#ecloud)
