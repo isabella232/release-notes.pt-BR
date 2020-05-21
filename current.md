@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c0a5d3cca0320f8459aeb4ee34bfd655d032c23c
+source-git-commit: 2a41fbc7e69c9c2a262c71e20808e6b672037c6a
 workflow-type: tm+mt
-source-wordcount: '4895'
-ht-degree: 37%
+source-wordcount: '5024'
+ht-degree: 36%
 
 ---
 
@@ -144,6 +144,7 @@ Usando a Adobe Experience Platform, orquestre as jornadas individuais dos client
 * [Novos recursos no Análise de jornada do cliente](#cust-journey)
 * [Novos recursos no Adobe Analytics](#aa-features)
 * [Avisos importantes para administradores](#aa-notices) do Analytics (**atualizado em 21 de maio de 2020**)
+* [Correções](#aa-fixes) do Adobe Analytics (**Atualizado em 21 de maio de 2020**)
 * [AppMeasurement](#appm)
 * [Novos tutoriais do Analytics](#tutorials-analytics)
 
@@ -167,8 +168,10 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL Pacote] do Adobe Analytics adicionado à página Nível [!UICONTROL de acesso a] recursos | Agora você pode visualização a qual Pacote [!UICONTROL do] Adobe Analytics (SKU) sua empresa tem direito em **[!UICONTROL Admin]** > Configurações **[!UICONTROL de]** Empresa > Nível **[!UICONTROL de acesso a]** recursos. |
 | Aprimoramentos de acessibilidade | A equipe do Adobe Analytics fez várias melhorias de acessibilidade na área de trabalho da Análise, incluindo a navegação aprimorada do teclado, o contraste de cores e o suporte ao leitor de tela. |
 
-#### Correções do Adobe Analytics
+#### Correções do Adobe Analytics (#aa-fixes)
 
+* A Adobe alterou a métrica [!UICONTROL Tempo gasto] para nunca incluir &quot;nenhum&quot;. Isso significa que, independentemente de a interface dizer para incluir nenhum ou não, fazemos uma exceção especial para sempre excluir &quot;nenhum&quot; no cálculo de [!UICONTROL Tempo gasto] . Portanto, mesmo que você tenha configurado um relatório que incluía a métrica [!UICONTROL Tempo gasto] para &quot;incluir nenhum&quot;, ele sempre retornaria 0 tempo gasto para o item de linha &quot;nenhum&quot;. Observe que isso pode alterar o relatórios histórico no Relatórios e análises, bem como a API do Relatórios v1.4. (AN-197958)
+* Correção de um problema em que a Instância/Visita/Visitante não era contada no denominador das métricas de [!UICONTROL Tempo gasto] .  Isso ocorria quando uma ocorrência sem valor para a dimensão (por exemplo, [!UICONTROL Pagename]) era seguida no mesmo segundo. (AN-211074)
 * Fixed an issue that caused missing [!DNL Analytics] segment data in Audience Manager. (AN-206221)
 * Correção de um problema com o processamento de [!UICONTROL Fonte de dados] mostrando as datas erradas. (AN-213604)
 * Correção de um problema em que os arquivos de classificação não eram carregados corretamente no FTP. (AN-214102)
