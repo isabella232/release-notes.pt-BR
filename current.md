@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 36c098558e178fdaea0bab49528e54a93980ac0b
+source-git-commit: 4bdb8dde04f55703e52aca1295aad03374f3eb25
 workflow-type: tm+mt
 source-wordcount: '4998'
 ht-degree: 36%
@@ -166,7 +166,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 
 #### Correções do Adobe Analytics (#aa-fixes)
 
-* A Adobe alterou a métrica [!UICONTROL Tempo gasto] para nunca incluir &quot;nenhum&quot;. Isso significa que, independentemente de a interface dizer para incluir nenhum ou não, fazemos uma exceção especial para sempre excluir &quot;nenhum&quot; no cálculo de [!UICONTROL Tempo gasto] . Portanto, mesmo que você tenha configurado um relatório que incluía a métrica [!UICONTROL Tempo gasto] para &quot;incluir nenhum&quot;, ele sempre retornaria 0 tempo gasto para o item de linha &quot;nenhum&quot;. Observe que isso pode alterar o relatórios histórico no Relatórios e análises, bem como a API do Relatórios v1.4. (AN-197958)
+* A Adobe alterou a métrica [!UICONTROL Tempo gasto] para nunca incluir &quot;Não especificado&quot; no cálculo. Isso significa que, independentemente de a interface dizer para incluir &quot;Não especificado&quot;, fazemos uma exceção especial para sempre excluir &quot;Não especificado&quot; no cálculo de [!UICONTROL Tempo gasto] . Portanto, mesmo que você tenha configurado um relatório contendo a métrica [!UICONTROL Tempo gasto] para incluir &quot;Não especificado&quot;, ele sempre retornará 0 tempo gasto para o item de linha &quot;Não especificado&quot;. Observe que isso pode alterar o relatórios histórico no Relatórios e análises, bem como a API do Relatórios v1.4. (AN-197958)
 * Correção de um problema em que a Instância/Visita/Visitante não era contada no denominador das métricas de [!UICONTROL Tempo gasto] .  Isso ocorria quando uma ocorrência sem valor para a dimensão (por exemplo, [!UICONTROL Pagename]) era seguida no mesmo segundo. (AN-211074)
 * Fixed an issue that caused missing [!DNL Analytics] segment data in Audience Manager. (AN-206221)
 * Correção de um problema com o processamento de [!UICONTROL Fonte de dados] mostrando as datas erradas. (AN-213604)
