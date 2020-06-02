@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4e1e40af6c04665ce8a44e4fb30156da2d5d9357
+source-git-commit: 9ca2b181b020052ec1f2cc968e9c2cf1bdfa7fdc
 workflow-type: tm+mt
-source-wordcount: '5379'
+source-wordcount: '5386'
 ht-degree: 86%
 
 ---
@@ -137,8 +137,6 @@ Usando a Adobe Experience Platform, orquestre as jornadas individuais dos client
 
 ## ![Ícone](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
-Updated **May 29, 2020**
-
 * [Novos recursos no Customer Journey Analytics](#cust-journey)
 * [Novos recursos no Adobe Analytics](#aa-features) (**Updated June 2, 2020**)
 * [Novos recursos do Media Analytics](#media-aa) (**atualizado em 29 de maio de 2020**)
@@ -158,11 +156,11 @@ Updated **May 29, 2020**
 
 <!--First-Party Domains Available in China RDC: Enables customers with a cn domain to request a 1st-party domain for use inside of Mainland China. Learn more... -->
 
-| Recurso | Data de disponibilidade geral | Descrição |
+| Recurso | [Data de disponibilidade geral do Público alvo](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) | Descrição |
 | -----------| ------------ | ---------- |
 | API de inserção de dados em massa | 31 de maio de 2020 | Permite que você ingira lotes de dados do Analytics de forma fácil e independente. Útil para dados offline e do servidor. [Saiba mais...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) |
 | Suporte do Analytics para a [!UICONTROL rede de borda da Adobe Experience Platform] | 31 de maio de 2020 | Permite que você use uma única tag para enviar dados para várias soluções da Adobe, como o Adobe Analytics, Adobe Target, Adobe Audience Manager, Adobe Experience Platform Data Lake, Unified Profile e Experience Cloud ID Service. [Saiba mais...](https://docs.adobe.com/content/help/en/experience-platform/edge/solutions/analytics/analytics-overview.html) |
-| [!UICONTROL Painéis do Adobe Analytics] | 31 de maio de 2020 | [!UICONTROL Os painéis do Adobe Analytics] são um aplicativo móvel que permite que os usuários acessem informações do Adobe Analytics a qualquer momento e em qualquer lugar. Este aplicativo é destinado a executivos que buscam acesso móvel às principais métricas. Ele permite o acesso a scorecards com curadoria e interativos e estará disponível para os sistemas operacionais iOS e Android. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/mobapp/home.html) |
+| [!UICONTROL Painéis do Adobe Analytics] | 21 de maio de 2020 | [!UICONTROL Os painéis do Adobe Analytics] são um aplicativo móvel que permite que os usuários acessem informações do Adobe Analytics a qualquer momento e em qualquer lugar. Este aplicativo é destinado a executivos que buscam acesso móvel às principais métricas. Ele permite o acesso a scorecards com curadoria e interativos e estará disponível para os sistemas operacionais iOS e Android. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL Workspace]: crie automaticamente [!UICONTROL tabelas de forma livre] a partir de um estado em branco | [21 de maio de 2020 | Anteriormente, não era possível soltar componentes diretamente em um projeto em branco ou em um painel em branco; primeiro você tinha que adicionar uma [!UICONTROL Tabela de forma livre]. Agora é possível soltar componentes diretamente em um projeto ou painel em branco, e uma [!UICONTROL Tabela de forma livre] será criada automaticamente em um formato recomendado. Além disso, foram feitos aprimoramentos no modo como tipos de componentes mistos (como dimensões e métricas) são tratados quando colocados em uma tabela de forma livre em branco. |
 | [!UICONTROL Pacote] do Adobe Analytics adicionado à página Nível [!UICONTROL de acesso a] recursos | 21 de maio de 2020 | Agora você pode visualização a qual Pacote [!UICONTROL do] Adobe Analytics (SKU) sua empresa tem direito em **[!UICONTROL Admin]** > Configurações **[!UICONTROL de]** Empresa > Nível **[!UICONTROL de acesso a]** recursos. |
 | Aprimoramentos de acessibilidade | 21 de maio de 2020 | A equipe do Adobe Analytics fez várias melhorias de acessibilidade na área de trabalho da Análise, incluindo a navegação aprimorada do teclado, o contraste de cores e o suporte ao leitor de tela. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
