@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e239cc0afb9ebde272f37fa0181b1454412ac2ae
+source-git-commit: dd357da4e362c01ab350891b1082020c90eb77fe
 workflow-type: tm+mt
-source-wordcount: '6520'
+source-wordcount: '6522'
 ht-degree: 35%
 
 ---
@@ -292,7 +292,7 @@ Essas atualizações estão disponíveis somente para usuários que fazem logon 
 * Os usuários agora podem ver um indicador de precisão de classificação de modelo para [!UICONTROL Smart Personas]. (AAM-54847)
 * Correção de um problema em que pressionar Enter após adicionar uma expressão característica removeria a expressão em vez de salvá-la. (AAM-54210)
 * Correção de um problema em que as chamadas para o método GET da API [!UICONTROL Características] falhavam para usuários que não tinham a permissão VISUALIZAÇÃO_MODELS. (AAM-53104)
-* Correção de um problema em que os usuários não podiam excluir Modelos [!UICONTROL algorítmicos] que contivessem Características [!UICONTROL da pasta]. (AAM-50192)
+* Correção de um problema em que os usuários não podiam excluir Modelos [!UICONTROL algorítmicos] que continham Características [!UICONTROL da]pasta. (AAM-50192)
 * expressões de traços longos agora envolvem várias linhas. (AAM-54972)
 * Correção de um problema em que os usuários com permissões somente leitura podiam visualizar o botão [!UICONTROL Criar novo] nas páginas de modelos algorítmicos. (AAM-54889)
 * Correção de um problema que fazia com que o indicador de carregamento dos relatórios [!UICONTROL Geral] e [!UICONTROL Tendência] continuasse girando após a conclusão do download CSV. (AAM-54571)
@@ -406,7 +406,7 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
 | [Componentes do console da Web do AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#components) | Tutorial em vídeo | Saiba mais sobre como depurar o AEM como uma inicialização rápida local do SDK de serviço em nuvem usando o console da Web Componentes. |
 | [Depuração do Início rápido local do SDK do AEM usando registros](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | Tutorial em vídeo | Saiba mais sobre como depurar o AEM como uma inicialização rápida local do SDK de serviço em nuvem usando o console da Web Pacotes. |
 | [Depuração remota do AEM como uma inicialização rápida local do SDK de serviço em nuvem](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/remote-debugging.html) | Tutorial em vídeo | Saiba mais sobre a depuração remota do Java no seu IDE, permitindo que você passe pela execução do código ativo no AEM para entender o fluxo de execução exato. |
-| [Configuração de tags inteligentes](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/smart-tags-technical-video-setup.html) | Instruções detalhadas para integrar o Adobe Experience Manager (AEM) ao Serviço de conteúdo inteligente usando a E/S da Adobe. |
+| [Configuração de tags inteligentes](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/smart-tags-technical-video-setup.html) | Tutorial em vídeo | Instruções detalhadas para integrar o Adobe Experience Manager (AEM) ao Serviço de conteúdo inteligente usando a E/S da Adobe. |
 | [Geração em lote de documentos](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/interactive-communications/batch-generation-interactive-communications.html) | Artigo | Saiba mais sobre como usar a API de lote para produzir várias comunicações interativas a partir de um modelo. |
 | [Criar documento de canal de impressão no AEM Forms](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/ic-print-channel-tutorial/introduction.html) | Artigo | Aprenda as etapas necessárias para criar uma comunicação interativa para o canal de impressão. |
 | [Acessar o Adobe Asset Link](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/launch-adobe-asset-link.html) | Tutorial em vídeo | Saiba mais sobre como acessar o conteúdo armazenado nos ativos Adobe Experience Manager (AEM Assets), sem sair dos aplicativos de desktop da Creative Cloud mais conhecidos. |
