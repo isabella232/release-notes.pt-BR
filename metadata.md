@@ -7,11 +7,14 @@ getting-started-title: Introdução
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutoriais
 tutorials-url: https://helpx.adobe.com/br/experience-cloud/tutorials.html
-mini-toc-levels: 1
+mini-toc-levels: 3
 git-repo: https://github.com/AdobeDocs/release-notes.en
 index: true
-translation-type: ht
-source-git-commit: f7e667b83c7b82376ad9cf51b4495eb30b5707ed
+translation-type: tm+mt
+source-git-commit: d5f592e1e804a94619ccf3ce34a4a310867f9f70
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 100%
 
 ---
 
