@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7f127b38a8c27f5e7a439d7130dd2577d987bf0d
+source-git-commit: d5f592e1e804a94619ccf3ce34a4a310867f9f70
 workflow-type: tm+mt
-source-wordcount: '6484'
+source-wordcount: '6487'
 ht-degree: 37%
 
 ---
@@ -140,7 +140,7 @@ Usando a Adobe Experience Platform, orquestre as jornadas individuais dos client
 
 ### Última versão
 
-A versão do segundo trimestre foi publicada. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/journeys/using/release-notes/release-notes.html)
+Para obter as atualizações mais recentes, consulte as notas de versão do [Journey Orchestration](https://docs.adobe.com/content/help/pt-BR/journeys/using/release-notes/release-notes.html)
 
 ### Novos cursos e tutoriais de Journey Orchestration {#jo-tutorials}
 
