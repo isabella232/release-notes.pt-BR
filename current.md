@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 233093d41875b9fba88afefa0ecbfc9ace21a900
+source-git-commit: acbbe734e4d1e6881b32a6ef33439eeac6e92715
 workflow-type: tm+mt
-source-wordcount: '6530'
+source-wordcount: '6531'
 ht-degree: 37%
 
 ---
@@ -67,7 +67,7 @@ Lançado: **21 de maio de 2020**
 | Confirmação de assinatura do evento | <ul><li>Agora você pode obter uma confirmação por email ao assinar atualizações de evento único em andamento.</li></ul> |
 | Melhorias na utilização da navegação global | <ul><li>Experiência do usuário consistente com o `Adobe.com` no menu de navegação de nível superior.</li></ul> |
 
-## ![Ícone](/assets/ec_appicon_24.png) Interface da Experience Cloud {#ecloud}
+## ![Ícone](/assets/ec_appicon_24.png) da interface da Adobe Experience Cloud {#ecloud}
 
 Atualizações gerais na interface do Experience Cloud.
 
@@ -292,7 +292,7 @@ Essas atualizações estão disponíveis somente para usuários que fazem logon 
 * Os usuários agora podem ver um indicador de precisão de classificação de modelo para [!UICONTROL Smart Personas]. (AAM-54847)
 * Correção de um problema em que pressionar Enter após adicionar uma expressão característica removeria a expressão em vez de salvá-la. (AAM-54210)
 * Correção de um problema em que as chamadas para o método GET da API [!UICONTROL Características] falhavam para usuários que não tinham a permissão VISUALIZAÇÃO_MODELS. (AAM-53104)
-* Correção de um problema em que os usuários não podiam excluir Modelos [!UICONTROL algorítmicos] que contivessem Características [!UICONTROL da pasta]. (AAM-50192)
+* Correção de um problema em que os usuários não podiam excluir Modelos [!UICONTROL algorítmicos] que continham Características [!UICONTROL da]pasta. (AAM-50192)
 * expressões de traços longos agora envolvem várias linhas. (AAM-54972)
 * Correção de um problema em que os usuários com permissões somente leitura podiam visualizar o botão [!UICONTROL Criar novo] nas páginas de modelos algorítmicos. (AAM-54889)
 * Correção de um problema que fazia com que o indicador de carregamento dos relatórios [!UICONTROL Geral] e [!UICONTROL Tendência] continuasse girando após a conclusão do download CSV. (AAM-54571)
