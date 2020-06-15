@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c794742334033a11c712fd6cabfcc1b382fbefce
+source-git-commit: 3dd0f7e9f8712786acc31a01dc0fdece9f4004b9
 workflow-type: tm+mt
-source-wordcount: '6530'
+source-wordcount: '6484'
 ht-degree: 37%
 
 ---
@@ -435,34 +435,21 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
 
 O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagens individuais por canais de marketing online e offline. Agora, é possível prever o que seus clientes desejam usando as experiências determinadas por seus hábitos e preferências.
 
-### Campaign Standard
+### Novas versões de produtos
 
-#### Novos cursos e tutoriais do Campaign Standard
+[A versão](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/release-notes/latest-release.html) Adobe Campaign Classic 20.2 inclui:
+
+* _Suporte da Emoticon_ - _Azure Synapse FDA Connector_ - _Novas regras de privacidade_
+* Painel de controle da Campanha: [Monitoramento ativo de perfis](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)
+
+### Cursos e tutoriais da nova campanha
 
 | Conteúdo | Tipo de conteúdo | Descrição |
 | -----------| ---------- | ---------- |  
 | [Introdução ao Adobe Campaign Standard para usuários comerciais](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | Curso | Saiba como navegar na interface, trabalhar com delivery e criar e gerenciar dados de recipient. |
+| [Instale e configure o cliente Adobe Campaign](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | Vídeo | Saiba como baixar e instalar o console do Adobe Campaign Client, criar e gerenciar suas conexões com vários ambientes e verificar o acesso ao console do Adobe Campaign Client |
 
-### Campaign Classic
-
-#### Última versão
-
-[Versão 20.2 do Adobe Campaign Classic](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/release-notes/latest-release.html)
-
-#### Tutoriais de Campaign Classic
-
-| Conteúdo | Tipo de conteúdo | Descrição |
-| -----------| ---------- | ---------- |  
-| [Instale e configure o cliente Adobe Campaign](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) | Tutorial em vídeo | Saiba como baixar e instalar o console do Adobe Campaign Client, criar e gerenciar suas conexões com vários ambientes e verificar o acesso ao console do Adobe Campaign Client. |
-
-### Painel de controle do Campaign
-
-| Recurso | Descrição |
-| -----------| ---------- |  
-| Monitoramento de Perfis ativos | O Painel de controle permite que você monitore a utilização de perfis ativos para cada uma das instâncias de Campanha. Este recurso está na versão beta e disponível para clientes hospedados no AWS a partir do Campaign Standard 10368 build e Campaign Classic 8931 build. [Saiba mais](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html) |
-
-### Recursos de ajuda do Campaign
-
+### Recursos de ajuda
 * Adobe Campaign Standard: [Centro de ajuda](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/campaign-standard-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-notes.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/overview.html) - [Planejamento de lançamento](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-planning.html) - [Atualizações mais recentes da documentação](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic: [Centro de ajuda](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/campaign-classic-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/release-notes/latest-release.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)- [Atualizações mais recentes da documentação](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/documentation-updates.html)
 * Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) - Como fazer vídeos para [Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html) / [Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
