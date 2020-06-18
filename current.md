@@ -5,23 +5,19 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 05310c3c03c09918aee45015bd6c9bc341dce724
+source-git-commit: 07935d47bd84291ede7cfd2dcfab422a95b7cf71
 workflow-type: tm+mt
-source-wordcount: '6509'
-ht-degree: 37%
+source-wordcount: '6580'
+ht-degree: 36%
 
 ---
 
 
-# Acesso antecipado - Notas de versão da Adobe Experience Cloud - junho de 2020
+# Notas de versão da Adobe Experience Cloud - junho de 2020
 
 ![Banner](/assets/experience-cloud-banner-3.png)
 
 This page describes new features, fixes, and important notices in [!DNL Adobe Experience Cloud]. Ele também destaca a nova documentação, cursos de treinamento e tutoriais em vídeo para ajudá-lo a aproveitar ao máximo o Experience Cloud.
-
->[!IMPORTANT]
->
->Esta página apresenta conteúdo de pré-lançamento e está sujeito a alterações até o lançamento da versão planejada.
 
 >[!NOTE]
 >
@@ -31,7 +27,7 @@ This page describes new features, fixes, and important notices in [!DNL Adobe Ex
 
 As datas de lançamento do produto podem variar. Verifique novamente com frequência se há atualizações.
 
-Última atualização: **15 de junho de 2020**
+Última atualização: **18 de junho de 2020**
 
 * [Status de sistema da Adobe](#status)
 * [Interface da Experience Cloud](#ecloud)
@@ -178,19 +174,21 @@ Updated **June 10, 2020**
 | Domínios primários disponíveis na RDC da China | 18 de junho de 2020 | Permite que os clientes com um `.cn` domínio solicitem um domínio próprio para uso dentro da China Continental. (Documentação disponível com a compra do SKU &quot;Otimização do desempenho da China&quot;.) |
 | Painel Quick Insights no Espaço de trabalho | 25 de junho de 2020 | O painel Quick Insights fornece orientação para não analistas e novos usuários do Analysis Workspace para saber como responder a perguntas comerciais de forma rápida e fácil. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
 | Painel Analytics for Target no Espaço de trabalho | 25 de junho de 2020 | O painel Analytics for Target (A4T) permite que você analise suas atividades e experiências Adobe Target, com incentivo e confiança, no Analysis Workspace. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
+| [!UICONTROL Sobre a página do Workspace] | Junho de 18,2020 | A página [!UICONTROL Sobre o Workspace] fornece informações sobre o ambiente do Analysis Workspace, sobre os administradores do Analytics da Adobe (se precisar de suporte) e uma maneira de fornecer feedback sobre o produto. Ele pode ser encontrado em **[!UICONTROL Workspace]** > **[!UICONTROL Ajuda]** > **[!UICONTROL Sobre o Workspace]**. |
 
 ### Novos recursos no Customer Journey Analytics {#cust-journey}
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | -----------| ---------- |-----|
-| Suporte para arrays de objetos | 18 de junho de 2020 | Os clientes CJA agora podem relatar sobre dimensões e métricas que aparecem nos arrays de objetos em seus schemas de conjunto de dados AEP. Saiba mais... |
-| QI de atribuição: [!UICONTROL Atribuição algorítmica] | 18 de junho de 2020 | O modelo de Atribuição  algorítmica no [!UICONTROL Analysis Workspace] usa técnicas estatísticas para determinar dinamicamente a alocação ideal de crédito para a métrica selecionada. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
-| QI de atribuição: Janelas de pesquisa personalizadas | 18 de junho de 2020 | Agora você pode configurar qualquer modelo de atribuição no QI [!UICONTROL de] Atribuição para incluir pontos de contato de até 90 dias antes do período de tempo do relatórios. Isso normalmente aumentará a precisão da atribuição para eventos que ocorrem no início do período do relatórios, contabilizando as interações que ocorreram no(s) mês(es) anterior(es). [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
-| Suporte para detecção de [!UICONTROL anomalias] | 18 de junho de 2020 | [!UICONTROL A Detecção] de anomalias fornece um método estatístico para determinar como uma determinada métrica foi alterada em relação aos dados anteriores. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
-| Funções de projeto para projetos compartilhados da [!UICONTROL Workspace] | 18 de junho de 2020 | Ao compartilhar um projeto da [!UICONTROL Workspace] , você pode colocar recipient em uma das três funções do projeto, dependendo da experiência do projeto que você deseja que eles tenham: Editar, Duplicado e Visualização. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| Projetos somente para Visualização do [!UICONTROL Workspace] | 18 de junho de 2020 | [!UICONTROL Os projetos do Workspace] podem ser compartilhados com os usuários como _[!UICONTROL Pode Visualização]_somente. Quando um recipient Visualização abre o projeto compartilhado, ele recebe uma experiência de projeto mais restritiva, sem trilho restante e interações limitadas.[Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| Capacidade de co-editar projetos do [!UICONTROL Workspace] | 18 de junho de 2020 | Recipient adicionados à função _[!UICONTROL Pode editar]_podem ser salvos em um projeto que foi compartilhado para eles.[Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| Painel Quick Insights no [!UICONTROL Espaço de trabalho] | 25 de junho de 2020 | O painel Quick Insights fornece orientação para não analistas e novos usuários do [!UICONTROL Analysis Workspace] para saber como responder a perguntas comerciais de forma rápida e fácil. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
+| Suporte para arrays de objetos | 18 de junho de 2020 | Os clientes CJA agora podem relatar sobre dimensões e métricas que aparecem em matrizes de objetos em seus schemas de conjunto de dados de Adobe Experience Platform. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/object-arrays.html) |
+| QI de atribuição: [!UICONTROL Atribuição algorítmica] | 18 de junho de 2020 | O modelo de Atribuição  algorítmica no [!UICONTROL Analysis Workspace] usa técnicas estatísticas para determinar dinamicamente a alocação ideal de crédito para a métrica selecionada. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
+| QI de atribuição: Janelas de pesquisa personalizadas | 18 de junho de 2020 | Agora você pode configurar qualquer modelo de atribuição no QI [!UICONTROL de] Atribuição para incluir pontos de contato de até 90 dias antes do período de tempo do relatórios. Isso normalmente aumentará a precisão da atribuição para eventos que ocorrem no início do período do relatórios, contabilizando as interações que ocorreram no(s) mês(es) anterior(es). [Saiba mais...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/models.html) |
+| Suporte para detecção de [!UICONTROL anomalias] | 18 de junho de 2020 | [!UICONTROL A Detecção] de anomalias fornece um método estatístico para determinar como uma determinada métrica foi alterada em relação aos dados anteriores. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| Funções de projeto para projetos compartilhados da [!UICONTROL Workspace] | 18 de junho de 2020 | Ao compartilhar um projeto da [!UICONTROL Workspace] , você pode colocar recipient em uma das três funções do projeto, dependendo da experiência do projeto que você deseja que eles tenham: Editar, Duplicado e Visualização. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
+| Projetos somente para Visualização do [!UICONTROL Workspace] | 18 de junho de 2020 | [!UICONTROL Os projetos do Workspace] podem ser compartilhados com os usuários como _[!UICONTROL Pode Visualização]_somente. Quando um recipient Visualização abre o projeto compartilhado, ele recebe uma experiência de projeto mais restritiva, sem trilho restante e interações limitadas.[Saiba mais...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/view-only-projects.html) |
+| Capacidade de co-editar projetos do [!UICONTROL Workspace] | 18 de junho de 2020 | Recipient adicionados à função _[!UICONTROL Pode editar]_podem ser salvos em um projeto que foi compartilhado para eles.[Saiba mais...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
+| Painel Quick Insights no [!UICONTROL Espaço de trabalho] | 25 de junho de 2020 | O painel Quick Insights fornece orientação para não analistas e novos usuários do [!UICONTROL Analysis Workspace] para saber como responder a perguntas comerciais de forma rápida e fácil. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/panels/quickinsight.html) |
+| [!UICONTROL Sobre a página do Workspace] | Junho de 18,2020 | A página [!UICONTROL Sobre o Workspace] fornece informações sobre o ambiente do Analysis Workspace, sobre os administradores do Analytics da Adobe (se precisar de suporte) e uma maneira de fornecer feedback sobre o produto. Ele pode ser encontrado em **[!UICONTROL Workspace]** > **[!UICONTROL Ajuda]** > **[!UICONTROL Sobre o Workspace]**. |
 
 ### Novos recursos no [!UICONTROL Media Analytics] {#media-aa}
 
