@@ -1,13 +1,13 @@
 ---
 title: Notas de versão da Adobe Experience Cloud
-description: Modelo para notas de versão da Experience Cloud
+description: Notas de versão da Adobe Experience Cloud
 doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: fc51a317cdceb0cdf2ebf685c0a4480995dd4ef9
+source-git-commit: 05310c3c03c09918aee45015bd6c9bc341dce724
 workflow-type: tm+mt
-source-wordcount: '6510'
+source-wordcount: '6509'
 ht-degree: 37%
 
 ---
@@ -347,10 +347,12 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
       * O suporte aprimorado à caixa de proteção de autoatendimento no Cloud Manager permite que os usuários autorizados excluam todos os ambientes em uma caixa de proteção e recebam créditos.
       * Os ambientes da caixa de proteção de hibernação automática &quot;hibernam&quot; automaticamente as caixas de proteção após um período de inatividade. Os clientes podem acionar ativamente a &quot;deshibernação&quot;.
    * Ferramentas de Transição para suportar a aceleração da nuvem
+
    Com o objetivo de reduzir o tempo e o custo para a transição, de um local para outro, duas ferramentas de transição foram lançadas este mês. Essas ferramentas são projetadas para automatizar algumas das principais tarefas durante o processo de transição e, portanto, reduzir o esforço geral. .
 
    1. [O uso da Ferramenta](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) de transferência de conteúdo (disponível no SD) simplifica a atividade de transferência de conteúdo e a torna escalável. Com uma interface de usuário fácil de usar, a ferramenta é autoatendimento para clientes e parceiros existentes (no local/AMS) que estão fazendo a transição para o AEM como Cloud Service.
    1. [Ferramenta AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (Open-source) para automatizar a conversão de configurações AMS Dispatcher em configurações Cloud Service Dispatcher.
+
    [Notas de versão do AEM como Cloud Service 2020.6.0](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    Ferramentas de Transição:
