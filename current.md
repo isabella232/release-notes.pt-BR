@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b909c99b4389be6ad67536e49224d33b3fb10af8
+source-git-commit: a88748f592df569028641cd53d563e3b6c1d1201
 workflow-type: tm+mt
 source-wordcount: '6688'
 ht-degree: 36%
@@ -340,12 +340,10 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
       * O suporte aprimorado à caixa de proteção de autoatendimento no Cloud Manager permite que os usuários autorizados excluam todos os ambientes em uma caixa de proteção e recebam créditos.
       * Os ambientes da caixa de proteção de hibernação automática &quot;hibernam&quot; automaticamente as caixas de proteção após um período de inatividade. Os clientes podem acionar ativamente a &quot;deshibernação&quot;.
    * Ferramentas de Transição para suportar a aceleração da nuvem
-
    Com o objetivo de reduzir o tempo e o custo para a transição, de um local para outro, duas ferramentas de transição foram lançadas este mês. Essas ferramentas são projetadas para automatizar algumas das principais tarefas durante o processo de transição e, portanto, reduzir o esforço geral. .
 
    1. [O uso da Ferramenta](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) de transferência de conteúdo (disponível no SD) simplifica a atividade de transferência de conteúdo e a torna escalável. Com uma interface de usuário fácil de usar, a ferramenta é autoatendimento para clientes e parceiros existentes (no local/AMS) que estão fazendo a transição para o AEM como Cloud Service.
    1. [Ferramenta AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (Open-source) para automatizar a conversão de configurações AMS Dispatcher em configurações Cloud Service Dispatcher.
-
    [Notas de versão do AEM como Cloud Service 2020.6.0](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    Ferramentas de Transição:
@@ -395,7 +393,7 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
 | [Introdução ao Adobe Asset Link para usuários comerciais](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.asset.link) | Curso | Neste curso, aprenda a usar os recursos e os recursos do Adobe Asset Link para alimentar seu design criativo com conteúdo armazenado nos ativos Adobe Experience Manager. O curso aborda tudo, desde como iniciar o link de ativos da adobe, operações básicas de ativos, opções de pesquisa e navegação e como colaborar com outros usuários de forma eficiente. |
 | [Introdução aos AEM Assets para usuários comerciais](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.assets) | Curso | Saiba como começar a usar AEM Assets para usuários empresariais. Explore as noções básicas de AEM Assets, recursos de colaboração, pesquisa, organização de ativos e download de ativos e suas execuções. |
 | [Introdução aos AEM Sites para usuários empresariais](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.sites) | Curso | Saiba como usar os principais recursos e recursos do AEM Sites para gerenciar as páginas da Web de sua organização. O curso aborda tudo, desde uma introdução a AEM Sites, conceitos básicos de criação, recursos de criação avançados e recursos de gerenciamento de página. |
-| [Estrutura de projetos do AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#recommended-package-structurehttps://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.translate.html) | Artigo | Descreve as alterações necessárias aos projetos do Adobe Experience Manager Maven para que sejam compatíveis com o AEM Cloud Service. |
+| [Estrutura de projetos do AEM](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.translate.html) | Artigo | Descreve as alterações necessárias aos projetos do Adobe Experience Manager Maven para que sejam compatíveis com o AEM Cloud Service. |
 | [Modelos Sling](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#sling-models) | Tutorial em vídeo | Saiba mais sobre como depurar o AEM como uma inicialização rápida local do SDK do Cloud Service usando o console da Web Sling Models. |
 | [Componentes do console da Web do AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#components) | Tutorial em vídeo | Saiba mais sobre como depurar o AEM como uma inicialização rápida local do SDK do Cloud Service usando o console da Web Componentes. |
 | [Depuração do Início rápido local do SDK do AEM usando registros](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | Tutorial em vídeo | Saiba mais sobre como depurar o AEM como uma inicialização rápida local do SDK do Cloud Service usando o console da Web Pacotes. |
