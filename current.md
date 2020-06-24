@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a88748f592df569028641cd53d563e3b6c1d1201
+source-git-commit: 1fe0c0a5b892802837115df53c2f178e6e0ee81c
 workflow-type: tm+mt
-source-wordcount: '6688'
-ht-degree: 36%
+source-wordcount: '7082'
+ht-degree: 34%
 
 ---
 
@@ -340,10 +340,12 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
       * O suporte aprimorado à caixa de proteção de autoatendimento no Cloud Manager permite que os usuários autorizados excluam todos os ambientes em uma caixa de proteção e recebam créditos.
       * Os ambientes da caixa de proteção de hibernação automática &quot;hibernam&quot; automaticamente as caixas de proteção após um período de inatividade. Os clientes podem acionar ativamente a &quot;deshibernação&quot;.
    * Ferramentas de Transição para suportar a aceleração da nuvem
+
    Com o objetivo de reduzir o tempo e o custo para a transição, de um local para outro, duas ferramentas de transição foram lançadas este mês. Essas ferramentas são projetadas para automatizar algumas das principais tarefas durante o processo de transição e, portanto, reduzir o esforço geral. .
 
    1. [O uso da Ferramenta](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) de transferência de conteúdo (disponível no SD) simplifica a atividade de transferência de conteúdo e a torna escalável. Com uma interface de usuário fácil de usar, a ferramenta é autoatendimento para clientes e parceiros existentes (no local/AMS) que estão fazendo a transição para o AEM como Cloud Service.
    1. [Ferramenta AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter) (Open-source) para automatizar a conversão de configurações AMS Dispatcher em configurações Cloud Service Dispatcher.
+
    [Notas de versão do AEM como Cloud Service 2020.6.0](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    Ferramentas de Transição:
@@ -458,11 +460,23 @@ Updated **June 3, 2020**
 
 ### Novos recursos na Advertising Cloud DSP {#adcloud-dsp}
 
+Updated **June 23, 2020**
+
 | Recurso | Descrição |
 | -----------| ---------- |
+| Migração de domínio | (Versão de 22 de junho) O Advertising Cloud DSP migrou de https://www.tubemogul.com para [https://advertising.adobe.com](https://advertising.adobe.com). |
+| Integração do Adobe Analytics | (versão de 18 de junho) O DSP agora pode, opcionalmente, suprimir a métrica de custo AMO dos dados enviados para a Analytics. Para suprimir a métrica, entre em contato com seu gerente de conta da Adobe. |
+| Gráfico de dispositivos baseados em pessoas | (Lançamento de 22 de junho) Os clientes DSP autônomos agora podem aproveitar um gráfico de dispositivo (Adobe Experience Cloud Device Co-op ou LiveRamp) para direcionamento baseado em pessoas e gerenciamento de frequência em qualquer nova campanha. Isso garantirá que você alcance suas audiências em todos os dispositivos e pode limitar a exposição dos anúncios. |
+| Cancelamento de venda do CCPA | (Lançamento de 22 de junho) Agora você pode comunicar solicitações de cancelamento de venda do CCPA à Advertising Cloud usando um novo segmento de cancelamento de venda do CCPA, que você pode criar em [!UICONTROL Audiência > Segmentos]. Você também pode recuperar relatórios mensais de IDs que os clientes enviaram para solicitações de não participação na venda para a conta a) de [!UICONTROL Audiência > Segmentos] ou b) usando a API de tráfico da Advertising Cloud. Para obter mais informações, consulte [https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html.](https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html) |
+| Verifique a segurança da marca autêntica | (Lançamento de 22 de junho) Os anunciantes agora podem público alvo uma única ID de segmento do DoubleVerify pré-lance, com filtros abrangentes de segurança da marca para simular suas regras de bloqueio pós-lance com o DoubleVerify. Agora você pode fazer isso na seção de definição de metas de Qualidade de mídia das configurações do anunciante em [!UICONTROL Configurações > Anunciante]. Para saber mais sobre o serviço, entre em contato com programmaticsales@doubleverify.com. Taxas adicionais se aplicam a este recurso. |
+| Otimização de CPA/ROAS | (lançamento de 20 de maio) Os gerentes de Campanhas não precisam mais limitar novas colocações dentro dos pacotes para evitar a atribuição excessiva de orçamento. As disposições agora recebem uma alocação de orçamento dinâmica com base no desempenho do CPM ou CPA/ROAS. |
 | [!UICONTROL Campanha] Home | (Lançamento de 3 de junho) Novas métricas de posicionamento no nível da campanha com base no orçamento da campanha fornecido e no tempo decorrido estão disponíveis. |
+| [!UICONTROL Posicionamentos] | (Lançamento em 22 de junho) Os filtros de Diversidade de sites e Tamanho do player foram removidos para simplificar a configuração de posicionamento. |
 | Previsão de posicionamento | (Lançamento de 3 de junho) Para disposições de CTV e vídeo com otimização de nível de posicionamento, as configurações de posicionamento agora incluem previsão para várias extensões de anúncio (15 s e 30 segundos). Eles também incluem previsões para o inventário VAST e VPAID. |
 | Otimização de CPA/ROAS | (lançamento de 20 de maio) Os gerentes de Campanhas não precisam mais limitar novas colocações dentro dos pacotes para evitar a atribuição excessiva de orçamento. As disposições agora recebem uma alocação de orçamento dinâmica com base no desempenho do CPM ou CPA/ROAS. |
+| [!UICONTROL Inventário] | (Versão beta de 22 de junho) Um novo formulário de ID de negócio permite que você configure rapidamente um negócio privado que você já negociou. |
+|  | (versão beta de 22 de junho) A pré-rolagem interativa está disponível para o inventário VAST. Você pode configurar um único anúncio e disposição interativos, reduzindo o número de anúncios e disposições. |
+| Lente de Audiência ACTV | (Lentes de Audiência de 18 de junho) permitem que os usuários criem e apliquem leituras de audiência secundárias aos workflows de planejamento, solicitação e relatórios. Isso permite a (1) obter insights rápidos sobre audiências secundárias, (2) ter flexibilidade para transacionar em audiências preferenciais e (3) medir a execução de uma campanha através da &quot;lente&quot; de várias audiências. |
 
 ### Novos recursos na [!UICONTROL Advertising Cloud Search] {#adcloud-search}
 
