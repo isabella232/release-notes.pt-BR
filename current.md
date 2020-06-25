@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 504a9a00daef04e57c5662d0a4e3e92920b40ccd
+source-git-commit: bcf089494e56dd5ece46bd7575bf661e352dc9f0
 workflow-type: tm+mt
-source-wordcount: '7037'
+source-wordcount: '7035'
 ht-degree: 34%
 
 ---
@@ -128,7 +128,7 @@ Para obter mais informações sobre esses recursos, consulte as notas [de versã
 | [Introdução ao Adobe Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-U-1-2020.1) | Curso | Saiba como o Adobe Experience Platform ajuda a fornecer a experiência certa, transformando seus dados em perfis robustos de clientes em tempo real e insights orientados por AI que você pode ativar em cada canal. Este curso de introdução oferece uma visão geral dos recursos do Experience Platform, casos de uso, relacionamento com a Adobe Experience Cloud, arquitetura básica, interface e funções do projeto. |
 | [Introdução ao SDK da Web e à Rede de Borda](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-web-sdk-and-edge-network.html) | Tutorial em vídeo | Uma visão geral do SDK do Adobe Experience Platform e da Edge Network. O Experience Platform Web SDK é uma biblioteca JavaScript do lado do cliente que permite que os clientes usem uma biblioteca JavaScript, um tipo de beacon, um fluxo de dados, um e um destino do lado do servidor para enviar dados para todos os aplicativos Adobe e para destinos de terceiros. |
 | [Demonstração do SDK da Web e da rede Edge](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/demo-of-web-sdk-and-edge-network.html) | Tutorial em vídeo | Assista ao SDK da Web Adobe Experience Platform e à Rede Edge em ação, com uma única chamada para a Adobe enviar dados para Experience Platform, Analytics, Audience Manager e Público alvo. |
-| [Demonstração da Platform de dados do cliente em tempo real](https://docs.adobe.com/content/help/en/platform-learn/tutorials/rtcdp/demo.html) | Tutorial em vídeo | Saiba como a CDP em tempo real é usada para coletar dados de várias fontes. É possível unir esses dados em um único perfil de cliente em tempo real e ativá-los para criar experiências personalizadas de clientes. |
+| [Demonstração da Platform de dados do cliente em tempo real](https://docs.adobe.com/content/help/en/platform-learn/tutorials/rtcdp/demo.html) | Tutorial em vídeo | Saiba como a CDP em tempo real é usada para coletar dados de várias fontes. Você pode unir esses dados em um único perfil de cliente em tempo real e ativá-los para criar experiências personalizadas de clientes. |
 
 ## ![Ícone](/assets/experience_platform_appicon_24.png) do Journey Orchestration {#journey-orch}
 
@@ -286,7 +286,7 @@ Essas atualizações estão disponíveis somente para usuários que fazem logon 
 * Os usuários agora podem ver um indicador de precisão de classificação de modelo para [!UICONTROL Smart Personas]. (AAM-54847)
 * Correção de um problema em que pressionar Enter após adicionar uma expressão característica removeria a expressão em vez de salvá-la. (AAM-54210)
 * Correção de um problema em que as chamadas para o método GET da API [!UICONTROL Características] falhavam para usuários que não tinham a permissão VISUALIZAÇÃO_MODELS. (AAM-53104)
-* Correção de um problema em que os usuários não podiam excluir Modelos [!UICONTROL algorítmicos] que continham Características [!UICONTROL da]pasta. (AAM-50192)
+* Correção de um problema em que os usuários não podiam excluir Modelos [!UICONTROL algorítmicos] que contivessem Características [!UICONTROL da pasta]. (AAM-50192)
 * expressões de traços longos agora envolvem várias linhas. (AAM-54972)
 * Correção de um problema em que os usuários com permissões somente leitura podiam visualizar o botão [!UICONTROL Criar novo] nas páginas de modelos algorítmicos. (AAM-54889)
 * Correção de um problema que fazia com que o indicador de carregamento dos relatórios [!UICONTROL Geral] e [!UICONTROL Tendência] continuasse girando após a conclusão do download CSV. (AAM-54571)
@@ -453,8 +453,6 @@ O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagen
 
 ## ![Ícone](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
-Updated **June 3, 2020**
-
 * [Novos recursos na Advertising Cloud DSP](#adcloud-dsp)
 * [Novos recursos na Advertising Cloud Search](#adcloud-search)
 
@@ -466,8 +464,7 @@ Updated **June 23, 2020**
 | -----------| ---------- |
 | Migração de domínio | (Versão de 22 de junho) O Advertising Cloud DSP migrou de https://www.tubemogul.com para [https://advertising.adobe.com](https://advertising.adobe.com). |
 | Integração do Adobe Analytics | (versão de 18 de junho) O DSP agora pode, opcionalmente, suprimir a métrica de custo AMO dos dados enviados para a Analytics. Para suprimir a métrica, entre em contato com seu gerente de conta da Adobe. |
-| Gráfico de dispositivos baseados em pessoas | (Lançamento de 22 de junho) Clientes DSP autônomos agora podem aproveitar um gráfico de dispositivos (ou Adobe Experience Cloud Device Co-op) |
-| ou LiveRamp) para direcionamento baseado em pessoas e gerenciamento de frequência em qualquer nova campanha. Isso garantirá que você alcance suas audiências em todos os dispositivos e pode limitar a exposição dos anúncios. |
+| Gráfico de dispositivos baseados em pessoas | (Lançamento de 22 de junho) Os clientes DSP autônomos agora podem aproveitar um gráfico de dispositivo (Adobe Experience Cloud Device Co-op ou LiveRamp) para direcionamento baseado em pessoas e gerenciamento de frequência em qualquer nova campanha. Isso garantirá que você alcance suas audiências em todos os dispositivos e pode limitar a exposição dos anúncios. |
 | Cancelamento de venda do CCPA | (Lançamento de 22 de junho) Agora você pode comunicar solicitações de cancelamento de venda do CCPA à Advertising Cloud usando um novo segmento de cancelamento de venda do CCPA, que você pode criar em [!UICONTROL Audiência > Segmentos]. Você também pode recuperar relatórios mensais de IDs que os clientes enviaram para solicitações de não participação na venda para a conta a) de [!UICONTROL Audiência > Segmentos] ou b) usando a API de tráfico da Advertising Cloud. Para obter mais informações, consulte https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html. |
 | Verifique a segurança da marca autêntica | (Lançamento de 22 de junho) Os anunciantes agora podem público alvo uma única ID de segmento do DoubleVerify pré-lance, com filtros abrangentes de segurança da marca para simular suas regras de bloqueio pós-lance com o DoubleVerify. Agora você pode fazer isso na seção de definição de metas de Qualidade de mídia das configurações do anunciante em [!UICONTROL Configurações > Anunciante]. Para saber mais sobre o serviço, entre em contato com programmaticsales@doubleverify.com. Taxas adicionais se aplicam a este recurso. |
 | Otimização de CPA/ROAS | (lançamento de 20 de maio) Os gerentes de Campanhas não precisam mais limitar novas colocações dentro dos pacotes para evitar a atribuição excessiva de orçamento. As disposições agora recebem uma alocação de orçamento dinâmica com base no desempenho do CPM ou CPA/ROAS. |
