@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d081c9c185e4709eb758c1562466af2f92af593e
+source-git-commit: efd848cda1046613c889825fff57b868b67e1c80
 workflow-type: tm+mt
-source-wordcount: '6998'
-ht-degree: 100%
+source-wordcount: '7021'
+ht-degree: 99%
 
 ---
 
@@ -251,6 +251,10 @@ Novos cursos, vídeos de tutoriais e artigos no Analytics e Customer Journey Ana
 | [Criador de scorecard dos painéis do Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html) | Tutorial em vídeo | Neste vídeo, saiba como criar e compartilhar [!UICONTROL Scorecards] no [!UICONTROL Analysis Workspace] para ser exibido nos painéis do Adobe Analytics (aplicativo móvel). |
 | [Experiência no aplicativo dos painéis do Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html) | Tutorial em vídeo | Neste vídeo, saiba como usar painéis do Adobe Analytics (aplicativo móvel) para acessar e visualizar [!UICONTROL Scorecards] criados por você ou compartilhados com você. |
 
+#### AppMeasurement {#appm}
+
+Para obter as atualizações mais recentes nas versões do AppMeasurement, consulte as notas [de versão do](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/appmeasurement-updates.html)AppMeasurement para JavaScript.
+
 #### Recursos de ajuda do Analytics
 
 * [Tutoriais do Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)
@@ -465,7 +469,7 @@ Atualizado em **23 de junho de 2020**
 | -----------| ---------- |
 | Migração de domínio | (Versão de 22 de junho) O Advertising Cloud DSP migrou de https://www.tubemogul.com para [https://advertising.adobe.com](https://advertising.adobe.com). |
 | Integração do Adobe Analytics | (Versão de 18 de junho) O DSP agora pode, opcionalmente, suprimir a métrica de custo AMO dos dados enviados para o Analytics. Para suprimir a métrica, entre em contato com seu gerente de conta da Adobe. |
-| Gráfico de dispositivos com base em pessoas | (Lançamento de 22 de junho) Os clientes autônomos do DSP agora podem aproveitar um gráfico de dispositivo (Adobe Experience Cloud Device Co-op ou LiveRamp) para direcionamento com base em pessoas e gerenciamento de frequência em qualquer nova campanha. Assim, você alcançará os públicos-alvo em todos os dispositivos e poderá limitar a exposição dos anúncios. |
+| Gráfico de dispositivos baseados em pessoas | (Lançamento de 22 de junho) Os clientes autônomos do DSP agora podem aproveitar um gráfico de dispositivo (Adobe Experience Cloud Device Co-op ou LiveRamp) para direcionamento com base em pessoas e gerenciamento de frequência em qualquer nova campanha. Assim, você alcançará os públicos-alvo em todos os dispositivos e poderá limitar a exposição dos anúncios. |
 | Cancelamento de venda do CCPA | (Lançamento de 22 de junho) Agora você pode comunicar solicitações de cancelamento de venda do CCPA à Advertising Cloud usando um novo segmento de cancelamento de venda do CCPA, que você pode criar em [!UICONTROL Públicos-alvo > Segmentos]. Você também pode recuperar relatórios mensais de IDs que os clientes enviaram para solicitações de não participação na venda para a conta a) em [!UICONTROL Públicos-alvo > Segmentos] ou b) usando a API de tráfico da Advertising Cloud. Para obter mais informações, consulte https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html. |
 | Segurança de marca autêntica DoubleVerify | (Lançamento de 22 de junho) Os anunciantes agora podem direcionar uma única ID de segmento do DoubleVerify pré-oferta, com filtros abrangentes de segurança da marca para simular suas regras de bloqueio pós-oferta com o DoubleVerify. Agora você pode fazer isso na seção de direcionamento de Qualidade de mídia das configurações do anunciante em [!UICONTROL Configurações > Anunciante]. Para saber mais sobre o serviço, entre em contato com programmaticsales@doubleverify.com. Taxas adicionais se aplicam a este recurso. |
 | Otimização de CPA/ROAS | (Versão de 20 de maio) Os gerentes de campanhas não precisam mais limitar novos posicionamentos dentro dos pacotes para evitar a atribuição excessiva de orçamento. Os posicionamentos agora recebem uma alocação de orçamento dinâmica com base no desempenho do CPM ou CPA/ROAS. |
