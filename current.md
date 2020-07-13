@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 19591a3d807cd772df0eb20e457d94cc9f7d5cfb
+source-git-commit: 5022132f52411a07b6e91a8bc0d8da400464c143
 workflow-type: tm+mt
-source-wordcount: '4203'
-ht-degree: 60%
+source-wordcount: '4281'
+ht-degree: 59%
 
 ---
 
@@ -31,13 +31,13 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 
 As datas de lançamento do produto podem variar. Verifique frequentemente se há atualizações.
 
-Última atualização: **10 de julho de 2020**
+Última atualização: **13 de julho de 2020**
 
 * [Status de sistema da Adobe](#status)
 * [Interface da Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Orquestração da jornada](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Atualizado em 13 de julho de 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -136,7 +136,7 @@ Data de lançamento: **16 de julho de 2020**
 * [Novos recursos no Customer Journey Analytics](#cust-journey)
 * [Novos recursos no Media Analytics](#media-aa)
 * [Correções no Adobe Analytics](#aa-fixes)
-* [Avisos importantes para administradores do Analytics](#aa-notices)
+* [Avisos importantes para administradores do Analytics](#aa-notices) (Atualizado em: 13 de julho de 2020)
 * [Novos cursos e tutoriais do Adobe Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -184,6 +184,7 @@ AN-222672, AN-222813; AN-222892; AN-223272, AN-223432; AN-224062; AN-224108; AN-
 
 | Aviso | Data de adição ou atualização | Descrição |
 | -----------| ---------- | ---------- |
+| Fim da vida útil: Conectores de dados da Adobe | 13 de julho de 2020 | Os Conectores de dados da Adobe são alimentados por tecnologia herdada que não é mais viável ou suportada. Temos um novo padrão no Programa [](https://partners.adobe.com/exchangeprogram/experiencecloud) Adobe Exchange Partner que deve ser adotado para todas as integrações que desejam continuar a ser oferecidas e suportadas. A data oficial de fim de vida ainda está por determinar, mas prevemos que esteja nos próximos 12-18 meses (meados de 2021 até o final de 2021). |
 | Mapeamento do conjunto de relatórios para organização IMS | Julho de 2020 | A ferramenta de mapeamento do conjunto de relatórios será descontinuada em novembro de 2020. Esse recurso capacita integrações como Publicidade em Analytics e Publicação por segmento de Experience Cloud no Adobe Analytics. Um conjunto de relatórios deve ser mapeado para uma organização IMS para ativar esses e outros serviços. Os conjuntos de relatórios mais recentes são mapeados automaticamente após a criação. No entanto, os conjuntos de relatórios mais antigos devem ser mapeados manualmente para uma organização IMS. Consulte [Mapear conjuntos de relatórios para uma organização](https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/report-suite-mapping.html) no guia do usuário dos Principais serviços para verificar se todos os conjuntos de relatórios pertencem a uma organização IMS. |
 | Migração para o domínio de produto unificado | Data efetiva: 28 de maio de 2020 | A migração para um domínio de produto unificado do Adobe Analytics, que começou em janeiro de 2020, terminou em 28 de maio de 2020. Embora o Adobe Analytics funcione para remover todas as referências de domínio `omniture.com` de sua arquitetura, é importante adicionar uma lista de permissões `omniture.com` como um cookie de terceiros. Quando a migração da arquitetura for concluída (em breve), você será notificado por meio das notas de versão e essa etapa da lista de permissões não será mais necessária. [Esta](https://helpx.adobe.com/br/analytics/kb/adobe-ip-addresses.html) é uma lista completa de domínios e endereços IP recomendados que você deve incluir na lista de permissões.<br>Se sua organização bloquear cookies de terceiros, entre em contato com o Atendimento ao cliente para recuperar o acesso ao Adobe Analytics. |
 | Nova página de aterrissagem padrão do Adobe Analytics | Data efetiva: 18 de junho de 2020 | Em 18 de junho de 2020, a landing page padrão do Adobe Analytics será alterada de [!UICONTROL Relatórios] para [!UICONTROL Workspace]. Essa alteração ocorrerá para qualquer usuário que não tenha definido uma landing page personalizada anteriormente. |
