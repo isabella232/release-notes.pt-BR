@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 156d25a099ea7bf1a0f8b7fff148dbfdd615f69e
+source-git-commit: 3947290a3d13ab4cef1d6d9ec639fa70a250c36a
 workflow-type: tm+mt
-source-wordcount: '4356'
-ht-degree: 100%
+source-wordcount: '4377'
+ht-degree: 99%
 
 ---
 
@@ -140,6 +140,7 @@ Data de lançamento: **16 de julho de 2020**
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | -----------| ---------- |-------|
+| CDA: Arranque em campo | 27 de julho de 2020 | Um novo método para Analytics entre dispositivos que permite usar uma variável personalizada para ajudar a identificar visitantes. |
 | Workspace: novas predefinições de intervalo de datas | 16 de julho de 2020 | Foram adicionados 4 novos intervalos de datas (_Esta semana/mês/trimestre/ano_ (exceto hoje)) para que os usuários possam escolher entre intervalos de datas que não incluem dados de dias parciais a partir de hoje. |
 | API de reparo de dados - beta público | 14 de julho de 2020 | A [!UICONTROL API de reparo de dados] fornece um mecanismo para excluir ou editar determinados dados existentes do Adobe Analytics. As solicitações de [!UICONTROL Reparo de dados] são feitas enviando uma definição de tarefa para a [!UICONTROL API de reparo de dados], que inclui o conjunto de relatórios, o intervalo de datas, as variáveis e as ações que serão aplicadas aos dados. Após o lançamento do beta público, a [!UICONTROL API de reparo de dados] oferecerá suporte à exclusão de dados do [!UICONTROL Activity Map]. Recursos adicionais serão lançados posteriormente. Entre em contato com o Atendimento ao cliente para participar do beta público da API de reparo de dados. [Saiba mais...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
