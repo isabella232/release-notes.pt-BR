@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9f46f208d31ffea1d637bcffb02d869eb0f29974
+source-git-commit: 6f1be637b529833baf987c4727ec2d7e4980b779
 workflow-type: tm+mt
-source-wordcount: '4563'
+source-wordcount: '4561'
 ht-degree: 96%
 
 ---
@@ -73,7 +73,7 @@ Novo conteúdo publicado nos laboratórios do Adobe Summit em 2020.
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
-| 27 de julho de 2020 | [Libere experiências digitais com a Adobe Documento Cloud](https://docs.adobe.com/content/help/en/document-cloud-learn/lab719/overview.html) | Artigo | Neste laboratório, leve sua produtividade e criatividade para o próximo nível, aprendendo como tornar-se digital e fazer mais com PDF, e transforme experiências de clientes e funcionários. |
+| 27 de julho de 2020 | [Libere experiências digitais com a Adobe Document Cloud](https://docs.adobe.com/content/help/en/document-cloud-learn/lab719/overview.html) | Artigo | Neste laboratório, leve sua produtividade e criatividade para o próximo nível, aprendendo como tornar-se digital e fazer mais com PDF, e transforme experiências de clientes e funcionários. |
 
 **Menu de interface atualizado**
 
@@ -136,7 +136,7 @@ Usando a Adobe Experience Platform, orquestre as jornadas individuais dos client
 
 Data de lançamento: **16 de julho de 2020**
 
-* [Novos recursos no Adobe Analytics](#aa-features) (atualizado em 21 de julho de 2020)
+* [Novos recursos do Adobe Analytics](#aa-features) (atualizado em 21 de julho de 2020)
 * [Novos recursos no Customer Journey Analytics](#cust-journey)
 * [Novos recursos no Media Analytics](#media-aa)
 * [Correções no Adobe Analytics](#aa-fixes)
@@ -380,8 +380,6 @@ Para ver as notas de versão do Magento, consulte:
 
 ### Atualizações do Core Marketo Engage
 
-A documentação para o [!UICONTROL Marketing Sky] agora está disponível para [Aqui](https://docs.adobe.com/content/help/en/marketo/sky/home.html).
-
 Consulte as [!DNL Marketo] [notas de versão](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+July+%2720) para obter as informações mais recentes.
 
 ### Recursos futuros
@@ -401,5 +399,9 @@ Os seguintes recursos serão lançados ao longo do trimestre:
 
 * **Parâmetro &quot;_method&quot; da API de ativos:** a partir de setembro de 2020, os access points da API de ativos não aceitarão mais `_method` passar parâmetros de consulta em um corpo do POST para ignorar as limitações de comprimento do URI.
 * **Desativação do suporte ao Internet Explorer:** a partir do lançamento realizado em 31 de julho de 2020, a interface do usuário do Marketo Engage não será mais compatível com o Internet Explorer.
+
+>[!NOTE]
+>
+>A documentação da interface do [!UICONTROL Marketing Sky] está disponível [aqui](https://docs.adobe.com/content/help/en/marketo/sky/home.html).
 
 Para obter as notas de versão cumulativas e históricas, consulte [Notas de versão do Marketo](https://docs.marketo.com/x/CgA6Ag).
