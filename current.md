@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6f1be637b529833baf987c4727ec2d7e4980b779
+source-git-commit: b5109b2b7d98da696cbd397ab9358daf843c8e4b
 workflow-type: tm+mt
-source-wordcount: '4561'
-ht-degree: 96%
+source-wordcount: '4618'
+ht-degree: 95%
 
 ---
 
@@ -27,13 +27,13 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 
 As datas de lançamento do produto podem variar. Verifique frequentemente se há atualizações.
 
-Última atualização: **21 de julho de 2020**
+Última atualização: **29 de julho de 2020**
 
 * [Status de sistema da Adobe](#status)
 * [Interface da Experience Cloud](#ecloud) (Atualizado em: 27 de julho de 2020)
 * [Experience Platform](#platform)
 * [Orquestração da jornada](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Atualizado em: 21 de julho de 2020)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Atualizado em: 29 de julho de 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (Atualizado em 27 de julho de 2020)
 * [Campaign](#ac)
@@ -67,13 +67,13 @@ Lançamento: **21 de maio de 2020**
 
 Atualizações gerais na interface da Experience Cloud.
 
-### Nova documentação do Adobe Summit Lab
+### Nova documentação do Laboratório Adobe Summit
 
-Novo conteúdo publicado nos laboratórios do Adobe Summit em 2020.
+Novo conteúdo publicado nos laboratórios da Adobe Summit em 2020.
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
-| 27 de julho de 2020 | [Libere experiências digitais com a Adobe Document Cloud](https://docs.adobe.com/content/help/en/document-cloud-learn/lab719/overview.html) | Artigo | Neste laboratório, leve sua produtividade e criatividade para o próximo nível, aprendendo como tornar-se digital e fazer mais com PDF, e transforme experiências de clientes e funcionários. |
+| 27 de julho de 2020 | [Libere as experiências digitais com o Adobe Document Cloud](https://docs.adobe.com/content/help/en/document-cloud-learn/lab719/overview.html) | Artigo | Neste laboratório, leve sua produtividade e criatividade para o próximo nível, aprendendo como tornar-se digital e fazer mais com PDF, e transforme experiências de clientes e funcionários. |
 
 **Menu de interface atualizado**
 
@@ -136,8 +136,8 @@ Usando a Adobe Experience Platform, orquestre as jornadas individuais dos client
 
 Data de lançamento: **16 de julho de 2020**
 
-* [Novos recursos do Adobe Analytics](#aa-features) (atualizado em 21 de julho de 2020)
-* [Novos recursos no Customer Journey Analytics](#cust-journey)
+* [Novos recursos no Adobe Analytics](#aa-features) (atualizado em 21 de julho de 2020)
+* [Novos recursos do Customer Journey Analytics](#cust-journey) (atualizado em 29 de julho de 2020)
 * [Novos recursos no Media Analytics](#media-aa)
 * [Correções no Adobe Analytics](#aa-fixes)
 * [Avisos importantes para administradores do Analytics](#aa-notices)
@@ -148,7 +148,7 @@ Data de lançamento: **16 de julho de 2020**
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | -----------| ---------- |-------|
-| CDA: montagem em campo | 27 de julho de 2020 | Um novo método de análise entre dispositivos que permite usar uma variável personalizada para ajudar a identificar visitantes. &lt;!-->[Saiba mais...](https://docs.adobe.com/content/help/en/analytics/components/cda/field-based-stitching.html)&lt;--> |
+| CDA: montagem em campo | 27 de julho de 2020 | Um novo método de análise entre dispositivos que permite usar uma variável personalizada para ajudar a identificar visitantes. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/components/cda/field-based-stitching.html) |
 | Workspace: novas predefinições de intervalo de datas | 16 de julho de 2020 | Foram adicionados 4 novos intervalos de datas (_Esta semana/mês/trimestre/ano_ (exceto hoje)) para que os usuários possam escolher entre intervalos de datas que não incluem dados de dias parciais a partir de hoje. |
 | API de reparo de dados - beta público | 14 de julho de 2020 | A [!UICONTROL API de reparo de dados] fornece um mecanismo para excluir ou editar determinados dados existentes do Adobe Analytics. As solicitações de [!UICONTROL Reparo de dados] são feitas enviando uma definição de tarefa para a [!UICONTROL API de reparo de dados], que inclui o conjunto de relatórios, o intervalo de datas, as variáveis e as ações que serão aplicadas aos dados. Após o lançamento do beta público, a [!UICONTROL API de reparo de dados] oferecerá suporte à exclusão de dados do [!UICONTROL Activity Map]. Recursos adicionais serão lançados posteriormente. Entre em contato com o Atendimento ao cliente para participar do beta público da API de reparo de dados. [Saiba mais...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
@@ -156,7 +156,7 @@ Data de lançamento: **16 de julho de 2020**
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | -----------| ---------- |-----|
-| Nenhum recurso novo este mês |  |  |
+| Opção de Mapa de identidade para ID de pessoa | 26 de junho de 2020 | O Mapa de identidade é uma estrutura de dados de mapa que permite carregar pares de chaves -> valores como parte da criação de uma conexão no Customer Journey Analytics. As chaves são namespaces de identidade e o valor é uma estrutura que contém o valor de identidade. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
 
 ### Novos recursos no [!UICONTROL Media Analytics] {#media-aa}
 
@@ -402,6 +402,6 @@ Os seguintes recursos serão lançados ao longo do trimestre:
 
 >[!NOTE]
 >
->A documentação da interface do [!UICONTROL Marketing Sky] está disponível [aqui](https://docs.adobe.com/content/help/en/marketo/sky/home.html).
+>A documentação da interface do [!UICONTROL Marketo Sky] está disponível [aqui](https://docs.adobe.com/content/help/en/marketo/sky/home.html).
 
 Para obter as notas de versão cumulativas e históricas, consulte [Notas de versão do Marketo](https://docs.marketo.com/x/CgA6Ag).
