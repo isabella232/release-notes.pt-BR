@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b5109b2b7d98da696cbd397ab9358daf843c8e4b
+source-git-commit: 5bbdf099a039991d51b2f0735a3766d2f7525f3d
 workflow-type: tm+mt
-source-wordcount: '4618'
+source-wordcount: '4597'
 ht-degree: 95%
 
 ---
@@ -275,7 +275,6 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
-| 27 de julho de 2020 | [Detecção de padrão](https://docs.adobe.com/content/help/en/experience-manager-pattern-detection/table-of-contents/aso.html) | Referência | Disponível somente no `upgrade.log` durante uma atualização de Experience Manager. |
 | 27 de julho de 2020 | [Distribuição de software](https://docs.adobe.com/content/help/pt-BR/experience-cloud/software-distribution/home.html) | Artigo | As of June 2020, the Experience Cloud solution Software Distribution replaces the download platforms [!UICONTROL PackageShare] for AEM and [!DNL Neolane] for [!DNL Campaign] and provides a more efficient experience to find and download your software. Uma interface de usuário intuitiva, pesquisa simplificada e velocidade de download muito melhor tornam o download de pacotes de software para produtos da Experience Cloud uma experiência do usuário excelente. |
 | 25 de junho de 2020 | [Introdução aos formulários adaptativos](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | Vídeo | Esses tutoriais orientam você pelas etapas envolvidas na criação de um formulário adaptável com várias guias. Saiba como usar tabelas, layout e editor de regras para criar regras de negócios. |
 | 25 de junho de 2020 | [Criação de um fluxo de trabalho de revisão no AEM Forms](https://video.tv.adobe.com/v/35821/quality=9?captions=por_br) | Vídeo | Saiba como criar um fluxo de trabalho para revisar dados enviados a partir do envio de um formulário ativo. |
