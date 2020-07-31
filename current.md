@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 5bbdf099a039991d51b2f0735a3766d2f7525f3d
 workflow-type: tm+mt
 source-wordcount: '4597'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ As datas de lançamento do produto podem variar. Verifique frequentemente se há
 * [Interface da Experience Cloud](#ecloud) (Atualizado em: 27 de julho de 2020)
 * [Experience Platform](#platform)
 * [Orquestração da jornada](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Atualizado em: 29 de julho de 2020)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey)  (Atualizado em: 29 de julho de 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (Atualizado em 27 de julho de 2020)
 * [Campaign](#ac)
@@ -136,7 +136,7 @@ Usando a Adobe Experience Platform, orquestre as jornadas individuais dos client
 
 Data de lançamento: **16 de julho de 2020**
 
-* [Novos recursos no Adobe Analytics](#aa-features) (atualizado em 21 de julho de 2020)
+* [Novos recursos do Adobe Analytics](#aa-features) (Atualizado em 21 de julho de 2020)
 * [Novos recursos do Customer Journey Analytics](#cust-journey) (atualizado em 29 de julho de 2020)
 * [Novos recursos no Media Analytics](#media-aa)
 * [Correções no Adobe Analytics](#aa-fixes)
@@ -148,7 +148,7 @@ Data de lançamento: **16 de julho de 2020**
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | -----------| ---------- |-------|
-| CDA: montagem em campo | 27 de julho de 2020 | Um novo método de análise entre dispositivos que permite usar uma variável personalizada para ajudar a identificar visitantes. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/components/cda/field-based-stitching.html) |
+| CDA: montagem em campo | 27 de julho de 2020 | Um novo método de análise entre dispositivos que permite usar uma variável personalizada para ajudar a identificar visitantes. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/components/cda/field-based-stitching.html) |
 | Workspace: novas predefinições de intervalo de datas | 16 de julho de 2020 | Foram adicionados 4 novos intervalos de datas (_Esta semana/mês/trimestre/ano_ (exceto hoje)) para que os usuários possam escolher entre intervalos de datas que não incluem dados de dias parciais a partir de hoje. |
 | API de reparo de dados - beta público | 14 de julho de 2020 | A [!UICONTROL API de reparo de dados] fornece um mecanismo para excluir ou editar determinados dados existentes do Adobe Analytics. As solicitações de [!UICONTROL Reparo de dados] são feitas enviando uma definição de tarefa para a [!UICONTROL API de reparo de dados], que inclui o conjunto de relatórios, o intervalo de datas, as variáveis e as ações que serão aplicadas aos dados. Após o lançamento do beta público, a [!UICONTROL API de reparo de dados] oferecerá suporte à exclusão de dados do [!UICONTROL Activity Map]. Recursos adicionais serão lançados posteriormente. Entre em contato com o Atendimento ao cliente para participar do beta público da API de reparo de dados. [Saiba mais...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
@@ -188,7 +188,7 @@ AN-222672, AN-222813; AN-222892; AN-223272, AN-223432; AN-224062; AN-224108; AN-
 
 ### Avisos importantes para administradores do [!DNL Analytics] {#aa-notices}
 
-| Aviso | Data de adição ou atualização | Descrição |
+| Aviso | Data de adição  ou atualização | Descrição |
 | -----------| ---------- | ---------- |
 | Fim da vida útil dos conectores de dados da Adobe | 13 de julho de 2020 | Os Conectores de dados da Adobe são alimentados por tecnologia herdada que não é mais viável ou compatível. Temos um novo padrão no [Programa de parceiros Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud) que deve ser adotado para todas as integrações que desejam continuar sendo oferecidas e tendo suporte. A data oficial do fim da vida útil ainda será determinada, mas prevemos que seja nos próximos 12 a 18 meses (meados de 2021 até o final de 2021). [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/import/dataconnectors/data-connectors-eol.html) |
 | Mapeamento do conjunto de relatórios para organização IMS | Julho de 2020 | A ferramenta de mapeamento do conjunto de relatórios será descontinuada em novembro de 2020. Esse recurso capacita integrações como o Advertising Analytics e a publicação de segmentos da Experience Cloud no Adobe Analytics. Um conjunto de relatórios deve ser mapeado para uma organização IMS para ativar esses e outros serviços. Os conjuntos de relatórios mais recentes são mapeados automaticamente após a criação. No entanto, os conjuntos de relatórios mais antigos devem ser mapeados manualmente para uma organização IMS. Consulte [Mapear conjuntos de relatórios para uma organização](https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/report-suite-mapping.html) no guia do usuário dos Serviços principais para verificar se todos os conjuntos de relatórios pertencem a uma organização IMS. |
@@ -351,7 +351,7 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
 * Adobe Campaign Standard: [Centro de ajuda](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/campaign-standard-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-notes.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/overview.html) - [Planejamento de lançamento](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-planning.html) - [Atualizações mais recentes da documentação](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic: [Centro de ajuda](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/campaign-classic-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/release-notes/latest-release.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/overview.html)- [Atualizações mais recentes da documentação](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/documentation-updates.html)
-* Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) - Vídeos explicativos do [Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
+* Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html)  - Vídeos explicativos do [Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
 
 ## ![Ícone](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
