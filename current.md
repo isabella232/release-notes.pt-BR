@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 94f346f9c1f7f23630c731769e4457bc5e0b7222
+source-git-commit: 4692634440160952dc46ee85c9dbdb77b9778fbf
 workflow-type: tm+mt
-source-wordcount: '6209'
-ht-degree: 43%
+source-wordcount: '6174'
+ht-degree: 42%
 
 ---
 
@@ -113,7 +113,6 @@ Data de lançamento: **16 de julho de 2020**
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | -----------| ---------- | ---------- |
 | [Dispositivos e plataformas compatíveis](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/supported-devices.html) | 18 de junho de 2020 | The [!UICONTROL Media Launch Extension] with AEP SDK now supports the following OTT devices:<ul><li>Apple TV (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |
-| [Dispositivos e plataformas compatíveis](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/supported-devices.html) | 18 de junho de 2020 | A Extensão Media Launch com SDK AEP agora é compatível com os seguintes dispositivos OTT:<ul><li>Apple TV (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |
 | [Rastreamento do estado do player](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/player-state-tracking/player-state-overview.html) | 29 de maio de 2020 | Os clientes do [!UICONTROL Media Analytics] podem capturar a interação do visualizador durante a reprodução usando um conjunto padrão de variáveis de solução para tela cheia, legendas ocultas, mudo, picture-in-picture e em foco. Você também tem flexibilidade para criar estados personalizados do player. As variáveis de Rastreamento de estado do player estão disponíveis para relatórios no [!UICONTROL Analysis Workspace]. Esse recurso exige um dos seguintes: <ul><li>Media [!DNL JavaScript] SDK 3.0 ou superior</li><li>Para uso com o SDK [!DNL Adobe Experience Platform] (AEP):</li><li>[!UICONTROL Extensão do Media Analytics] (para Web): [!UICONTROL Adobe Media Analytics] (SDK 3.x) for Audio and Video v1.0 ou superior</li><li>[!UICONTROL Extensão do Media Analytics] (para dispositivos móveis): [!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 ou superior</li><li>[!UICONTROL Coleção de mídia]</li></ul> |
 
 ### Correções no Adobe Analytics {#aa-fixes}
@@ -205,7 +204,7 @@ Data de lançamento: **13 de agosto de 2020**
 
 | Publicado | Nome | Tipo | Descrição |
 | ----------- | ----------- | ---------- | ---------- |
-| 7 de agosto de 2020 | [Economize dinheiro e otimize a experiência do cliente ao suprimir anúncios em conversores](https://experienceleague.adobe.com/?recommended=AudienceManager-A-1-2020.1) | Tutorial | Neste curso, aprenda todos os conceitos para ir do start ao fim com o caso de uso de economia e otimização da experiência do cliente removendo clientes existentes de suas campanhas de alcance. Isso inclui a criação de características e segmentos, a adição das regras de mesclagem de perfil certas, a adição de segmentos aos destinos e até mesmo o cálculo do ROI à medida que você usa esse caso de uso. |
+| 7 de agosto de 2020 | [Economize dinheiro e otimize a experiência do cliente ao suprimir anúncios em conversores](https://experienceleague.adobe.com/?recommended=AudienceManager-A-1-2020.1) | Tutorial | Neste curso, aprenda todos os conceitos para ir do start ao fim com o caso de uso de economia e otimização da experiência do cliente, removendo clientes existentes de suas campanhas de alcance. Isso inclui a criação de características e segmentos, a adição das regras de mesclagem de perfil certas, a adição de segmentos aos destinos e até mesmo o cálculo do ROI à medida que você usa esse caso de uso. |
 | 7 de agosto de 2020 | [Escolhendo a regra de mesclagem de Perfil certa](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/choosing-the-right-profile-merge-rule.html) | Tutorial | Neste vídeo, descubra três dos casos de uso mais comuns para regras [!UICONTROL de mesclagem de]Perfis e como eles podem ajudar seus esforços de marketing. |
 | 5 de agosto de 2020 | [Criação de uma Taxonomia de segmento](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-a-segment-taxonomy.html) | Tutorial | Ao criar um segmento no Audience Manager, você os armazena em uma estrutura baseada em pastas ou em uma _taxonomia_. Aprenda algumas dicas para criar e gerenciar a taxonomia do segmento. |
 | 4 de agosto de 2020 | [Recuperar credenciais de API em E/S Adobe](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/api/retrieve-api-credentials-in-adobe-io.html) | Tutorial | Em vez de entrar em contato com a Adobe Consulting ou com o Atendimento ao cliente para obter credenciais para usar a REST API, você pode simplesmente acessar `Adobe.io` um navegador e recuperar ou registrar suas próprias credenciais. |
