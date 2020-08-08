@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dab2c3fb8b9920f079195693a584f7c48b813e23
+source-git-commit: 94f346f9c1f7f23630c731769e4457bc5e0b7222
 workflow-type: tm+mt
-source-wordcount: '6207'
+source-wordcount: '6209'
 ht-degree: 43%
 
 ---
@@ -75,9 +75,9 @@ Usando a Adobe Experience Platform, orquestre as jornadas individuais dos client
 
 Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
-| Publicado | Nome | Descrição |
-| ----------- | ---------- | ---------- |  
-| 10 de julho de 2020 | [Eventos da etapa de viagem do relatórios para Adobe Experience Platform](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html) | Saiba quais são os eventos de etapa de jornada e quais etapas de dados são criadas automaticamente no Experience Platform e como explorá-los. |
+| Publicado | Nome | Tipo | Descrição |
+| ----------- | ---------- | ---------- |---------- |  
+| 10 de julho de 2020 | [Eventos da etapa de viagem do relatórios para Adobe Experience Platform](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html) | Tutorial | Saiba quais são os eventos de etapa de jornada e quais etapas de dados são criadas automaticamente no Experience Platform e como explorá-los. |
 
 ### Recursos adicionais do Journey Orchestration
 
@@ -159,7 +159,7 @@ Para obter as atualizações mais recentes das versões do AppMeasurement, consu
 
 Novos cursos, vídeos de tutoriais e artigos no Analytics e Customer Journey Analytics.
 
-| Publicado | Nome | Solução | Descrição |
+| Publicado | Nome | Tipo | Descrição |
 | ----------- | ----------- | ---------- | ---------- |  
 | 30 de julho de 2020 | [Limitar o acesso ao conjunto de relatórios no Admin Console](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/limit-report-suite-access-in-the-admin-console.html) | Tutorial | Saiba como usar o [!UICONTROL Admin Console] para garantir que os usuários possam acessar somente os conjuntos de relatórios necessários para sua função. |
 | 24 de julho de 2020 | [Adicionar um administrador à Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics.html) | Tutorial | Saiba como adicionar um usuário como Administrador no Adobe [!UICONTROL Admin Console]. |
@@ -203,9 +203,9 @@ Data de lançamento: **13 de agosto de 2020**
 
 ### Novos tutoriais do Audience Manager {#tutorials-aam}
 
-| Publicado | Nome | Solução | Descrição |
+| Publicado | Nome | Tipo | Descrição |
 | ----------- | ----------- | ---------- | ---------- |
-| 7 de agosto de 2020 | [Economize dinheiro e otimize a experiência do cliente ao suprimir anúncios em conversores](https://experienceleague.adobe.com/?recommended=AudienceManager-A-1-2020.1) | Tutorial | Neste curso, aprenda todos os conceitos para ir do start ao fim com o caso de uso de economia e otimização da experiência do cliente, removendo clientes existentes de suas campanhas de alcance. Isso inclui a criação de características e segmentos, a adição das regras de mesclagem de perfil certas, a adição de segmentos aos destinos e até mesmo o cálculo do ROI à medida que você usa esse caso de uso. |
+| 7 de agosto de 2020 | [Economize dinheiro e otimize a experiência do cliente ao suprimir anúncios em conversores](https://experienceleague.adobe.com/?recommended=AudienceManager-A-1-2020.1) | Tutorial | Neste curso, aprenda todos os conceitos para ir do start ao fim com o caso de uso de economia e otimização da experiência do cliente removendo clientes existentes de suas campanhas de alcance. Isso inclui a criação de características e segmentos, a adição das regras de mesclagem de perfil certas, a adição de segmentos aos destinos e até mesmo o cálculo do ROI à medida que você usa esse caso de uso. |
 | 7 de agosto de 2020 | [Escolhendo a regra de mesclagem de Perfil certa](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/choosing-the-right-profile-merge-rule.html) | Tutorial | Neste vídeo, descubra três dos casos de uso mais comuns para regras [!UICONTROL de mesclagem de]Perfis e como eles podem ajudar seus esforços de marketing. |
 | 5 de agosto de 2020 | [Criação de uma Taxonomia de segmento](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-a-segment-taxonomy.html) | Tutorial | Ao criar um segmento no Audience Manager, você os armazena em uma estrutura baseada em pastas ou em uma _taxonomia_. Aprenda algumas dicas para criar e gerenciar a taxonomia do segmento. |
 | 4 de agosto de 2020 | [Recuperar credenciais de API em E/S Adobe](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/api/retrieve-api-credentials-in-adobe-io.html) | Tutorial | Em vez de entrar em contato com a Adobe Consulting ou com o Atendimento ao cliente para obter credenciais para usar a REST API, você pode simplesmente acessar `Adobe.io` um navegador e recuperar ou registrar suas próprias credenciais. |
@@ -341,7 +341,7 @@ Informações de versão do Campaign Classic, Campaign Standard e Painel de cont
 
 Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
-| Publicado | Nome | Solução | Descrição |
+| Publicado | Nome | Tipo | Descrição |
 | ----------- | ----------- | ---------- | ---------- |  
 | 10 de julho de 2020 | [Painel de controle do Campaign - Gerenciamento de chaves GPG - Descriptografia de dados](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html) | Campaign Classic | Saiba como criar uma chave pública, importá-la e instalá-la em uma instância do Campaign para descriptografar dados de entrada. |
 | 10 de julho de 2020 | [Painel de controle do Campaign - Gerenciamento de chave GPG - Uso de uma chave GPG para criptografar dados](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html) | Campaign Classic | Saiba como exportar dados usando uma chave GPG instalada no Painel de controle do Campaign. |
