@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4692634440160952dc46ee85c9dbdb77b9778fbf
+source-git-commit: c3d6d35f2a56d003514549150db7b060440389f9
 workflow-type: tm+mt
-source-wordcount: '6174'
+source-wordcount: '6287'
 ht-degree: 42%
 
 ---
@@ -228,6 +228,7 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
    * AEM Comércio está disponível no Cloud Service. Consulte [Introdução ao Comércio AEM como Cloud Service.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/getting-started.html)
    * Os conectores para Adobe Target e Adobe Analytics incluem melhorias na interface do usuário, substituição da interface clássica e integração com o Adobe Launch. Consulte [Integração do Adobe Analytics](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/integrations/integrating-adobe-analytics.html) e [integração do Adobe Target.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/integrations/integrating-adobe-target.html)
    * O Asset Compute Service é um serviço escalonável e extensível para processar ativos. Os administradores podem configurar o Experience Manager para chamar o trabalhador personalizado criado usando o Serviço de Computação de Ativos. Os desenvolvedores podem usar o serviço para criar funcionários personalizados especializados que atendam a casos de uso complexos. Esse serviço da Web pode gerar miniaturas para diferentes tipos de arquivos, renderizações de imagem de alta qualidade de formatos de arquivo Adobe, codificar vídeos (futuros), extrair metadados, extrair texto completo como precursor para indexação e executar um ativo por meio de todos os serviços do Sensei disponíveis. Consulte [Usar microserviços de ativos e perfis de processamento.](https://docs.adobe.com/content/help/br/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html)
+   * [O Asset Compute Service](https://docs.adobe.com/content/help/en/asset-compute/using/home.html) é disponibilizado para ser estendido para criar um aplicativo personalizado. É um serviço escalonável e extensível de processamento de ativos digitais. [!DNL Adobe Experience Cloud] Ele pode transformar imagens, vídeos, documentos e outros formatos de arquivo em diferentes representações, incluindo miniaturas, texto e metadados extraídos, arquivos e muito mais. Os desenvolvedores podem criar aplicativos personalizados (também chamados de funcionários personalizados) para tratar de casos de uso personalizados. Ele é construído usando o [Project Firefly](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html) e funciona no [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)sem servidor.
    * Várias melhorias para modelos de fluxo de trabalho e Dynamic Media em AEM como Cloud Service.
    * Release 2.11.0 of the [AEM Core Components](https://docs.adobe.com/content/help/pt-BR/experience-manager-core-components/using/introduction.html) is now available as part of AEM Sites including the following:
       * Introdução de um novo componente do visualizador de [PDF.](https://aemcomponents.dev/content/core-components-examples/library/page-authoring/pdf-viewer.html)
@@ -241,6 +242,10 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
    * Consulte as notas de versão [completas para AEM como Cloud Service.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)
 
 ### Autoajuda
+
+* **AEM Assets**
+
+   * Adicionadas mais dicas [de solução de problemas](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/troubleshoot.html) para o aplicativo de desktop Experience Manager.
 
 * **AEM Forms**
 
