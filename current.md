@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 287bdc8c8460e9700474bb0bf1e79631182945bb
+source-git-commit: bc30808217e8734e639246602be45efd02d2dc60
 workflow-type: tm+mt
 source-wordcount: '6402'
 ht-degree: 41%
@@ -101,7 +101,7 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 | Melhorias na coleta de dados na China | 13 de ago de 2020 | As melhorias incluem: Suporte ao serviço de ID de Experience Cloud; suporte para SSL primário; e suporte para encaminhamento pelo lado do servidor. Para obter a documentação, entre em contato com o representante de vendas da Adobe. |
 | [!UICONTROL Análises]entre dispositivos: Disponibilidade em EMEA e APAC | 31 de agosto de 2020 | [O Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/overview.html) e o gráfico privado estarão disponíveis para clientes na EMEA e na APAC. |
 | Aprimoramento da correção em campo no [!UICONTROL Cross-Device Analytics] (disponível nas Américas e na EMEA) | 17 de agosto de 2020 | Essa implementação simplificada para novos clientes do [!UICONTROL Cross-Device Analytics] oferece a opção de suturar com base em uma ID de usuário armazenada em um campo do Analytics (prop ou eVar) em vez de usar um gráfico de dispositivo (cooperativo ou privado). O aprimoramento remove o requisito de implementar o ECID e remove o requisito de implementar a sincronização de ID para fins de CDA. (A sincronização de ECID e ID ainda é necessária para outros recursos.) |
-| Área de trabalho: Download de itens 50 mil para uma única dimensão | 17 de setembro de 2020 | [Anúncio] antecipado Você poderá baixar 50.000 itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Isso permite acessar mais de 400 linhas de dados fora do Analysis Workspace. |
+| (Anúncio antecipado) Espaço de trabalho: Download de itens 50 mil para uma única dimensão | 17 de setembro de 2020 | Você poderá baixar 50.000 itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Isso permite acessar mais de 400 linhas de dados fora do Analysis Workspace. |
 
 ### Novos recursos no Customer Journey Analytics {#cust-journey}
 
