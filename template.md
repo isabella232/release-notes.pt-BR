@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bd027ba7bbbfd6c8e510b48e4e0fff9168403da8
+source-git-commit: 949872e465b54e68051c62f61530591117f54a6a
 workflow-type: tm+mt
-source-wordcount: '2537'
+source-wordcount: '2526'
 ht-degree: 98%
 
 ---
@@ -99,7 +99,7 @@ Usando a Adobe [!UICONTROL Experience Platform,] orquestre jornaldas individuais
 
 #### Recursos adicionais para a [!UICONTROL Orquestração de jornadas]
 
-[Documentação](https://docs.adobe.com/content/help/pt-BR/journeys/using/journey-orchestration-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/journeys/using/release-notes/release-notes.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+[Documentação](https://docs.adobe.com/content/help/pt-BR/journeys/using/journey-orchestration-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/journeys/using/release-notes/release-notes.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
 
 ### [!UICONTROL Mobile Services] e [!UICONTROL SDK móvel] {#mobile}
 
@@ -131,7 +131,7 @@ Para obter a documentação do produto, consulte a [Página inicial de ajuda do 
 ### Novos recursos no Adobe Analytics {#aa-features}
 
 | Recurso | Descrição |
-| -----------| ---------- |  
+| ------- | ------- |
 | Recurso A | Texto |
 | Recurso B | Texto |
 | Recurso C | Texto |
@@ -139,7 +139,7 @@ Para obter a documentação do produto, consulte a [Página inicial de ajuda do 
 ### SDK [!DNL Media Analytics] para [!DNL iOS] e [!DNL Android] (anteriormente SDK de VHL) {#aa-va}
 
 | Recurso | Descrição |
-| -----------| ---------- |  
+| ------- | ------- |
 | Recurso A | Texto |
 | Recurso B | Texto |
 | Recurso C | Texto |
@@ -151,7 +151,7 @@ Consulte as [Notas de versão do Data Workbench](https://marketing.adobe.com/res
 ### AppMeasurement {#appm}
 
 | Recurso | Descrição |
-| -----------| ---------- |
+| ------- | ------- |
 | Recurso A | Texto |
 | Recurso B | Texto |
 | Recurso C | Texto |
@@ -179,7 +179,7 @@ Consulte o [Histórico de versões do AppMeasurement](https://docs.adobe.com/con
 ## Audience Manager {#aam}
 
 | Recurso | Descrição |
-| -----------| ---------- |  
+| ------- | ------- |
 | Recurso A | Texto |
 | Recurso B | Texto |
 | Recurso C | Texto |
@@ -235,7 +235,7 @@ Os conjuntos de documentação do AEM a seguir foram migrados para uma nova plat
 ### [!DNL Livefyre] {#livefyre}
 
 | Recurso | Descrição |
-| -----------| ---------- |  
+| ------- | ------- |
 | Recurso A | Texto |
 | Recurso B | Texto |
 | Recurso C | Texto |
@@ -250,7 +250,7 @@ Os conjuntos de documentação do AEM a seguir foram migrados para uma nova plat
 ## Social {#soc}
 
 | Recurso | Descrição |
-| -----------| ---------- |  
+| ------- | ------- |
 | Recurso A | Texto |
 | Recurso B | Texto |
 | Recurso C | Texto |
@@ -275,7 +275,7 @@ O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagen
 ## Advertising Cloud {#adcloud}
 
 | Recurso | Descrição |
-| -----------| ---------- |  
+| ------- | ------- |
 | Recurso A | Texto |
 | Recurso B | Texto |
 | Recurso C | Texto |
@@ -296,7 +296,7 @@ Para ver as notas de versão do Magento, consulte:
 
 ## Marketo {#marketo}
 
-O Marketing to Engage é uma solução completa para o gerenciamento de clientes potenciais e para os profissionais de marketing B2B que procuram transformar as experiências dos clientes ao se envolverem em todos os estágios de complexas viagens de compra.
+O Marketo Engage é uma solução completa para o gerenciamento de lead e para os profissionais de marketing B2B que buscam transformar as experiências dos clientes ao se envolverem em todos os estágios de compra complexos.
 
 ### Atualizações do Core Marketo Engage
 
@@ -316,9 +316,10 @@ See Marketo release notes for [February 2020](https://docs.marketo.com/display/p
 Os seguintes recursos serão lançados ao longo do trimestre:
 
 | Recurso | Descrição |
-|------|---------|
-| [!DNL Bizible] | <ul><li>Nova segmentação baseada em conta</li><li>Salvar filtros específicos do painel</li><li>Exportar painéis Bizible como PDFs</li></ul> |
-| Conexão de vendas | Compor atualizações/aprimoramentos da Janela e do Centro de comando |
+| ------- | ------- |
+| Recurso A | Texto |
+| Recurso B | Texto |
+| Recurso C | Texto |
 
 ### Anúncios
 
@@ -336,7 +337,7 @@ Para obter as notas de versão cumulativas e históricas, consulte [Notas de ver
 Artigos e vídeos de autoajuda novos e recentes. <!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
 
 | Solução | Conteúdo | Descrição |
-|----------| -----------| ---------- |  
+| ---------- | ----------- | ---------- |
 | [!UICONTROL AEM Commerce] | Vídeo - [Criação de várias páginas de categorias e produtos](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/04-style-cif-component.md) | Aprenda a criar um projeto mínimo de CIF do Adobe Experience Manager (AEM) como ponto de partida para projetos de cliente, usando os componentes principais de CIF. Aplique tema e estilos de CSS aos componentes e inspecione um novo projeto de CIF do AEM, gerado pelo arquétipo. Além disso, saiba como são organizados o CSS e o JavaScript usados pelos componentes principais de CIF. |
 | [!UICONTROL AEM Forms] | Artigo - [Autenticar para o autor do AEM usando OKTA](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/single-sign-on-with-okta.html) | Aprenda a configurar seu aplicativo no portal OKTA e saiba mais sobre as configurações que você geralmente usa para registrar o novo aplicativo. |
 | [!UICONTROL AEM Commerce] | Tutorial - [Personalizar os componentes principais de CIF](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/05-customize-cif-components.md) | Analise vários pontos de extensão diferentes fornecidos pelos componentes principais de CIF e pelo AEM em geral. Os Componentes principais de CIF fornecem um conjunto padrão de componentes do Commerce que podem ser usados para acelerar um projeto que integra as soluções Adobe Experience Manager (AEM) e Magento. |
