@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b570d8c8abaaea1d18fb4d09486adef522486572
+source-git-commit: 1fc011a1dbdc71052547679e69ac4f853f7fa4c2
 workflow-type: tm+mt
-source-wordcount: '6378'
+source-wordcount: '6445'
 ht-degree: 41%
 
 ---
@@ -369,6 +369,15 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 ## ![Ícone](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
 Notas de versão da Adobe Advertising Cloud.
+
+* [Novos recursos na Advertising Cloud DSP](#adcloud-dsp)
+* [Novos recursos na Advertising Cloud Search](#adcloud-search)
+
+### New features in [!UICONTROL Advertising Cloud DSP] {#adcloud-dsp}
+
+| Recurso | Descrição |
+| -----------| ---------- |
+| Antecipação interativa estendida para incluir o inventário VAST | Cada posicionamento e anúncio interativo pré-rolagem agora pode suportar tanto o inventário VPAID quanto o VAST. **Observação:** Se o KPI principal for visualizável, continue criando disposições e anúncios VPAID e VAST separados, pois as impressões visualizáveis não estão disponíveis para anúncios VAST. |
 
 ### Novos recursos na [!UICONTROL Advertising Cloud Search] {#adcloud-search}
 
