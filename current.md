@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dc785dde4088570baa004f5296d134d16a503562
+source-git-commit: b570d8c8abaaea1d18fb4d09486adef522486572
 workflow-type: tm+mt
 source-wordcount: '6378'
 ht-degree: 41%
@@ -93,7 +93,7 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 (Atualizado em 13 de agosto de 2020)
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
-| -----------| ---------- |-------|
+| ----------- | ---------- | ------- |
 | [!UICONTROL Análises]entre dispositivos: Disponibilidade em EMEA e APAC | 31 de agosto de 2020 | [O Cross-Device Analytics](https://docs.adobe.com/content/help/en/analytics/components/cda/overview.html) e o gráfico privado estarão disponíveis para clientes na EMEA e na APAC. |
 | Aprimoramento da correção em campo no [!UICONTROL Cross-Device Analytics] (disponível nas Américas e na EMEA) | 31 de agosto de 2020 | Essa implementação simplificada para novos clientes do [!UICONTROL Cross-Device Analytics] oferece a opção de suturar com base em uma ID de usuário armazenada em um campo do Analytics (prop ou eVar) em vez de usar um gráfico de dispositivo (cooperativo ou privado). O aprimoramento remove o requisito de implementar o ECID e remove o requisito de implementar a sincronização de ID para fins de CDA. (A sincronização de ECID e ID ainda é necessária para outros recursos.) |
 | (Anúncio antecipado) Espaço de trabalho: Download de itens 50 mil para uma única dimensão | 17 de setembro de 2020 | Você poderá baixar 50.000 itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Isso permite acessar mais de 400 linhas de dados fora do Analysis Workspace. |
@@ -101,7 +101,7 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 ### Novos recursos no Customer Journey Analytics {#cust-journey}
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
-| -----------| ---------- |-----|
+| ----------- | ---------- | ----- |
 | [!UICONTROL Opção de Mapa de identidade para ID de pessoa] | 26 de junho de 2020 | [!UICONTROL O Mapa] de identidade é uma estrutura de dados de mapa que permite carregar pares de valores chave como parte da criação de uma conexão no [!UICONTROL Customer Journey Analytics]. As chaves são namespaces de identidade e o valor é uma estrutura que contém o valor de identidade. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
 
 ### Novos recursos no [!UICONTROL Media Analytics] {#media-aa}
@@ -109,7 +109,7 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 Data de lançamento: **16 de julho de 2020**
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
-| -----------| ---------- | ---------- |
+| ----------- | ---------- | ---------- |
 | [Dispositivos e plataformas compatíveis](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/supported-devices.html) | 18 de junho de 2020 | The [!UICONTROL Media Launch Extension] with AEP SDK now supports the following OTT devices:<ul><li>Apple TV (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |
 | [Rastreamento do estado do player](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/player-state-tracking/player-state-overview.html) | 29 de maio de 2020 | Os clientes do [!UICONTROL Media Analytics] podem capturar a interação do visualizador durante a reprodução usando um conjunto padrão de variáveis de solução para tela cheia, legendas ocultas, mudo, picture-in-picture e em foco. Você também tem flexibilidade para criar estados personalizados do player. As variáveis de Rastreamento de estado do player estão disponíveis para relatórios no [!UICONTROL Analysis Workspace]. Esse recurso exige um dos seguintes: <ul><li>Media [!DNL JavaScript] SDK 3.0 ou superior</li><li>Para uso com o SDK [!DNL Adobe Experience Platform] (AEP):</li><li>[!UICONTROL Extensão do Media Analytics] (para Web): [!UICONTROL Adobe Media Analytics] (SDK 3.x) for Audio and Video v1.0 ou superior</li><li>[!UICONTROL Extensão do Media Analytics] (para dispositivos móveis): [!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 ou superior</li><li>[!UICONTROL Coleção de mídia]</li></ul> |
 
@@ -135,7 +135,7 @@ AN-219351; AN-220960; AN-223788; AN-224630; AN-224948; AN-225618; AN-226261; AN-
 ### Avisos importantes para administradores do [!DNL Analytics] {#aa-notices}
 
 | Aviso | Data de adição ou atualização | Descrição |
-| -----------| ---------- | ---------- |
+| ----------- | ---------- | ---------- |
 | Fim da vida útil dos conectores de dados da Adobe | 13 de julho de 2020 | Adobe [!UICONTROL Data Connectors] are powered by legacy technology that is no longer viable or supported. Temos um novo padrão no [Programa de parceiros Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud) que deve ser adotado para todas as integrações que desejam continuar sendo oferecidas e tendo suporte. A data oficial do fim da vida útil ainda será determinada, mas prevemos que seja nos próximos 12 a 18 meses (meados de 2021 até o final de 2021). [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/import/dataconnectors/data-connectors-eol.html) |
 | Mapeamento do conjunto de relatórios para organização IMS | Julho de 2020 | A ferramenta de mapeamento do conjunto de relatórios será descontinuada em novembro de 2020. Esse recurso capacita integrações como o Advertising Analytics e a publicação de segmentos da Experience Cloud no Adobe Analytics. Um conjunto de relatórios deve ser mapeado para uma organização IMS para ativar esses e outros serviços. Os conjuntos de relatórios mais recentes são mapeados automaticamente após a criação. No entanto, os conjuntos de relatórios mais antigos devem ser mapeados manualmente para uma organização IMS. See [Map report suites to an organization](https://docs.adobe.com/content/help/pt-BR/core-services/interface/about-core-services/report-suite-mapping.html) in the Experience Cloud interface (Core Services) user guide to make sure all report suites belong to an IMS org. |
 | Migração para o domínio de produto unificado | Data efetiva: 28 de maio de 2020 | A migração para um domínio de produto unificado do Adobe Analytics, que começou em janeiro de 2020, terminou em 28 de maio de 2020. Embora o Adobe Analytics funcione para remover todas as referências de domínio `omniture.com` de sua arquitetura, é importante adicionar uma lista de permissões `omniture.com` como um cookie de terceiros. Quando a migração da arquitetura for concluída (em breve), você será notificado por meio das notas de versão e essa etapa da lista de permissões não será mais necessária. [Esta](https://helpx.adobe.com/br/analytics/kb/adobe-ip-addresses.html) é uma lista completa de domínios e endereços IP recomendados que você deve incluir na lista de permissões.<br>Se sua organização bloquear cookies de terceiros, entre em contato com o Atendimento ao cliente para recuperar o acesso ao Adobe Analytics. |
@@ -157,7 +157,7 @@ Para obter as atualizações mais recentes das versões do AppMeasurement, consu
 Novos cursos, vídeos de tutoriais e artigos no Analytics e Customer Journey Analytics.
 
 | Publicado | Nome | Tipo | Descrição |
-| ----------- | ----------- | ---------- | ---------- |  
+| ----------- | ----------- | ---------- | ---------- |
 | 30 de julho de 2020 | [Limitar o acesso ao conjunto de relatórios no Admin Console](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/limit-report-suite-access-in-the-admin-console.html) | Tutorial | Saiba como usar o [!UICONTROL Admin Console] para garantir que os usuários possam acessar somente os conjuntos de relatórios necessários para sua função. |
 | 24 de julho de 2020 | [Adicionar um administrador à Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics.html) | Tutorial | Saiba como adicionar um usuário como Administrador no Adobe [!UICONTROL Admin Console]. |
 | 17 de julho de 2020 | [Painel Quick Insights no Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/quick-insights-panel-in-analysis-workspace.html) | Tutorial | O painel Quick Insights fornece orientação para não analistas e novos usuários do Analysis Workspace para saber como responder a perguntas comerciais de forma rápida e fácil. |
@@ -269,7 +269,7 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
 Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
 | Publicado | Nome | Tipo | Descrição |
-| -----------| ---------- | ---------- | ---------- |
+| ----------- | ---------- | ---------- | ---------- |
 | 7 de agosto de 2020 | [Introdução ao Gerenciamento de vários sites para usuários empresariais](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.sites.msm) | Curso | Saiba como estabelecer uma base sólida para sua implementação do AEM Assets configurando as principais preocupações, desde a configuração de uma arquitetura de conteúdo básico e taxonomia até a personalização de metadados e processamento de ativos. |
 | 7 de agosto de 2020 | [Configuração da AEM Assets para administradores](https://experienceleague.adobe.com/?recommended=ExperienceManager-A-1-2020.1.assets) | Tutorial | Descrição |
 | 19 de julho de 2020 | [Uso da ferramenta Transferência de conteúdo](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/migration/content-transfer-tool.html) | Tutorial | A Ferramenta de transferência [!UICONTROL de] conteúdo é a maneira recomendada para migrar o conteúdo de uma versão local ou hospedada pelo AMS do Experience Manager para um [!UICONTROL AEM como ambiente Cloud Service] . |
@@ -293,7 +293,7 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 | 21 de julho de 2020 | [Caixa de entrada AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/inbox-customization/introduction.html) | Tutorial | [!UICONTROL AEM Caixa de entrada] consolida notificações e tarefas de vários componentes AEM, incluindo workflows Forms. |
 | 21 de julho de 2020 | [Depuração da inicialização rápida local do SDK do AEM usando registros](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | Tutorial | Os registros atuam como linha de frente para depurar aplicativos AEM, mas dependem do logon adequado no aplicativo AEM implantado. |
 | 21 de julho de 2020 | [Introdução ao editor do SPA](https://video.tv.adobe.com/v/37705?quality=12&learn=on&captions=por_br) | Tutorial | Uma introdução ao curso Introdução à Introdução AEM Editor SPA para desenvolvedores. |
-| 2020 | [Permissões da linha de base](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/baseline-permissions.html) | Tutorial | O gerenciamento do acesso do usuário às pastas de ativos da linha de base é um aspecto essencial no controle e garante que os processos possam ser suportados corretamente. |
+| 21 de julho de 2020 | [Permissões da linha de base](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/baseline-permissions.html) | Tutorial | O gerenciamento do acesso do usuário às pastas de ativos da linha de base é um aspecto essencial no controle e garante que os processos possam ser suportados corretamente. |
 | 21 de julho de 2020 | [Workflows de start automático](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/auto-start-workflows.html) | Tutorial | Os workflows de start automático estendem o processamento de ativos em AEM como um Cloud Service, chamando automaticamente o fluxo de trabalho personalizado após o upload ou o reprocessamento. |
 | 21 de julho de 2020 | [Depuração da inicialização rápida local do SDK do AEM usando registros](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | Tutorial | Os registros atuam como linha de frente para depurar aplicativos AEM, mas dependem do logon adequado no aplicativo AEM implantado. |
 | 21 de julho de 2020 | [Criar modelo de formulário adaptável](https://video.tv.adobe.com/v/37324?captions=por_br) | Tutorial | Quando os autores usam o modelo para criar um formulário adaptável, o novo formulário herda a estrutura e os componentes especificados no modelo. |
@@ -345,7 +345,7 @@ Informações de versão do Campaign Classic, Campaign Standard e Painel de cont
 Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
 | Publicado | Nome | Tipo | Descrição |
-| ----------- | ----------- | ---------- | ---------- |  
+| ----------- | ----------- | ---------- | ---------- |
 | 10 de julho de 2020 | [Painel de controle do Campaign - Gerenciamento de chaves GPG - Descriptografia de dados](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html) | Campaign Classic | Saiba como criar uma chave pública, importá-la e instalá-la em uma instância do Campaign para descriptografar dados de entrada. |
 | 10 de julho de 2020 | [Painel de controle do Campaign - Gerenciamento de chave GPG - Uso de uma chave GPG para criptografar dados](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html) | Campaign Classic | Saiba como exportar dados usando uma chave GPG instalada no Painel de controle do Campaign. |
 | 10 de julho de 2020 | [Painel de controle do Campaign - Geração e instalação de chaves GPG para criptografia de dados](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html) | Campaign Classic | Saiba como gerar um par de chaves GPG públicas/privadas e instalar a chave pública no Painel de controle do Campaign para poder criptografar dados antes de enviá-los da sua instância. |
@@ -375,9 +375,9 @@ Notas de versão da Adobe Advertising Cloud.
 **Versão de 8** de agosto
 
 | Recurso | Descrição |
-| -----------| ---------- |
+| ----------- | ---------- |
 | [!UICONTROL Portfólios] | Os limites de posição no nível de Portfolio não estão mais disponíveis nas configurações de portfólio. Quaisquer limites de posição criados anteriormente foram removidos. |
-| [!UICONTROL Restrições] | Restrições baseadas em posição e condições de restrição não são mais suportadas:<br/><ul><li>As restrições de Posição e Posição máx. mín. não estão mais disponíveis e foram removidas de todas as restrições de Licitação e Posição criadas anteriormente e do Compartilhamento de Impressão.</li><li>Restrições existentes de lance e posição que incluíam restrições de posição, mas nenhuma restrição de lance era pausada. Eles ainda estão disponíveis na interface do usuário e nos relatórios.</li><li>As restrições de lance e posição foram renomeadas como restrições de lance.</li><li>Todas as condições baseadas na posição (usando as métricas Posição média, Posição média ponderada ou Última posição conhecida) em qualquer tipo de restrição foram removidas.</li></ul><br/>**Observação:** Os dados de posição continuarão a ser preenchidos enquanto estiverem disponíveis nos mecanismos de pesquisa. A Microsoft Ads será aposentada em setembro de 2020. |  |
+| [!UICONTROL Restrições] | Restrições baseadas em posição e condições de restrição não são mais suportadas: <br/> <ul><li>As restrições de Posição e Posição máx. mín. não estão mais disponíveis e foram removidas de todas as restrições de Licitação e Posição criadas anteriormente e do Compartilhamento de Impressão.</li><li>Restrições existentes de lance e posição que incluíam restrições de posição, mas nenhuma restrição de lance era pausada. Eles ainda estão disponíveis na interface do usuário e nos relatórios.</li><li>As restrições de lance e posição foram renomeadas como restrições de lance.</li><li>Todas as condições baseadas na posição (usando as métricas Posição média, Posição média ponderada ou Última posição conhecida) em qualquer tipo de restrição foram removidas.</li></ul> <br/> **Observação:** Os dados de posição continuarão a ser preenchidos enquanto estiverem disponíveis nos mecanismos de pesquisa. A Microsoft Ads será aposentada em setembro de 2020. |
 | [!UICONTROL Campanhas] | (campanhas do Google Ads) A Advertising Cloud Search agora oferece suporte a anúncios personalizados em anúncios de pesquisa responsivos (RSAs). Anteriormente, eles eram suportados em todos os tipos de anúncios, exceto RSAs. |
 
 ## ![Ícone](/assets/magento.png) [!DNL Magento] {#magento}
@@ -400,7 +400,7 @@ Consulte as [!DNL Marketo] [notas de versão](https://docs.marketo.com/display/p
 Os seguintes recursos serão lançados ao longo do trimestre:
 
 | Recurso | Descrição |
-|------|---------|
+| ------ | --------- |
 | [!DNL Bizible] | <ul><li>Nova segmentação baseada em conta</li><li>Salvar filtros específicos do painel</li><li>Exportar painéis Bizible como PDFs</li></ul> |
 | Conexão de vendas | Compor atualizações/aprimoramentos da Janela e do Centro de comando |
 
