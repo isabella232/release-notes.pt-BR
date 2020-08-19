@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d88e6054e3a1c93d7c867dd1ee6de0c67bc2eaf5
+source-git-commit: f62e9f844bf396cda7fc711808a0f532de75a52d
 workflow-type: tm+mt
-source-wordcount: '6454'
+source-wordcount: '6522'
 ht-degree: 94%
 
 ---
@@ -27,10 +27,10 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 
 As datas de lançamento do produto podem variar. Verifique frequentemente se há atualizações.
 
-Última atualização: **13 de agosto de 2020**
+Última atualização: **19 de agosto de 2020**
 
 * [Status de sistema da Adobe](#status)
-* [Interface da Experience Cloud](#ecloud)
+* [Interface da Experience Cloud](#ecloud) (updated **August 19, 2020**)
 * [Experience Platform](#platform)
 * [Orquestração da jornada](#journey-orch)
 * [Analytics](#analytics) (atualizado em 13 de agosto de 2020) e [Customer Journey Analytics](#cust-journey)
@@ -52,6 +52,12 @@ O [!UICONTROL Status de sistema da Adobe] fornece informações detalhadas, atua
 Consulte em [21 de maio de 2020](c-legacy-releases/2020/05212020.md#status) para obter as informações mais recentes.
 
 ## ![Ícone ](/assets/ec_appicon_24.png){#ecloud}
+
+Atualizado em: **19 de agosto de 2020**
+
+| Recurso | Descrição |
+| -----------| ---------- |
+| Ferramenta de administração - aprimoramentos de recursos e desempenho | A versão de agosto de 2020 da [!UICONTROL Admin Tool] permite que os administradores do sistema visualizações uma lista de perfis de produtos e vejam ou exportem uma visualização detalhada de cada perfil de produto. Foram adicionados aprimoramentos de desempenho para carregar os dados do último logon, corrigindo problemas de tempo limite. Consulte a ajuda da [Ferramenta de administração da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) para obter detalhes. |
 
 Consulte as [notas de versão anteriores](c-legacy-releases/2020/07162020.md#ecloud) de julho para obter as informações mais recentes sobre a interface atualizada e o domínio unificado do produto.
 
