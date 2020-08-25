@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d714bd852687c7121f44bc31e35fe1ccc0eef43a
+source-git-commit: 2a73b43fedf1c745f89640a11b7aa64244a78bc4
 workflow-type: tm+mt
 source-wordcount: '2526'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Novos recursos e correções na Adobe Experience Cloud.
 **Data de lançamento: 2020**
 
 * [Status de sistema da Adobe](#status)
-* [Interface da Experience Cloud](#ecloud)
+* [Interface da Experience Cloud](#ecloud) 
 * [Experience Platform](#platform)
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
@@ -369,4 +369,4 @@ Artigos e vídeos de autoajuda novos e recentes. <!--`https://jira.corp.adobe.co
 | Adobe Analytics | Vídeo - [Atribuição entre canais no CJA](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | Saiba como você pode usar as visualizações para mostrar a atribuição (dar crédito) entre canais no [!UICONTROL Customer Journey Analytics]. |
 | Adobe Analytics | Artigo - [Dicas do cliente para continuar sua jornada de aprendizado no Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/customer-tips-for-continuing-your-adobe-analytics-learning-journey.html) | Conheça três clientes da Adobe que têm dicas e truques para oferecer a você sobre como aproveitar ao máximo o Adobe Analytics. |
 | Adobe Analytics | Vídeo - [Criar visualizações entre canais no CJA](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | Descubra como o [!UICONTROL Customer Journey Analytics] permite criar visualizações que incluem dados de vários conjuntos de dados em vários canais, incluindo a mesclagem de dados por visitante. |
-| Adobe Analytics | Vídeo - [Transferir as métricas calculadas do Adobe Analytics para o Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Encontre dicas para recriar as [!UICONTROLCmétricas calculadas] do Analytics no [!UICONTROL Customer Journey Analytics]. |
+| Adobe Analytics | Vídeo - [Transferir as métricas calculadas do Adobe Analytics para o Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Find tips for re-creating your Analytics [!UICONTROL Calculated Metrics] in [!UICONTROL Customer Journey Analytics]. |
