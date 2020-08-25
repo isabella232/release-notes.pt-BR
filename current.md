@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9d5563a21cae0b1db1448f5f99ffbb1436257077
 workflow-type: tm+mt
 source-wordcount: '6627'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ As datas de lançamento do produto podem variar. Verifique frequentemente se há
 Última atualização: **21 de agosto de 2020**
 
 * [Status de sistema da Adobe](#status)
-* [Interface da Experience Cloud](#ecloud) (updated **August 19, 2020**)
+* [Interface da Experience Cloud](#ecloud)  (atualizada em **19 de agosto de 2020**)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) (Atualizado em 21 de agosto de 2020) e [Customer Journey Analytics](#cust-journey)
@@ -38,7 +38,7 @@ As datas de lançamento do produto podem variar. Verifique frequentemente se há
 * [Experience Manager](#aem)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [[!DNL Público alvo]](https://docs.adobe.com/content/help/pt-BR/target/using/release-notes/target-release-notes.html)
+* [[!DNL Target]](https://docs.adobe.com/content/help/pt-BR/target/using/release-notes/target-release-notes.html)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
 * [[!DNL Primetime]](https://docs.adobe.com/content/help/pt-BR/primetime/release-notes/home.html)
@@ -57,7 +57,7 @@ Atualizado em: **19 de agosto de 2020**
 
 | Recurso | Descrição |
 | -----------| ---------- |
-| Ferramenta de administração - aprimoramentos de recursos e desempenho | A versão de agosto de 2020 da [!UICONTROL Admin Tool] permite que os administradores do sistema visualizações uma lista de perfis de produtos e vejam ou exportem uma visualização detalhada de cada perfil de produto. Foram adicionados aprimoramentos de desempenho para carregar os dados do último logon, corrigindo problemas de tempo limite. Consulte a ajuda da [Ferramenta de administração da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) para obter detalhes. |
+| Ferramenta do administrador - aprimoramentos de recursos e desempenho | A versão de agosto de 2020 da [!UICONTROL Ferramenta do administrador] permite que os administradores do sistema visualizem uma lista de perfis de produtos e vejam ou exportem uma visualização detalhada de cada perfil de produto. Adição de aprimoramentos de desempenho para carregar os dados do último logon, corrigindo problemas de tempo limite. Consulte a ajuda da [Ferramenta do administrador da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) para obter detalhes. |
 
 Consulte as [notas de versão anteriores](c-legacy-releases/2020/07162020.md#ecloud) de julho para obter as informações mais recentes sobre a interface atualizada e o domínio unificado do produto.
 
@@ -140,7 +140,7 @@ AN-219351; AN-220960; AN-223788; AN-224630; AN-224948; AN-225618; AN-226261; AN-
 
 ### Avisos importantes para administradores do [!DNL Analytics] {#aa-notices}
 
-| Aviso | Data de adição   ou atualização | Descrição |
+| Aviso | Data de adição    ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
 | Migração de `omniture.com` para o `adobe.com` domínio | 21 de agosto de 2020 | Em 13 de agosto de 2020, a Adobe Analytics migrou sua arquitetura de primeiro plano de `omniture.com|http://omniture.com/` `adobe.com|http://adobe.com/` domínio. Essa alteração deve atenuar problemas de cookies de terceiros que ocorreram após a alteração inicial do domínio do produto unificado em 28 de maio de 2020. Como resultado dessa atualização, o navegador pode solicitar que os usuários confiem no novo `an.adobe.com|http://an.adobe.com/` ou no `experience.adobe.com|http://experience.adobe.com/` domínio. |
 | Atualização da compatibilidade com Ad Hoc Analysis Java 8 | 21 de agosto de 2020 | No momento, a Ad Hoc Analysis não é compatível com o Java 8 versões 1.8.0_261+. Para garantir que seu acesso a essa ferramenta não seja interrompido antes que a data [de](https://spark.adobe.com/page/S9Bhp66VJ2fEn/) término da vida útil seja atingida, recomendamos que você mantenha uma versão do Java 8 anterior à 1.8.0_261. |
@@ -372,7 +372,7 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
 * Adobe Campaign Standard: [Centro de ajuda](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/campaign-standard-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-notes.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/overview.html) - [Planejamento de lançamento](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-planning.html) - [Atualizações mais recentes da documentação](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic: [Centro de ajuda](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/campaign-classic-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/release-notes/latest-release.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/overview.html)- [Atualizações mais recentes da documentação](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/documentation-updates.html)
-* Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html)   - Vídeos explicativos do [Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
+* Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html)    - Vídeos explicativos do [Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
 
 ## ![Ícone](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
