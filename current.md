@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 97082d9f11c29deee363e000e0bb6db422d6fbe8
+source-git-commit: 7349731bb72163473efc26069df9f1d77f0f7c23
 workflow-type: tm+mt
-source-wordcount: '6639'
+source-wordcount: '6651'
 ht-degree: 98%
 
 ---
@@ -102,7 +102,7 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 | ----------- | ---------- | ------- |
 | [!UICONTROL Cross-Device Analytics]: disponibilidade nas regiões da EMEA e APAC | 31 de agosto de 2020 | O [Cross-Device Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/components/cda/overview.html) e o gráfico privado estarão disponíveis para clientes nas regiões da EMEA e APAC. |
 | Aprimoramento da correção em campo no [!UICONTROL Cross-Device Analytics] (disponível nas Américas e EMEA) | 31 de agosto de 2020 | Essa implementação simplificada para novos clientes do [!UICONTROL Cross-Device Analytics] oferece a opção de fazer correções com base em uma ID de usuário armazenada em um campo do Analytics (prop ou eVar) em vez de usar um gráfico de dispositivo (cooperativo ou privado). O aprimoramento remove o requisito de implementar o ECID e remove o requisito de implementar a sincronização de ID para fins de CDA. (A sincronização de ECID e ID ainda é necessária para outros recursos.) |
-| (Anúncio antecipado) Workspace: baixe 50 mil itens para uma única dimensão | 17 de setembro de 2020 | Você poderá baixar 50 mil itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Dessa forma, você pode acessar mais de 400 linhas de dados fora do Analysis Workspace. |
+| (Anúncio antecipado) Workspace: baixe 50 mil itens para uma única dimensão | 17 de setembro de 2020 | Você poderá baixar 50 mil itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Dessa forma, você pode acessar mais de 400 linhas de dados fora do Analysis Workspace. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
 
 ### Novos recursos no Customer Journey Analytics {#cust-journey}
 
