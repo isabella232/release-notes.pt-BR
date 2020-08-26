@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9d5563a21cae0b1db1448f5f99ffbb1436257077
+source-git-commit: 97082d9f11c29deee363e000e0bb6db422d6fbe8
 workflow-type: tm+mt
-source-wordcount: '6627'
+source-wordcount: '6639'
 ht-degree: 98%
 
 ---
@@ -383,8 +383,11 @@ Notas de versão da Adobe Advertising Cloud.
 
 ### Novos recursos na [!UICONTROL Advertising Cloud DSP] {#adcloud-dsp}
 
+**Atualizado em 20 de agosto**
+
 | Recurso | Descrição |
 | -----------| ---------- |
+| Previsão para Roku | A previsão agora está disponível para disposições do Roku. |
 | Anúncios interativos antes da exibição foram estendidos para incluir o inventário VAST | Cada inserção e anúncio interativo antes da exibição agora aceitam tanto o inventário VPAID quanto o VAST. **Observação:** se o KPI principal for visualizável, continue criando inserções e anúncios VPAID e VAST separados, pois as impressões visualizáveis não estão disponíveis para anúncios VAST. |
 
 ### Novos recursos na [!UICONTROL Advertising Cloud Search] {#adcloud-search}
