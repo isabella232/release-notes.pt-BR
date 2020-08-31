@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2a73b43fedf1c745f89640a11b7aa64244a78bc4
+source-git-commit: 1ec71f66a34b17fb62831973cd46426ecc9f0d10
 workflow-type: tm+mt
-source-wordcount: '2526'
+source-wordcount: '2527'
 ht-degree: 97%
 
 ---
@@ -30,7 +30,7 @@ Novos recursos e correções na Adobe Experience Cloud.
 **Data de lançamento: 2020**
 
 * [Status de sistema da Adobe](#status)
-* [Interface da Experience Cloud](#ecloud) 
+* [Interface da Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
@@ -87,7 +87,7 @@ Notas de versão para [!DNL Experience Platform,] incluir [!DNL Experience Platf
 
 Recursos e correções.
 
-Para obter a documentação do produto, consulte [Serviço da Experience Cloud ID](https://marketing.adobe.com/resources/help/pt_BR/mcvid/).
+Para obter a documentação do produto, consulte [Serviço da Experience Cloud ID](https://docs.adobe.com/content/help/pt-BR/id-service/using/home.html).
 
 ### [!UICONTROL Experience Platform Launch] {#launch}
 
@@ -116,7 +116,7 @@ Descrição dos novos recursos. Use cabeçalhos ou uma tabela.
 
 Para obter a documentação do produto, consulte [Mobile Services](https://docs.adobe.com/content/help/pt-BR/mobile-services/using/home.html).
 
-Para obter mais informações sobre os Mobile SDKs, consulte: [Android SDK 4.x para Soluções da Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/mobile/android/) e [iOS SDK 4.x para Soluções da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/mobile-services/ios/overview.html).
+Para obter mais informações sobre os Mobile SDKs, consulte: [Android SDK 4.x para Soluções da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/mobile-services/android/overview.html) e [iOS SDK 4.x para Soluções da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/mobile-services/ios/overview.html).
 
 ## Analytics {#analytics}
 
