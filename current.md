@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7349731bb72163473efc26069df9f1d77f0f7c23
+source-git-commit: b91db168aeb1b9f653061f0cd6e19ec8d36a8155
 workflow-type: tm+mt
-source-wordcount: '6651'
-ht-degree: 99%
+source-wordcount: '6673'
+ht-degree: 96%
 
 ---
 
@@ -27,13 +27,13 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 
 As datas de lançamento do produto podem variar. Verifique frequentemente se há atualizações.
 
-Última atualização: **21 de agosto de 2020**
+Última atualização: **31 de agosto de 2020**
 
 * [Status de sistema da Adobe](#status)
 * [Interface da Experience Cloud](#ecloud) (atualizada em **19 de agosto de 2020**)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) (Atualizado em 21 de agosto de 2020) e [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics) (Atualizado em 31 de agosto de 2020) e [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -96,28 +96,29 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
 ### Novos recursos no Adobe Analytics {#aa-features}
 
-(Atualizado em 13 de agosto de 2020)
+(Atualizado em 31 de agosto de 2020)
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ------- |
 | [!UICONTROL Cross-Device Analytics]: disponibilidade nas regiões da EMEA e APAC | 31 de agosto de 2020 | O [Cross-Device Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/components/cda/overview.html) e o gráfico privado estarão disponíveis para clientes nas regiões da EMEA e APAC. |
 | Aprimoramento da correção em campo no [!UICONTROL Cross-Device Analytics] (disponível nas Américas e EMEA) | 31 de agosto de 2020 | Essa implementação simplificada para novos clientes do [!UICONTROL Cross-Device Analytics] oferece a opção de fazer correções com base em uma ID de usuário armazenada em um campo do Analytics (prop ou eVar) em vez de usar um gráfico de dispositivo (cooperativo ou privado). O aprimoramento remove o requisito de implementar o ECID e remove o requisito de implementar a sincronização de ID para fins de CDA. (A sincronização de ECID e ID ainda é necessária para outros recursos.) |
-| (Anúncio antecipado) Workspace: baixe 50 mil itens para uma única dimensão | 17 de setembro de 2020 | Você poderá baixar 50 mil itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Dessa forma, você pode acessar mais de 400 linhas de dados fora do Analysis Workspace. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
+| Área de trabalho: Download de itens 50 mil para uma única dimensão | 17 de setembro de 2020 | Você poderá baixar 50 mil itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Dessa forma, você pode acessar mais de 400 linhas de dados fora do Analysis Workspace. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
+| Área de trabalho: Aprimoramentos de visualização de linha | 17 de setembro de 2020 | <ul><li>Você pode mostrar ou ocultar o eixo x e o eixo y de qualquer visualização de linha. Isso pode ser especialmente útil quando suas visualizações de linha são mais compactas.</li><li>É possível sobrepor um rótulo de valor mínimo e máximo em qualquer visualização de linha para destacar rapidamente os picos e vales em uma métrica.</li><li>É possível sobrepor diferentes linhas de tendência de regressão em qualquer visualização de linha para ver mais facilmente a tendência nos dados. As opções incluem Linear, Logarítmico, Exponencial, Potência e Quadrático.</li></ul> [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
+
 
 ### Novos recursos no Customer Journey Analytics {#cust-journey}
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ----- |
-| Opção de [!UICONTROL Mapa de identidade] para ID de pessoa | 26 de junho de 2020 | O [!UICONTROL Mapa de identidade] é uma estrutura de dados de mapa que permite carregar pares de chaves-valores como parte da criação de uma conexão no [!UICONTROL Customer Journey Analytics]. As chaves são namespaces de identidade e o valor é uma estrutura que contém o valor de identidade. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
+| Área de trabalho: Aprimoramentos de visualização de linha | 17 de setembro de 2020 | <ul><li>Você pode mostrar ou ocultar o eixo x e o eixo y de qualquer visualização de linha. Isso pode ser especialmente útil quando suas visualizações de linha são mais compactas.</li><li>É possível sobrepor um rótulo de valor mínimo e máximo em qualquer visualização de linha para destacar rapidamente os picos e vales em uma métrica.</li><li>É possível sobrepor diferentes tendências de regressão em qualquer visualização de linha para ver mais facilmente a tendência nos dados. As opções incluem Linear, Logarítmico, Exponencial, Potência e Quadrático.</li></ul> |
 
 ### Novos recursos no [!UICONTROL Media Analytics] {#media-aa}
 
-Data de lançamento: **16 de julho de 2020**
+(Atualizado em 31 de agosto de 2020)
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ---------- |
-| [Dispositivos e plataformas compatíveis](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/supported-devices.html) | 18 de junho de 2020 | A [!UICONTROL Extensão Media Launch] com SDK AEP agora é compatível com os seguintes dispositivos OTT:<ul><li>Apple TV (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |
-| [Rastreamento do estado do player](https://docs.adobe.com/content/help/pt-BR/media-analytics/using/player-state-tracking/player-state-overview.html) | 29 de maio de 2020 | Os clientes do [!UICONTROL Media Analytics] podem capturar a interação do visualizador durante a reprodução usando um conjunto padrão de variáveis de solução para tela cheia, legendas ocultas, mudo, picture-in-picture e em foco. Você também tem flexibilidade para criar estados personalizados do player. As variáveis de [!UICONTROL Rastreamento de estado do player] agora estão disponíveis para relatórios no [!UICONTROL Analysis Workspace]. Esse recurso exige um dos seguintes: <ul><li>Media [!DNL JavaScript] SDK 3.0 ou superior</li><li>Para uso com o SDK [!DNL Adobe Experience Platform] (AEP):</li><li>[!UICONTROL Extensão do Media Analytics] (para Web): [!UICONTROL Adobe Media Analytics] (SDK 3.x) for Audio and Video v1.0 ou superior</li><li>[!UICONTROL Extensão do Media Analytics] (para dispositivos móveis): [!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 ou superior</li><li>[!UICONTROL Coleção de mídia]</li></ul> |
+| Painel Visualizador simultâneo de mídia no Workspace | 17 de setembro de 2020 | O painel Visualizadores simultâneos de mídia permite que você entenda onde ocorreu o pico de simultaneidade ou onde as suspensões ocorreram.  Ele fornece informações importantes sobre a qualidade do conteúdo e o envolvimento do visualizador, além de ajudar na solução de problemas ou no planejamento de volume/escala. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html) |
 
 ### Correções no Adobe Analytics {#aa-fixes}
 
