@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b91db168aeb1b9f653061f0cd6e19ec8d36a8155
+source-git-commit: c6a071b2e8946d2b7fcfe20f835354ca6d552575
 workflow-type: tm+mt
-source-wordcount: '6673'
+source-wordcount: '6685'
 ht-degree: 96%
 
 ---
@@ -110,7 +110,7 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ----- |
-| Área de trabalho: Aprimoramentos de visualização de linha | 17 de setembro de 2020 | <ul><li>Você pode mostrar ou ocultar o eixo x e o eixo y de qualquer visualização de linha. Isso pode ser especialmente útil quando suas visualizações de linha são mais compactas.</li><li>É possível sobrepor um rótulo de valor mínimo e máximo em qualquer visualização de linha para destacar rapidamente os picos e vales em uma métrica.</li><li>É possível sobrepor diferentes tendências de regressão em qualquer visualização de linha para ver mais facilmente a tendência nos dados. As opções incluem Linear, Logarítmico, Exponencial, Potência e Quadrático.</li></ul> |
+| Área de trabalho: Aprimoramentos de visualização de linha | 17 de setembro de 2020 | <ul><li>Você pode mostrar ou ocultar o eixo x e o eixo y de qualquer visualização de linha. Isso pode ser especialmente útil quando suas visualizações de linha são mais compactas.</li><li>É possível sobrepor um rótulo de valor mínimo e máximo em qualquer visualização de linha para destacar rapidamente os picos e vales em uma métrica.</li><li>É possível sobrepor diferentes tendências de regressão em qualquer visualização de linha para ver mais facilmente a tendência nos dados. As opções incluem Linear, Logarítmico, Exponencial, Potência e Quadrático.</li></ul>[Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
 
 ### Novos recursos no [!UICONTROL Media Analytics] {#media-aa}
 
