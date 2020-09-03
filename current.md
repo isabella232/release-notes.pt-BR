@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9e8ab72d5c5ac0db9cde3ca99013a42e33251aa0
 workflow-type: tm+mt
 source-wordcount: '6688'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ As datas de lançamento do produto podem variar. Verifique frequentemente se há
 Última atualização: **31 de agosto de 2020**
 
 * [Status de sistema da Adobe](#status)
-* [Interface da Experience Cloud](#ecloud) (atualizada em **19 de agosto de 2020**)
+* [Interface da Experience Cloud](#ecloud)  (atualizada em **19 de agosto de 2020**)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) (Atualizado em 31 de agosto de 2020) e [Customer Journey Analytics](#cust-journey)
@@ -91,7 +91,7 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 * [Novos recursos no Customer Journey Analytics](#cust-journey)
 * [Novos recursos no Media Analytics](#media-aa)
 * [Correções no Adobe Analytics](#aa-fixes)
-* [Avisos importantes para administradores do Analytics](#aa-notices) (Atualizado em 21 de agosto de 2020)
+* [Avisos importantes para administradores do Analytics](#aa-notices)  (Atualizado em 21 de agosto de 2020)
 * [AppMeasurement](#appm)
 
 ### Novos recursos no Adobe Analytics {#aa-features}
@@ -102,7 +102,7 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 | ----------- | ---------- | ------- |
 | [!UICONTROL Cross-Device Analytics]: disponibilidade nas regiões da EMEA e APAC | 31 de agosto de 2020 | O [Cross-Device Analytics](https://docs.adobe.com/content/help/pt-BR/analytics/components/cda/overview.html) e o gráfico privado estarão disponíveis para clientes nas regiões da EMEA e APAC. |
 | Aprimoramento da correção em campo no [!UICONTROL Cross-Device Analytics] (disponível nas Américas e EMEA) | 31 de agosto de 2020 | Essa implementação simplificada para novos clientes do [!UICONTROL Cross-Device Analytics] oferece a opção de fazer correções com base em uma ID de usuário armazenada em um campo do Analytics (prop ou eVar) em vez de usar um gráfico de dispositivo (cooperativo ou privado). O aprimoramento remove o requisito de implementar o ECID e remove o requisito de implementar a sincronização de ID para fins de CDA. (A sincronização de ECID e ID ainda é necessária para outros recursos.) |
-| Área de trabalho: Download de itens 50 mil para uma única dimensão | 17 de setembro de 2020 | Você poderá baixar 50 mil itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Dessa forma, você pode acessar mais de 400 linhas de dados fora do Analysis Workspace. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
+| Área de trabalho: Download de itens 50 mil para uma única dimensão | 17 de setembro de 2020 | Você poderá baixar 50 mil itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Dessa forma, você pode acessar mais de 400 linhas de dados fora do Analysis Workspace. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
 | Área de trabalho: Aprimoramentos de visualização de linha | 17 de setembro de 2020 | <ul><li>Você pode mostrar ou ocultar o eixo x e o eixo y de qualquer visualização de linha. Isso pode ser especialmente útil quando suas visualizações de linha são mais compactas.</li><li>É possível sobrepor um rótulo de valor mínimo e máximo em qualquer visualização de linha para destacar rapidamente os picos e vales em uma métrica.</li><li>É possível sobrepor diferentes linhas de tendência de regressão em qualquer visualização de linha para ver mais facilmente a tendência nos dados. As opções incluem Linear, Logarítmico, Exponencial, Potência e Quadrático.</li></ul> [Saiba mais...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
 
 
@@ -141,7 +141,7 @@ AN-219351; AN-220960; AN-223788; AN-224630; AN-224948; AN-225618; AN-226261; AN-
 
 ### Avisos importantes para administradores do [!DNL Analytics] {#aa-notices}
 
-| Aviso | Data de adição ou atualização | Descrição |
+| Aviso | Data de adição  ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
 | Migração do `omniture.com` para o domínio `adobe.com` | 21 de agosto de 2020 | Em 13 de agosto de 2020, o Adobe Analytics migrou sua arquitetura de primeiro plano do `omniture.com|http://omniture.com/` para o domínio `adobe.com|http://adobe.com/`. Essa alteração deve atenuar problemas de cookies de terceiros que ocorreram após a alteração inicial do domínio do produto unificado em 28 de maio de 2020. Como resultado dessa atualização, o navegador pode solicitar que os usuários confiem no novo `an.adobe.com|http://an.adobe.com/` ou no domínio `experience.adobe.com|http://experience.adobe.com/`. |
 | Atualização da compatibilidade do Ad Hoc Analysis com o Java 8 | 21 de agosto de 2020 | No momento, o Ad Hoc Analysis não é compatível com o Java 8 versões 1.8.0_261+. Para garantir que o acesso a essa ferramenta não seja interrompido antes que a [data de término da vida útil](https://spark.adobe.com/page/S9Bhp66VJ2fEn/) seja atingida, recomendamos que você mantenha uma versão do Java 8 anterior à 1.8.0_261. |
@@ -373,7 +373,7 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
 * Adobe Campaign Standard: [Centro de ajuda](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/campaign-standard-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-notes.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/overview.html) - [Planejamento de lançamento](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-planning.html) - [Atualizações mais recentes da documentação](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic: [Centro de ajuda](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/campaign-classic-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/release-notes/latest-release.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/overview.html)- [Atualizações mais recentes da documentação](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/documentation-updates.html)
-* Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) - Vídeos explicativos do [Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
+* Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html)  - Vídeos explicativos do [Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
 
 ## ![Ícone](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
@@ -388,7 +388,7 @@ Notas de versão da Adobe Advertising Cloud.
 
 | Recurso | Descrição |
 | -----------| ---------- |
-| Previsão para Roku | A previsão agora está disponível para disposições do Roku. |
+| Previsão para o Roku | A previsão está disponível para inserções do Roku. |
 | Anúncios interativos antes da exibição foram estendidos para incluir o inventário VAST | Cada inserção e anúncio interativo antes da exibição agora aceitam tanto o inventário VPAID quanto o VAST. **Observação:** se o KPI principal for visualizável, continue criando inserções e anúncios VPAID e VAST separados, pois as impressões visualizáveis não estão disponíveis para anúncios VAST. |
 
 ### Novos recursos na [!UICONTROL Advertising Cloud Search] {#adcloud-search}
