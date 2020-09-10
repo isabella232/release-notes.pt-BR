@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: September 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 113528f8e43d06e75d9fbb9db8bc229056e6f0f2
+source-git-commit: 7dd8e1b33661cc751ce8a384ee1ac4fc2f563d9b
 workflow-type: tm+mt
 source-wordcount: '6762'
 ht-degree: 39%
@@ -31,7 +31,7 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 
 As datas de lançamento do produto podem variar. Verifique frequentemente se há atualizações.
 
-Última atualização: **4 de setembro de 2020**
+Última atualização: **10 de setembro de 2020**
 
 * [Status de sistema da Adobe](#status)
 * [Interface da Experience Cloud](#ecloud)  
@@ -63,7 +63,7 @@ Consulte Notas [de versão](https://docs.adobe.com/content/help/en/core-services
 
 Notas de versão da [!DNL Experience Platform] e serviços de aplicativos, incluindo [!DNL Experience Platform Launch,] [!UICONTROL Offers], [!UICONTROL People], [!UICONTROL Places], [!UICONTROL Mobile Services] e boletins de segurança.
 
-Data de lançamento: **12 de agosto de 2020**
+Data de lançamento: **9 de setembro de 2020**
 
 Atualizações dos recursos existentes no Adobe Experience Platform:
 
