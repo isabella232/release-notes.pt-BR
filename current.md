@@ -8,12 +8,12 @@ translation-type: tm+mt
 source-git-commit: 3de788a32337c5917e54eb6c23234c20c2910d98
 workflow-type: tm+mt
 source-wordcount: '6745'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Notas de versão da Adobe Experience Cloud - setembro de 2020
+# Notas de versão da Adobe Experience Cloud - Setembro de 2020
 
 ![Banner](/assets/experience-cloud-banner-3.png)
 
@@ -130,7 +130,7 @@ Novos vídeos, tutoriais e cursos publicados do [!UICONTROL Journey Orchestratio
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ----- |
-| Alterações nas permissões do Customer Journey Analytics | 9 de setembro de 2020 | O CJA não tratará mais todos os usuários como administradores. Somente os usuários designados como administradores de produtos no [Adobe Admin Console](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-getting-started.html) poderão realizar as seguintes ações:<ul><li>Criar/atualizar/excluir [!UICONTROL conexões] ou [!UICONTROL visualizações de dados]</li><li>Atualizar/excluir projetos, filtros ou métricas de cálculo que foram criados por outros usuários</li><li>Compartilhar um projeto do Workspace com todos os usuários</li></ul>[Saiba mais...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions) |
+| Alterações nas permissões do Customer Journey Analytics | 9 de setembro de 2020 | O CJA não tratará mais todos os usuários como administradores. Somente os usuários designados como administradores de produtos no [Adobe Admin Console](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-getting-started.html) poderão realizar as seguintes ações:<ul><li>Criar/atualizar/excluir [!UICONTROL conexões] ou [!UICONTROL visualizações de dados]</li><li>Atualizar/excluir projetos, filtros ou métricas de cálculo que foram criados por outros usuários</li><li>Compartilhar um projeto do Workspace com todos os usuários</li></ul>[Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions) |
 | Suporte para [!UICONTROL Detecção de anomalias] | 10 de setembro de 2020 | [!UICONTROL A Detecção de anomalias] permite identificar quais flutuações estatísticas são relevantes ou não. Esse recurso agora é compatível com o [!UICONTROL Customer Journey Analytics]. |
 | Novos intervalos de datas no Workspace | 10 de setembro de 2020 | Estamos adicionando 5 novos intervalos de datas para que você possa escolher intervalos de datas que não incluem dados parciais do dia de hoje: [!UICONTROL Últimos 7 dias completos], [!UICONTROL Últimos 14 dias completos], [!UICONTROL Últimos 30 dias completos], [!UICONTROL Últimos 60 dias completos], [!UICONTROL Últimos 90 dias completos] |
 | Workspace: melhorias na visualização de [!UICONTROL Linha] | 17 de setembro de 2020 | <ul><li>Você pode mostrar ou ocultar o eixo x e o eixo y de qualquer visualização de [!UICONTROL linha]. Pode ser especialmente útil quando suas visualizações de [!UICONTROL linha] são mais compactas.</li><li>É possível sobrepor um rótulo de valor mínimo e máximo em qualquer visualização de [!UICONTROL linha] para destacar rapidamente os picos e vales em uma métrica.</li><li>É possível sobrepor diferentes linhas de tendência de regressão em qualquer visualização de [!UICONTROL linha] para ver mais facilmente a tendência nos dados. As opções incluem [!UICONTROL Linear], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potência] e [!UICONTROL Quadrático].</li></ul> [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics-platform/using/cja-workspace/visualizations/line.html) |
@@ -162,7 +162,7 @@ AN-215683; AN-216894; AN-226370; AN-227138; AN-227154; AN-227328; AN-227486; AN-
 
 ### Avisos importantes para administradores do [!DNL Analytics] {#aa-notices}
 
-| Aviso | Data de adição    ou atualização | Descrição |
+| Aviso | Data de adição     ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
 | Migração do `omniture.com` para o domínio `adobe.com` | 21 de agosto de 2020 | Em 13 de agosto de 2020, o Adobe Analytics migrou sua arquitetura de primeiro plano do `omniture.com|http://omniture.com/` para o domínio `adobe.com|http://adobe.com/`. Essa alteração deve atenuar problemas de cookies de terceiros que ocorreram após a alteração inicial do domínio do produto unificado em 28 de maio de 2020. Como resultado dessa atualização, o navegador pode solicitar que os usuários confiem no novo `.adobe.com|http://an.adobe.com/` ou no domínio `experience.adobe.com|http://experience.adobe.com/`. |
 | Atualização da compatibilidade do Ad Hoc Analysis com o Java 8 | 21 de agosto de 2020 | No momento, o Ad Hoc Analysis não é compatível com o Java 8 versões 1.8.0_261+. Para garantir que o acesso a essa ferramenta não seja interrompido antes que a [data de término da vida útil](https://spark.adobe.com/page/S9Bhp66VJ2fEn/) seja atingida, recomendamos que você mantenha uma versão do Java 8 anterior à 1.8.0_261. |
@@ -401,7 +401,7 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
 * Adobe Campaign Standard: [Centro de ajuda](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/campaign-standard-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-notes.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/overview.html) - [Planejamento de lançamento](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-planning.html) - [Atualizações mais recentes da documentação](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic: [Centro de ajuda](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/campaign-classic-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/release-notes/latest-release.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/overview.html)- [Atualizações mais recentes da documentação](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/documentation-updates.html)
-* Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html)    - Vídeos explicativos do [Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
+* Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html)     - Vídeos explicativos do [Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
 
 ## ![Ícone](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
