@@ -1,15 +1,18 @@
 ---
 description: Informações para ajudá-lo a entrar em contato com a Adobe e compreender as questões jurídicas relativas à utilização deste produto e documentação.
-keywords: gerenciamento dinâmico de tags; notas de versão
+keywords: dynamic tag management;release notes
 seo-description: Informações para ajudá-lo a entrar em contato com a Adobe e compreender as questões jurídicas relativas à utilização deste produto e documentação.
 seo-title: Contato e informações legais
-solution: Notas de versão da Experience Cloud
+solution: Experience Cloud
 title: Contato e informações legais
 uuid: be6810fd-8a50-4e88-af09-ab00187e4082
 internal: n
 translate: y
-translation-type: ht
-source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
+translation-type: tm+mt
+source-git-commit: 00226294d475d0c8f323692272bedf0d2705fd20
+workflow-type: tm+mt
+source-wordcount: '253'
+ht-degree: 97%
 
 ---
 
@@ -41,8 +44,8 @@ Adobe Systems welcome any suggestions or feedback regarding this solution. You c
  <li> Published by Adobe Systems Incorporated. </li> 
 </ul>
 
-[Termos de uso](https://www.adobe.com/go/marketingcloud_terms_of_use_br) | [Centro de privacidade](https://www.adobe.com/br/privacy/policy.html)
+[Termos de uso](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Central de privacidade](https://www.adobe.com/br/privacy/policy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. Informações atualizadas/Informações adicionais de código de terceiros disponíveis em[https://www.adobe.com/go/thirdparty_br](https://www.adobe.com/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [http://www.adobe.com/go/thirdparty_br](https://www.adobe.com/br/products/eula/third_party/).
