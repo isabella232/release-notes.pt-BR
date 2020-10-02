@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 8077089a219abecb0c3522ae0768f25b9f249715
 workflow-type: tm+mt
 source-wordcount: '6970'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ As datas de lançamento do produto podem variar. Verifique frequentemente se há
 Última atualização: **29 de setembro de 2020**
 
 * [Status de sistema da Adobe](#status)
-* [Interface da Experience Cloud](#ecloud)  
+* [Interface da Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) (Atualizado em 29 de setembro de 2020) e [Customer Journey Analytics](#cust-journey)
@@ -49,7 +49,7 @@ Precisa de ajuda? Visite a [Adobe Experience League](https://experienceleague.ad
 
 O [!UICONTROL Status de sistema da Adobe] fornece informações detalhadas, atualizações de status e notificações por email sobre produtos e serviços em nuvem da Adobe, interrupção e eventos de manutenção. Confira em [status.adobe.com](https://status.adobe.com/).
 
-Consulte o [Status do sistema da Adobe - 21 de maio de 2020](https://docs-stg.corp.adobe.com/content/help/en/release-notes/experience-cloud/previous/2020/05212020.html#status) para obter as informações da versão mais recentes.
+Consulte o [Status do sistema da Adobe - 21 de maio de 2020](https://docs.adobe.com/content/help/pt-BR/release-notes/experience-cloud/previous/2020/05212020.translate.html#status) para obter as informações da versão mais recentes.
 
 ## ![Ícone](/assets/ec_appicon_24.png) Interface da Experience Cloud {#ecloud}
 
@@ -111,7 +111,7 @@ Novos vídeos, tutoriais e cursos publicados do [!UICONTROL Journey Orchestratio
 * [Novos recursos no Customer Journey Analytics](#cust-journey)
 * [Novos recursos no Media Analytics](#media-aa)
 * [Correções no Adobe Analytics](#aa-fixes)
-* [Avisos importantes para administradores do Analytics](#aa-notices)    (Atualizado em 29 de setembro de 2020)
+* [Avisos importantes para administradores do Analytics](#aa-notices) (Atualizado em 29 de setembro de 2020)
 * [Cursos e tutoriais do Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -162,9 +162,9 @@ AN-215683; AN-216894; AN-226370; AN-227138; AN-227154; AN-227328; AN-227486; AN-
 
 ### Avisos importantes para administradores do [!DNL Analytics] {#aa-notices}
 
-| Aviso | Data de adição      ou atualização | Descrição |
+| Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
-| Adicionar cabeçalho HSTS a todas as solicitações HTTPS recebidas | 29 de setembro de 2020 | Em 29 de setembro de 2020, começamos a adicionar o cabeçalho HSTS a todas as solicitações recebidas que usam HTTPS. Isso instrui o navegador/cliente a fazer todas as solicitações futuras no HTTPS, que é uma prática recomendada de segurança. Nesse ponto, não impomos isso para solicitações recebidas usando HTTP. |
+| Adicionar cabeçalho HSTS a todas as solicitações HTTPS recebidas | 29 de setembro de 2020 | Em 29 de setembro de 2020, começamos a adicionar o cabeçalho HSTS a todas as solicitações recebidas que usam HTTPS. O cabeçalho instrui o navegador/cliente a fazer todas as solicitações futuras no HTTPS, que é uma prática recomendada de segurança. Nesse ponto, não vamos impor o cabeçalho para solicitações recebidas usando HTTP. |
 | Alteração na configuração do cookie ECID | 22 de setembro de 2020 | Uma atualização das configurações de privacidade do Chrome versão 80 afetou a capacidade do Adobe Analytics de rastrear alguns usuários que visualizam páginas do Google AMP. Especificamente, impede o rastreamento entre domínios de usuários que visualizam páginas do AMP hospedadas no Google. Isso pode resultar em contagens infladas de visitantes únicos. Essa correção permite que os usuários solucionem esse problema alterando as configurações de seus cookies ECID. Atualmente, o Analytics define cookies ECID com a configuração `SameSite = Lax` que, antes da versão 80 do Chrome, permitia o rastreamento entre domínios. Isso não acontece mais. Essa alteração permite que os usuários atualizem a configuração SameSite para cookies ECID `None`. Observe que essa alteração permite que o cookie do Analytics seja compartilhado em mais situações, mas os cookies do Analytics não contêm informações confidenciais. Além disso, ao escolher essa configuração, os cookies devem ser definidos como `Secure` para que os dados só possam ser transmitidos por conexões HTTPS. Se você quiser fazer essa alteração, peça a um usuário aceito para abrir um tíquete junto ao Atendimento ao cliente. |
 | Migração do `omniture.com` para o domínio `adobe.com` | 21 de agosto de 2020 | Em 13 de agosto de 2020, o Adobe Analytics migrou sua arquitetura de primeiro plano do `omniture.com|http://omniture.com/` para o domínio `adobe.com|http://adobe.com/`. Essa alteração deve atenuar problemas de cookies de terceiros que ocorreram após a alteração inicial do domínio do produto unificado em 28 de maio de 2020. Como resultado dessa atualização, o navegador pode solicitar que os usuários confiem no novo `.adobe.com|http://an.adobe.com/` ou no domínio `experience.adobe.com|http://experience.adobe.com/`. |
 | Atualização da compatibilidade do Ad Hoc Analysis com o Java 8 | 21 de agosto de 2020 | No momento, o Ad Hoc Analysis não é compatível com o Java 8 versões 1.8.0_261+. Para garantir que o acesso a essa ferramenta não seja interrompido antes que a [data de término da vida útil](https://spark.adobe.com/page/S9Bhp66VJ2fEn/) seja atingida, recomendamos que você mantenha uma versão do Java 8 anterior à 1.8.0_261. |
@@ -403,7 +403,7 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
 * Adobe Campaign Standard: [Centro de ajuda](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/campaign-standard-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-notes.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/overview.html) - [Planejamento de lançamento](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-planning.html) - [Atualizações mais recentes da documentação](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic: [Centro de ajuda](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/campaign-classic-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/release-notes/latest-release.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/overview.html)- [Atualizações mais recentes da documentação](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/documentation-updates.html)
-* Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html)      - Vídeos explicativos do [Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
+* Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) - Vídeos explicativos do [Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
 
 ## ![Ícone](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
