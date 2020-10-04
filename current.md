@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e6add243b6c74b59f138543c460d55817bddf761
+source-git-commit: 2ed7bd9c020cac5cf282aafd0c3146b8e0661dce
 workflow-type: tm+mt
-source-wordcount: '6448'
-ht-degree: 43%
+source-wordcount: '6530'
+ht-degree: 42%
 
 ---
 
@@ -282,7 +282,13 @@ Consulte as notas de versão do [AEM as a Cloud Service.](https://docs.adobe.com
 
 ### Autoajuda
 
+**[!DNL Experience Manager]Sites**
+
+A documentação do Editor de Rich Text é atualizada para lista de todos [os protocolos suportados para links no RTE](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html#linkstyles).
+
 **[!DNL Experience Manager]Assets**
+
+* O novo conteúdo de ajuda sobre [como o AEM Assets está acessível](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/accessibility.html) para todos os usuários está disponível.
 
 * **[O parâmetro](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/search-assets.html#assetpicker)** Viewmode é adicionado ao seletor de ativos (seletor de ativos) para abrir o seletor de ativos no modo de pesquisa. Para abrir o seletor de ativos no modo de pesquisa e usá-lo com `assettype` e `mimetype`, o usuário precisa sufixo o `viewmode=search` parâmetro no url `https://[aem-server]:[port]/aem/assetpicker.html`. Por exemplo, `https://[aem-server]:[port]/aem/assetpicker.html?viewmode=search&assettype=images`.
 
@@ -292,11 +298,13 @@ Consulte as notas de versão do [AEM as a Cloud Service.](https://docs.adobe.com
 
 * Se os usuários modificaram [Apache Jackrabbit Oak TokenConfiguration](https://helpx.adobe.com/experience-manager/kb/How-to-set-token-session-expiration-AEM.html) para definir a configuração de tempo limite para que seja menor que o tempo necessário para um ativo carregar, o usuário pode encontrar a situação de tempo limite de sessão. Os usuários, portanto, precisam alterar o `chunkUploadMinFileSize` e `chunksize`, para que cada solicitação de segmento atualize a sessão. Para obter mais informações, consulte [fazer upload de ativos](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#uploading-assets).
 
-* Os ativos também podem ser [movidos para pastas irmãos usando a operação](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets) de arrastar, além da operação [!UICONTROL Mover (m)] que abre o assistente [!UICONTROL Mover ativos] .
+* Os ativos também podem ser [movidos para pastas irmãos usando a operação](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets) de arrastar, além da operação [!UICONTROL Mover(m)] que abre o assistente [!UICONTROL Mover ativos] .
+
+* Para o Assets Insights, use o [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html). [A integração](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html) do DTM é chamada como um método obsoleto nos documentos.
 
 **[!DNL Adobe Experience Manager]aplicativo para desktop**
 
-* Os usuários que fizerem logon no aplicativo de desktop após fazerem logoff ou login pela primeira vez devem fornecer o URL do [!DNL Experience Manager] servidor no formato https://[aem-server-url]:[port]/ e, em seguida, selecionar a opção [!UICONTROL Connect] , para evitar o erro &quot;O aplicativo encontrou um erro desconhecido&quot;. Para obter mais informações, consulte [Usar o aplicativo](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html)Adobe Experience Manager para desktop.
+* Os usuários que fizerem logon no aplicativo de desktop após fazerem logoff ou login pela primeira vez devem fornecer o URL do [!DNL Experience Manager] servidor no formato `https://[aem-server-url]:[port]/` e, em seguida, selecionar a opção [!UICONTROL Connect] para evitar o erro &quot;O aplicativo encontrou um erro desconhecido&quot;. Para obter mais informações, consulte [Usar o aplicativo](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html)Adobe Experience Manager para desktop.
 
 ### Comunidade
 
