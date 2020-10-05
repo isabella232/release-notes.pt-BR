@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2ed7bd9c020cac5cf282aafd0c3146b8e0661dce
+source-git-commit: 554b01dd2fd709420cb046e37cc45f2f1331eb54
 workflow-type: tm+mt
-source-wordcount: '6530'
-ht-degree: 42%
+source-wordcount: '6537'
+ht-degree: 44%
 
 ---
 
@@ -64,7 +64,7 @@ Antigamente chamados de serviços _de_ Experience Cloud, os serviços e a docume
 
 Não atualizado em setembro.
 
-See [Cumulative release notes](https://docs.adobe.com/content/help/pt-BR/core-services/interface/release-notes/release-notes.html) for the latest release information.
+Consulte Notas de versão [cumulativas para obter os serviços](https://docs.adobe.com/content/help/pt-BR/core-services/interface/release-notes/release-notes.html) de Experience Cloud para obter as informações mais recentes.
 
 ## ![Ícone](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
@@ -105,6 +105,8 @@ Lançamento em setembro - Consulte as Notas [de versão do Journey Orchestration
 [Documentação](https://docs.adobe.com/content/help/pt-BR/journeys/using/journey-orchestration-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/journeys/using/release-notes/release-notes.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html)
 
 ## ![Ícone](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
+
+Data de lançamento: **8 de outubro de 2020**
 
 * [Novos recursos no Adobe Analytics](#aa-features)
 * [Novos recursos no Customer Journey Analytics](#cust-journey)
@@ -339,7 +341,7 @@ Novos vídeos, tutoriais e cursos publicados no mês passado.
 | 21 de setembro de 2020 | [Configurar o Firefly do projeto de E/S do Adobe](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/set-up/firefly.html) | Vídeo | Os aplicativos de Computação de ativos são aplicativos Adobe Project Firefly especialmente definidos e, como tal, exigem acesso ao Adobe Project Firefly no Adobe Developer Console para configurá-los e implantá-los. |
 | 21 de setembro de 2020 | [Configurar um ambiente de desenvolvimento local](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/set-up/development-environment.html) | Artigo | Desenvolvendo os trabalhadores da Asset Compute, que são aplicativos JavaScript Node.js, exigem ferramentas de desenvolvimento específicas que diferem do desenvolvimento tradicional de AEM, desde Node.js e vários módulos npm até o Docker Desktop e o Código do Microsoft Visual Studio. |
 | 21 de setembro de 2020 | [Configurar contas e serviços](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/set-up/accounts-and-services.html) | Artigo | Desenvolvendo funcionários da Asset Compute exigem acesso a contas e serviços, incluindo AEM como Cloud Service, Adobe Project Firefly e armazenamento em nuvem fornecidos pela Microsoft ou Amazon. |
-| 14 de setembro de 2020 | [Uso da camada de dados do cliente Adobe com componentes principais AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | Vídeo e artigo | A Camada de dados do cliente Adobe apresenta um método padrão para coletar e armazenar dados sobre uma experiência de visitantes em uma página da Web e, em seguida, facilitar o acesso a esses dados. A Adobe Client Data Layer é agnóstica de plataforma, mas é totalmente integrada aos Componentes principais para uso com o AEM. |
+| 14 de setembro de 2020 | [Uso da camada de dados do cliente Adobe com componentes principais AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | Vídeo e artigo | A Camada de dados do cliente Adobe apresenta um método padrão para coletar e armazenar dados sobre uma experiência de visitantes em uma página da Web e, em seguida, facilitar o acesso a esses dados. A Adobe Client Data Layer é agnóstica de plataforma, mas é totalmente integrada aos Componentes principais para uso com AEM. |
 | 28 de setembro de 2020 | [Uso da camada de dados do cliente Adobe com componentes principais AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | Vídeo | Saiba como a camada de Dados do cliente Adobe orientada pelo evento expõe os dados dos componentes principais da AEM Sites. Usando a Camada de dados do cliente Adobe, as soluções de gerenciamento de tags como o Experience Platform Launch podem transmitir dados do site para aplicativos como o Analytics e o Público alvo. |
 | 21 de setembro de 2020 | [Extensibilidade de microserviços da Asset Compute](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/overview.html) | Vídeo | Tutorial que mostra a criação de um assistente de microserviços de ativos personalizado para AEM como Cloud Service. |
 | 21 de setembro de 2020 | [Extensibilidade de microserviços da Asset Compute](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/overview.html) | Vídeo | AEM como os microserviços de computação de ativos Cloud Service suportam o desenvolvimento e a implantação de trabalhadores personalizados usados para ler e manipular dados binários de ativos armazenados em AEM, mais comumente, para criar execuções de ativos personalizados. |
@@ -397,9 +399,9 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
 | Publicado | Nome | Solução | Descrição |
 | ----------- | ----------- | ---------- | ---------- |
-| 22 de setembro de 2020 | [IAI de jornada - Otimização do tempo de envio previsível - Vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | Entenda quais workflows são necessários para sincronizar dados entre o Adobe Campaign e o modelo de IAI de jornada. Saiba como visualização as pontuações de tempo de envio em nível de perfil individual e como executar delivery de email usando uma fórmula de tempo de envio. |
-| 22 de setembro de 2020 | [IAI de jornada - Pontuação de envolvimento previsível - Vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | Saiba como visualização as pontuações de envolvimento em nível de perfil individual, usar pontuações para direcionar usuários envolvidos e suprimir usuários fatigados e como criar regras de tipologia para gerenciar a fadiga do cliente. |
-| 22 de setembro de 2020 | [Adicionar controle de um grupo a um delivery - Vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | Saiba como definir um grupo de controle para o seu delivery e como extrair os perfis atribuídos ao grupo de controle após o envio do delivery. |
+| 22 de setembro de 2020 | [IAI de jornada - Otimização do tempo de envio previsível - Vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | Entenda quais workflows são necessários para sincronizar dados entre o Adobe Campaign e o modelo de IA de jornada. Saiba como visualizar as pontuações de tempo de envio em nível de perfil individual e como executar deliveries de email usando uma fórmula de tempo de envio. |
+| 22 de setembro de 2020 | [IAI de jornada - Pontuação de envolvimento previsível - Vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | Saiba como visualizar as pontuações de engajamento no nível do perfil individual, usar pontuações para direcionar usuários engajados e suprimir usuários cansados e como criar regras de tipologia para gerenciar a fadiga do cliente. |
+| 22 de setembro de 2020 | [Adicionar um grupo de controle a um delivery - Vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | Saiba como definir um grupo de controle para o seu delivery e como extrair os perfis atribuídos ao grupo de controle após o envio do delivery. |
 | 11 de setembro de 2020 | [Delegar subdomínios](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/subdomain-delegation.html) | Campaign Classic | O Painel de controle do Adobe Campaign permite delegar totalmente um subdomínio ao Adobe Campaign. |
 | 3 de setembro de 2020 | [Adicionar endereços IP ao lista de permissões](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/ip-allow-listing.html) | Campaign Classic | O Painel de controle do Campaign permite configurar novas conexões para suas instâncias ao adicionar intervalos de endereços IP à lista de permissões. Por padrão, a instância do Adobe Campaign Classic não pode ser acessada por vários endereços IP. |
 | 3 de setembro de 2020 | [Painel de controle do Campaign - Adicionando permissões de URL](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html) | Campaign Classic | O Painel de controle do Campaign permite configurar novas conexões para suas instâncias ao adicionar intervalos de endereços IP à lista de permissões. Por padrão, a instância do Adobe Campaign Classic não pode ser acessada por vários endereços IP. |
