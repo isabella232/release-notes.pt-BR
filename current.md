@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 554b01dd2fd709420cb046e37cc45f2f1331eb54
+source-git-commit: 51da999834b44cdbd2a5ecc7c26da652327dd3cc
 workflow-type: tm+mt
-source-wordcount: '6537'
+source-wordcount: '6618'
 ht-degree: 44%
 
 ---
@@ -49,6 +49,10 @@ As datas de lançamento do produto podem variar. Verifique frequentemente se há
 * [Document Cloud](#doc-cloud)
 
 Precisa de ajuda? Visite a [Adobe Experience League](https://experienceleague.adobe.com/#home) para encontrar documentação técnica e de produtos, cursos com curadoria da Adobe, tutoriais em vídeo, respostas rápidas, insight da comunidade e treinamento ministrado por instrutores.
+
+>[!NOTE]
+>
+>A documentação está sendo transferida para a Experience League. Durante o mês de outubro, todas as notas de versão, artigos, vídeos e tutoriais serão movidos do local atual em `docs.adobe.com` e estarão disponíveis como parte do Experience League. Essa ação garante que todo o aprendizado, autoajuda, habilitação e conteúdo da comunidade sejam fornecidos de um único local: Experience League. Quando essa alteração ocorre, não há nada que você precisa fazer, pois todos os links serão redirecionados para o novo local. Atualizaremos as notas de versão quando o cutover começar.
 
 ## ![Ícone](/assets/adobe.png) Adobe da sistema de Status {#status}
 
@@ -312,7 +316,7 @@ A documentação do Editor de Rich Text é atualizada para lista de todos [os pr
 
 * **Anúncio de um novo processo para enviar solicitações de recursos de Experience Manager**
 
-   Deseja ver um novo recurso adicionado ao roteiro de Experience Manager? O Adobe está empolgado em anunciar o *FeatureBit* - um projeto para melhorar a forma como os clientes e parceiros solicitam aprimoramentos de recursos (conhecidos como RFEs) para a equipe de produtos do Experience Manager. Saiba mais na [Experience League AEM Community.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425)
+   Deseja ver um novo recurso adicionado ao roteiro de Experience Manager? O Adobe está empolgado em anunciar o *FeatureBit* - um projeto para melhorar a forma como os clientes e parceiros solicitam aprimoramentos de recursos (conhecidos como RFEs) para a equipe de produtos do Experience Manager. Saiba mais na Comunidade de AEM da [Experience League.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425)
 
 * **O conteúdo do AEM mais recente na Experience League**
 
@@ -399,9 +403,9 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
 | Publicado | Nome | Solução | Descrição |
 | ----------- | ----------- | ---------- | ---------- |
-| 22 de setembro de 2020 | [IAI de jornada - Otimização do tempo de envio previsível - Vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | Entenda quais workflows são necessários para sincronizar dados entre o Adobe Campaign e o modelo de IA de jornada. Saiba como visualizar as pontuações de tempo de envio em nível de perfil individual e como executar deliveries de email usando uma fórmula de tempo de envio. |
-| 22 de setembro de 2020 | [IAI de jornada - Pontuação de envolvimento previsível - Vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | Saiba como visualizar as pontuações de engajamento no nível do perfil individual, usar pontuações para direcionar usuários engajados e suprimir usuários cansados e como criar regras de tipologia para gerenciar a fadiga do cliente. |
-| 22 de setembro de 2020 | [Adicionar um grupo de controle a um delivery - Vídeo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | Saiba como definir um grupo de controle para o seu delivery e como extrair os perfis atribuídos ao grupo de controle após o envio do delivery. |
+| 22 de setembro de 2020 | [IAI de jornada - Otimização do tempo de envio previsível - Vídeo](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | Entenda quais workflows são necessários para sincronizar dados entre o Adobe Campaign e o modelo de IA de jornada. Saiba como visualizar as pontuações de tempo de envio em nível de perfil individual e como executar deliveries de email usando uma fórmula de tempo de envio. |
+| 22 de setembro de 2020 | [IAI de jornada - Pontuação de envolvimento previsível - Vídeo](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | Saiba como visualizar as pontuações de engajamento no nível do perfil individual, usar pontuações para direcionar usuários engajados e suprimir usuários cansados e como criar regras de tipologia para gerenciar a fadiga do cliente. |
+| 22 de setembro de 2020 | [Adicionar um grupo de controle a um delivery - Vídeo](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | Saiba como definir um grupo de controle para o seu delivery e como extrair os perfis atribuídos ao grupo de controle após o envio do delivery. |
 | 11 de setembro de 2020 | [Delegar subdomínios](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/subdomain-delegation.html) | Campaign Classic | O Painel de controle do Adobe Campaign permite delegar totalmente um subdomínio ao Adobe Campaign. |
 | 3 de setembro de 2020 | [Adicionar endereços IP ao lista de permissões](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/ip-allow-listing.html) | Campaign Classic | O Painel de controle do Campaign permite configurar novas conexões para suas instâncias ao adicionar intervalos de endereços IP à lista de permissões. Por padrão, a instância do Adobe Campaign Classic não pode ser acessada por vários endereços IP. |
 | 3 de setembro de 2020 | [Painel de controle do Campaign - Adicionando permissões de URL](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html) | Campaign Classic | O Painel de controle do Campaign permite configurar novas conexões para suas instâncias ao adicionar intervalos de endereços IP à lista de permissões. Por padrão, a instância do Adobe Campaign Classic não pode ser acessada por vários endereços IP. |
