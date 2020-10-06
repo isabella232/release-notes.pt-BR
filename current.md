@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 70f1d8589fe94f37a3f9edc375f9efbf2b6d1c26
+source-git-commit: 1e425034bd7ac32833d74b826562f9761b2c05d5
 workflow-type: tm+mt
-source-wordcount: '6765'
+source-wordcount: '6775'
 ht-degree: 43%
 
 ---
@@ -137,7 +137,7 @@ Data de lançamento: **8 de outubro de 2020**
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ----- |
 | Análise da jornada do cliente documentação | Outubro de 2020 | A documentação do Customer Journey Analytics está sendo transferida para a Experience League. Durante o mês de outubro, todos os artigos, vídeos, notas de versão e tutoriais serão movidos do local atual para `docs.adobe.com` o `experienceleague.adobe.com`. Essa mudança garante que todo o aprendizado, a autoajuda, a ativação e o conteúdo da comunidade sejam fornecidos de um único local. Quando essa alteração ocorrer, não há nada que você precise fazer, pois todos os links serão redirecionados para a Experience League. Atualizaremos as notas de versão quando o cutover começar. |
-| [!UICONTROL Área de trabalho]: Download de itens 50 mil para uma única dimensão | 17 de setembro de 2020 | Você poderá baixar 50 mil itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Dessa forma, você pode acessar mais de 400 linhas de dados fora do Analysis Workspace. [Saiba mais...] |
+| [!UICONTROL Área de trabalho]: Download de itens 50 mil para uma única dimensão | 17 de setembro de 2020 | Você poderá baixar 50 mil itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Dessa forma, você pode acessar mais de 400 linhas de dados fora do Analysis Workspace. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/download-send.html) |
 | Workspace: melhorias na visualização de [!UICONTROL Linha] | 17 de setembro de 2020 | <ul><li>You can show or hide the X-axis and Y-axis of any [!UICONTROL Line] visualization. Pode ser especialmente útil quando suas visualizações de [!UICONTROL linha] são mais compactas.</li><li>É possível sobrepor um rótulo de valor mínimo e máximo em qualquer visualização de [!UICONTROL linha] para destacar rapidamente os picos e vales em uma métrica.</li><li>É possível sobrepor diferentes linhas de tendência de regressão em qualquer visualização de [!UICONTROL linha] para ver mais facilmente a tendência nos dados. As opções incluem [!UICONTROL Linear], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potência] e [!UICONTROL Quadrático].</li></ul> [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics-platform/using/cja-workspace/visualizations/line.html) |
 | Página Ajuda do Analysis Workspace Performance | 22 de out de 2020 | A página de ajuda de desempenho da Analysis Workspace mostra os diferentes fatores que afetam o desempenho do projeto e os links para dicas de otimização. [Saiba mais](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL Visualização de linha] : Opção de tendência média móvel | 8 de out de 2020 | A média móvel foi adicionada às configurações de linha de tendência da visualização de Linha. Uma média móvel calcula a média de um período anterior especificado e usa essa média como ponto de dados de linha de tendência, em seguida, move-se para o período seguinte. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/line.html) |
