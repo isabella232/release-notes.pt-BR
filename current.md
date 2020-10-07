@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1e425034bd7ac32833d74b826562f9761b2c05d5
+source-git-commit: 0eba5dbf803e9eefd45065b942fe49258c4c1d32
 workflow-type: tm+mt
-source-wordcount: '6775'
-ht-degree: 43%
+source-wordcount: '6846'
+ht-degree: 42%
 
 ---
 
@@ -31,13 +31,13 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 
 As datas de lançamento do produto podem variar. Verifique frequentemente se há atualizações.
 
-Última atualização: **2 de outubro de 2020**
+Última atualização: **7 de outubro de 2020**
 
 * [Status de sistema da Adobe](#status)
 * [Experience Cloud e administração](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Atualizado em 2 de outubro de 2020)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Atualizado em 7 de outubro de 2020)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -113,7 +113,7 @@ Lançamento em setembro - Consulte as Notas [de versão do Journey Orchestration
 Data de lançamento: **8 de outubro de 2020**
 
 * [Novos recursos no Adobe Analytics](#aa-features)
-* [Novos recursos no Customer Journey Analytics](#cust-journey)
+* [Novos recursos no Customer Journey Analytics](#cust-journey) (Atualizado em 7 de outubro de 2020)
 * [Novos recursos no Media Analytics](#media-aa)
 * [Correções no Adobe Analytics](#aa-fixes)
 * [Avisos importantes para administradores do Analytics](#aa-notices)
@@ -142,6 +142,7 @@ Data de lançamento: **8 de outubro de 2020**
 | Página Ajuda do Analysis Workspace Performance | 22 de out de 2020 | A página de ajuda de desempenho da Analysis Workspace mostra os diferentes fatores que afetam o desempenho do projeto e os links para dicas de otimização. [Saiba mais](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL Visualização de linha] : Opção de tendência média móvel | 8 de out de 2020 | A média móvel foi adicionada às configurações de linha de tendência da visualização de Linha. Uma média móvel calcula a média de um período anterior especificado e usa essa média como ponto de dados de linha de tendência, em seguida, move-se para o período seguinte. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | Remoção da limitação de preenchimento retroativo | 19 de out de 2020 | Anteriormente, você podia preencher retroativamente um máximo de 2,5 bilhões de linhas ao criar uma conexão. Estamos removendo a limitação de preenchimento retroativo e permitindo o preenchimento retroativo de até 13 meses de dados, independentemente do tamanho. |
+| Arranque baseado em campo CJA | 30 de outubro de 2020 | A identificação baseada em campo CJA permite que os clientes alternem a chave de um conjunto de dados de evento Adobe Analytics (ou outro) no lago de dados Adobe Experience Platform de uma namespace de ID para outra. Normalmente, isso significa rechavear o conjunto de dados do evento de uma ID baseada em cookies para uma ID baseada em pessoa. Dessa forma, o conjunto de dados rechaveado pode ser combinado com outros dados baseados em pessoa em uma conexão CJA, permitindo assim a análise entre dispositivos/canais no Analysis Workspace. |
 
 ### Novos recursos no [!UICONTROL Media Analytics] {#media-aa}
 
