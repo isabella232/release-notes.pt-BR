@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0eba5dbf803e9eefd45065b942fe49258c4c1d32
+source-git-commit: 390f9884c84130f67cb494b6e30b473e122840d9
 workflow-type: tm+mt
-source-wordcount: '6846'
+source-wordcount: '6860'
 ht-degree: 42%
 
 ---
@@ -348,7 +348,7 @@ Novos vídeos, tutoriais e cursos publicados no mês passado.
 | 21 de setembro de 2020 | [Configurar o Firefly do projeto de E/S do Adobe](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/set-up/firefly.html) | Vídeo | Os aplicativos de Computação de ativos são aplicativos Adobe Project Firefly especialmente definidos e, como tal, exigem acesso ao Adobe Project Firefly no Adobe Developer Console para configurá-los e implantá-los. |
 | 21 de setembro de 2020 | [Configurar um ambiente de desenvolvimento local](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/set-up/development-environment.html) | Artigo | Desenvolvendo os trabalhadores da Asset Compute, que são aplicativos JavaScript Node.js, exigem ferramentas de desenvolvimento específicas que diferem do desenvolvimento tradicional de AEM, desde Node.js e vários módulos npm até o Docker Desktop e o Código do Microsoft Visual Studio. |
 | 21 de setembro de 2020 | [Configurar contas e serviços](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/set-up/accounts-and-services.html) | Artigo | Desenvolvendo funcionários da Asset Compute exigem acesso a contas e serviços, incluindo AEM como Cloud Service, Adobe Project Firefly e armazenamento em nuvem fornecidos pela Microsoft ou Amazon. |
-| 14 de setembro de 2020 | [Uso da camada de dados do cliente Adobe com componentes principais AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | Vídeo e artigo | A Camada de dados do cliente Adobe apresenta um método padrão para coletar e armazenar dados sobre uma experiência de visitantes em uma página da Web e, em seguida, facilitar o acesso a esses dados. A Adobe Client Data Layer é agnóstica de plataforma, mas é totalmente integrada aos Componentes principais para uso com AEM. |
+| 14 de setembro de 2020 | [Uso da camada de dados do cliente Adobe com componentes principais AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | Vídeo e artigo | A Camada de dados do cliente Adobe apresenta um método padrão para coletar e armazenar dados sobre uma experiência de visitantes em uma página da Web e, em seguida, facilitar o acesso a esses dados. A Adobe Client Data Layer é agnóstica de plataforma, mas é totalmente integrada aos Componentes principais para uso com o AEM. |
 | 28 de setembro de 2020 | [Uso da camada de dados do cliente Adobe com componentes principais AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | Vídeo | Saiba como a camada de Dados do cliente Adobe orientada pelo evento expõe os dados dos componentes principais da AEM Sites. Usando a Camada de dados do cliente Adobe, as soluções de gerenciamento de tags como o Experience Platform Launch podem transmitir dados do site para aplicativos como o Analytics e o Público alvo. |
 | 21 de setembro de 2020 | [Extensibilidade de microserviços da Asset Compute](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/overview.html) | Vídeo | Tutorial que mostra a criação de um assistente de microserviços de ativos personalizado para AEM como Cloud Service. |
 | 21 de setembro de 2020 | [Extensibilidade de microserviços da Asset Compute](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/overview.html) | Vídeo | AEM como os microserviços de computação de ativos Cloud Service suportam o desenvolvimento e a implantação de trabalhadores personalizados usados para ler e manipular dados binários de ativos armazenados em AEM, mais comumente, para criar execuções de ativos personalizados. |
@@ -360,6 +360,7 @@ Novos vídeos, tutoriais e cursos publicados no mês passado.
 
 Todas as notas de versão do Experience Manager são mantidas nas seguintes páginas:
 
+* [Atualizações e roteiro da versão de Experience Manager](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html)
 * [Informações sobre a versão do AEM as a Cloud Service](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/release-notes/home.html)
 * [Notas de versão do AEM Cloud Manager](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
 * [Notas de versão do Serviço de conversão automatizada de formulários](https://docs.adobe.com/content/help/pt-BR/aem-forms-automated-conversion-service/using/release-notes.html)
