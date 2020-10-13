@@ -7,8 +7,8 @@ author: mfrei
 translation-type: tm+mt
 source-git-commit: a2db056a8aebdd0db0a9526b667c29b52a806b41
 workflow-type: tm+mt
-source-wordcount: '6879'
-ht-degree: 92%
+source-wordcount: '6870'
+ht-degree: 99%
 
 ---
 
@@ -48,7 +48,7 @@ Precisa de ajuda? Visite a [Adobe Experience League](https://experienceleague.ad
 
 >[!NOTE]
 >
->A documentação do Experience Cloud está sendo transferida para a Experience League. Durante o mês de outubro, todas as notas de versão, artigos, vídeos e tutoriais serão movidos do local atual para `docs.adobe.com` o Experience League. Essa mudança garante que todo o aprendizado, a autoajuda, a ativação e o conteúdo da comunidade sejam fornecidos de um único local. Quando essa alteração ocorrer, não há nada que você precise fazer, pois todos os links serão redirecionados para a Experience League. Atualizaremos as notas de versão quando o cutover começar.
+>A documentação da Experience Cloud está sendo transferida para a Experience League. Durante o mês de outubro, todas as notas de versão, artigos, vídeos e tutoriais serão movidos do local atual no `docs.adobe.com` para a Experience League. Essa mudança garante que todo o aprendizado, a autoajuda, a ativação e o conteúdo da comunidade sejam fornecidos de um único local. Quando essa alteração ocorrer, não há nada que você precise fazer, pois todos os links serão redirecionados para a Experience League. Atualizaremos as notas de versão quando o cutover começar.
 
 ## ![Ícone](/assets/adobe.png) Adobe da sistema de Status {#status}
 
@@ -64,13 +64,13 @@ Antigamente chamada de _serviços principais da Experience Cloud_, a [documenta�
 
 Não foi atualizado em setembro.
 
-Consulte Notas de versão [cumulativas para obter os serviços](https://docs.adobe.com/content/help/pt-BR/core-services/interface/release-notes/release-notes.html) de Experience Cloud para obter as informações mais recentes.
+Consulte as [Notas de versão cumulativas dos serviços da Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/release-notes/release-notes.html) para obter as informações mais recentes.
 
 ## ![Ícone](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
 Notas de versão da [!DNL Experience Platform].
 
-Lançado: **9 de setembro de 2020**
+Lançamento: **9 de setembro de 2020**
 
 Consulte as [Notas de versão da Experience Platform](https://docs.adobe.com/content/help/pt-BR/experience-platform/release-notes/latest.html#!end-user/markdown/release-notes/release-notes.md) para obter informações sobre atualizações de:
 
@@ -106,7 +106,7 @@ Versão de setembro - Consulte as [Notas de versão do Journey Orchestration](ht
 
 ## ![Ícone](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-Data de lançamento: Fim de 8 de outubro **de 2020**
+Data de lançamento: **8 de outubro de 2020**
 
 * [Novos recursos no Adobe Analytics](#aa-features)
 * [Novos recursos no Customer Journey Analytics](#cust-journey) (Atualizado em 7 de outubro de 2020)
@@ -120,25 +120,25 @@ Data de lançamento: Fim de 8 de outubro **de 2020**
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ------- |
-| Documentação do Adobe Analytics | Outubro de 2020 | A documentação do Adobe Analytics está sendo transferida para o Experience League. Durante o mês de outubro, todos os artigos, vídeos, notas de versão e tutoriais serão movidos do local atual para `docs.adobe.com` o `experienceleague.adobe.com`. Essa mudança garante que todo o aprendizado, a autoajuda, a ativação e o conteúdo da comunidade sejam fornecidos de um único local. Quando essa alteração ocorrer, não há nada que você precise fazer, pois todos os links serão redirecionados para a Experience League. Atualizaremos as notas de versão quando o cutover começar. |
-| [!UICONTROL Espaço de trabalho]: Baixe 50 mil itens para uma única dimensão | 17 de setembro de 2020 | Você poderá baixar 50 mil itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Dessa forma, você pode acessar mais de 400 linhas de dados fora do Analysis Workspace. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) |
+| Documentação do Adobe Analytics | Outubro de 2020 | A documentação do Adobe Analytics está sendo transferida para a Experience League. Durante o mês de outubro, todos os artigos, vídeos, notas de versão e tutoriais serão movidos do local atual em `docs.adobe.com` para `experienceleague.adobe.com`. Essa mudança garante que todo o aprendizado, a autoajuda, a ativação e o conteúdo da comunidade sejam fornecidos de um único local. Quando essa alteração ocorrer, não há nada que você precise fazer, pois todos os links serão redirecionados para a Experience League. Atualizaremos as notas de versão quando o cutover começar. |
+| [!UICONTROL Workspace]: Baixe 50 mil itens para uma única dimensão | 17 de setembro de 2020 | Você poderá baixar 50 mil itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Dessa forma, você pode acessar mais de 400 linhas de dados fora do Analysis Workspace. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) |
 | [!UICONTROL Workspace]: melhorias na visualização de [!UICONTROL Linha] | 17 de setembro de 2020 | <ul><li>Você pode exibir ou ocultar o eixo x e o eixo y de qualquer visualização de [!UICONTROL Linha]. Pode ser especialmente útil quando suas visualizações de [!UICONTROL linha] são mais compactas.</li><li>É possível sobrepor um rótulo de valor mínimo e máximo em qualquer visualização de [!UICONTROL linha] para destacar rapidamente os picos e vales em uma métrica.</li><li>É possível sobrepor diferentes linhas de tendência de regressão em qualquer visualização de [!UICONTROL linha] para ver mais facilmente a tendência nos dados. As opções incluem [!UICONTROL Linear], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potência] e [!UICONTROL Quadrático].</li></ul> [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/line.html) |
-| [!UICONTROL Espaço de trabalho]: Página de ajuda de desempenho | 22 de outubro de 2020 | A página de ajuda de desempenho do Analysis Workspace mostra os diferentes fatores que afetam o desempenho do projeto e oferece links com dicas de otimização. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
-| Visualização de [!UICONTROL linha do] [!UICONTROL Espaço] de trabalho: opção de linha de tendências da média móvel | 8 de outubro de 2020 | A média móvel foi adicionada às configurações de linha de tendência da visualização de Linha. Também conhecida como média variável, uma média móvel usa um número específico de pontos de dados (determinado por uma seleção de [!UICONTROL Períodos] ), faz a média deles e usa a média como um ponto na linha. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/line.html) |
+| [!UICONTROL Workspace]: Página de ajuda de desempenho | 22 de outubro de 2020 | A página de ajuda de desempenho do Analysis Workspace mostra os diferentes fatores que afetam o desempenho do projeto e oferece links com dicas de otimização. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
+| Visualização de [!UICONTROL linha do] [!UICONTROL Workspace]: opção de linha de tendências da média móvel | 8 de outubro de 2020 | A média móvel foi adicionada às configurações de linha de tendência da visualização de Linha. Também conhecida como média variável, uma média móvel usa um número específico de pontos de dados (determinado por uma seleção de [!UICONTROL Períodos] ), faz a média deles e usa a média como um ponto na linha. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | API de [!UICONTROL reparo de dados] | 8 de outubro de 2020 | A API de [!UICONTROL Reparo de dados] é uma ferramenta para excluir dados dos conjuntos de relatórios do Analytics. A versão de outubro inclui a capacidade de excluir eVars, props e variáveis do Activity Map de um intervalo de datas especificado. A funcionalidade adicional será lançada no futuro. O uso da API de reparo de dados exclui permanentemente os dados existentes do Adobe Analytics. Recomendamos uma abordagem cuidadosa para executar o reparo para minimizar a exclusão acidental. O acesso à API de reparo de dados exige um contrato. Entre em contato com a equipe de conta para obter mais detalhes. [Saiba mais](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) |
-| Aprimoramentos na interface do usuário de painéis do Analytics | 23 de outubro de 2020 | Ao criar um scorecard móvel no Espaço de trabalho, o estilo do scorecard agora corresponde ao aplicativo. |
+| Aprimoramentos na interface do usuário de painéis do Analytics | 23 de outubro de 2020 | Ao criar um scorecard móvel no Workspace, o estilo do scorecard agora corresponde ao aplicativo. |
 
 ### Novos recursos no Customer Journey Analytics {#cust-journey}
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ----- |
-| Análise da jornada do cliente documentação | Outubro de 2020 | A documentação do Customer Journey Analytics está sendo transferida para a Experience League. Durante o mês de outubro, todos os artigos, vídeos, notas de versão e tutoriais serão movidos do local atual para `docs.adobe.com` o `experienceleague.adobe.com`. Essa mudança garante que todo o aprendizado, a autoajuda, a ativação e o conteúdo da comunidade sejam fornecidos de um único local. Quando essa alteração ocorrer, não há nada que você precise fazer, pois todos os links serão redirecionados para a Experience League. Atualizaremos as notas de versão quando o cutover começar. |
-| [!UICONTROL Espaço de trabalho]: Baixe 50 mil itens para uma única dimensão | 17 de setembro de 2020 | Você poderá baixar 50 mil itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Dessa forma, você pode acessar mais de 400 linhas de dados fora do Analysis Workspace. [Saiba mais...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/download-send.html) |
+| Customer Journey Analytics documentação | Outubro de 2020 | A documentação do Customer Journey Analytics está sendo transferida para a Experience League. Durante o mês de outubro, todos os artigos, vídeos, notas de versão e tutoriais serão movidos do local atual em `docs.adobe.com` para `experienceleague.adobe.com`. Essa mudança garante que todo o aprendizado, a autoajuda, a ativação e o conteúdo da comunidade sejam fornecidos de um único local. Quando essa alteração ocorrer, não há nada que você precise fazer, pois todos os links serão redirecionados para a Experience League. Atualizaremos as notas de versão quando o cutover começar. |
+| [!UICONTROL Workspace]: Baixe 50 mil itens para uma única dimensão | 17 de setembro de 2020 | Você poderá baixar 50 mil itens para uma única dimensão em uma tabela de forma livre, com segmentos e filtros aplicados. Dessa forma, você pode acessar mais de 400 linhas de dados fora do Analysis Workspace. [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics-platform/using/cja-workspace/curate-share/download-send.html) |
 | [!UICONTROL Workspace]: melhorias na visualização de [!UICONTROL Linha] | 17 de setembro de 2020 | <ul><li>Você pode exibir ou ocultar o eixo x e o eixo y de qualquer visualização de [!UICONTROL Linha]. Pode ser especialmente útil quando suas visualizações de [!UICONTROL linha] são mais compactas.</li><li>É possível sobrepor um rótulo de valor mínimo e máximo em qualquer visualização de [!UICONTROL linha] para destacar rapidamente os picos e vales em uma métrica.</li><li>É possível sobrepor diferentes linhas de tendência de regressão em qualquer visualização de [!UICONTROL linha] para ver mais facilmente a tendência nos dados. As opções incluem [!UICONTROL Linear], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potência] e [!UICONTROL Quadrático].</li></ul> [Saiba mais...](https://docs.adobe.com/content/help/pt-BR/analytics-platform/using/cja-workspace/visualizations/line.html) |
 | Página Ajuda de desempenho do Analysis Workspace | 22 de outubro de 2020 | A página de ajuda de desempenho do Analysis Workspace mostra os diferentes fatores que afetam o desempenho do projeto e oferece links com dicas de otimização. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | Visualização de [!UICONTROL Linha]: opção de linha de tendências da média móvel | 8 de outubro de 2020 | A média móvel foi adicionada às configurações de linha de tendência da visualização de Linha. Uma média móvel calcula a média para um período anterior especificado e a usa como o ponto de dados da linha de tendência, em seguida, passa para o próximo período. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | Remoção da limitação de preenchimento retroativo | 19 de outubro de 2020 | Anteriormente, você podia preencher retroativamente um máximo de 2,5 bilhões de linhas ao criar uma conexão. Estamos removendo a limitação e permitindo o preenchimento retroativo de até 13 meses de dados, independentemente do tamanho. |
-| Arranque baseado em campo CJA | 30 de outubro de 2020 | A identificação baseada em campo CJA permite que os clientes alternem a chave de um conjunto de dados de evento Adobe Analytics (ou outro) no lago de dados Adobe Experience Platform de uma namespace de ID para outra. Normalmente, isso significa rechavear o conjunto de dados do evento de uma ID baseada em cookies para uma ID baseada em pessoa. Dessa forma, o conjunto de dados rechaveado pode ser combinado com outros dados baseados em pessoa em uma conexão CJA, permitindo assim a análise entre dispositivos/canais no Analysis Workspace. |
+| Compilação em campo do CJA | 30 de outubro de 2020 | A compilação em campo do CJA permite rechavear um conjunto de dados de evento do Adobe Analytics (ou outro) no lago de dados da Adobe Experience Platform de um namespace de ID para outro. Normalmente, isso significa rechavear o conjunto de dados do evento de uma ID com base em cookies para uma ID com base em pessoas. Dessa forma, o conjunto de dados rechaveado pode ser combinado com outros dados com base em pessoas em uma conexão do CJA, permitindo a análise de vários dispositivos/canais no Analysis Workspace. |
 
 ### Novos recursos no [!UICONTROL Media Analytics] {#media-aa}
 
@@ -149,11 +149,11 @@ Data de lançamento: Fim de 8 de outubro **de 2020**
 ### Correções no Adobe Analytics {#aa-fixes}
 
 * Correção de um problema com o código de plug-in do Conector do DFA no Experience Platform Launch que retornava um erro. (AN-214531)
-* Correção de um problema com um [!UICONTROL reportlet] com falha que causava um erro ao acessar um projeto do [!UICONTROL Espaço de trabalho]. (AN-230776)
-* Correção de um problema que ocorria ao abrir um link de alerta no [!UICONTROL Espaço de trabalho] e tentar editar o projeto. (AN-230853)
+* Correção de um problema com um [!UICONTROL reportlet] com falha que causava um erro ao acessar um projeto do [!UICONTROL Workspace]. (AN-230776)
+* Correção de um problema que ocorria ao abrir um link de alerta no [!UICONTROL Workspace] e tentar editar o projeto. (AN-230853)
 * Correção de um problema com caracteres GB18030 que apareciam ilegíveis em nomes de usuário em algumas páginas de [!UICONTROL Componentes]. (AN-233863)
 * Correção de vários problemas com a API do [!UICONTROL Data Warehouse]. (AN-234424, AN-234557)
-* Correção de um problema em que o [!UICONTROL Espaço de trabalho] não era carregado ao fazer logon via Experience Cloud. (AN-235658)
+* Correção de um problema em que o [!UICONTROL Workspace] não era carregado ao fazer logon via Experience Cloud. (AN-235658)
 * Correção de um problema que fazia com que arquivos de [!UICONTROL Classificações] ficassem enfileirados. (AN-236043)
 * [!UICONTROL Customer Journey Analytics]: correção de um problema que impedia a abertura de uma visualização de dados. (AN-236108)
 * Correção de um problema em que os segmentos fornecidos pela Adobe não estavam disponíveis no [!UICONTROL Construtor de métricas calculadas]. (AN-236835)
@@ -204,7 +204,7 @@ Novos cursos, tutoriais e artigos no [!DNL Analytics] e no [!UICONTROL Customer 
 
 Novos recursos, correções, documentação e tutoriais no Audience Manager.
 
-Data de lançamento: Fim de 8 de outubro **de 2020**
+Data de lançamento: **8 de outubro de 2020**
 
 ### Novos recursos e correções no Adobe Audience Manager
 
@@ -233,7 +233,7 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
 
 >[!NOTE]
 >
->A Adobe recomenda visitar as atualizações de versões do [Experience Manager e o roteiro](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html) com frequência para manter-se atualizado com as informações de lançamento.
+>A Adobe recomenda visitar as [atualizações de versões e o roteiro do Experience Manager](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html) com frequência para manter-se atualizado com as informações de lançamento.
 
 ### Versões do produto
 
@@ -291,13 +291,13 @@ Consulte as notas de versão do [AEM as a Cloud Service](https://docs.adobe.com/
 
 ### Autoajuda
 
-**[!DNL Experience Manager]Sites**
+**[!DNL Experience Manager] Sites**
 
-A documentação do Editor de Rich Text é atualizada para lista de todos [os protocolos suportados para links no RTE](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html#linkstyles).
+A documentação do Editor de rich text é atualizada para lista de todos os [protocolos compatíveis com links no RTE](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html#linkstyles).
 
 **[!DNL Experience Manager] Assets**
 
-* O novo conteúdo de ajuda sobre [como o AEM Assets está acessível](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/accessibility.html) para todos os usuários está disponível.
+* O novo conteúdo de ajuda sobre [como o AEM Assets está acessível](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/assets/accessibility.html) para todos os usuários está disponível.
 
 * O **[parâmetro Viewmode](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/assets/using/search-assets.html#assetpicker)** é adicionado ao seletor de ativos (escolha de ativos) para abri-lo no modo de pesquisa. Para abrir o seletor de ativos no modo de pesquisa e usá-lo com `assettype` e `mimetype`, o usuário precisa usar o parâmetro `viewmode=search` como sufixo no url `https://[aem-server]:[port]/aem/assetpicker.html`. Por exemplo, `https://[aem-server]:[port]/aem/assetpicker.html?viewmode=search&assettype=images`.
 
@@ -309,11 +309,11 @@ A documentação do Editor de Rich Text é atualizada para lista de todos [os pr
 
 * Os ativos também podem ser [movidos para pastas irmãs usando a operação de arrastar](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets), além da operação [!UICONTROL Mover (m)] que abre o assistente [!UICONTROL Mover ativos].
 
-* Para o Assets Insights, use o [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html). [A integração](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html) do DTM é chamada como um método obsoleto nos documentos.
+* Para o Assets Insights, use o [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html). A [integração do DTM](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html) é chamada como um método obsoleto nos documentos.
 
 **[!DNL Adobe Experience Manager] aplicativo de desktop**
 
-* Users logging in to desktop app after logging out or logging in for the first time should provide their [!DNL Experience Manager] server URL in the format `https://[aem-server-url]:[port]/` and then select [!UICONTROL Connect] option, to avoid the error &quot;The application encountered an unknown error&quot;. Para obter mais informações, consulte [Usar o aplicativo de desktop do Adobe Experience Manager](https://docs.adobe.com/content/help/pt-BR/experience-manager-desktop-app/using/using.html).
+* Os usuários que fazem logon no aplicativo de desktop após fazer logout ou fazer logon pela primeira vez devem fornecer o [!DNL Experience Manager] URL do servidor no formato `https://[aem-server-url]:[port]/` e selecionar a opção [!UICONTROL Conectar] para evitar o erro &quot;O aplicativo encontrou um erro desconhecido&quot;. Para obter mais informações, consulte [Usar o aplicativo de desktop do Adobe Experience Manager](https://docs.adobe.com/content/help/pt-BR/experience-manager-desktop-app/using/using.html).
 
 ### Comunidade
 
@@ -360,7 +360,7 @@ Novos vídeos, tutoriais e cursos publicados no mês passado.
 
 Todas as notas de versão do Experience Manager são mantidas nas seguintes páginas:
 
-* [Atualizações e roteiro da versão de Experience Manager](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html)
+* [Atualizações de versão e roteiro do Experience Manager](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html)
 * [Informações sobre a versão do AEM as a Cloud Service](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/release-notes/home.html)
 * [Notas de versão do AEM Cloud Manager](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
 * [Notas de versão do Serviço de conversão automatizada de formulários](https://docs.adobe.com/content/help/pt-BR/aem-forms-automated-conversion-service/using/release-notes.html)
