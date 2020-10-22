@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a2db056a8aebdd0db0a9526b667c29b52a806b41
+source-git-commit: 15322b62554e6ef8b5100ee43a231f59b3dd20a7
 workflow-type: tm+mt
-source-wordcount: '6870'
-ht-degree: 100%
+source-wordcount: '6828'
+ht-degree: 97%
 
 ---
 
@@ -427,21 +427,25 @@ Notas de versão da Adobe Advertising Cloud.
 * [Novos recursos na Advertising Cloud DSP](#adcloud-dsp)
 * [Novos recursos na Advertising Cloud Search](#adcloud-search)
 
-### Novos recursos na [!UICONTROL Advertising Cloud DSP] {#adcloud-dsp}
+### Novos recursos no [!DNL Advertising Cloud DSP] {#adcloud-dsp}
+
+Data de lançamento: 15 de outubro de 2020
 
 | Recurso | Descrição |
 | -----------| ---------- |
-| Anúncios interativos antes da exibição foram estendidos para incluir o inventário VAST | Cada inserção e anúncio interativo antes da exibição agora aceitam tanto o inventário VPAID quanto o VAST. **Observação:** se o KPI principal for visualizável, continue criando inserções e anúncios VPAID e VAST separados, pois as impressões visualizáveis não estão disponíveis para anúncios VAST. |
+| Inventário privado | Todos os usuários agora podem configurar e editar detalhes da ID de negócio usando um novo formulário de ID de negócio, que é uma versão simplificada do formulário de disponibilização de anúncios [!UICONTROL inteligentes] herdado. Para configurar os detalhes da nova ID de negócio, vá até **[!UICONTROL Inventário > Vendas]**, clique em **[!UICONTROL Criar]** e, em seguida, clique em ID de **[!UICONTROL Acordo Beta]**. |
+| Previsão de posicionamento | Para disposições com posicionamento no nível de posicionamento, a seção [!UICONTROL Previsão] das configurações de posicionamento inclui uma nova seção Máximos  Estimados, que indica quanto mais capacidade está disponível com a configuração de direcionamento atual. |
 
-### Novos recursos na [!UICONTROL Advertising Cloud Search] {#adcloud-search}
+### Novos recursos no [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Data de lançamento: **8 de agosto de 2020**
+Data de lançamento: 17 de outubro de 2020
 
 | Recurso | Descrição |
-| ----------- | ---------- |
-| [!UICONTROL Portfólios] | Os limites de posição no nível de portfolio não estão mais disponíveis nas configurações de portfólio. Os limites de posição criados anteriormente foram removidos. |
-| [!UICONTROL Limitações] | Restrições baseadas em posição e condições de restrição não são mais aceitas: <br/> <ul><li>As restrições de [!UICONTROL Posição mín.] e [!UICONTROL Posição máx.] não estão mais disponíveis e foram removidas de todas as restrições de [!UICONTROL Lance e Posição] criadas anteriormente e do [!UICONTROL Compartilhamento de impressão].</li><li>Restrições existentes de [!UICONTROL Lance e Posição] que incluíam restrições de posição, mas nenhuma restrição de lance era pausada. Elas ainda estão disponíveis na interface do usuário e nos relatórios.</li><li>As restrições de [!UICONTROL Lance e Posição] foram renomeadas como restrições de [!UICONTROL Lance].</li><li>Todas as condições baseadas na posição (usando as métricas [!UICONTROL Posição média], [!UICONTROL Posição média ponderada] ou [!UICONTROL Última posição conhecida]) em qualquer tipo de restrição foram removidas.</li></ul> <br/> **Observação:** os dados de posição continuarão sendo preenchidos enquanto estiverem disponíveis nos mecanismos de pesquisa. O Microsoft Ads será descontinuado em setembro de 2020. |
-| [!UICONTROL Campanhas] | (Campanhas do Google Ads) A Advertising Cloud Search agora aceita anúncios personalizados em anúncios de pesquisa responsivos (RSAs). Anteriormente, eles eram aceitos em todos os tipos de anúncios, exceto RSAs. |
+| -----------| ---------- |
+| Campanhas de pesquisa | Na visualização [!UICONTROL Contas] , a coluna [!UICONTROL Acesso] agora indica quando [!DNL Advertising Cloud Search] não é possível fazer logon em uma conta de mecanismo de pesquisa ativada. Para ver a causa do erro, mantenha o cursor sobre o ícone de aviso. |
+| [!UICONTROL Alertas personalizados] | O antigo [!UICONTROL Alertas Beta] agora é chamado de Alertas Personalizados. |
+|  | Em alertas personalizados, o fluxo de trabalho para identificar quando as métricas para o intervalo de datas especificado aumentaram ou diminuíram das métricas para o período anterior foi simplificado e movido para a guia [!UICONTROL Filtros] . |
+
 
 ## ![Ícone](/assets/magento.png) [!DNL Magento] {#magento}
 
