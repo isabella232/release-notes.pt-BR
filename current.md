@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e3cd66e2ec665be1583b0a3ee3aaba05462c8407
+source-git-commit: e2e01fa323e54614f8b5719252e672183dbb006d
 workflow-type: tm+mt
-source-wordcount: '6828'
-ht-degree: 97%
+source-wordcount: '6918'
+ht-degree: 96%
 
 ---
 
@@ -204,9 +204,15 @@ Novos cursos, tutoriais e artigos no [!DNL Analytics] e no [!UICONTROL Customer 
 
 Novos recursos, correções, documentação e tutoriais no Audience Manager.
 
-Data de lançamento: **8 de outubro de 2020**
+Atualizado em **22 de outubro de 2020**
 
-### Novos recursos e correções no Adobe Audience Manager
+### Novos recursos, melhorias e correções no Audience Manager {#aam-features}
+
+| Recurso | Data de adição ou atualização | Descrição |
+|----|----|----|
+| [Predictive Audiences](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 21 de outubro de 2020 | <ul><li>**Clonagem** do modelo de Audiências preditivas: Agora você pode clonar modelos existentes e alterar sua configuração com base em suas necessidades. Leia [Clonagem e edição de modelos](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences) de Audiência preditiva para obter mais informações.</li><li>**Classificação** em lote de Audiências preditivas: Além de classificar visitantes em personas distintas em tempo real, as Audiências preditivas agora oferecem suporte à classificação em lote, ajudando a classificar usuários integrados e a ativar para destinos em lote.</li></ul> |
+
+### Correções e melhorias {#aam-fixes-and-improvements}
 
 * Correção de um problema com a API REST do Audience Manager, em que o terminal de características não retornava métricas entre dispositivos ao filtrar características na solicitação. (AAM-55878)
 * Correção de um problema em Destinos baseados em Pessoas, em que, para as integrações do Facebook, os emails de lembrete de expiração do token de acesso não eram enviados aos destinatários corretos. (AAM-56215)
