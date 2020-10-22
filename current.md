@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 15322b62554e6ef8b5100ee43a231f59b3dd20a7
+source-git-commit: e3cd66e2ec665be1583b0a3ee3aaba05462c8407
 workflow-type: tm+mt
 source-wordcount: '6828'
 ht-degree: 97%
@@ -445,7 +445,6 @@ Data de lançamento: 17 de outubro de 2020
 | Campanhas de pesquisa | Na visualização [!UICONTROL Contas] , a coluna [!UICONTROL Acesso] agora indica quando [!DNL Advertising Cloud Search] não é possível fazer logon em uma conta de mecanismo de pesquisa ativada. Para ver a causa do erro, mantenha o cursor sobre o ícone de aviso. |
 | [!UICONTROL Alertas personalizados] | O antigo [!UICONTROL Alertas Beta] agora é chamado de Alertas Personalizados. |
 |  | Em alertas personalizados, o fluxo de trabalho para identificar quando as métricas para o intervalo de datas especificado aumentaram ou diminuíram das métricas para o período anterior foi simplificado e movido para a guia [!UICONTROL Filtros] . |
-
 
 ## ![Ícone](/assets/magento.png) [!DNL Magento] {#magento}
 
