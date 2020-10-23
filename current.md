@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e2e01fa323e54614f8b5719252e672183dbb006d
+source-git-commit: c1750aa7321e0eb6b929119f5c22101772af5a68
 workflow-type: tm+mt
-source-wordcount: '6918'
-ht-degree: 96%
+source-wordcount: '7000'
+ht-degree: 95%
 
 ---
 
@@ -204,13 +204,14 @@ Novos cursos, tutoriais e artigos no [!DNL Analytics] e no [!UICONTROL Customer 
 
 Novos recursos, correções, documentação e tutoriais no Audience Manager.
 
-Atualizado em **22 de outubro de 2020**
+Atualizado em **23 de outubro de 2020**
 
 ### Novos recursos, melhorias e correções no Audience Manager {#aam-features}
 
 | Recurso | Data de adição ou atualização | Descrição |
 |----|----|----|
 | [Predictive Audiences](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 21 de outubro de 2020 | <ul><li>**Clonagem** do modelo de Audiências preditivas: Agora você pode clonar modelos existentes e alterar sua configuração com base em suas necessidades. Leia [Clonagem e edição de modelos](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences) de Audiência preditiva para obter mais informações.</li><li>**Classificação** em lote de Audiências preditivas: Além de classificar visitantes em personas distintas em tempo real, as Audiências preditivas agora oferecem suporte à classificação em lote, ajudando a classificar usuários integrados e a ativar para destinos em lote.</li></ul> |
+| [Relatórios de sobreposição](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/dynamic-reports.html) | 23 de outubro de 2020 | Atualizamos a metodologia que usamos para calcular relatórios de sobreposição ([característica](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/trait-trait-overlap-report.html), [segmento para característica](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-trait-overlap-report.html), [segmento para segmento](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-segment-overlap-report.html)). O cálculo de relatórios de sobreposição agora se baseia em únicos de relatórios e assinaturas MinHash (em vez de amostragem [de dados](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/report-sampling.html#data-sampling-ratio)1/54). |
 
 ### Correções e melhorias {#aam-fixes-and-improvements}
 
