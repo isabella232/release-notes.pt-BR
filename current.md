@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 684a0b00a2f2bdb2f7c92ca0b0552bc18fc8c19f
+source-git-commit: dba5bf9afced03536adb857f879bd1df349ebbbc
 workflow-type: tm+mt
 source-wordcount: '6960'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -56,7 +56,7 @@ O [!UICONTROL Status de sistema da Adobe] fornece informações detalhadas, atua
 
 Não atualizado.
 
-Consulte o [Status do sistema da Adobe - 21 de maio de 2020](https://docs.adobe.com/content/help/pt-BR/release-notes/experience-cloud/previous/2020/05212020.translate.html#status) para obter as informações da versão mais recentes.
+Consulte o [Status do sistema da Adobe - 21 de maio de 2020](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/previous/2020/05212020.html#status) para obter as informações da versão mais recentes.
 
 ## ![Ícone](/assets/ec_appicon_24.png) Serviços e administração da Experience Cloud {#ecloud}
 
