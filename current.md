@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dba5bf9afced03536adb857f879bd1df349ebbbc
+source-git-commit: 3b533d52ae98c930c3e9af7470825d659ec9b0fe
 workflow-type: tm+mt
-source-wordcount: '6960'
+source-wordcount: '7024'
 ht-degree: 68%
 
 ---
@@ -338,6 +338,7 @@ Novos vídeos, tutoriais e cursos publicados no mês passado.
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
+| 27 de outubro de 2020 | [Introdução ao AEM Documento Security Extension for Microsoft Office](https://docs.adobe.com/content/help/en/experience-manager-document-security/using/document-security-extension-microsoft-office.html) | Artigo | O Adobe Experience Manager Documento Security Extension for Microsoft Office garante que somente as pessoas autorizadas por você possam usar arquivos do Word, Excel e PowerPoint que contenham sua propriedade intelectual. Ao usar o Documento Security Extension for Microsoft Office, você pode aplicar configurações de confidencialidade predefinidas a seus arquivos. |
 | 7 de outubro de 2020 | [Métricas de página de visualização no Adobe Analytics](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/create-analytics-workspace.html) | Artigo | Saiba como mapear dados capturados de um site da Adobe Experience Manager para métricas e dimensões em conjuntos de relatórios da Adobe Analytics. |
 | 8 de outubro de 2020 | [Personalização de experiências completas de página da Web](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/personalization-web-page.html) | Vídeo | Saiba como criar uma atividade para redirecionar as páginas do site hospedadas em AEM para uma nova página usando o Adobe Target. |
 | 8 de outubro de 2020 | [Personalização usando o Visual Experience Composer](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/personalization-using-vec.html) | Vídeo | Saiba como criar uma Atividade de teste A/B usando o Visual Experience Composer (VEC). |
