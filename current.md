@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 08f91c514f5ab3cef7b7a1b862260090892e8144
 workflow-type: tm+mt
 source-wordcount: '7148'
-ht-degree: 67%
+ht-degree: 69%
 
 ---
 
@@ -225,9 +225,9 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
       * O SDK do Javascript do Editor de aplicativo de página única (SPA) agora é de [código aberto](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/implementing/headless/spa/reference-materials.html).
    * **Adobe Experience Manager Assets as a Cloud Service**
 
-      * Arquivos de imagem de marca d&#39;água são aceitos para execuções geradas com os microsserviços de ativos. Ele pode ser configurado como um Perfil de processamento e usa um arquivo PNG como uma marca d&#39;água. Consulte [marca d&#39;água em seus ativos](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/assets/manage/watermark-assets.html).
+      * Arquivos de imagem de marca d&#39;água são aceitos para representações geradas com os microsserviços de ativos. Ele pode ser configurado como um Perfil de processamento e usa um arquivo PNG como uma marca d&#39;água. Consulte [marca d&#39;água em seus ativos](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/assets/manage/watermark-assets.html).
       * Aprimoramentos no Dynamic Media:
-         * Publicação seletiva - agora as equipes de marketing podem acessar imagens de recorte inteligente do [!UICONTROL Dynamic Media] e execuções dinâmicas que são sincronizadas com o Dynamic Media para que possam criar materiais promocionais, tudo sem precisar publicar esses ativos no Dynamic Media para delivery global. A publicação no Experience Manager e no [!UICONTROL Dynamic Media] é dissociada e pode ocorrer separadamente. Consulte [Publicação seletiva](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/assets/dynamicmedia/selective-publishing.html).
+         * Publicação seletiva - agora as equipes de marketing podem acessar imagens de recorte inteligente do [!UICONTROL Dynamic Media] e representações dinâmicas que são sincronizadas com o Dynamic Media para que possam criar materiais promocionais, tudo sem precisar publicar esses ativos no Dynamic Media para delivery global. A publicação no Experience Manager e no [!UICONTROL Dynamic Media] é dissociada e pode ocorrer separadamente. Consulte [Publicação seletiva](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/assets/dynamicmedia/selective-publishing.html).
          * Redefinição de senha - Os administradores agora podem redefinir a senha do Cloud Service do [!UICONTROL Dynamic Media] recebida no provisionamento. A redefinição pode ser feita na interface do usuário do Experience Manager, sem a necessidade de usar o aplicativo de desktop [!UICONTROL Dynamic Media] Classic. Consulte [Alterar a senha para o Dynamic Media](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/assets/dynamicmedia/config-dm.html#change-dm-password).
       * Para saber mais sobre os seguintes aprimoramentos, consulte [novidades no Brand Portal](https://docs.adobe.com/content/help/pt-BR/experience-manager-brand-portal/using/introduction/whats-new.html).
          * Pré-visualização de PDF aprimorada com a integração do SDK com a Visualização da Adobe Document Cloud.
@@ -327,7 +327,7 @@ Além disso, o repositório inclui outros artigos importantes, como [AEM atualiz
 
 ### [!DNL Adobe Experience Manager] aplicativo de desktop
 
-* Os usuários que fazem logon no aplicativo de desktop após fazer logout ou fazer logon pela primeira vez devem fornecer o [!DNL Experience Manager] URL do servidor no formato `https://[aem-server-url]:[port]/` e selecionar a opção [!UICONTROL Conectar] para evitar o erro &quot;O aplicativo encontrou um erro desconhecido&quot;. Para obter mais informações, consulte [Usar o aplicativo de desktop do Adobe Experience Manager](https://docs.adobe.com/content/help/pt-BR/experience-manager-desktop-app/using/using.html).
+* Os usuários que fazem logon no aplicativo de desktop após fazer logout ou fazer logon pela primeira vez devem fornecer o [!DNL Experience Manager] URL do servidor no formato `https://[aem-server-url]:[port]/` e selecionar a opção [!UICONTROL Conectar] para evitar o erro “O aplicativo encontrou um erro desconhecido”. Para obter mais informações, consulte [Usar o aplicativo de desktop do Adobe Experience Manager](https://docs.adobe.com/content/help/pt-BR/experience-manager-desktop-app/using/using.html).
 
 ### Comunidade
 
@@ -361,7 +361,7 @@ Novos vídeos, tutoriais e cursos publicados no mês passado.
 | 25 de setembro de 2020 | [Implantar no Adobe I/O Runtime - Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/deploy/runtime.html) | Vídeo | Os projetos do Asset Compute e os trabalhadores que eles contêm devem ser implantados no Adobe I/O Runtime para serem usados pelo AEM as a Cloud Service. |
 | 25 de setembro de 2020 | [Depurar um trabalhador do Asset Compute](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/asset-compute/test-debug/debug.html) | Artigo | Os trabalhadores do Asset Compute podem ser depurados de várias maneiras, desde declarações de log de depuração simples, ao código VS anexado como um depurador remoto, até logs de ativação no Adobe I/O Runtime iniciados pelo AEM as a Cloud Service. |
 | 25 de setembro de 2020 | [Usar a ferramenta de desenvolvimento Asset Compute](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/develop/development-tool.html) | Artigo | A Ferramenta de desenvolvimento Asset Compute é um recurso da Web local que permite aos desenvolvedores configurar e executar os trabalhadores do Asset Computer localmente, fora do contexto do SDK do AEM em relação aos recursos do Asset Compute no Adobe I/O Runtime. |
-| 27 de setembro de 2020 | [Desenvolver um trabalhador do Asset Compute](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/develop/worker.html) | Artigo | Os trabalhadores do Asset Compute são o núcleo de um aplicativo do Asset Compute que fornece funcionalidade personalizada que executa, ou coordena, o trabalho executado em um ativo para criar uma nova execução. |
+| 27 de setembro de 2020 | [Desenvolver um trabalhador do Asset Compute](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/develop/worker.html) | Artigo | Os trabalhadores do Asset Compute são o núcleo de um aplicativo do Asset Compute que fornece funcionalidade personalizada que executa, ou coordena, o trabalho executado em um ativo para criar uma nova representação. |
 | 25 de setembro de 2020 | [Configurar o manifest.yml](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/develop/manifest.html) | Artigo | O arquivo manifest.yml do projeto do Asset Compute descreve todos os funcionários neste aplicativo que serão implantados. |
 | 14 de setembro de 2020 | [Configurar as variáveis de ambiente](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/develop/environment-variables.html) | Vídeo | As variáveis de ambiente são mantidas no arquivo &#39;.env&#39; para desenvolvimento local e são usadas para fornecer credenciais do Adobe I/O e credenciais de armazenamento de nuvem necessárias para o desenvolvimento local. |
 | 14 de setembro de 2020 | [Criar um projeto do Asset Compute](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/develop/project.html) | Artigo | Os aplicativos do Asset Compute são projetos Node.js, gerados usando a Adobe I/O CLI, que seguem uma estrutura específica, permitindo que eles sejam implantados no Adobe I/O Runtime e integrados ao AEM as a Cloud Service. |
@@ -455,8 +455,8 @@ Data de lançamento: 15 de outubro de 2020
 
 | Recurso | Descrição |
 | -----------| ---------- |
-| Inventário privado | Todos os usuários agora podem configurar e editar detalhes da ID de negócio usando um novo formulário de ID de negócio, que é uma versão simplificada do formulário de disponibilização de anúncios [!UICONTROL inteligentes] herdado. Para configurar os detalhes da nova ID de negócio, vá até **[!UICONTROL Inventário > Vendas]**, clique em **[!UICONTROL Criar]** e, em seguida, clique em ID de **[!UICONTROL Acordo Beta]**. |
-| Previsão de posicionamento | Para disposições com posicionamento no nível de posicionamento, a seção [!UICONTROL Previsão] das configurações de posicionamento inclui uma nova seção Máximos  Estimados, que indica quanto mais capacidade está disponível com a configuração de direcionamento atual. |
+| Inventário privado | Todos os usuários agora podem configurar e editar informações da ID de negócios usando um novo formulário, que é uma versão simplificada do formulário antigo de [!UICONTROL Veiculação de anúncios inteligentes]. Para configurar as informações da nova ID de negócios, acesse **[!UICONTROL Inventário > Vendas]**, clique em **[!UICONTROL Criar]** e, em seguida, clique em **[!UICONTROL ID de acordo beta]**. |
+| Previsão de posicionamento | Para inserções com ritmo de nível de inserção, a seção [!UICONTROL Previsão] das configurações de inserção inclui uma nova seção [!UICONTROL Máximos estimados], que indica quanta capacidade está disponível com a configuração de direcionamento atual. |
 
 ### Novos recursos no [!DNL Advertising Cloud Search] {#adcloud-search}
 
@@ -464,9 +464,9 @@ Data de lançamento: 17 de outubro de 2020
 
 | Recurso | Descrição |
 | -----------| ---------- |
-| Campanhas de pesquisa | Na visualização [!UICONTROL Contas] , a coluna [!UICONTROL Acesso] agora indica quando [!DNL Advertising Cloud Search] não é possível fazer logon em uma conta de mecanismo de pesquisa ativada. Para ver a causa do erro, mantenha o cursor sobre o ícone de aviso. |
-| [!UICONTROL Alertas personalizados] | O antigo [!UICONTROL Alertas Beta] agora é chamado de Alertas Personalizados. |
-|  | Em alertas personalizados, o fluxo de trabalho para identificar quando as métricas para o intervalo de datas especificado aumentaram ou diminuíram das métricas para o período anterior foi simplificado e movido para a guia [!UICONTROL Filtros] . |
+| Campanhas de pesquisa | Na visualização [!UICONTROL Contas], a coluna [!UICONTROL Acesso] agora indica quando o [!DNL Advertising Cloud Search] não consegue fazer logon em uma conta de mecanismo de pesquisa ativada. Para ver a causa do erro, mantenha o cursor sobre o ícone de aviso. |
+| [!UICONTROL Alertas personalizados] | O antigo [!UICONTROL Alertas beta] agora é chamado de [!UICONTROL Alertas personalizados]. |
+|  | Em alertas personalizados, o fluxo de trabalho para identificar quando as métricas do intervalo de datas especificado aumentaram ou diminuíram em relação às métricas do período anterior foi simplificado e movido para a guia [!UICONTROL Filtros]. |
 
 ## ![Ícone](/assets/magento.png) [!DNL Magento] {#magento}
 
