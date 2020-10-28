@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3b533d52ae98c930c3e9af7470825d659ec9b0fe
+source-git-commit: 08f91c514f5ab3cef7b7a1b862260090892e8144
 workflow-type: tm+mt
-source-wordcount: '7024'
-ht-degree: 68%
+source-wordcount: '7148'
+ht-degree: 67%
 
 ---
 
@@ -27,7 +27,7 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 >
 >Assine a [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) para ser notificado por email sobre versões futuras.
 
-Última atualização: **23 de outubro de 2020**
+Última atualização: **28 de outubro de 2020**
 
 * [Status de sistema da Adobe](#status)
 * [Serviços e administração da Experience Cloud](#ecloud)
@@ -35,7 +35,7 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Atualizado em 22 de outubro de 2020)
 * [Audience Manager](#aam)
-* [Experience Manager](#aem)
+* [Experience Manager](#aem) (Atualizado: **28/10/2020**)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](https://docs.adobe.com/content/help/pt-BR/target/using/release-notes/target-release-notes.html)
@@ -290,6 +290,15 @@ A documentação do Editor de rich text é atualizada para lista de todos os [pr
 * Os ativos também podem ser [movidos para pastas irmãs usando a operação de arrastar](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets), além da operação [!UICONTROL Mover (m)] que abre o assistente [!UICONTROL Mover ativos].
 
 * Para o Assets Insights, use o [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html). A [integração do DTM](https://docs.adobe.com/content/help/pt-BR/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html) é chamada como um método obsoleto nos documentos.
+
+Updated: **10/28/2020**
+
+* **Aprimoramentos** do Brand Portal: Os novos recursos a seguir e mais estão disponíveis em [!DNL Brand Portal]:
+
+   * [Experiência](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html) aprimorada de download para downloads rápidos e simplificados. Configurações adicionais de download podem ser configuradas pelos administradores para oferta de uma experiência que atenda às necessidades dos usuários e empresas.
+   * A navegação com um clique para [!UICONTROL Arquivos], [Coleções](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/share/brand-portal-share-collection.html)e Links  compartilhados agora é possível em qualquer página.
+   * Os usuários podem [selecionar e baixar execuções](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page) específicas agora. A nova opção de download de representação está disponível no painel [!UICONTROL Representações] na página Detalhes do ativo.
+   * Um tempo limite de 15 minutos para sessões de usuário convidado garante uma melhor experiência para todos os usuários simultâneos.
 
 ### [!DNL Experience Manager] Forms
 
