@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 114222b4df9fd72691065a9a1cdf7bc1e7f95a5d
+source-git-commit: 57c246240dfafcb30b791a4bbc0ba3b05774dd0c
 workflow-type: tm+mt
-source-wordcount: '7353'
-ht-degree: 67%
+source-wordcount: '7479'
+ht-degree: 66%
 
 ---
 
@@ -83,6 +83,7 @@ Novos vídeos, tutoriais ou cursos publicados para a Experience Platform e servi
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
+| 26 de outubro de 2020 | [Introdução ao Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | Vídeo | Este vídeo fornece uma visão geral do Offer Decisioning, um serviço de aplicativos criado sobre o Adobe Experience Platform. O vídeo aborda os desafios comerciais que a Offer Decisioning enfrenta, seus principais recursos, a arquitetura básica e seus principais casos de uso. |
 | 14 de setembro de 2020 | [Valor comercial do Attribution AI](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-attribution-ai.html) | Vídeo | [!UICONTROL O Attribution AI], como parte dos [!UICONTROL Serviços inteligentes], é um serviço de atribuição de vários canais e algoritmos que calcula a influência e o impacto incremental das interações com o cliente em relação aos resultados especificados. Com o [!UICONTROL Attribution AI], os profissionais de marketing podem medir e otimizar os gastos com marketing e publicidade, entendendo o impacto de cada interação individual com o cliente em cada fase das viagens do cliente. |
 | 14 de setembro de 2020 | [Valor comercial do Customer AI](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-customer-ai.html) | Vídeo | Este vídeo mostra como o [!UICONTROL Customer AI] enriquece os perfis do cliente com propensões baseadas em IA e capacita os esforços de segmentação e direcionamento do cliente. |
 | 14 de setembro de 2020 | [Valor comercial da Platform e da Magento](https://docs.adobe.com/content/help/en/platform-learn/tutorials/experience-cloud/business-value-of-platform-and-magento.html) | Vídeo | Este vídeo mostra que a Adobe Experience Platform pode ser usada com o [!DNL Magento] Commerce para criar uma única visualização de clientes e personalizar experiências de forma inteligente em uma vitrine digital e em vários canais. |
@@ -437,6 +438,8 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
 | Publicado | Nome | Solução | Descrição |
 | ----------- | ----------- | ---------- | ---------- |
+| 19 de outubro de 2020 | [Painel de controle do Campaign - Adicionando um intervalo IP à lista de permissões](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | Saiba como adicionar um intervalo de endereços IP à lista de permissões no Painel de controle do Campaign. |
+| 19 de outubro de 2020 | [Painel de controle do Campaign - Adicionando um intervalo IP à lista de permissões](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | Saiba como adicionar um intervalo de endereços IP à lista de permissões no Painel de controle do Campaign. |
 | 16 de outubro de 2020 | [Painel de controle do Campaign - Delegar subdomínios usando CNAME (beta) - Vídeo de recurso](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Classic | Saiba como configurar e enviar um subdomínio usando CNAMEs no Painel de controle. |
 | 16 de outubro de 2020 | [Painel de controle do Campaign - Delegar subdomínios usando CNAME (beta) - Vídeo de recurso](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Standard | Saiba como configurar e enviar um subdomínio usando CNAMEs no Painel de controle. |
 
