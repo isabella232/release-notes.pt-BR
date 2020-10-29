@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b21c2213d13cf58dded026bce77abd58ee038f1f
+source-git-commit: 48d79544adc9225c086b7574d522622df084623b
 workflow-type: tm+mt
-source-wordcount: '7670'
-ht-degree: 63%
+source-wordcount: '7634'
+ht-degree: 64%
 
 ---
 
@@ -127,7 +127,6 @@ Data de lançamento: **29 de outubro de 2020**
 | Visualização de [!UICONTROL Linha]: opção de linha de tendências da média móvel | 8 de outubro de 2020 | A média móvel foi adicionada às configurações de linha de tendência da visualização de Linha. Uma média móvel calcula a média para um período anterior especificado e a usa como o ponto de dados da linha de tendência, em seguida, passa para o próximo período. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | Remoção da limitação de preenchimento retroativo | 19 de outubro de 2020 | Para fornecer uma experiência CJA aprimorada, removemos a limitação de preenchimento retroativo (importação de dados históricos). Anteriormente, você poderia preencher retroativamente um máximo de 2,5 bilhões de linhas por conta própria e, caso contrário, precisaria de envolvimento com a engenharia. Agora, você pode preencher os dados por conta própria, sem qualquer limitação. [Saiba mais](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Página Ajuda de desempenho do Analysis Workspace | 22 de outubro de 2020 | A página de ajuda de desempenho do Analysis Workspace mostra os diferentes fatores que afetam o desempenho do projeto e oferece links com dicas de otimização. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
-| Componentes > Preferências de usuário adicionadas à CJA Workspace | 29 de outubro de 2020 | A página Componentes > Preferências do usuário permite gerenciar as configurações do Analysis Workspace (e seus componentes relacionados) para o usuário. Atualmente, isso inclui o separador Milhares e o delimitador CSV. |
 | QI da jornada: Análise entre canais | 30 de outubro de 2020 | QI da jornada: O Cross-canal Analytics permite que os clientes alternem entre si um conjunto de dados de eventos Adobe Analytics (ou outro) no lago de dados Adobe Experience Platform de uma namespace de ID para outra. Normalmente, isso significa rechavear o conjunto de dados do evento de uma ID com base em cookies para uma ID com base em pessoas. Dessa forma, o conjunto de dados rechaveado pode ser combinado com outros dados com base em pessoas em uma conexão do CJA, permitindo a análise de vários dispositivos/canais no Analysis Workspace. |
 
 ### Novos recursos no [!UICONTROL Media Analytics] {#media-aa}
