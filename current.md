@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a30288a93dd262f9f9d770242a2bf4fda7812265
+source-git-commit: 1dec5a72cc3a6c3592544ab198516f6253f5c50a
 workflow-type: tm+mt
-source-wordcount: '7669'
-ht-degree: 63%
+source-wordcount: '7635'
+ht-degree: 64%
 
 ---
 
@@ -210,7 +210,6 @@ Novos vídeos, tutoriais ou cursos publicados para o Audience Manager.
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
-| 29 de outubro de 2020 | [Como entender números no gráfico de características](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | Vídeo | Obtenha algumas dicas sobre como entender os números relatados para características na tela de informações características. |
 | 28 de outubro de 2020 | [Como entender números no gráfico de características](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | Vídeo | Obtenha algumas dicas sobre como entender os números relatados para características na tela de informações características. |
 | 23 de outubro de 2020 | [Planejamento da criação de características a partir dos dados do Analytics](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=en#build-and-manage-audiences) | Vídeo | Aprenda algumas dicas e truques para ajudá-lo quando estiver planejando usar os dados do Adobe Analytics em suas características no Audience Manager. |
 | 23 de outubro de 2020 | [Como escolher uma fonte de dados ao criar características](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=en#build-and-manage-audiences) | Vídeo | Um dos campos importantes a serem preenchidos ao criar características é o campo Fonte de dados. Obtenha dicas sobre como escolher a fonte de dados certa para características baseadas em regras e integradas. |
