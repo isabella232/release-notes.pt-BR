@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1dec5a72cc3a6c3592544ab198516f6253f5c50a
+source-git-commit: 7e679c9acd5002ab3b6dd232b678f44661ad935a
 workflow-type: tm+mt
-source-wordcount: '7635'
-ht-degree: 64%
+source-wordcount: '7894'
+ht-degree: 62%
 
 ---
 
@@ -38,7 +38,7 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 * [Experience Manager](#aem) (Atualizado: **28/10/2020**)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud) (Updated: **10/28/2020**)
-* [[!DNL Target]](https://docs.adobe.com/content/help/pt-BR/target/using/release-notes/target-release-notes.html)
+* [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
 * [[!DNL Primetime]](https://docs.adobe.com/content/help/pt-BR/primetime/release-notes/home.html)
@@ -445,6 +445,10 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
 | Publicado | Nome | Solução | Descrição |
 | ----------- | ----------- | ---------- | ---------- |
+| 20 de outubro de 2020 | [Painel de controle do Campaign - Gerar uma chave SSH - Vídeo de recurso](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | Saiba como gerar uma chave SSH usando um terminal e como armazenar a versão pública da chave no Painel de controle do Campaign. |
+| 20 de outubro de 2020 | [Painel de controle do Campaign - Conectar-se a um servidor SFTP - Vídeo de recurso](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | Saiba como se conectar ao servidor SFTP usando um aplicativo SFTP cliente, usando as chaves que você armazenou no Painel de controle do Campaign. |
+| 20 de outubro de 2020 | [Painel de controle do Campaign - Introdução ao Painel de controle do Campaign - Artigo](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | Este artigo explica como acessar o Painel de controle do Campaign e quais pré-requisitos podem funcionar com o painel de controle. |
+| 20 de outubro de 2020 | [Painel de controle do Campaign - Introdução ao Painel de controle do Campaign - Artigo](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | Este artigo explica como acessar o Painel de controle do Campaign e quais pré-requisitos podem funcionar com o painel de controle. |
 | 19 de outubro de 2020 | [Painel de controle do Campaign - Adicionando um intervalo IP à lista de permissões](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | Saiba como adicionar um intervalo de endereços IP à lista de permissões no Painel de controle do Campaign. |
 | 19 de outubro de 2020 | [Painel de controle do Campaign - Adicionando um intervalo IP à lista de permissões](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | Saiba como adicionar um intervalo de endereços IP à lista de permissões no Painel de controle do Campaign. |
 | 16 de outubro de 2020 | [Painel de controle do Campaign - Delegar subdomínios usando CNAME (beta) - Vídeo de recurso](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Classic | Saiba como configurar e enviar um subdomínio usando CNAMEs no Painel de controle. |
@@ -490,6 +494,16 @@ Para ver as notas de versão do Magento, consulte:
 
 * [Magento Commerce 2.3.5](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-open-source.html)
 * [Magento Open Source 2.3.5](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-open-source.html)
+
+## ![Ícone](/assets/target.png)[!DNL Target] {#target}
+
+Consulte as [[!DNL Target]  notas de versão](https://docs.adobe.com/content/help/pt-BR/target/using/release-notes/target-release-notes.html) para obter as informações mais recentes.
+
+### Novos cursos e tutoriais da Adobe Target
+
+| Publicado | Nome | Tipo | Descrição |
+| -----------| ---------- | ---------- | ---------- |
+| 11 de outubro de 2020 | [Modelo de implantação de personalização híbrida](https://docs.adobe.com/content/help/en/target-learn/tutorials/implementation/hybrid-deployment.html) | Vídeo | A Adobe Target oferta um modelo exclusivo de implantação híbrida para personalização - mesclando implementações do lado do cliente e do lado do servidor. Esse modelo híbrido permite que usuários não técnicos criem uma atividade de experiência ou personalização usando o WYSIWYG Visual Experience Composer e que a experiência seja executada, entregue e renderizada pelo lado do servidor para um delivery de alto desempenho. |
 
 ## ![Ícone](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
