@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5050a05473619e75107b0874d592322ee5a70d44
+source-git-commit: 27e6ef1fb123fd8a5d136f86c5df492ea6e79733
 workflow-type: tm+mt
-source-wordcount: '7947'
-ht-degree: 62%
+source-wordcount: '8040'
+ht-degree: 61%
 
 ---
 
@@ -33,7 +33,7 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 * [Serviços e administração da Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Atualizado em 28 de outubro de 2020)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Updated **November 2, 2020**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (Atualizado: **(28 de outubro de 2020**)
 * [Campaign](#ac)
@@ -108,7 +108,7 @@ Usando a Adobe Experience Platform, orquestre as jornadas individuais dos client
 Data de lançamento: **29 de outubro de 2020**
 
 * [Novos recursos no Adobe Analytics](#aa-features)
-* [Novos recursos no Customer Journey Analytics](#cust-journey) (Atualizado em 28 de outubro de 2020)
+* [Novos recursos no Customer Journey Analytics](#cust-journey) (Atualizado em 2 de novembro de 2020)
 * [Novos recursos no Media Analytics](#media-aa)
 * [Correções no Adobe Analytics](#aa-fixes)
 * [Avisos importantes para administradores do Analytics](#aa-notices)
@@ -119,7 +119,7 @@ Data de lançamento: **29 de outubro de 2020**
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ------- |
-| Documentação do Adobe Analytics | Out./Nov. 2020 | A documentação do Adobe Analytics está sendo transferida para a Experience League. Durante o mês de outubro, todos os artigos, vídeos, notas de versão e tutoriais serão movidos do local atual em `docs.adobe.com` para `experienceleague.adobe.com`. Essa mudança garante que todo o aprendizado, a autoajuda, a ativação e o conteúdo da comunidade sejam fornecidos de um único local. Quando essa alteração ocorrer, não há nada que você precise fazer, pois todos os links serão redirecionados para a Experience League. Atualizaremos as notas de versão quando o cutover começar. |
+| Documentação do Adobe Analytics | Novembro de 2020 | A documentação do Adobe Analytics está sendo transferida para a Experience League. Durante o mês de outubro, todos os artigos, vídeos, notas de versão e tutoriais serão movidos do local atual em `docs.adobe.com` para `experienceleague.adobe.com`. Essa mudança garante que todo o aprendizado, a autoajuda, a ativação e o conteúdo da comunidade sejam fornecidos de um único local. Quando essa alteração ocorrer, não há nada que você precise fazer, pois todos os links serão redirecionados para a Experience League. Atualizaremos as notas de versão quando o cutover começar. |
 | Visualização de [!UICONTROL linha do] [!UICONTROL Workspace]: opção de linha de tendências da média móvel | 8 de outubro de 2020 | Moving average has been added to [!UICONTROL Line] visualization trendline settings. Também conhecida como média variável, uma média móvel usa um número específico de pontos de dados (determinado por uma seleção de [!UICONTROL Períodos] ), faz a média deles e usa a média como um ponto na linha. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | API de [!UICONTROL reparo de dados] | 8 de outubro de 2020 | A API de [!UICONTROL Reparo de dados] é uma ferramenta para excluir dados dos conjuntos de relatórios do Analytics. The October release includes the ability to delete specified eVars, props, and [!UICONTROL Activity Map] variables for a specified date range. A funcionalidade adicional será lançada no futuro. Use of the [!UICONTROL Data Repair] API permanently deletes existing Adobe Analytics data. Recomendamos uma abordagem cuidadosa para executar o reparo para minimizar a exclusão acidental. Access to the [!UICONTROL Data Repair] API requires a contract - reach out to your account team for more details. [Saiba mais](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) |
 | [!UICONTROL Workspace]: Página de ajuda de desempenho | 22 de outubro de 2020 | The [!UICONTROL Analysis Workspace] performance help page shows the different factors that impact project performance and links to tips for optimization. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
@@ -129,11 +129,13 @@ Data de lançamento: **29 de outubro de 2020**
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ----- |
-| Customer Journey Analytics documentação | Out./Nov. 2020 | A documentação do Customer Journey Analytics está sendo transferida para a Experience League. Durante o mês de outubro, todos os artigos, vídeos, notas de versão e tutoriais serão movidos do local atual em `docs.adobe.com` para `experienceleague.adobe.com`. Essa mudança garante que todo o aprendizado, a autoajuda, a ativação e o conteúdo da comunidade sejam fornecidos de um único local. Quando essa alteração ocorrer, não há nada que você precise fazer, pois todos os links serão redirecionados para a Experience League. Atualizaremos as notas de versão quando o cutover começar. |
+| Customer Journey Analytics documentação | Novembro de 2020 | A documentação do Customer Journey Analytics está sendo transferida para a Experience League. Durante o mês de outubro, todos os artigos, vídeos, notas de versão e tutoriais serão movidos do local atual em `docs.adobe.com` para `experienceleague.adobe.com`. Essa mudança garante que todo o aprendizado, a autoajuda, a ativação e o conteúdo da comunidade sejam fornecidos de um único local. Quando essa alteração ocorrer, não há nada que você precise fazer, pois todos os links serão redirecionados para a Experience League. Atualizaremos as notas de versão quando o cutover começar. |
 | Visualização de [!UICONTROL Linha]: opção de linha de tendências da média móvel | 8 de outubro de 2020 | A média móvel foi adicionada às configurações de linha de tendência da visualização de Linha. Uma média móvel calcula a média para um período anterior especificado e a usa como o ponto de dados da linha de tendência, em seguida, passa para o próximo período. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | Remoção da limitação de preenchimento retroativo | 19 de outubro de 2020 | Para fornecer uma experiência CJA aprimorada, removemos a limitação de preenchimento retroativo (importação de dados históricos). Anteriormente, você poderia preencher retroativamente um máximo de 2,5 bilhões de linhas por conta própria e, caso contrário, precisaria de envolvimento com a engenharia. Agora, você pode preencher os dados por conta própria, sem qualquer limitação. [Saiba mais](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Página Ajuda de desempenho do Analysis Workspace | 22 de outubro de 2020 | A página de ajuda de desempenho do Analysis Workspace mostra os diferentes fatores que afetam o desempenho do projeto e oferece links com dicas de otimização. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | QI da jornada: Análise entre canais | 30 de outubro de 2020 | QI da jornada: O Cross-canal Analytics permite que os clientes alternem entre si um conjunto de dados de eventos Adobe Analytics (ou outro) no lago de dados Adobe Experience Platform de uma namespace de ID para outra. Normalmente, isso significa rechavear o conjunto de dados do evento de uma ID com base em cookies para uma ID com base em pessoas. Dessa forma, o conjunto de dados rechaveado pode ser combinado com outros dados com base em pessoas em uma conexão do CJA, permitindo a análise de vários dispositivos/canais no Analysis Workspace. |
+| [!UICONTROL Métricas e dimensões de tempo gasto] | 30 de outubro de 2020 | [!UICONTROL As métricas e dimensões de tempo gasto] permitem que você veja o tempo que os consumidores gastam em vários aspectos da jornada do cliente, dando-lhe uma visualização mais completa de envolvimento e gargalos entre canais. |
+| [!UICONTROL Dimensões do dispositivo] e [!UICONTROL geografia] | 30 de outubro de 2020 | [!UICONTROL As dimensões de dispositivo] e [!UICONTROL geografia] agora estão disponíveis por padrão como parte do projeto &quot;Suporte à pesquisa global&quot; no conector [de origem do](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html)Adobe Analytics. Essa adição muito solicitada aumenta a [paridade entre a Adobe Analytics e o CJA](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-aa.html). |
 
 ### Novos recursos no [!UICONTROL Media Analytics] {#media-aa}
 
