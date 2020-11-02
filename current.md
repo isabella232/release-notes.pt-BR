@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7e679c9acd5002ab3b6dd232b678f44661ad935a
+source-git-commit: 5050a05473619e75107b0874d592322ee5a70d44
 workflow-type: tm+mt
-source-wordcount: '7894'
+source-wordcount: '7947'
 ht-degree: 62%
 
 ---
@@ -27,7 +27,7 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 >
 >Assine a [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) para ser notificado por email sobre versões futuras.
 
-Última atualização: **28 de outubro de 2020**
+Última atualização: **2 de novembro de 2020**
 
 * [Status de sistema da Adobe](#status)
 * [Serviços e administração da Experience Cloud](#ecloud)
@@ -35,10 +35,10 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Atualizado em 28 de outubro de 2020)
 * [Audience Manager](#aam)
-* [Experience Manager](#aem) (Atualizado: **28/10/2020**)
+* [Experience Manager](#aem) (Atualizado: **(28 de outubro de 2020**)
 * [Campaign](#ac)
-* [Advertising Cloud](#adcloud) (Updated: **10/28/2020**)
-* [[!DNL Target]](#target)
+* [Advertising Cloud](#adcloud) (Updated: **October 28, 2020**)
+* [[!DNL Target]](#target) (Atualizado em: **2 novembro de 2020**)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
 * [[!DNL Primetime]](https://docs.adobe.com/content/help/pt-BR/primetime/release-notes/home.html)
@@ -358,6 +358,7 @@ Novos vídeos, tutoriais e cursos publicados no mês passado.
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
+| 2 de novembro de 2020 | [Carregar e acionar uma chamada de Público alvo](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/load-and-fire-target.html) | Vídeo | Saiba como carregar, passar parâmetros para a solicitação de página e acionar uma chamada de Público alvo da página do site usando uma regra de inicialização. As informações da página são recuperadas e passadas como parâmetros usando a Camada de dados do cliente Adobe que permite coletar e armazenar dados sobre a experiência do visitante em uma página da Web e, em seguida, facilitar o acesso a esses dados. |
 | 28 de outubro de 2020 | [Tags inteligentes de vídeo](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/video-smart-tags.html) | Vídeo | O Experience Manager Assets aproveita o Adobe Sensei para marcar ativos de vídeo de forma inteligente com palavras-chave que descrevem elementos-chave do vídeo, permitindo que eles sejam facilmente descobertos usando a pesquisa por palavras-chave por usuários AEM. |
 | 27 de outubro de 2020 | [Introdução ao AEM Documento Security Extension for Microsoft Office](https://docs.adobe.com/content/help/en/experience-manager-document-security/using/document-security-extension-microsoft-office.html) | Artigo | O Adobe Experience Manager Documento Security Extension for Microsoft Office garante que somente as pessoas autorizadas por você possam usar arquivos do Word, Excel e PowerPoint que contenham sua propriedade intelectual. Ao usar o Documento Security Extension for Microsoft Office, você pode aplicar configurações de confidencialidade predefinidas a seus arquivos. |
 | 7 de outubro de 2020 | [Métricas de página de visualização no Adobe Analytics](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/create-analytics-workspace.html) | Artigo | Saiba como mapear dados capturados de um site da Adobe Experience Manager para métricas e dimensões em conjuntos de relatórios da Adobe Analytics. |
@@ -385,7 +386,6 @@ Novos vídeos, tutoriais e cursos publicados no mês passado.
 | 30 de setembro de 2020 | [Explore a camada de dados do cliente Adobe](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | Artigo | Explore os recursos e a funcionalidade da camada de dados do cliente do Adobe orientada por evento e sua integração com os componentes principais da AEM Sites. Saiba como ouvir eventos, obter o estado atual e modificar a camada de dados. |
 | 30 de setembro de 2020 | [Introdução à camada de dados do cliente Adobe](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | Vídeo | Saiba como a camada de Dados do cliente da Adobe orientada por eventos expõe os dados dos componentes principais do AEM Sites. Usando a Camada de dados do cliente da Adobe, as soluções de gerenciamento de tags como o Experience Platform Launch podem transmitir dados do site para aplicativos como o Analytics e o Target. |
 | 8 de outubro de 2020 | [Adicionar Extensão do target à propriedade Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/add-target-launch-extension.html) | Vídeo | Saiba como carregar, passar parâmetros para a solicitação de página e acionar uma chamada de Público alvo da página do site usando uma regra de inicialização. As informações da página são recuperadas e passadas como parâmetros usando a Camada de dados do cliente Adobe que permite coletar e armazenar dados sobre a experiência do visitante em uma página da Web e, em seguida, facilitar o acesso a esses dados. |
-| 8 de outubro de 2020 | [Adicionar Extensão do target à propriedade Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/add-target-launch-extension.html) | Vídeo | Saiba como adicionar uma extensão do Adobe Target à sua propriedade Launch |
 | 7 de outubro de 2020 | [Criar conta do Adobe Target Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/setup-aem-target-cloud-service.html) | Vídeo | Saiba como integrar a Adobe Experience Manager como Cloud Service com a Adobe Target usando a autenticação Cloud Service e Adobe IMS. |
 | 2 de outubro de 2020 | [Visão geral do AEM e Adobe Target](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/overview.html) | Vídeo | AEM e Público alvo são soluções poderosas com recursos aparentemente sobrepostos. Às vezes, os clientes se debatem com a compreensão de como e quando usar esses produtos em conjunto para fornecer experiência personalizada. Para fornecer experiência otimizada para cada usuário final, equipes diferentes em sua organização devem trabalhar em conjunto e definir quem faz o quê. |
 | 2 de outubro de 2020 | [Integração entre AEM Forms e Adobe Sign](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.2.forms) | Curso | Trabalhando juntos, a Adobe Sign e a AEM Forms permitem que você automatize transações complexas e inclua assinaturas eletrônicas seguras e legais como parte de uma experiência digital contínua. |
@@ -445,8 +445,8 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
 | Publicado | Nome | Solução | Descrição |
 | ----------- | ----------- | ---------- | ---------- |
-| 20 de outubro de 2020 | [Painel de controle do Campaign - Gerar uma chave SSH - Vídeo de recurso](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | Saiba como gerar uma chave SSH usando um terminal e como armazenar a versão pública da chave no Painel de controle do Campaign. |
-| 20 de outubro de 2020 | [Painel de controle do Campaign - Conectar-se a um servidor SFTP - Vídeo de recurso](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | Saiba como se conectar ao servidor SFTP usando um aplicativo SFTP cliente, usando as chaves que você armazenou no Painel de controle do Campaign. |
+| 2 de novembro de 2020 | [Painel de controle do Campaign - Gerar uma chave SSH - Vídeo de recurso](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | Saiba como gerar uma chave SSH usando um terminal e como armazenar a versão pública da chave no Painel de controle do Campaign. |
+| 2 de novembro de 2020 | [Painel de controle do Campaign - Conectar-se a um servidor SFTP - Vídeo de recurso](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | Saiba como se conectar ao servidor SFTP usando um aplicativo SFTP cliente, usando as chaves que você armazenou no Painel de controle do Campaign. |
 | 20 de outubro de 2020 | [Painel de controle do Campaign - Introdução ao Painel de controle do Campaign - Artigo](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | Este artigo explica como acessar o Painel de controle do Campaign e quais pré-requisitos podem funcionar com o painel de controle. |
 | 20 de outubro de 2020 | [Painel de controle do Campaign - Introdução ao Painel de controle do Campaign - Artigo](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | Este artigo explica como acessar o Painel de controle do Campaign e quais pré-requisitos podem funcionar com o painel de controle. |
 | 19 de outubro de 2020 | [Painel de controle do Campaign - Adicionando um intervalo IP à lista de permissões](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | Saiba como adicionar um intervalo de endereços IP à lista de permissões no Painel de controle do Campaign. |
@@ -500,6 +500,8 @@ Para ver as notas de versão do Magento, consulte:
 Consulte as [[!DNL Target]  notas de versão](https://docs.adobe.com/content/help/pt-BR/target/using/release-notes/target-release-notes.html) para obter as informações mais recentes.
 
 ### Novos cursos e tutoriais da Adobe Target
+
+Atualizado em: **2 novembro de 2020**
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
