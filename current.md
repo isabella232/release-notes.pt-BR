@@ -4,9 +4,9 @@ description: Notas de versão da Adobe Experience Cloud
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46d20e153aaa57df2387c2d084b6c20b914bc8e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8040'
 ht-degree: 100%
 
@@ -33,18 +33,18 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 * [Serviços e administração da Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey)   (Atualizado em **10 de novembro de 2020**)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Atualizado: **10 de novembro de 2020**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (Atualizado: **28 de outubro de 2020**)
 * [Campaign](#ac)
-* [Advertising Cloud](#adcloud)  (Atualizado: **28 de outubro de 2020**)
-* [[!DNL Target]](#target) (Atualizado em: **2 novembro de 2020**)
+* [Advertising Cloud](#adcloud) (Atualizado: **28 de outubro de 2020**)
+* [[!DNL Target]](#target) (Atualizado: **2 novembro de 2020**)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
 * [[!DNL Primetime]](https://docs.adobe.com/content/help/pt-BR/primetime/release-notes/home.html)
 * [Document Cloud](#doc-cloud)
 
-Precisa de ajuda? Visite a [Adobe Experience League](https://experienceleague.adobe.com/#home) para encontrar documentação técnica e de produtos, cursos com curadoria da Adobe, tutoriais em vídeo, respostas rápidas, insight da comunidade e treinamento ministrado por instrutores.
+Precisa de ajuda? Visite a [Adobe Experience League](https://experienceleague.adobe.com/?lang=pt-BR#home) para encontrar documentação técnica e de produtos, cursos com curadoria da Adobe, tutoriais em vídeo, respostas rápidas, insight da comunidade e treinamento ministrado por instrutores.
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ Usando a Adobe Experience Platform, orquestre as jornadas individuais dos client
 Data de lançamento: **29 de outubro de 2020**
 
 * [Novos recursos no Adobe Analytics](#aa-features)
-* [Novos recursos no Customer Journey Analytics](#cust-journey)  (Atualizado em 10 de novembro de 2020)
+* [Novos recursos no Customer Journey Analytics](#cust-journey) (Atualizado: 10 de novembro de 2020)
 * [Novos recursos no Media Analytics](#media-aa)
 * [Correções no Adobe Analytics](#aa-fixes)
 * [Avisos importantes para administradores do Analytics](#aa-notices)
@@ -129,7 +129,7 @@ Data de lançamento: **29 de outubro de 2020**
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ----- |
-| Customer Journey Analytics   documentação | Novembro de 2020 | A documentação do Customer Journey Analytics está sendo transferida para a Experience League. Durante o mês de outubro, todos os artigos, vídeos, notas de versão e tutoriais serão movidos do local atual em `docs.adobe.com` para `experienceleague.adobe.com`. Essa mudança garante que todo o aprendizado, a autoajuda, a ativação e o conteúdo da comunidade sejam fornecidos de um único local. Quando essa alteração ocorrer, não há nada que você precise fazer, pois todos os links serão redirecionados para a Experience League. Atualizaremos as notas de versão quando o cutover começar. |
+| Customer Journey Analytics documentação | Novembro de 2020 | A documentação do Customer Journey Analytics está sendo transferida para a Experience League. Durante o mês de outubro, todos os artigos, vídeos, notas de versão e tutoriais serão movidos do local atual em `docs.adobe.com` para `experienceleague.adobe.com`. Essa mudança garante que todo o aprendizado, a autoajuda, a ativação e o conteúdo da comunidade sejam fornecidos de um único local. Quando essa alteração ocorrer, não há nada que você precise fazer, pois todos os links serão redirecionados para a Experience League. Atualizaremos as notas de versão quando o cutover começar. |
 | Visualização de [!UICONTROL Linha]: opção de linha de tendências da média móvel | 8 de outubro de 2020 | A média móvel foi adicionada às configurações de linha de tendência da visualização de Linha. Uma média móvel calcula a média para um período anterior especificado e a usa como o ponto de dados da linha de tendência, em seguida, passa para o próximo período. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | Remoção da limitação de preenchimento retroativo | 19 de outubro de 2020 | Para fornecer uma experiência aprimorada no CJA, removemos a limitação de preenchimento retroativo (importação de dados históricos). Anteriormente, você poderia usar o preenchimento retroativo em um máximo de 2,5 bilhões de linhas por conta própria e, caso contrário, precisaria recorrer à engenharia. Agora, você pode usar o preenchimento retroativo de dados por conta própria, sem qualquer limitação. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Página Ajuda de desempenho do Analysis Workspace | 22 de outubro de 2020 | A página de ajuda de desempenho do Analysis Workspace mostra os diferentes fatores que afetam o desempenho do projeto e oferece links com dicas de otimização. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
@@ -157,7 +157,7 @@ AN-224702; AN-232791; AN-233982; AN-234384; AN-235608; AN-236538; AN-236598; AN-
 
 ### Avisos importantes para administradores do [!DNL Analytics] {#aa-notices}
 
-| Aviso | Data de adição   ou atualização | Descrição |
+| Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
 | Adicionar cabeçalho HSTS a todas as solicitações HTTPS recebidas | 29 de setembro de 2020 | Em 29 de setembro de 2020, começamos a adicionar o cabeçalho HSTS a todas as solicitações recebidas que usam HTTPS. O cabeçalho instrui o navegador/cliente a fazer todas as solicitações futuras no HTTPS, que é uma prática recomendada de segurança. Nesse ponto, não vamos impor o cabeçalho para solicitações recebidas usando HTTP. |
 | Alteração na configuração do cookie do serviço da Experience Cloud ID | 22 de setembro de 2020 | Uma atualização das configurações de privacidade do Chrome versão 80 afetou a capacidade do Adobe Analytics de rastrear alguns usuários que visualizam páginas do Google AMP. Especificamente, impede o rastreamento entre domínios de usuários que visualizam páginas do AMP hospedadas no Google. Isso pode resultar em contagens infladas de visitantes únicos. Essa correção permite que os usuários solucionem esse problema alterando as configurações de seus cookies da ECID.<br>Atualmente, o Analytics define cookies da Experience Cloud ID (ECID) com a configuração `SameSite = Lax` que, antes da versão 80 do Chrome, permitia o rastreamento em vários domínios. Isso não acontece mais. Essa alteração permite que os usuários atualizem a configuração SameSite para cookies da ECID `None`.<br>Observe que essa alteração permite que o cookie do Analytics seja compartilhado em mais situações, mas os cookies do Analytics não contêm informações confidenciais. Além disso, ao escolher essa configuração, os cookies devem ser definidos como `Secure` para que os dados só possam ser transmitidos por conexões HTTPS. Se você quiser fazer essa alteração, peça a um usuário aceito para abrir um tíquete junto ao Atendimento ao cliente. |
@@ -195,15 +195,15 @@ Data de lançamento: **8 de outubro de 2020**
 
 ### Novos recursos, melhorias e correções no Audience Manager {#aam-features}
 
-| Recurso | Data de adição   ou atualização | Descrição |
+| Recurso | Data de adição ou atualização | Descrição |
 |----|----|----|
-| [Predictive Audiences](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 21 de outubro de 2020 | <ul><li>**Clonagem de modelo de públicos preditivos**: agora você pode clonar modelos existentes e alterar a configuração de acordo com as suas necessidades. Leia [Clonagem e edição de modelos de públicos preditivos](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences) para obter mais informações.</li><li>**Classificação em lote de públicos preditivos**: além de classificar visitantes em personas distintas em tempo real, os públicos preditivos agora oferecem suporte à classificação em lote, ajudando a classificar usuários integrados e a ativar para destinos em lote.</li></ul> |
+| [Predictive Audiences](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 21 de outubro de 2020 | <ul><li>**Clonagem de modelo de Predictive Audiences**: agora você pode clonar modelos existentes e alterar a configuração de acordo com as suas necessidades. Leia [Clonagem e edição de modelos de Audiência preditiva](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences) para obter mais informações.</li><li>**Classificação em lote de Predictive Audiences**: além de classificar visitantes em personas distintas em tempo real, os públicos preditivos agora oferecem suporte à classificação em lote, ajudando a classificar usuários integrados e a ativar para destinos em lote.</li></ul> |
 | [Relatórios de sobreposição](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reporting/interactive-and-overlap-reports/dynamic-reports.html) | 23 de outubro de 2020 | Atualizamos a metodologia que usamos para calcular relatórios de sobreposição ([característica](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reporting/interactive-and-overlap-reports/trait-trait-overlap-report.html), [segmento para característica](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-trait-overlap-report.html), [segmento para segmento](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-segment-overlap-report.html)). O cálculo de relatórios de sobreposição agora se baseia em únicos de relatórios e assinaturas MinHash (em vez de [amostragem de dados 1/54](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reporting/report-sampling.html#data-sampling-ratio)). |
 
 ### Correções e melhorias {#aam-fixes-and-improvements}
 
-* Correção de um problema no recurso de públicos preditivos em que alguns usuários não conseguiam excluir nenhum de seus modelos, mesmo se nenhum segmento fosse mapeado para os modelos. (AAM-55881)
-* Correção de um problema em que alguns usuários não conseguiam excluir características ou segmentos que tinham sido usados como linha de base para modelos de público preditivo excluídos. (AAM-56476)
+* Correção de um problema no recurso de públicos-alvo preditivos em que alguns usuários não conseguiam excluir nenhum de seus modelos, mesmo se nenhum segmento fosse mapeado para os modelos. (AAM-55881)
+* Correção de um problema em que alguns usuários não conseguiam excluir características ou segmentos que tinham sido usados como linha de base para modelos de público-alvo preditivo excluídos. (AAM-56476)
 * Continuamos melhorando a acessibilidade em toda a interface. (AAM-53215)
 
 ### Cursos e tutoriais do Audience Manager {#tutorials-aam}
@@ -212,11 +212,11 @@ Novos vídeos, tutoriais ou cursos publicados para o Audience Manager.
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
-| 28 de outubro de 2020 | [Como entender números no gráfico de características](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | Vídeo | Obtenha algumas dicas sobre como entender os números relatados para características na tela de informações de características. |
-| 23 de outubro de 2020 | [Planejamento da criação de características com dados do Analytics](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=en#build-and-manage-audiences) | Vídeo | Aprenda algumas dicas e truques para quando estiver planejando usar dados do Adobe Analytics em suas características no Audience Manager. |
-| 23 de outubro de 2020 | [Como escolher uma fonte de dados ao criar características](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=en#build-and-manage-audiences) | Vídeo | Um dos campos importantes que devem ser preenchidos ao criar características é o campo Fonte de dados. Obtenha dicas sobre como escolher a fonte de dados certa para características integradas e com base em regras. |
-| 14 de setembro de 2020 | [Como usar a visualização de código para criar e editar características](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-code-view-to-create-and-edit-traits.html?lang=en#build-and-manage-audiences) | Vídeo | Saiba como usar a visualização de código ao criar novas características ou editar características existentes. A visualização de código é uma alternativa ao Construtor de expressões ao configurar a expressão de características. |
-| 10 de outubro de 2020 | [Compreensão de públicos preditivos](https://docs.adobe.com/content/help/pt-BR/audience-manager-learn/tutorials/build-and-manage-audiences/algorithmic-models/understanding-predictive-audiences.html) | Vídeo | Neste vídeo, discutiremos o que são públicos-alvo preditivos do Audience Manager, apresentamos detalhes sobre como funcionam e indicamos casos de uso. |
+| 28 de outubro de 2020 | [Como entender números no gráfico de características](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=pt-BR#build-and-manage-audiences) | Vídeo | Obtenha algumas dicas sobre como entender os números relatados para características na tela de informações de características. |
+| 23 de outubro de 2020 | [Planejamento da criação de características com dados do Analytics](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=pt-BR#build-and-manage-audiences) | Vídeo | Aprenda algumas dicas e truques para quando estiver planejando usar dados do Adobe Analytics em suas características no Audience Manager. |
+| 23 de outubro de 2020 | [Como escolher uma fonte de dados ao criar características](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=pt-BR#build-and-manage-audiences) | Vídeo | Um dos campos importantes que devem ser preenchidos ao criar características é o campo Fonte de dados. Obtenha dicas sobre como escolher a fonte de dados certa para características integradas e com base em regras. |
+| 14 de setembro de 2020 | [Como usar a visualização de código para criar e editar características](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-code-view-to-create-and-edit-traits.html?lang=pt-BR#build-and-manage-audiences) | Vídeo | Saiba como usar a visualização de código ao criar novas características ou editar características existentes. A visualização de código é uma alternativa ao Construtor de expressões ao configurar a expressão de características. |
+| 10 de outubro de 2020 | [Compreensão de Predictive Audiences](https://docs.adobe.com/content/help/pt-BR/audience-manager-learn/tutorials/build-and-manage-audiences/algorithmic-models/understanding-predictive-audiences.html) | Vídeo | Neste vídeo, discutiremos o que são Predictive Audiences do Audience Manager, apresentamos detalhes sobre como funcionam e indicamos casos de uso. |
 
 ## ![Ícone](/assets/aem.png) Adobe Experience Manager {#aem}
 
@@ -374,7 +374,7 @@ Novos vídeos, tutoriais e cursos publicados no mês passado.
 | 23 de setembro de 2020 | [Rastrear componente clicado com o Adobe Analytics](https://docs.adobe.com/content/help/pt-BR/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html) | Artigo | Use a camada Dados do cliente da Adobe orientada pelo evento para coletar dados sobre uma página e a interação do usuário em um site no Adobe Experience Manager. Saiba como usar regras no Experience Platform Launch para acompanhar esses eventos e enviar dados para um conjunto de relatórios do Adobe Analytics. |
 | 25 de setembro de 2020 | [Integre os trabalhadores do Asset Compute aos Perfis de processamento do AEM](https://docs.adobe.com/content/help/pt-BR/experience-manager-learn/cloud-service/asset-compute/deploy/processing-profiles.html) | Vídeo | O AEM as a Cloud Service integra-se com os trabalhadores do Asset Compute implantados no Adobe I/O Runtime por meio de perfis de processamento de AEM Assets. Os Perfis de processamento são configurados no serviço Autor para processar ativos específicos usando trabalhadores personalizados e armazenar os arquivos gerados pelos trabalhadores como representações de ativos. |
 | 25 de setembro de 2020 | [Implantar no Adobe I/O Runtime - Tutorial ](https://docs.adobe.com/content/help/pt-BR/experience-manager-learn/cloud-service/asset-compute/deploy/runtime.html) | Vídeo | Os projetos do Asset Compute e os trabalhadores que eles contêm devem ser implantados no Adobe I/O Runtime para serem usados pelo AEM as a Cloud Service. |
-| 25 de setembro de 2020 | [Depurar um trabalhador do Asset Compute](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/asset-compute/test-debug/debug.html) | Artigo | Os trabalhadores do Asset Compute podem ser depurados de várias maneiras, desde declarações de log de depuração simples, ao código VS anexado como um depurador remoto, até logs de ativação no Adobe I/O Runtime iniciados pelo AEM as a Cloud Service. |
+| 25 de setembro de 2020 | [Depurar um trabalhador do Asset Compute](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/asset-compute/test-debug/debug.html?lang=pt-BR#asset-compute) | Artigo | Os trabalhadores do Asset Compute podem ser depurados de várias maneiras, desde declarações de log de depuração simples, ao código VS anexado como um depurador remoto, até logs de ativação no Adobe I/O Runtime iniciados pelo AEM as a Cloud Service. |
 | 25 de setembro de 2020 | [Usar a ferramenta de desenvolvimento Asset Compute](https://docs.adobe.com/content/help/pt-BR/experience-manager-learn/cloud-service/asset-compute/develop/development-tool.html) | Artigo | A Ferramenta de desenvolvimento Asset Compute é um recurso da Web local que permite aos desenvolvedores configurar e executar os trabalhadores do Asset Computer localmente, fora do contexto do SDK do AEM em relação aos recursos do Asset Compute no Adobe I/O Runtime. |
 | 27 de setembro de 2020 | [Desenvolver um trabalhador do Asset Compute](https://docs.adobe.com/content/help/pt-BR/experience-manager-learn/cloud-service/asset-compute/develop/worker.html) | Artigo | Os trabalhadores do Asset Compute são o núcleo de um aplicativo do Asset Compute que fornece funcionalidade personalizada que executa, ou coordena, o trabalho executado em um ativo para criar uma nova representação. |
 | 25 de setembro de 2020 | [Configurar o manifest.yml](https://docs.adobe.com/content/help/pt-BR/experience-manager-learn/cloud-service/asset-compute/develop/manifest.html) | Artigo | O arquivo manifest.yml do projeto do Asset Compute descreve todos os funcionários neste aplicativo que serão implantados. |
@@ -460,7 +460,7 @@ Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
 * Adobe Campaign Standard: [Centro de ajuda](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/campaign-standard-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-notes.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/overview.html) - [Planejamento de lançamento](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-planning.html) - [Atualizações mais recentes da documentação](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic: [Centro de ajuda](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/campaign-classic-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/release-notes/latest-release.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/overview.html)- [Atualizações mais recentes da documentação](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/documentation-updates.html)
-* Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html)   - Vídeos explicativos do [Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
+* Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) - Vídeos explicativos do [Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
 
 ## ![Ícone](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
@@ -475,7 +475,7 @@ Atualizado: 28 de outubro de 2020
 
 | Recurso | Descrição |
 | -----------| ---------- |
-| Novo  Ajuda | (Versão de 28 de outubro) A ajuda herdada foi substituída por páginas atualizadas, que estão disponíveis no link Ajuda no menu principal do DSP e também estão sempre disponíveis em [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html) |
+| Novo Ajuda | (Versão de 28 de outubro) A ajuda herdada foi substituída por páginas atualizadas, que estão disponíveis no link Ajuda no menu principal do DSP e também estão sempre disponíveis em [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=pt-BR](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=pt-BR) |
 | Campanhas | (Versão de 28 de outubro) As visualizações anteriores do Campaigns Beta agora são as visualizações padrão do Campaigns, para obter insights mais rápidos, fluxos de trabalho simplificados e visualizações personalizadas. |
 | Inventário privado | (Versão de 15 de outubro) Todos os usuários agora podem configurar e editar informações da ID de negócios usando um novo formulário, que é uma versão simplificada do formulário antigo de [!UICONTROL Veiculação de anúncios inteligentes]. Para configurar as informações da nova ID de negócios, acesse **[!UICONTROL Inventário > Vendas]**, clique em **[!UICONTROL Criar]** e, em seguida, clique em **[!UICONTROL ID de acordo beta]**. |
 | Previsão de posicionamento | (Versão de 15 de outubro) Para inserções com ritmo de nível de inserção, a seção [!UICONTROL Previsão] das configurações de inserção inclui uma nova seção [!UICONTROL Máximos estimados], que indica quanta capacidade está disponível com a configuração de direcionamento atual. |
@@ -503,11 +503,11 @@ Consulte as [[!DNL Target] notas de versão](https://docs.adobe.com/content/help
 
 ### Novos cursos e tutoriais do Adobe Target
 
-Atualizado em: **2 novembro de 2020**
+Atualizado: **2 novembro de 2020**
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
-| 11 de outubro de 2020 | [Modelo de implantação de personalização híbrida](https://docs.adobe.com/content/help/pt-BR/target-learn/tutorials/implementation/hybrid-deployment.html) | Vídeo | O Adobe Target oferece um modelo exclusivo de implantação híbrida para personalização, mesclando implementações do lado do cliente e do lado do servidor. Esse modelo híbrido permite que usuários não técnicos criem uma atividade de experiência ou personalização usando o Visual Experience Composer WYSIWYG e que a experiência seja executada, entregue e renderizada pelo lado do servidor para oferecer um delivery de alto desempenho. |
+| 11 de outubro de 2020 | [Modelo de implantação de personalização híbrida](https://docs.adobe.com/content/help/pt-BR/target-learn/tutorials/implementation/hybrid-deployment.html) | Vídeo | O Adobe Target oferece um modelo exclusivo de implantação híbrida para personalização, mesclando implementações do lado do cliente e do lado do servidor. Esse modelo híbrido permite que usuários não técnicos criem uma atividade de experimento ou personalização usando o Visual Experience Composer WYSIWYG e que a experiência seja executada, entregue e renderizada pelo lado do servidor para oferecer um delivery de alto desempenho. |
 
 ## ![Ícone](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
@@ -547,6 +547,6 @@ Novos vídeos, tutoriais ou cursos publicados na Adobe Document Cloud.
 
 Para obter ajuda sobre a Document Cloud, consulte:
 
-* [Hub de aprendizagem do Adobe Acrobat](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=en)
-* [Hub de aprendizagem do Adobe Sign](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=en)
+* [Hub de aprendizagem do Adobe Acrobat](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=pt-BR)
+* [Hub de aprendizagem do Adobe Sign](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=pt-BR)
 * [Aprendizagem e suporte da Document Cloud](https://helpx.adobe.com/br/support/document-cloud.html)
