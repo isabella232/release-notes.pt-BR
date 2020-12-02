@@ -4,11 +4,11 @@ description: Notas de versão da Adobe Experience Cloud
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: ht
-source-git-commit: cc49396194cb768b6d4d3fc7f3967afb65636188
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 73caf10aa872e7b98875bdd0b8050cc301e3d500
+workflow-type: tm+mt
 source-wordcount: '8005'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -27,13 +27,13 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 >
 >Assine a [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) para ser notificado por email sobre versões futuras.
 
-Última atualização: **10 de novembro de 2020**
+Última atualização:**2 de dezembro de 2020**
 
 * [Status de sistema da Adobe](#status)
 * [Serviços e administração da Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey)  (Atualizado: **10 de novembro de 2020**)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey)  (Atualizado em 2 **de dezembro de 2020**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (Atualizado: **28 de outubro de 2020**)
 * [Campaign](#ac)
@@ -108,7 +108,7 @@ Usando a Adobe Experience Platform, orquestre as jornadas individuais dos client
 Data de lançamento: **29 de outubro de 2020**
 
 * [Novos recursos no Adobe Analytics](#aa-features)
-* [Novos recursos no Customer Journey Analytics](#cust-journey)  (Atualizado: 10 de novembro de 2020)
+* [Novos recursos no Customer Journey Analytics](#cust-journey)  (Atualizado em 2 de dezembro de 2020)
 * [Novos recursos no Media Analytics](#media-aa)
 * [Correções no Adobe Analytics](#aa-fixes)
 * [Avisos importantes para administradores do Analytics](#aa-notices)
@@ -135,7 +135,7 @@ Data de lançamento: **29 de outubro de 2020**
 | Página Ajuda de desempenho do Analysis Workspace | 22 de outubro de 2020 | A página de ajuda de desempenho do Analysis Workspace mostra os diferentes fatores que afetam o desempenho do projeto e oferece links com dicas de otimização. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | Métricas e dimensões de [!UICONTROL tempo gasto] | 30 de outubro de 2020 | As métricas e dimensões de [!UICONTROL tempo gasto] permitem que você veja o tempo que os consumidores gastam em vários aspectos da jornada do cliente, oferecendo uma visualização mais completa de engajamento e gargalos em vários canais. |
 | Dimensões [!UICONTROL Dispositivo] e [!UICONTROL Geografia] | 30 de outubro de 2020 | As dimensões [!UICONTROL Dispositivo] e [!UICONTROL Geografia] agora estão disponíveis por padrão como parte do projeto “Suporte à pesquisa global” no [conector do Adobe Analytics Source](https://docs.adobe.com/content/help/pt-BR/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html). Essa adição muito solicitada aumenta a [paridade entre o Adobe Analytics e o CJA](https://docs.adobe.com/content/help/pt-BR/analytics-platform/using/cja-overview/cja-aa.html). |
-| Journey IQ: análise de vários canais | 22 de novembro de 2020 | Journey IQ: a análise de vários canais permite aos clientes redigitar um conjunto de dados de eventos do Adobe Analytics (ou outro) no data lake da Adobe Experience Platform de um namespace de ID para outro. Normalmente, isso significa rechavear o conjunto de dados do evento de uma ID com base em cookies para uma ID com base em pessoas. Dessa forma, o conjunto de dados rechaveado pode ser combinado com outros dados com base em pessoas em uma conexão do CJA, permitindo a análise de vários dispositivos/canais no Analysis Workspace. [Saiba mais](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=pt-BR#cja-connections) |
+| Journey IQ: análise de vários canais | 11 de dezembro de 2020 | Journey IQ: a análise de vários canais permite aos clientes redigitar um conjunto de dados de eventos do Adobe Analytics (ou outro) no data lake da Adobe Experience Platform de um namespace de ID para outro. Normalmente, isso significa rechavear o conjunto de dados do evento de uma ID com base em cookies para uma ID com base em pessoas. Dessa forma, o conjunto de dados rechaveado pode ser combinado com outros dados com base em pessoas em uma conexão do CJA, permitindo a análise de vários dispositivos/canais no Analysis Workspace. [Saiba mais](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=pt-BR#cja-connections) |
 
 ### Novos recursos no [!UICONTROL Media Analytics] {#media-aa}
 
@@ -232,7 +232,7 @@ Novos recursos, correções e atualizações no Adobe Experience Manager (AEM). 
 
 * **AEM as a Cloud Service**
 
-   Quais são as novidades do AEM como um Cloud Service?
+   Quais são as novidades do AEM as a Cloud Service?
 
    * **Adobe Experience Manager Sites as a Cloud Service**
       * O SDK do Javascript do Editor de aplicativo de página única (SPA) agora é de [código aberto](https://docs.adobe.com/content/help/pt-BR/experience-manager-cloud-service/implementing/headless/spa/reference-materials.html).
