@@ -27,17 +27,17 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 >
 >Assine a [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) para ser notificado por email sobre versões futuras.
 
-Última atualização:**2 de dezembro de 2020**
+Última atualização: **2 de dezembro de 2020**
 
 * [Status de sistema da Adobe](#status)
 * [Serviços e administração da Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey)  (Atualizado em 2 **de dezembro de 2020**)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Atualizado em **2 de dezembro de 2020**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (Atualizado: **28 de outubro de 2020**)
 * [Campaign](#ac)
-* [Advertising Cloud](#adcloud)  (Atualizado: **28 de outubro de 2020**)
+* [Advertising Cloud](#adcloud) (Atualizado: **28 de outubro de 2020**)
 * [[!DNL Target]](#target) (Atualizado: **2 novembro de 2020**)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
@@ -68,7 +68,7 @@ Consulte as [Notas de versão cumulativas dos serviços da Experience Cloud](htt
 
 ### Tutoriais de Experience Cloud
 
-Atualizado: **2 de dezembro de 2020**
+Updated: **December 2, 2020**
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
@@ -98,7 +98,7 @@ Consulte as [notas de versão do Experience Platform Launch](https://docs.adobe.
 
 Novos vídeos, tutoriais ou cursos publicados para a Experience Platform e serviços.
 
-Atualizado: **2 de dezembro de 2020**
+Updated: **December 2, 2020**
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
@@ -122,7 +122,7 @@ Usando a Adobe Experience Platform, orquestre as jornadas individuais dos client
 Data de lançamento: **29 de outubro de 2020**
 
 * [Novos recursos no Adobe Analytics](#aa-features)
-* [Novos recursos no Customer Journey Analytics](#cust-journey)  (Atualizado em 2 de dezembro de 2020)
+* [Novos recursos no Customer Journey Analytics](#cust-journey) (Atualizado em 2 de dezembro de 2020)
 * [Novos recursos no Media Analytics](#media-aa)
 * [Correções no Adobe Analytics](#aa-fixes)
 * [Avisos importantes para administradores do Analytics](#aa-notices)
@@ -143,7 +143,7 @@ Data de lançamento: **29 de outubro de 2020**
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ----- |
-| Customer Journey Analytics  documentação | 11 de novembro de 2020 | A documentação do Customer Journey Analytics foi transferida para a Experience League. Durante o mês de novembro, todos os artigos, vídeos, notas de versão e tutoriais serão movidos do local atual em `docs.adobe.com` para `experienceleague.adobe.com`. Essa mudança garante que todo o aprendizado, a autoajuda, a ativação e o conteúdo da comunidade sejam fornecidos de um único local. Todos os links foram redirecionados para a Experience League. |
+| Customer Journey Analytics documentação | 11 de novembro de 2020 | A documentação do Customer Journey Analytics foi transferida para a Experience League. Durante o mês de novembro, todos os artigos, vídeos, notas de versão e tutoriais serão movidos do local atual em `docs.adobe.com` para `experienceleague.adobe.com`. Essa mudança garante que todo o aprendizado, a autoajuda, a ativação e o conteúdo da comunidade sejam fornecidos de um único local. Todos os links foram redirecionados para a Experience League. |
 | Visualização de [!UICONTROL Linha]: opção de linha de tendências da média móvel | 8 de outubro de 2020 | A média móvel foi adicionada às configurações de linha de tendência da visualização de Linha. Uma média móvel calcula a média para um período anterior especificado e a usa como o ponto de dados da linha de tendência, em seguida, passa para o próximo período. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | Remoção da limitação de preenchimento retroativo | 19 de outubro de 2020 | Para fornecer uma experiência aprimorada no CJA, removemos a limitação de preenchimento retroativo (importação de dados históricos). Anteriormente, você poderia usar o preenchimento retroativo em um máximo de 2,5 bilhões de linhas por conta própria e, caso contrário, precisaria recorrer à engenharia. Agora, você pode usar o preenchimento retroativo de dados por conta própria, sem qualquer limitação. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Página Ajuda de desempenho do Analysis Workspace | 22 de outubro de 2020 | A página de ajuda de desempenho do Analysis Workspace mostra os diferentes fatores que afetam o desempenho do projeto e oferece links com dicas de otimização. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
@@ -171,7 +171,7 @@ AN-224702; AN-232791; AN-233982; AN-234384; AN-235608; AN-236538; AN-236598; AN-
 
 ### Avisos importantes para administradores do [!DNL Analytics] {#aa-notices}
 
-| Aviso | Data de adição  ou atualização | Descrição |
+| Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
 | Adicionar cabeçalho HSTS a todas as solicitações HTTPS recebidas | 29 de setembro de 2020 | Em 29 de setembro de 2020, começamos a adicionar o cabeçalho HSTS a todas as solicitações recebidas que usam HTTPS. O cabeçalho instrui o navegador/cliente a fazer todas as solicitações futuras no HTTPS, que é uma prática recomendada de segurança. Nesse ponto, não vamos impor o cabeçalho para solicitações recebidas usando HTTP. |
 | Alteração na configuração do cookie do serviço da Experience Cloud ID | 22 de setembro de 2020 | Uma atualização das configurações de privacidade do Chrome versão 80 afetou a capacidade do Adobe Analytics de rastrear alguns usuários que visualizam páginas do Google AMP. Especificamente, impede o rastreamento entre domínios de usuários que visualizam páginas do AMP hospedadas no Google. Isso pode resultar em contagens infladas de visitantes únicos. Essa correção permite que os usuários solucionem esse problema alterando as configurações de seus cookies da ECID.<br>Atualmente, o Analytics define cookies da Experience Cloud ID (ECID) com a configuração `SameSite = Lax` que, antes da versão 80 do Chrome, permitia o rastreamento em vários domínios. Isso não acontece mais. Essa alteração permite que os usuários atualizem a configuração SameSite para cookies da ECID `None`.<br>Observe que essa alteração permite que o cookie do Analytics seja compartilhado em mais situações, mas os cookies do Analytics não contêm informações confidenciais. Além disso, ao escolher essa configuração, os cookies devem ser definidos como `Secure` para que os dados só possam ser transmitidos por conexões HTTPS. Se você quiser fazer essa alteração, peça a um usuário aceito para abrir um tíquete junto ao Atendimento ao cliente. |
@@ -210,7 +210,7 @@ Data de lançamento: **8 de outubro de 2020**
 
 ### Novos recursos, melhorias e correções no Audience Manager {#aam-features}
 
-| Recurso | Data de adição  ou atualização | Descrição |
+| Recurso | Data de adição ou atualização | Descrição |
 |----|----|----|
 | [Predictive Audiences](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 21 de outubro de 2020 | <ul><li>**Clonagem de modelo de Predictive Audiences**: agora você pode clonar modelos existentes e alterar a configuração de acordo com as suas necessidades. Leia [Clonagem e edição de modelos de Audiência preditiva](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences) para obter mais informações.</li><li>**Classificação em lote de Predictive Audiences**: além de classificar visitantes em personas distintas em tempo real, os públicos preditivos agora oferecem suporte à classificação em lote, ajudando a classificar usuários integrados e a ativar para destinos em lote.</li></ul> |
 | [Relatórios de sobreposição](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reporting/interactive-and-overlap-reports/dynamic-reports.html) | 23 de outubro de 2020 | Atualizamos a metodologia que usamos para calcular relatórios de sobreposição ([característica](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reporting/interactive-and-overlap-reports/trait-trait-overlap-report.html), [segmento para característica](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-trait-overlap-report.html), [segmento para segmento](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-segment-overlap-report.html)). O cálculo de relatórios de sobreposição agora se baseia em únicos de relatórios e assinaturas MinHash (em vez de [amostragem de dados 1/54](https://docs.adobe.com/content/help/pt-BR/audience-manager/user-guide/reporting/report-sampling.html#data-sampling-ratio)). |
@@ -225,7 +225,7 @@ Data de lançamento: **8 de outubro de 2020**
 
 Novos vídeos, tutoriais ou cursos publicados para o Audience Manager.
 
-Atualizado em 2 **de dezembro de 2020**
+Atualizado em **2 de dezembro de 2020**
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
@@ -374,7 +374,7 @@ Além disso, o repositório inclui outros artigos importantes, como [Definiçõe
 
 ### Novos cursos e tutoriais do Experience Manager
 
-Atualizado: **2 de dezembro de 2020**
+Updated: **December 2, 2020**
 
 Novos vídeos, tutoriais e cursos publicados no mês passado.
 
@@ -484,7 +484,7 @@ Informações de versão do Campaign Classic, Campaign Standard e Painel de cont
 
 Novos vídeos, tutoriais ou cursos publicados no mês passado.
 
-Atualizado em 2 **de dezembro de 2020**
+Atualizado em **2 de dezembro de 2020**
 
 | Publicado | Nome | Solução | Descrição |
 | ----------- | ----------- | ---------- | ---------- |
@@ -512,7 +512,7 @@ Atualizado em 2 **de dezembro de 2020**
 
 * Adobe Campaign Standard: [Centro de ajuda](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/campaign-standard-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-notes.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/overview.html) - [Planejamento de lançamento](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-planning.html) - [Atualizações mais recentes da documentação](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic: [Centro de ajuda](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/campaign-classic-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/release-notes/latest-release.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/overview.html)- [Atualizações mais recentes da documentação](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/documentation-updates.html)
-* Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html)  - Vídeos explicativos do [Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
+* Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html) - Vídeos explicativos do [Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html)
 
 ## ![Ícone](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
@@ -527,7 +527,7 @@ Atualizado: 28 de outubro de 2020
 
 | Recurso | Descrição |
 | -----------| ---------- |
-| Novo  Ajuda | (Versão de 28 de outubro) A ajuda herdada foi substituída por páginas atualizadas, que estão disponíveis no link Ajuda no menu principal do DSP e também estão sempre disponíveis em [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=pt-BR](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=pt-BR) |
+| Novo Ajuda | (Versão de 28 de outubro) A ajuda herdada foi substituída por páginas atualizadas, que estão disponíveis no link Ajuda no menu principal do DSP e também estão sempre disponíveis em [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=pt-BR](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=pt-BR) |
 | Campanhas | (Versão de 28 de outubro) As visualizações anteriores do Campaigns Beta agora são as visualizações padrão do Campaigns, para obter insights mais rápidos, fluxos de trabalho simplificados e visualizações personalizadas. |
 | Inventário privado | (Versão de 15 de outubro) Todos os usuários agora podem configurar e editar informações da ID de negócios usando um novo formulário, que é uma versão simplificada do formulário antigo de [!UICONTROL Veiculação de anúncios inteligentes]. Para configurar as informações da nova ID de negócios, acesse **[!UICONTROL Inventário > Vendas]**, clique em **[!UICONTROL Criar]** e, em seguida, clique em **[!UICONTROL ID de acordo beta]**. |
 | Previsão de posicionamento | (Versão de 15 de outubro) Para inserções com ritmo de nível de inserção, a seção [!UICONTROL Previsão] das configurações de inserção inclui uma nova seção [!UICONTROL Máximos estimados], que indica quanta capacidade está disponível com a configuração de direcionamento atual. |
@@ -544,7 +544,7 @@ Data de lançamento: **17 de outubro de 2020**
 
 ### Tutoriais e cursos da Ad Cloud
 
-Atualizado: **2 de dezembro de 2020**
+Updated: **December 2, 2020**
 
 | Publicado | Nome | Solução | Descrição |
 | ----------- | ----------- | ---------- | ---------- |
