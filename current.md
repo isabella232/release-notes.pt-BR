@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2f04d1dd4487a4e169360c0b23cdbef257121794
+source-git-commit: ec98405c2e3d4a712d42487917029dae7aa454f3
 workflow-type: tm+mt
-source-wordcount: '9815'
-ht-degree: 100%
+source-wordcount: '9816'
+ht-degree: 99%
 
 ---
 
@@ -144,7 +144,7 @@ Data de lançamento: **29 de outubro de 2020**
 | Remoção da limitação de preenchimento retroativo | 19 de outubro de 2020 | Para fornecer uma experiência aprimorada no CJA, removemos a limitação de preenchimento retroativo (importação de dados históricos). Anteriormente, você poderia usar o preenchimento retroativo em um máximo de 2,5 bilhões de linhas por conta própria e, caso contrário, precisaria recorrer à engenharia. Agora, você pode usar o preenchimento retroativo de dados por conta própria, sem qualquer limitação. [Saiba mais](https://docs.adobe.com/content/help/pt-BR/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Página Ajuda de desempenho do Analysis Workspace | 22 de outubro de 2020 | A página de ajuda de desempenho do Analysis Workspace mostra os diferentes fatores que afetam o desempenho do projeto e oferece links com dicas de otimização. [Saiba mais](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | Métricas e dimensões de [!UICONTROL tempo gasto] | 30 de outubro de 2020 | As métricas e dimensões de [!UICONTROL tempo gasto] permitem que você veja o tempo que os consumidores gastam em vários aspectos da jornada do cliente, oferecendo uma visualização mais completa de engajamento e gargalos em vários canais. |
-| Dimensões [!UICONTROL Dispositivo] e [!UICONTROL Geografia] | 30 de outubro de 2020 | As dimensões [!UICONTROL Dispositivo] e [!UICONTROL Geografia] agora estão disponíveis por padrão como parte do projeto “Suporte à pesquisa global” no [conector do Adobe Analytics Source](https://docs.adobe.com/content/help/pt-BR/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html). Essa adição muito solicitada aumenta a [paridade entre o Adobe Analytics e o CJA](https://docs.adobe.com/content/help/pt-BR/analytics-platform/using/cja-overview/cja-aa.html). |
+| Dimensões [!UICONTROL Dispositivo] e [!UICONTROL Geografia] | 30 de outubro de 2020 | [!UICONTROL Por padrão, as dimensões ] de dispositivo e   geografia estão disponíveis como parte do projeto de suporte à  [Pesquisa ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=en#cja-usecases) global no conector de origem do Adobe Analytics. Essa adição muito solicitada aumenta a [paridade entre o Adobe Analytics e o CJA](https://docs.adobe.com/content/help/pt-BR/analytics-platform/using/cja-overview/cja-aa.html). |
 | Journey IQ: análise de vários canais | 11 de janeiro de 2021 | Journey IQ: a análise de vários canais permite aos clientes redigitar um conjunto de dados de eventos do Adobe Analytics (ou outro) no data lake da Adobe Experience Platform de um namespace de ID para outro. Normalmente, isso significa rechavear o conjunto de dados do evento de uma ID com base em cookies para uma ID com base em pessoas. Dessa forma, o conjunto de dados rechaveado pode ser combinado com outros dados com base em pessoas em uma conexão do CJA, permitindo a análise de vários dispositivos/canais no Analysis Workspace. [Saiba mais](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=pt-BR#cja-connections) |
 
 ### Novos recursos no [!UICONTROL Media Analytics] {#media-aa}
