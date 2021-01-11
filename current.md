@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3d0946fe6fc0bf74ec45a19931c106afb8a8208d
+source-git-commit: 5175e3e92bd445254532c614bda3f7a048f31a86
 workflow-type: tm+mt
-source-wordcount: '6185'
-ht-degree: 44%
+source-wordcount: '6419'
+ht-degree: 43%
 
 ---
 
@@ -134,7 +134,8 @@ Data de lançamento: **14 de janeiro de 2021**
 * [Novos recursos no Customer Journey Analytics](#cust-journey)
 * [Correções no Adobe Analytics](#aa-fixes)
 * [Avisos importantes para administradores do Analytics](#aa-notices)
-* [AppMeasurement](#appm)
+* [AppMeasurement](#appm) 
+* [Report Builder](#arb)
 
 ### Novos recursos no Adobe Analytics {#aa-features}
 
@@ -181,6 +182,7 @@ AN-204659; AN-221726; AN-230949; AN-231984; AN-232835;  AN-233989; AN-235593; AN
 
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
+| Atualização [!UICONTROL Report Builder] necessária | 8 de janeiro de 2021 | Até 30 de abril de 2021, todos os usuários do [!UICONTROL Report Builder] devem atualizar o suplemento [!UICONTROL Report Builder] para a versão 5.6.47 ou posterior. Esta versão inclui uma atualização crítica para o processo de logon. Os usuários que não atualizarem para a versão 5.6.47 ou posterior não poderão fazer logon após 30 de abril de 2021. [!UICONTROL O Report ] Builder versão 5.6.47 e posterior é compatível apenas com o login no Experience Cloud e não é compatível com logons herdados, como o Logon único do SiteCatalyst ou o logon padrão. Para obter mais informações, consulte [Login no Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA). |
 | Fim da vida útil para três serviços de API do Analytics | 6 de janeiro de 2021 | Em 30 de abril de 2021, os seguintes serviços de API do Analytics Legacy estão programados para atingir sua data de fim de vida e serão encerrados. Quaisquer integrações atuais criadas com esses serviços deixarão de funcionar nesse dia.<ul><li>APIs do Analytics 1.3</li><li>APIs do SOAP Analytics 1.4</li><li>Autenticação OAuth herdada (OAuth e JWT)</li></ul>Fornecemos uma [Perguntas frequentes sobre EOL de API herdada](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) para ajudar a responder suas perguntas e fornecer orientações sobre como proceder. As integrações de API que empregam esses serviços podem migrar para as [1.4 APIs REST do Analytics](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) e/ou as [2.0 APIs do Analytics](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). As contas OAuth herdadas podem migrar para uma conta de integração do [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics, que pode ser usada para acessar as APIs do Analytics 1.4 e as APIs do Analytics 2.0. |
 | Adicionar cabeçalho HSTS a todas as solicitações HTTPS recebidas | 29 de setembro de 2020 | Em 29 de setembro de 2020, começamos a adicionar o cabeçalho HSTS a todas as solicitações recebidas que usam HTTPS. O cabeçalho instrui o navegador/cliente a fazer todas as solicitações futuras no HTTPS, que é uma prática recomendada de segurança. Nesse ponto, não vamos impor o cabeçalho para solicitações recebidas usando HTTP. |
 | Alterar para configuração de cookie [!UICONTROL Serviço de ID de Experience Cloud] | 22 de setembro de 2020 | Uma atualização das configurações de privacidade do Chrome versão 80 afetou a capacidade do Adobe Analytics de rastrear alguns usuários que visualizam páginas do Google AMP. Especificamente, impede o rastreamento entre domínios de usuários que visualizam páginas do AMP hospedadas no Google. Isso pode resultar em contagens infladas de visitantes únicos. Essa correção permite que os usuários solucionem esse problema alterando as configurações de seus cookies da ECID.<br>Atualmente, o Analytics define cookies da Experience Cloud ID (ECID) com a configuração `SameSite = Lax` que, antes da versão 80 do Chrome, permitia o rastreamento em vários domínios. Isso não acontece mais. Essa alteração permite que os usuários atualizem a configuração SameSite para cookies da ECID `None`.<br>Observe que essa alteração permite que o cookie do Analytics seja compartilhado em mais situações, mas os cookies do Analytics não contêm informações confidenciais. Além disso, ao escolher essa configuração, os cookies devem ser definidos como `Secure` para que os dados só possam ser transmitidos por conexões HTTPS. Se você quiser fazer essa alteração, peça a um usuário aceito para abrir um tíquete junto ao Atendimento ao cliente. |
@@ -192,6 +194,12 @@ AN-204659; AN-221726; AN-230949; AN-231984; AN-232835;  AN-233989; AN-235593; AN
 ### AppMeasurement {#appm}
 
 Para obter as atualizações mais recentes das versões do AppMeasurement, consulte as [notas de versão do AppMeasurement para JavaScript](https://docs.adobe.com/content/help/pt-BR/analytics/implementation/appmeasurement-updates.html).
+
+### Report Builder {#arb}
+
+| Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - Data do Target | Descrição |
+| ----------- | ---------- | ----- |
+| Atualização de logon no Analytics [!UICONTROL Report Builder] | 14 de janeiro de 2021 | As melhorias no processo de logon [!UICONTROL Report Builder] removem as dependências das tecnologias herdadas e alinham o processo de logon com a Adobe Experience Cloud. O login no Experience Cloud permite que você use seu Adobe ID ou Enterprise ID (Logon único) para fazer logon no Adobe Experience Cloud. Até 30 de abril de 2021, todos os usuários do [!UICONTROL Report Builder] devem atualizar o suplemento [!UICONTROL Report Builder] para a versão 5.6.47 ou posterior. [!UICONTROL O Report ] Builder versão 5.6.47 e posterior é compatível apenas com o logon de Experience Cloud e não é compatível com os logons herdados, como o Logon único do SiteCatalyst ou o logon padrão. Para obter mais informações, consulte [Login no Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA). |
 
 ### Recursos de ajuda do Analytics
 
