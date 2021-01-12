@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d5d885d83774f8160e77ec34ddc4cfa92b7f10f4
+source-git-commit: 783d8abc85c468f18d599d5ff5782dd01cb07e78
 workflow-type: tm+mt
-source-wordcount: '6414'
+source-wordcount: '6428'
 ht-degree: 42%
 
 ---
@@ -23,7 +23,7 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 >
 >Assine a [Atualização mensal do produto de prioridade do Adobe](https://www.adobe.com/subscription/priority-product-update.html) para receber notificações por email sobre atualizações nesta página. Esta página é mantida durante todo o mês, portanto, verifique regularmente se há atualizações na documentação do Adobe Enterprise e da Experience League.
 
-Última atualização: **11 de janeiro de 2020**
+Última atualização: **12 de janeiro de 2021**
 
 * [Status](#status)  do sistema do Adobe (não atualizado)
 * [Serviços e administração da Experience Cloud](#ecloud)
@@ -32,7 +32,7 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 * [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Data de lançamento: **14 de janeiro de 2021**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [Campaign](#ac)
+* [Campaign](#ac) (Atualizado em **12 de janeiro de 2021**)
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
@@ -374,7 +374,7 @@ Informações de versão do Campaign Classic, Campaign Standard e Painel de cont
 
 #### Campaign Classic
 
-<!-- [Incident Response Bulletin](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) (January 12) -->
+[Boletim](https://helpx.adobe.com/security/products/campaign/apsb21-04.html)  de resposta a incidentes (Atualizado:  **12 de janeiro de 2021**)
 
 * Versão 20.3.3 - [Leia mais](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
 * Versão 20.3.1 - [Leia mais](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
