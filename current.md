@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 783d8abc85c468f18d599d5ff5782dd01cb07e78
+source-git-commit: 40f7861366595738d6ba7b7ebcbbba514b2c98c7
 workflow-type: tm+mt
-source-wordcount: '6428'
+source-wordcount: '6518'
 ht-degree: 42%
 
 ---
@@ -29,7 +29,7 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 * [Serviços e administração da Experience Cloud](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Data de lançamento: **14 de janeiro de 2021**)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Atualizado: **12 de janeiro de 2021**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac) (Atualizado em **12 de janeiro de 2021**)
@@ -141,8 +141,9 @@ Data de lançamento: **14 de janeiro de 2021**
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ------- |
+| Analysis Workspace - URLs de imagem | 14 de janeiro de 2021 | É possível adicionar imagens a projetos do [!UICONTROL Workspace] referenciando um URL de imagem pública. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html?lang=en#analysis-workspace) |
+| Analysis Workspace - Gerente de configurações e origem combinados | 14 de janeiro de 2021 | O gerenciador de fontes de dados (ponto) e o gerenciador de configurações (engrenagem) para visualizações foram combinados em uma única caixa de diálogo, para que você possa gerenciar facilmente sua fonte e configurações a partir do mesmo local. |
 | Analysis Workspace - Seleção de componentes | 4 de fevereiro de 2021 | O componente de zona suspensa/suspensa encontrado em [!UICONTROL Quick Insights] foi adicionado a todas as zonas em [!UICONTROL Workspace]. Essa melhoria permite que você escolha de uma lista suspensa de componentes compatíveis ou continue a usar o espaço como uma zona. |
-| Analysis Workspace - URLs de imagem | 14 de janeiro de 2021 | É possível adicionar imagens a projetos do [!UICONTROL Workspace] referenciando um URL de imagem pública. |
 
 ### Novos recursos no Customer Journey Analytics {#cust-journey}
 
@@ -150,8 +151,9 @@ Data de lançamento: **14 de janeiro de 2021**
 | ----------- | ---------- | ----- |
 | Dimensões [!UICONTROL Dispositivo] e [!UICONTROL Geografia] | 30 de outubro de 2020 | Essas dimensões agora estão disponíveis por padrão como parte do projeto de suporte [Pesquisa Global](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=en#use-global-lookups-with-adobe-data-connector-datasets) no Adobe Analytics [!UICONTROL Source Connector]. Essa adição muito solicitada aumenta a [paridade entre o Adobe Analytics e o CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=en#cja-overview). |
 | QI da jornada: [!UICONTROL Análises de Canais cruzados] | 11 de janeiro de 2021 | QI da jornada: [!UICONTROL Análises de Canal cruzado] permite que você alterne a chave de um conjunto de dados de evento Adobe Analytics (ou outro) no lacre de dados de Experience Platform de uma namespace de ID para outra. Normalmente, isso significa rechavear o conjunto de dados do evento de uma ID com base em cookies para uma ID com base em pessoas. Dessa forma, o conjunto de dados rechaveado pode ser combinado com outros dados baseados em pessoa em uma conexão CJA, permitindo assim a análise entre dispositivos e canais no Analysis Workspace. [Saiba mais](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=pt-BR#cja-connections) |
-| Analysis Workspace - Seleção de componentes | 4 de fevereiro de 2021 | O componente de zona suspensa/suspensa encontrado em [!UICONTROL Quick Insights] foi adicionado a todas as zonas em [!UICONTROL Workspace]. Essa melhoria permite que você escolha de uma lista suspensa de componentes compatíveis ou continue a usar o espaço como uma zona. |
 | Analysis Workspace - URLs de imagem | 14 de janeiro de 2021 | É possível adicionar imagens a projetos do Workspace referenciando um URL de imagem pública. |
+| Analysis Workspace - Gerente de configurações e origem combinados | 14 de janeiro de 2021 | O gerenciador de fontes de dados (ponto) e o gerenciador de configurações (engrenagem) para visualizações foram combinados em uma única caixa de diálogo, para que você possa gerenciar facilmente sua fonte e configurações a partir do mesmo local. |
+| Analysis Workspace - Seleção de componentes | 4 de fevereiro de 2021 | O componente de zona suspensa/suspensa encontrado em [!UICONTROL Quick Insights] foi adicionado a todas as zonas em [!UICONTROL Workspace]. Essa melhoria permite que você escolha de uma lista suspensa de componentes compatíveis ou continue a usar o espaço como uma zona. |
 
 ### Correções no Adobe Analytics {#aa-fixes}
 
