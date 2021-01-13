@@ -23,7 +23,7 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 >
 >Assine a [Atualização mensal do produto de prioridade do Adobe](https://www.adobe.com/subscription/priority-product-update.html) para receber notificações por email sobre atualizações nesta página. Esta página é mantida durante todo o mês, portanto, verifique regularmente se há atualizações na documentação do Adobe Enterprise e da Experience League.
 
-Última atualização: **13 de janeiro de 2021**
+Última atualização: **12 de janeiro de 2021**
 
 * [Status](#status)  do sistema do Adobe (não atualizado)
 * [Serviços e administração da Experience Cloud](#ecloud)
