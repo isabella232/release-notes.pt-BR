@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6d3d54f4926936ced5c9025e563cdfeec59f4a1f
+source-git-commit: 05cf9f34a835a5d51013789909508c353827315e
 workflow-type: tm+mt
-source-wordcount: '6796'
-ht-degree: 99%
+source-wordcount: '6770'
+ht-degree: 97%
 
 ---
 
@@ -438,22 +438,20 @@ Notas de versão da Adobe Advertising Cloud.
 
 | Recurso | Descrição |
 | -----------| ---------- |
-| Novo Ajuda | (Versão de 28 de outubro) A ajuda herdada foi substituída por páginas atualizadas, que estão disponíveis no link Ajuda no menu principal do DSP e também estão sempre disponíveis em [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=pt-BR](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=pt-BR) |
-| Campanhas | (Versão de 28 de outubro) As visualizações anteriores do Campaigns Beta agora são as visualizações padrão do Campaigns, para obter insights mais rápidos, fluxos de trabalho simplificados e visualizações personalizadas. |
+| Novo Ajuda | (Versão de 28 de outubro) A ajuda herdada foi substituída por páginas atualizadas, que estão disponíveis no link Ajuda no menu principal DSP e também estão disponíveis a qualquer momento em [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=pt-BR) |
+| Campanhas | (Versão de 28 de outubro) As visualizações Beta anteriores são agora as visualizações Campanha padrão, para obter insights mais rápidos, workflows simplificados e visualizações personalizadas. |
 | Inventário privado | (Versão de 15 de outubro) Todos os usuários agora podem configurar e editar informações da ID de negócios usando um novo formulário, que é uma versão simplificada do formulário antigo de [!UICONTROL Veiculação de anúncios inteligentes]. Para configurar as informações da nova ID de negócios, acesse **[!UICONTROL Inventário > Vendas]**, clique em **[!UICONTROL Criar]** e, em seguida, clique em **[!UICONTROL ID de acordo beta]**. |
 | Previsão de posicionamento | (Versão de 15 de outubro) Para inserções com ritmo de nível de inserção, a seção [!UICONTROL Previsão] das configurações de inserção inclui uma nova seção [!UICONTROL Máximos estimados], que indica quanta capacidade está disponível com a configuração de direcionamento atual. |
 
 ### Novos recursos no [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Última atualização: **17 de outubro de 2020**
+Última atualização: **22 de janeiro de 2021, para a versão de 23 de janeiro**
 
 | Recurso | Descrição |
 | -----------| ---------- |
-| [!UICONTROL Campanhas de pesquisa] | Na visualização [!UICONTROL Contas], a coluna [!UICONTROL Acesso] agora indica quando o [!DNL Advertising Cloud Search] não consegue fazer logon em uma conta de mecanismo de pesquisa ativada. Para ver a causa do erro, mantenha o cursor sobre o ícone de aviso. |
-| [!UICONTROL Alertas personalizados] | O antigo [!UICONTROL Alertas beta] agora é chamado de [!UICONTROL Alertas personalizados]. |
-| [!UICONTROL Alertas personalizados] | Em alertas personalizados, o fluxo de trabalho para identificar quando as métricas do intervalo de datas especificado aumentaram ou diminuíram em relação às métricas do período anterior foi simplificado e movido para a guia [!UICONTROL Filtros]. |
+| [!UICONTROL Campanhas de pesquisa]<br> Relatórios | A Advertising Cloud Search não relata mais novos dados de posição média para campanhas de publicidade da Microsoft. A coluna Posição média mostra valores de zero (0) para datas que começam em 23 de janeiro. Este processo está em preparação para a desaprovação pela Microsoft dos dados de posição média em Janeiro de 2021.<br>Os dados de posição média coletados até 22 de janeiro ainda estão disponíveis nos relatórios. |
 
-### Tutoriais e cursos da Ad Cloud
+### Tutoriais e cursos da Advertising Cloud
 
 Atualizado: **2 de dezembro de 2020**
 
