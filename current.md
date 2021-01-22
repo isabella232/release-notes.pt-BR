@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 05cf9f34a835a5d51013789909508c353827315e
+source-git-commit: b974424e1aa557063f54a12aed537a62c283779b
 workflow-type: tm+mt
-source-wordcount: '6770'
+source-wordcount: '6772'
 ht-degree: 97%
 
 ---
@@ -23,20 +23,20 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 >
 >Assine a [Atualização mensal do produto de prioridade da Adobe](https://www.adobe.com/subscription/priority-product-update.html) para receber notificações por email sobre atualizações nesta página. Esta página é mantida durante todo o mês. Portanto, verifique regularmente se há atualizações de produtos empresariais da Adobe e da documentação da Experience League.
 
-Última atualização: **14 de janeiro de 2021**
+Última atualização: **22 de janeiro de 2021**
 
 * [Status do sistema da Adobe](#status) (não atualizado)
 * [Serviços e administração da Experience Cloud](#ecloud)
-* [Experience Platform](#platform) (Atualização em **14 de janeiro de 2021**)
+* [Experience Platform](#platform) (Atualização em 14 de janeiro de 2021)
 * [Orquestração da jornada](#journey-orch)
 * [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Atualização: **20 de janeiro de 2021**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [Campaign](#ac) (Atualização em **14 de janeiro de 2021**)
-* [Advertising Cloud](#adcloud)
+* [Campaign](#ac) (Atualização em 14 de janeiro de 2021)
+* [Advertising Cloud](#adcloud)  (Atualizado em 22  **de janeiro de 2021**)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
-* [[!DNL Marketo Engage]](#marketo) (Atualização: **11 de janeiro de 2021**)
+* [[!DNL Marketo Engage]](#marketo) (Atualização: 11 de janeiro de 2021)
 * [Document Cloud](#doc-cloud)
 
 Precisa de ajuda? Visite a [Adobe Experience League](https://experienceleague.adobe.com/?lang=pt-BR#home) para encontrar documentação técnica e de produtos, cursos com curadoria da Adobe, tutoriais em vídeo, respostas rápidas, insight da comunidade e treinamento ministrado por instrutores. O conteúdo foi movido para este local de `docs.adobe.com`. Atualize os marcadores conforme a necessidade.
