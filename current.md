@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b974424e1aa557063f54a12aed537a62c283779b
+source-git-commit: 9f09b05b1764f65ec18f108b1e45942e58ce89fb
 workflow-type: tm+mt
 source-wordcount: '6772'
 ht-degree: 97%
@@ -29,7 +29,7 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 * [Serviços e administração da Experience Cloud](#ecloud)
 * [Experience Platform](#platform) (Atualização em 14 de janeiro de 2021)
 * [Orquestração da jornada](#journey-orch)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Atualização: **20 de janeiro de 2021**)
+* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) (Atualização: **25 de janeiro de 2021**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac) (Atualização em 14 de janeiro de 2021)
@@ -159,7 +159,7 @@ Data de lançamento: **14 de janeiro de 2021**
 | ----------- | ---------- | ------- |
 | Analysis Workspace – URLs de imagem | 14 de janeiro de 2021 | É possível adicionar imagens a projetos do [!UICONTROL Workspace] referenciando um URL de imagem pública. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html?lang=pt-BR#analysis-workspace) |
 | Analysis Workspace: gerenciador de configurações e fonte combinados | 14 de janeiro de 2021 | O gerenciador de fonte de dados (ponto) e o gerenciador de configurações (engrenagem) para visualizações foram combinados em uma única caixa de diálogo, para que você possa gerenciar facilmente sua fonte e suas configurações no mesmo local. |
-| Analysis Workspace - seleção de componentes | 4 de fevereiro de 2021 | O componente de zona suspensa/de lançamento encontrado em [!UICONTROL Quick Insights] foi adicionado a todas as zonas de lançamento no [!UICONTROL Workspace]. Essa melhoria permite que você escolha em uma lista suspensa de componentes compatíveis ou continue a usar o espaço como uma zona de lançamento. |
+| Analysis Workspace - seleção de componentes | 16 de fevereiro de 2021 | O componente de zona suspensa/de lançamento encontrado em [!UICONTROL Quick Insights] foi adicionado a todas as zonas de lançamento no [!UICONTROL Workspace]. Essa melhoria permite que você escolha em uma lista suspensa de componentes compatíveis ou continue a usar o espaço como uma zona de lançamento. |
 
 ### Novos recursos no Customer Journey Analytics {#cust-journey}
 
@@ -169,7 +169,7 @@ Data de lançamento: **14 de janeiro de 2021**
 | Journey IQ: [!UICONTROL Análise entre canais] | 11 de janeiro de 2021 | Journey IQ: [!UICONTROL a análise entre canais] permite redigitar um conjunto de dados de eventos do Adobe Analytics (ou outro) no data lake da Experience Platform de um namespace de ID para outro. Normalmente, isso significa rechavear o conjunto de dados do evento de uma ID com base em cookies para uma ID com base em pessoas. Dessa forma, o conjunto de dados redigitado pode ser combinado com outros dados com base em pessoas em uma conexão do CJA, permitindo a análise entre canais e dispositivos no Analysis Workspace. [Saiba mais](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=pt-BR#cja-connections) |
 | Analysis Workspace – URLs de imagem | 14 de janeiro de 2021 | É possível adicionar imagens a projetos do Workspace referenciando um URL de imagem pública. |
 | Analysis Workspace: gerenciador de configurações e fonte combinados | 14 de janeiro de 2021 | O gerenciador de fonte de dados (ponto) e o gerenciador de configurações (engrenagem) para visualizações foram combinados em uma única caixa de diálogo, para que você possa gerenciar facilmente sua fonte e suas configurações no mesmo local. |
-| Analysis Workspace - seleção de componentes | 4 de fevereiro de 2021 | O componente de zona suspensa/de lançamento encontrado em [!UICONTROL Quick Insights] foi adicionado a todas as zonas de lançamento no [!UICONTROL Workspace]. Essa melhoria permite que você escolha em uma lista suspensa de componentes compatíveis ou continue a usar o espaço como uma zona de lançamento. |
+| Analysis Workspace - seleção de componentes | 16 de fevereiro de 2021 | O componente de zona suspensa/de lançamento encontrado em [!UICONTROL Quick Insights] foi adicionado a todas as zonas de lançamento no [!UICONTROL Workspace]. Essa melhoria permite que você escolha em uma lista suspensa de componentes compatíveis ou continue a usar o espaço como uma zona de lançamento. |
 
 ### Correções no Adobe Analytics {#aa-fixes}
 
