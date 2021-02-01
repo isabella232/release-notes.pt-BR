@@ -4,11 +4,11 @@ description: Notas de versão da Adobe Experience Cloud
 doc-type: release notes
 last-update: January 2021
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7f58dcf4014b96f0aa651b16b90427a2a81ba374
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6802'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Esta página descreve novos recursos, correções e avisos importantes na [!DNL 
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)  (Atualizado em 14 de janeiro de 2021)
-* [Advertising Cloud](#adcloud)  (Atualizado em 22  **de janeiro de 2021**)
+* [Advertising Cloud](#adcloud) (Atualizado em **22 de janeiro de 2021**)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo) (Atualização: 11 de janeiro de 2021)
@@ -82,12 +82,12 @@ Data de lançamento: **13 de janeiro de 2021**
 
 Atualização em **25 de janeiro de 2021**:
 
-A extensão do serviço de ID de Experience Cloud **5.1.1** foi lançada. Consulte as notas de versão [Experience Cloud ID Service Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html?lang=pt-BR) para obter mais informações.
+A extensão do Experience Cloud ID Service **5.1.1** foi lançada. Consulte as notas de versão da [Extensão do Experience Cloud ID Service](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html?lang=pt-BR) para obter mais informações.
 
 **Consulte também**
 
 * [Notas de versão do Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=pt-BR) para obter informações sobre o Experience Platform Launch.
-* Notas de versão da [extensão de Experience Cloud ID Service](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html).
+* Notas de versão da [extensão de Experience Cloud ID Service](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html?lang=pt-BR).
 
 ### Adobe Mobile
 
@@ -148,8 +148,8 @@ Use a Adobe Experience Platform para orquestrar a jornada de um cliente em escal
 
 Data de lançamento: **14 de janeiro de 2021**
 
-* [Novos recursos do Adobe Analytics](#aa-features)  (atualizado em 25 de janeiro de 2021)
-* [Novos recursos do Customer Journey Analytics](#cust-journey)  (atualizado em 25 de janeiro de 2021)
+* [Novos recursos no Adobe Analytics](#aa-features) (Atualizado em 25 de janeiro de 2021)
+* [Novos recursos no Customer Journey Analytics](#cust-journey) (Atualizado em 25 de janeiro de 2021)
 * [Correções no Adobe Analytics](#aa-fixes)
 * [Avisos importantes para administradores do Analytics](#aa-notices)  (Atualizado em 20 de janeiro de 2021)
 * [AppMeasurement](#appm)
@@ -165,7 +165,7 @@ Data de lançamento: **14 de janeiro de 2021**
 
 ### Novos recursos no Customer Journey Analytics {#cust-journey}
 
-| Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - Data do Target | Descrição |
+| Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ----- |
 | Dimensões [!UICONTROL Dispositivo] e [!UICONTROL Geografia] | 30 de outubro de 2020 | Essas dimensões agora estão disponíveis por padrão como parte do projeto de suporte à [Pesquisa global](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=pt-BR#use-global-lookups-with-adobe-data-connector-datasets) no Adobe Analytics [!UICONTROL Conector de origem]. Essa adição muito solicitada aumenta a [paridade entre o Adobe Analytics e o CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=pt-BR#cja-overview). |
 | Journey IQ: [!UICONTROL Análise entre canais] | 11 de janeiro de 2021 | Journey IQ: [!UICONTROL a análise entre canais] permite redigitar um conjunto de dados de eventos do Adobe Analytics (ou outro) no data lake da Experience Platform de um namespace de ID para outro. Normalmente, isso significa rechavear o conjunto de dados do evento de uma ID com base em cookies para uma ID com base em pessoas. Dessa forma, o conjunto de dados redigitado pode ser combinado com outros dados com base em pessoas em uma conexão do CJA, permitindo a análise entre canais e dispositivos no Analysis Workspace. [Saiba mais](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=pt-BR#cja-connections) |
@@ -217,9 +217,9 @@ Para obter as atualizações mais recentes das versões do AppMeasurement, consu
 
 ### Report Builder {#arb}
 
-| Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - Data do Target | Descrição |
+| Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ----- |
-| Atualização de logon no Analytics [!UICONTROL Report Builder] | 14 de janeiro de 2021 | As melhorias no processo de logon do [!UICONTROL Report Builder] removem as dependências das tecnologias herdadas e alinham o processo de logon com a Adobe Experience Cloud. O logon na Experience Cloud permite que você use sua Adobe ID ou Enterprise ID (Logon único) para fazer logon na Adobe Experience Cloud. Até 30 de abril de 2021, todos os usuários do [!UICONTROL Report Builder] devem atualizar o suplemento do [!UICONTROL Report Builder] para a versão 5.6.47 ou posterior. [!UICONTROL O Report Builder] versão 5.6.47 e posterior é compatível apenas com o logon da Experience Cloud e não é compatível com os logons herdados, como o Logon único do SiteCatalyst ou o logon padrão. Para obter mais informações, consulte [Logon no Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA). |
+| Atualização de logon no Analytics [!UICONTROL Report Builder] | 14 de janeiro de 2021 | As melhorias no processo de logon do [!UICONTROL Report Builder] removem as dependências das tecnologias herdadas e alinham o processo de logon com a Adobe Experience Cloud. O logon na Experience Cloud permite que você use sua Adobe ID ou Enterprise ID (Logon único) para fazer logon na Adobe Experience Cloud. Até 30 de abril de 2021, todos os usuários do [!UICONTROL Report Builder] devem atualizar o suplemento do [!UICONTROL Report Builder] para a versão 5.6.47 ou posterior. [!UICONTROL O Report Builder] versão 5.6.47 e posterior é compatível apenas com o logon da Experience Cloud e não é compatível com os logons herdados, como o Logon único do SiteCatalyst ou o logon padrão. Para obter mais informações, consulte [Logon no Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=pt-BR#section_6D54B8ADAE7F416BB83F5082B3771CFA). |
 
 ### Recursos de ajuda do Analytics
 
@@ -261,7 +261,7 @@ O AEM 6.5, Service Pack 7 (6.5.7.0 lançado em 26 de novembro de 2020) é uma at
 * **AEM 6.4.8.3**
 O AEM 6.4, Service Pack 8, Cumulative Fix Pack 3 (6.4.8.3 lançado em 26 de novembro de 2020) é uma atualização importante que inclui várias correções internas e do cliente desde a disponibilidade geral do AEM 6.4, Service Pack 8 (6.4.8.0), em março de 2020.
    * [Notas de versão](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=pt-BR)
-   * [Resultados da versão do AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html#forms-updates)
+   * [Resultados da versão do AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html?lang=pt-BR#forms-updates)
 
 ### Versões do produto
 
@@ -346,12 +346,12 @@ Novos vídeos, tutoriais e cursos publicados no mês passado.
 | -----------| ---------- | ---------- | ---------- |
 | 7 de dezembro de 2020 | [Modelagem de dados avançada com referências de fragmento](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/fragment-references.html?lang=pt-BR) | Artigo | Introdução ao Adobe Experience Manager (AEM) e ao GraphQL. Saiba como usar o recurso [!UICONTROL Referência de fragmento] para modelagem de dados avançada e para criar uma relação entre dois [!UICONTROL Fragmentos de conteúdo] diferentes. Saiba como modificar uma consulta do GraphQL para incluir um campo de um modelo referenciado. |
 | 7 de dezembro de 2020 | [Consulta no AEM usando o GraphQL de um aplicativo externo](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/explore-graphql-api.html?lang=pt-BR) | Artigo | Introdução ao Adobe Experience Manager (AEM) e ao GraphQL. Explore as APIs GraphQL do AEM, um aplicativo WKND GraphQL React de amostra. Saiba como esse aplicativo externo faz chamadas ao GraphQL para o AEM potencializar sua experiência. Saiba como executar o tratamento básico de erros. |
-| 7 de dezembro de 2020 | [Explorar APIs GraphQL](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/explore-graphql-api.html) | Artigo | Introdução ao Adobe Experience Manager (AEM) e ao GraphQL. Explore APIs GraphQL do AEM usando o IDE GraphQL integrado. Saiba como o AEM gera automaticamente um esquema do GraphQL com base em um modelo de Fragmento de conteúdo. Experimente a construção de consultas básicas usando a sintaxe GraphQL. |
+| 7 de dezembro de 2020 | [Explorar APIs GraphQL](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/explore-graphql-api.html?lang=pt-BR) | Artigo | Introdução ao Adobe Experience Manager (AEM) e ao GraphQL. Explore APIs GraphQL do AEM usando o IDE GraphQL integrado. Saiba como o AEM gera automaticamente um esquema do GraphQL com base em um modelo de Fragmento de conteúdo. Experimente a construção de consultas básicas usando a sintaxe GraphQL. |
 | Dezembro de 2020 | [Criação de fragmentos de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/author-content-fragments.html?lang=pt-BR) | Artigo | Introdução ao Adobe Experience Manager (AEM) e ao GraphQL. Crie e edite um novo Fragmento de conteúdo com base em um [!UICONTROL Modelo de fragmento de conteúdo]. Saiba como criar variações de [!UICONTROL Fragmentos de conteúdo]. |
 | 7 de dezembro de 2020 | [Definição de modelos de fragmento de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/content-fragment-models.html?lang=pt-BR) | Artigo | Introdução ao Adobe Experience Manager (AEM) e ao GraphQL. Saiba como modelar conteúdo e criar um esquema com modelos de fragmento de conteúdo no AEM. Analise os modelos existentes e crie um novo modelo. Saiba mais sobre os diferentes tipos de dados que podem ser usados para definir um esquema. |
 | 9 de dezembro de 2020 | [Compatibilidade de API](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/developer-reference-material-apis.html?lang=pt-BR) | Artigo | Crie um artigo simples que informe claramente quais APIs do AEM (npm, Java, HTTP) podem ser usadas para várias operações de [!UICONTROL Assets]. |
 | 2 de dezembro de 2020 | [Download de fragmentos de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html?lang=pt-BR) | Vídeo | Uma visão geral dos recursos de download de Fragmentos de conteúdo. |
-| 7 de dezembro de 2020 | [Recursos editoriais de fragmento de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html) | Vídeo | Uma visão geral em vídeo dos recursos avançados do editor de [!UICONTROL Fragmento de conteúdo]. Aprenda a usar anotações e comparação de versão com [!UICONTROL Fragmentos de conteúdo]. |
+| 7 de dezembro de 2020 | [Recursos editoriais de fragmento de conteúdo](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html?lang=pt-BR) | Vídeo | Uma visão geral em vídeo dos recursos avançados do editor de [!UICONTROL Fragmento de conteúdo]. Aprenda a usar anotações e comparação de versão com [!UICONTROL Fragmentos de conteúdo]. |
 | 4 de dezembro de 2020 | [Extração de dados OCR com ou sem código de barras de documentos emitidos pelo governo](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/some-useful-integrations/ocr-data-extraction.html?lang=pt-BR#some-useful-integrations) | Artigo | Preencha o formulário adaptável extraindo dados de documentos emitidos pelo governo, como uma carteira de motorista ou um passaporte. |
 | 14 de dezembro de 2020 | [Visão geral do AEM headless com o GraphQL](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/overview.html?lang=pt-BR) | Vídeo | Uma visão geral da API GraphQL implementada no Adobe Experience Manager ou AEM. A API GraphQL no AEM foi projetada principalmente para fornecer dados do [!UICONTROL Fragmento de conteúdo] para aplicativos downstream como parte de uma implantação headless. |
 | 16 de dezembro de 2020 | [Componente principal do Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-core-components.html?lang=pt-BR) | Vídeo | O componente de imagem, parte dos componentes principais do Experience Manager, tem suporte integrado para Dynamic Media. Saiba mais sobre como o componente de Imagem permite que um autor de conteúdo use recursos do Dynamic Media como Predefinições de imagem, Recorte inteligente e Modificadores de imagem em uma página do AEM Sites. |
@@ -396,7 +396,7 @@ Informações de versão do Campaign Classic, Campaign Standard e Painel de cont
 [Boletim de resposta a incidentes](https://helpx.adobe.com/br/security/products/campaign/apsb21-04.html) (Atualização: **12 de janeiro de 2021**)
 
 * Versão 20.3.3 - [Leia mais](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=pt-BR#release-notes)
-* Versão 20.3.1 - [Leia mais](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
+* Versão 20.3.1 - [Leia mais](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=pt-BR#release-notes)
 * Versão 20.2.4 - [Leia mais](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/previous-releases/release--20-2.html?lang=pt-BR#release-20-2-4-build-9187)
 * Versão 20.1.4 - [Leia mais](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/previous-releases/release--20-1.html?lang=pt-BR#release-20-1-4-build-9126)
 * Versão 19.2.4 - [Leia mais](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/previous-releases/release--19-2.html?lang=pt-BR#release-19-2-4-build-9082)
@@ -440,18 +440,18 @@ Notas de versão da Adobe Advertising Cloud.
 
 | Recurso | Descrição |
 | -----------| ---------- |
-| Novo Ajuda | (Versão de 28 de outubro) A ajuda herdada foi substituída por páginas atualizadas, que estão disponíveis no link Ajuda no menu principal DSP e também estão disponíveis a qualquer momento em [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=pt-BR) |
-| Campanhas | (Versão de 28 de outubro) As visualizações Beta anteriores são agora as visualizações Campanha padrão, para obter insights mais rápidos, workflows simplificados e visualizações personalizadas. |
+| Novo Ajuda | (Versão de 28 de outubro) A ajuda herdada foi substituída por páginas atualizadas, que estão disponíveis no link Ajuda no menu principal do DSP e também estão sempre disponíveis em [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=pt-BR](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=pt-BR) |
+| Campanhas | (Versão de 28 de outubro) As visualizações anteriores do Campaigns Beta agora são as visualizações padrão do Campaigns, para obter insights mais rápidos, fluxos de trabalho simplificados e visualizações personalizadas. |
 | Inventário privado | (Versão de 15 de outubro) Todos os usuários agora podem configurar e editar informações da ID de negócios usando um novo formulário, que é uma versão simplificada do formulário antigo de [!UICONTROL Veiculação de anúncios inteligentes]. Para configurar as informações da nova ID de negócios, acesse **[!UICONTROL Inventário > Vendas]**, clique em **[!UICONTROL Criar]** e, em seguida, clique em **[!UICONTROL ID de acordo beta]**. |
 | Previsão de posicionamento | (Versão de 15 de outubro) Para inserções com ritmo de nível de inserção, a seção [!UICONTROL Previsão] das configurações de inserção inclui uma nova seção [!UICONTROL Máximos estimados], que indica quanta capacidade está disponível com a configuração de direcionamento atual. |
 
 ### Novos recursos no [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Última atualização: **22 de janeiro de 2021, para a versão de 23 de janeiro**
+Última atualização: **22 de janeiro de 2021, para lançamento em 23 de janeiro**
 
 | Recurso | Descrição |
 | -----------| ---------- |
-| [!UICONTROL Campanhas de pesquisa]<br> Relatórios | A Advertising Cloud Search não relata mais novos dados de posição média para campanhas de publicidade da Microsoft. A coluna Posição média mostra valores de zero (0) para datas que começam em 23 de janeiro. Este processo está em preparação para a desaprovação pela Microsoft dos dados de posição média em Janeiro de 2021.<br>Os dados de posição média coletados até 22 de janeiro ainda estão disponíveis nos relatórios. |
+| [!UICONTROL Campanhas de pesquisa]<br> Relatórios | A Advertising Cloud Search não relata mais novos dados de posição média para campanhas do Microsoft Advertising. A coluna Posição média mostra valores de zero (0) para datas a partir de 23 de janeiro. Esse processo é uma preparação para a descontinuação dos dados de posição média da Microsoft em janeiro de 2021.<br>Os dados de posição média coletados até 22 de janeiro ainda estão disponíveis nos relatórios. |
 
 ### Tutoriais e cursos da Advertising Cloud
 
@@ -463,7 +463,7 @@ Atualizado: **2 de dezembro de 2020**
 | 14 de novembro de 2020 | [Criar relatórios de entrada de site da Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=pt-BR#analytics) | Vídeo | Criação de um relatório de entrada de site da Advertising Cloud para monitorar o dia da semana, a hora do dia, o navegador e a influência geográfica. |
 | 14 de novembro de 2020 | [Criar métricas personalizadas do Analytics com dados da Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-custom-metrics-a4adc.html?lang=pt-BR#analytics) | Vídeo | Métricas personalizadas úteis para criar ao usar dados da Advertising Cloud no Adobe Analytics. |
 | 14 de novembro de 2020 | [Criar segmentos do Analytics para ativação e relatórios](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-segments-a4adc.html?lang=pt-BR#analytics) | Vídeo | Uso de dimensões da Advertising Cloud para criar segmentos para relatórios e análise mais simples. |
-| 14 de novembro de 2020 | [Compreensão de Predictive Audiences](https://experienceleague.corp.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/algorithmic-models/understanding-predictive-audiences.html?lang=pt-BR#build-and-manage-audiences) | Vídeo | Neste vídeo, discutiremos o que são Predictive Audiences do Audience Manager, apresentamos detalhes sobre como funcionam e indicamos casos de uso. |
+| 14 de novembro de 2020 | [Compreensão de Predictive Audiences](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/algorithmic-models/understanding-predictive-audiences.html?lang=pt-BR#build-and-manage-audiences) | Vídeo | Neste vídeo, discutiremos o que são Predictive Audiences do Audience Manager, apresentamos detalhes sobre como funcionam e indicamos casos de uso. |
 | 14 de novembro de 2020 | [Criar perfis do Analytics para ativações e relatórios da Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-profiles-a4adc.html?lang=pt-BR#analytics) | Vídeo | Como usar o Adobe Analytics para criar pools robustos de redirecionamento de site para remarketing da Advertising Cloud. |
 | 14 de novembro de 2020 | [Relatórios com Canais de marketing da Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=pt-BR#analytics) | Vídeo | Como os dados de entrada de visualização e click-through da Advertising Cloud funcionam com os Canais de marketing do Adobe Analytics. |
 | 14 de novembro de 2020 | [Criar uma análise de campanha de pré-lançamento com o Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-pre-launch-a4adc.html?lang=pt-BR) | Vídeo | Como usar o Adobe Analytics para configurar a base para lançar uma campanha de mídia paga da Advertising Cloud. |
@@ -537,6 +537,6 @@ Novos vídeos, tutoriais ou cursos publicados na Adobe Document Cloud.
 
 Para obter ajuda sobre a Document Cloud, consulte:
 
-* [Hub de aprendizagem do Adobe Acrobat](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=pt-BR)
-* [Hub de aprendizagem do Adobe Sign](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=pt-BR)
+* [Hub de aprendizagem do Adobe Acrobat](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=pt-BR)
+* [Hub de aprendizagem do Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=pt-BR)
 * [Aprendizagem e suporte da Document Cloud](https://helpx.adobe.com/br/support/document-cloud.html)
