@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2626d0f793d4d7d59dc08527443bca66a3dbdd03
+source-git-commit: 336fa0b2b5b27060bcdb6590ba8e5795c2dbbf8f
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 94%
+source-wordcount: '1349'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ Novos recursos e correções na Adobe Experience Cloud.
 
 >[!IMPORTANT]
 >
->Esta página apresenta conteúdo de pré-lançamento e está sujeito a alterações até o lançamento da versão planejada.
+>Esta página contém conteúdo de pré-lançamento e está sujeita a alterações antes das datas de lançamento.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Novos recursos e correções na interface da Experience Cloud, incluindo adminis
 
 Recursos e correções.
 
-For product documentation, see [Experience Cloud interface](https://docs.adobe.com/content/help/pt-BR/core-services/interface/experience-cloud.html)
+Para obter a documentação do produto, consulte [interface Experience Cloud](https://docs.adobe.com/content/help/pt-BR/core-services/interface/experience-cloud.html)
 
 ### Administração e desenvolvedor {#admin}
 
@@ -294,7 +294,7 @@ Para ver as notas de versão do Magento, consulte:
 
 ## Marketo {#marketo}
 
-O Marketo Engage é uma solução completa para o gerenciamento de lead e para os profissionais de marketing B2B que buscam transformar as experiências dos clientes ao se envolverem em todos os estágios de compra complexos.
+A Marketo Engage é uma solução completa para o gerenciamento de clientes potenciais e para os profissionais de marketing B2B que procuram transformar experiências dos clientes ao se envolverem em todos os estágios de jornadas complexas de compra.
 
 ### Atualizações do Core Marketo Engage
 
@@ -307,7 +307,7 @@ Data de lançamento: 21 de fevereiro de 2020
    * APIs de regras de redirecionamento de página de aterrissagem
 * **Cache do descritor de formulário:** melhorias nas páginas de aterrissagem e formulários.
 
-See Marketo release notes for [February 2020](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720) for more information.
+Consulte as notas de versão do Marketo de [fevereiro de 2020](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720) para obter mais informações.
 
 ### Recursos futuros
 
