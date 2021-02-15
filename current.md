@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 10f5e323e30ed0c4c8b3b5b2e2236674b2ab6c69
 workflow-type: tm+mt
 source-wordcount: '6355'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -60,7 +60,7 @@ Consulte o [Status do sistema da Adobe - 21 de maio de 2020](https://docs.adobe.
 
 **4 de fevereiro de 2021**
 
-* **Atualização de logon:** uma atualização para o Experience Cloud remove a tela inicial de introdução de login no Experience Cloud. A partir de 4 de fevereiro, você será enviado diretamente de `https://experience.adobe.com/login` para a tela de logon do Adobe.
+* **Atualização de logon:** uma atualização para o Experience Cloud remove a tela inicial de introdução de login no Experience Cloud. A partir de 4 de fevereiro, você será redirecionado diretamente de `https://experience.adobe.com/login` para a tela de logon da Adobe.
 
 ## ![Ícone](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
