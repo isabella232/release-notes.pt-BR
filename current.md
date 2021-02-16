@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 150911084be7da0d1f3c887d76a7b897ac94a173
+source-git-commit: d24a0044604b068dd1a8b4a19084d982ed9f22ac
 workflow-type: tm+mt
-source-wordcount: '6355'
+source-wordcount: '6309'
 ht-degree: 33%
 
 ---
@@ -120,14 +120,14 @@ Data de lançamento: **18 de fevereiro de 2021**
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ------- |
-| Analysis Workspace - seleção de componentes | 4 de fevereiro de 2021 | O componente de zona suspensa/de lançamento encontrado em [!UICONTROL Quick Insights] foi adicionado a todas as zonas de lançamento no [!UICONTROL Workspace]. Essa melhoria permite que você escolha em uma lista suspensa de componentes compatíveis ou continue a usar o espaço como uma zona de lançamento. Consulte [Painel Visualizadores simultâneos de mídia no Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace.html?lang=en#analysis-workspace) para obter um tutorial em vídeo. |
+| Analysis Workspace - seleção de componentes | 4 de fevereiro de 2021 | O componente de zona suspensa/de lançamento encontrado em [!UICONTROL Quick Insights] foi adicionado a todas as zonas de lançamento no [!UICONTROL Workspace]. Essa melhoria permite que você escolha em uma lista suspensa de componentes compatíveis ou continue a usar o espaço como uma zona de lançamento. |
 | Seleção de idioma dos painéis do Analytics | 14 de janeiro de 2021 | Agora é possível selecionar um idioma no painel do Analytics. |
 
 ### Novos recursos no Customer Journey Analytics {#cust-journey}
 
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ----- |
-| Analysis Workspace - seleção de componentes | 4 de fevereiro de 2021 | O componente de zona suspensa/de lançamento encontrado em [!UICONTROL Quick Insights] foi adicionado a todas as zonas de lançamento no [!UICONTROL Workspace]. Essa melhoria permite que você escolha em uma lista suspensa de componentes compatíveis ou continue a usar o espaço como uma zona de lançamento. Consulte [Painel Visualizadores simultâneos de mídia no Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace.html?lang=en#analysis-workspace) para obter um tutorial em vídeo. |
+| Analysis Workspace - seleção de componentes | 4 de fevereiro de 2021 | O componente de zona suspensa/de lançamento encontrado em [!UICONTROL Quick Insights] foi adicionado a todas as zonas de lançamento no [!UICONTROL Workspace]. Essa melhoria permite que você escolha em uma lista suspensa de componentes compatíveis ou continue a usar o espaço como uma zona de lançamento. |
 | API CJA | 18 de fevereiro de 2021 | As APIs CJA agora estão disponíveis. Essas APIs permitem que você edite componentes de forma programática e recupere relatórios. Consulte a documentação da API CJA (link a seguir) para obter mais informações. |
 
 ### Correções no Adobe Analytics {#aa-fixes}
