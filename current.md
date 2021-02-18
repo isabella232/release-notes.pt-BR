@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6c462c5b447ac45ff9507a6242fec2aef478344a
+source-git-commit: 1ed740f01fa639793c4694d206c07728f523a4a5
 workflow-type: tm+mt
-source-wordcount: '6309'
+source-wordcount: '6310'
 ht-degree: 33%
 
 ---
@@ -128,7 +128,7 @@ Data de lançamento: **18 de fevereiro de 2021**
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ----- |
 | Analysis Workspace - seleção de componentes | 4 de fevereiro de 2021 | O componente de zona suspensa/de lançamento encontrado em [!UICONTROL Quick Insights] foi adicionado a todas as zonas de lançamento no [!UICONTROL Workspace]. Essa melhoria permite que você escolha em uma lista suspensa de componentes compatíveis ou continue a usar o espaço como uma zona de lançamento. |
-| API CJA | 18 de fevereiro de 2021 | As APIs CJA agora estão disponíveis. Essas APIs permitem que você edite componentes de forma programática e recupere relatórios. Consulte a documentação da API CJA (link a seguir) para obter mais informações. |
+| API CJA | 18 de fevereiro de 2021 | As APIs CJA agora estão disponíveis. Essas APIs permitem que você edite componentes de forma programática e recupere relatórios. Consulte a [documentação da API CJA](https://adobe.io/cja-apis/docs) para obter mais informações. |
 
 ### Correções no Adobe Analytics {#aa-fixes}
 
