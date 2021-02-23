@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b785653a7f35f188c17f2ed05ec7a8b143c192b4
+source-git-commit: 803595c63ab6db90fb17c9998c623c03e834aaa0
 workflow-type: tm+mt
-source-wordcount: '6381'
-ht-degree: 33%
+source-wordcount: '6384'
+ht-degree: 32%
 
 ---
 
@@ -81,7 +81,7 @@ Novos vídeos, tutoriais ou cursos publicados para a Experience Platform e servi
 | 3 de fevereiro de 2021 | [Visão geral da ingestão de dados em lote](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/batch-ingestion-overview.html) | Vídeo | Uma visão geral da ingestão de dados em lote no Adobe Experience Platform. Saiba como assimilar dados em lote usando a API. |
 | 3 de fevereiro de 2021 | [Ativar dados para aplicativos que não sejam de Adobe](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/activate-data-to-non-adobe-applications.html) | Vídeo | Saiba como a CDP em tempo real do Adobe ajuda a criar estratégias de personalização verdadeiras com suas audiências. Além disso, saiba como ele se dobra em seu ecossistema existente e em aplicativos que não sejam de Adobe da Microsoft, do Google e do Facebook. |
 | 21 de janeiro de 2021 | [Introdução ao curso para introdução aos serviços inteligentes para profissionais de marketing](https://video.tv.adobe.com/v/330805?quality=12&learn=on) | Vídeo | Uma introdução ao curso Introdução aos Serviços inteligentes para profissionais de marketing. |
-| 13 de janeiro de 2021 | [Introdução à introdução ao Offer Decisioning para profissionais de marketing](https://video.tv.adobe.com/v/330520?quality=12&learn=on) | Vídeo | E introdução ao curso Introdução ao Offer Decisioning para profissionais de marketing. |
+| 13 de janeiro de 2021 | [Introdução à Introdução ao Offer Decisioning para profissionais de marketing](https://video.tv.adobe.com/v/330520?quality=12&learn=on) | Vídeo | E introdução ao curso Introdução ao Offer Decisioning para profissionais de marketing. |
 | 31 de janeiro de 2021 | [Treinar, marcar e produzir modelos com o modelo do construtor de receitas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/train-score-and-productize-models.html) | Vídeo | Saiba como usar o modelo atualizado do construtor de receitas para criar uma receita usando o schema de vendas de varejo e os conjuntos de dados. |
 | 31 de janeiro de 2021 | [Carregar dados em notebooks JupyterLab](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html) | Vídeo | Saiba mais sobre o JupyterLab na Data Science Workspace. |
 | 12 de janeiro de 2021 | [Criar Políticas de Mesclagem](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) | Vídeo | Saiba como criar políticas de mesclagem no Adobe Experience Platform. |
@@ -122,7 +122,7 @@ Data de lançamento: **18 de fevereiro de 2021**
 | Recurso | [Disponibilidade geral](https://docs.adobe.com/content/help/pt-BR/analytics/landing/an-releases.html) - Data do Target | Descrição |
 | ----------- | ---------- | ------- |
 | Analysis Workspace - seleção de componentes | 4 de fevereiro de 2021 | O componente de zona suspensa/de lançamento encontrado em [!UICONTROL Quick Insights] foi adicionado a todas as zonas de lançamento no [!UICONTROL Workspace]. Essa melhoria permite que você escolha em uma lista suspensa de componentes compatíveis ou continue a usar o espaço como uma zona de lançamento. |
-| Seleção de idioma dos painéis do Analytics | 14 de janeiro de 2021 | Agora é possível selecionar um idioma no painel do Analytics. |
+| Seleção de idioma dos painéis do Analytics | 14 de janeiro de 2021 | Navegue até **[!UICONTROL Configurações]** > **[!UICONTROL Preferências]** > **[!UICONTROL Idioma]** para selecionar um idioma no painel do Analytics. |
 
 ### Novos recursos no Customer Journey Analytics {#cust-journey}
 
@@ -171,7 +171,7 @@ Novos cursos, tutoriais e artigos no [!DNL Analytics] e no [!UICONTROL Customer 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
 | 8 de fevereiro de 2021 | [Adicionar linhas de tendência a visualizações de linha](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/adding-trendlines-to-line-visualizations.html?lang=en) | Vídeo | Em Configurações de visualização, você pode optar por adicionar uma regressão ou mover a linha de tendência média para sua série de linhas. Esse recurso ajuda a retratar um padrão mais claro nos dados. |
-| 8 de fevereiro de 2021 | [Adicionando plug-ins de implementação no lançamento da plataforma](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/via-adobe-launch/adding-implementation-plug-ins-in-launch.html?lang=en#implementation) | Vídeo | Os plug-ins de implementação são partes do código JavaScript que podem ser adicionadas à implementação do Analytics para rastrear dados adicionais e personalizados. Neste vídeo, saiba como e onde adicionar o código no Platform Launch. |
+| 8 de fevereiro de 2021 | [Adicionar plug-ins de implementação no Platform Launch](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/via-adobe-launch/adding-implementation-plug-ins-in-launch.html?lang=en#implementation) | Vídeo | Os plug-ins de implementação são partes do código JavaScript que podem ser adicionadas à implementação do Analytics para rastrear dados adicionais e personalizados. Neste vídeo, saiba como e onde adicionar o código no Platform Launch. |
 | 6 de janeiro de 2021 | [Painel Visualizadores simultâneos de mídia no Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace.html?lang=en#analysis-workspace) | Vídeo | Entenda onde o pico de simultaneidade ocorreu ou onde as quedas ocorreram. Obtenha insight valioso sobre a qualidade do envolvimento do conteúdo e do visualizador, e ajuda na solução de problemas ou no planejamento de volume e escala. |
 
 ### Recursos de ajuda do Analytics
