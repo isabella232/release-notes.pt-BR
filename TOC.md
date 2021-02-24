@@ -3,13 +3,13 @@ cloud: experience-cloud
 product: Experience Cloud
 user-guide-title: Notas de versão da Experience Cloud
 breadcrumb-title: Notas de versão
-user-guide-description: Saiba mais sobre novos recursos, correções e avisos importantes no Adobe Experience Cloud e no Experience Platform.
+user-guide-description: Saiba mais sobre novos recursos, correções e avisos importantes sobre a Adobe Experience Cloud e a Experience Platform.
 user-guide-url: https://www.adobe.com
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a501b2f3cba2797c8ad4e8be8e862bef62075b9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '64'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -44,6 +44,6 @@ ht-degree: 70%
       + [Março de 2019](c-legacy-releases/2019/03072019.md)
       + [Fevereiro de 2019](c-legacy-releases/2019/02072019.md)
       + [Janeiro de 2019](c-legacy-releases/2019/01172019.md)
-   + 2018 e anteriores {#legacy-rns}
-      + 2018 e anteriores {#2018-earlier}
+   + 2018 e anterior {#legacy-rns}
+      + 2018 e anterior {#2018-earlier}
          + [2014 e anterior](c-legacy-releases/2018-earlier.md)
