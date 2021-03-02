@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d22f8bc718976f3aad6673473c4df66246f58022
+source-git-commit: c665df945df9f183549c7ca3e3a2e3bf0b04a3af
 workflow-type: tm+mt
-source-wordcount: '6403'
+source-wordcount: '6428'
 ht-degree: 99%
 
 ---
@@ -19,19 +19,15 @@ ht-degree: 99%
 
 As soluções e os serviços da Experience Cloud são atualizados mensalmente. Esta página é o local central para encontrar as atualizações, a documentação e os tutoriais mais recentes para a [!DNL Experience Cloud] e a Experience Platform. Você também pode encontrar nova documentação para a [!DNL Creative Cloud for Enterprise] e a [!DNL Document Cloud].
 
->[!IMPORTANT]
->
->Esta página tem conteúdo de pré-lançamento e está sujeita a alterações antes das datas de lançamento.
-
 >[!NOTE]
 >
 >Assine a [Atualização mensal do produto de prioridade da Adobe](https://www.adobe.com/subscription/priority-product-update.html) para receber notificações por email sobre atualizações nesta página. Esta página é mantida durante todo o mês. Portanto, verifique regularmente se há atualizações de produtos empresariais da Adobe e da documentação da Experience League.
 
-Última atualização: **12 de fevereiro de 2021**
+Última atualização: **21 de fevereiro de 2021**
 
 * [Status de sistema da Adobe](#status)
 * [Serviços e administração da Experience Cloud](#ecloud)
-* [Experience Platform](#platform)
+* [Experience ](#platform) **Platform atualizada em 21 de fevereiro de 2021**
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) **Atualizado em 19 de fevereiro de 2021**
 * [Customer Journey Analytics](#cust-journey)`
@@ -76,6 +72,7 @@ Novos vídeos, tutoriais ou cursos publicados para a Experience Platform e servi
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
+| 26 de fevereiro de 2021 | [Monitorar fluxo de dados na Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/data-monitoring.html?lang=en#data-ingestion) | Saiba como monitorar e rastrear dados que são assimilados na Adobe Experience Platform usando a interface do usuário e a API da plataforma. |
 | 10 de fevereiro de 2021 | [Configurar o destino do Azure Blob](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configure-the-azure-blob-destination.html?lang=pt-BR#destinations) | Vídeo | Saiba como percorrer as etapas necessárias para definir e configurar o destino do Armazenamento Azure Blob na Plataforma de dados do cliente em tempo real (CDP em tempo real). |
 | 4 de fevereiro de 2021 | [Visualização de gráficos de identidade](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/view-identity-graphs.html?lang=pt-BR) | Vídeo | Como usar o recurso do visualizador de gráficos de identidade para pesquisar, explorar e filtrar gráficos de identidade para validação e depuração. |
 | 3 de fevereiro de 2021 | [Visão geral da assimilação de dados em lote](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/batch-ingestion-overview.html?lang=pt-BR) | Vídeo | Uma visão geral da assimilação de dados em lote na Adobe Experience Platform. Saiba como assimilar dados em lote usando a API. |
