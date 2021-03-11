@@ -1,13 +1,13 @@
 ---
 title: Notas de versão mais recentes
-description: '"Saiba mais sobre as notas de versão mais recentes, os novos recursos e a nova documentação para produtos e serviços da Experience Cloud. Encontre nova ajuda e tutoriais sobre Experience Cloud, Creative Cloud para empresas e Document Cloud."'
+description: '"Saiba mais sobre as notas de versão mais recentes, os novos recursos e a nova documentação para produtos e serviços do Experience Cloud. Encontre nova ajuda e tutoriais sobre o Experience Cloud, o Creative Cloud for Enterprise e o Document Cloud."'
 doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2f83677d5507bd917603ec8cfcbd08559a510a0f
+source-git-commit: fad566f4a78d7963f450b9998c009a50d081a212
 workflow-type: tm+mt
-source-wordcount: '6425'
+source-wordcount: '6479'
 ht-degree: 98%
 
 ---
@@ -29,7 +29,7 @@ As soluções e os serviços da Experience Cloud são atualizados mensalmente. E
 * [Serviços e administração da Experience Cloud](#ecloud)
 * [Experience ](#platform) **Platform atualizada em 21 de fevereiro de 2021**
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) **Atualizado em 19 de fevereiro de 2021**
+* [](#analytics) **Analytics atualizado em 10 de março de 2021**
 * [Customer Journey Analytics](#cust-journey)`
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -72,7 +72,7 @@ Novos vídeos, tutoriais ou cursos publicados para a Experience Platform e servi
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
-| 26 de fevereiro de 2021 | [Monitorar fluxo de dados na Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/data-monitoring.html?lang=en#data-ingestion) | Saiba como monitorar e rastrear dados que são assimilados na Adobe Experience Platform usando a interface do usuário e a API da plataforma. |
+| 26 de fevereiro de 2021 | [Monitorar fluxo de dados no Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/data-monitoring.html?lang=en#data-ingestion) | Saiba como monitorar e rastrear dados que são assimilados no Adobe Experience Platform usando a interface do usuário e a API da plataforma. |
 | 10 de fevereiro de 2021 | [Configurar o destino do Azure Blob](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configure-the-azure-blob-destination.html?lang=pt-BR#destinations) | Vídeo | Saiba como percorrer as etapas necessárias para definir e configurar o destino do Armazenamento Azure Blob na Plataforma de dados do cliente em tempo real (CDP em tempo real). |
 | 4 de fevereiro de 2021 | [Visualização de gráficos de identidade](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/view-identity-graphs.html?lang=pt-BR) | Vídeo | Como usar o recurso do visualizador de gráficos de identidade para pesquisar, explorar e filtrar gráficos de identidade para validação e depuração. |
 | 3 de fevereiro de 2021 | [Visão geral da assimilação de dados em lote](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/batch-ingestion-overview.html?lang=pt-BR) | Vídeo | Uma visão geral da assimilação de dados em lote na Adobe Experience Platform. Saiba como assimilar dados em lote usando a API. |
@@ -110,7 +110,7 @@ Data de lançamento: **18 de fevereiro de 2021**
 * [Novos recursos no Adobe Analytics](#aa-features)
 * [Novos recursos no Customer Journey Analytics](#cust-journey)
 * [Correções no Adobe Analytics](#aa-fixes)
-* [Avisos importantes para administradores do Analytics](#aa-notices) **Atualizado em 19 de fevereiro de 2021**
+* [Avisos importantes para administradores do Analytics](#aa-notices)  **Atualizado em 10 de março de 2021**
 * [Cursos e tutoriais do Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -150,6 +150,7 @@ AN-224987; AN-229009; AN-239750; AN-239765; AN-241620; AN-242996; AN-243577; AN-
 
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
+| EOL das fontes de dados de processamento completo | 10 de março de 2021 | O Adobe planeja descontinuar as fontes de dados de processamento completo no futuro. A partir de 25 de março de 2021, novas importações desse tipo não poderão mais ser criadas. Use [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) para importar esse tipo de dados. |
 | Opções de Reports &amp; Analytics da página de aterrissagem | 19 de fevereiro de 2021 | Em 25 de março de 2021, as opções para definir novos painéis de Reports &amp; Analytics ou outro conteúdo como sua página de aterrissagem do Adobe Analytics serão removidas. Se você tiver definido anteriormente uma página de Reports &amp; Analytics como sua página de aterrissagem personalizada, ela continuará a funcionar até que sua página de aterrissagem seja modificada em [!UICONTROL Preferências do usuário]. A partir de 25 de março de 2021, não será mais possível definir novas páginas de aterrissagem personalizadas de Reports &amp; Analytics. |
 | Fim da vida útil do Ad Hoc Analysis | Janeiro de 2021 | [!UICONTROL A Ad Hoc Analysis] chegará ao fim da vida útil em 1º de março de 2021. Para obter mais informações, visite [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Fim da vida útil para três serviços de API do Analytics | 6 de janeiro de 2021 | Em 30 de abril de 2021, os serviços de API herdados a seguir do Analytics estão programados para atingir sua data de fim de vida e serão encerrados. Quaisquer integrações atuais criadas com esses serviços deixarão de funcionar nesse dia.<ul><li>APIs do Analytics 1.3</li><li>APIs do SOAP Analytics 1.4</li><li>Autenticação OAuth herdada (OAuth e JWT)</li></ul>Fornecemos uma seção [Perguntas frequentes sobre EOL da API herdada](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) para ajudar a responder às suas perguntas e fornecer orientação sobre como proceder. As integrações de API que empregam esses serviços podem migrar para as [APIs REST do Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou as [APIs do Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). As contas OAuth herdadas podem migrar para uma conta de integração do [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics, que pode ser usada para acessar as APIs do Analytics 1.4 e as APIs do Analytics 2.0. |
