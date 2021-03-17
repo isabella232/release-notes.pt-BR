@@ -1,6 +1,7 @@
 ---
 cloud: experience-cloud
-solution-title: Aprendizagem e Suporte
+solution-title: Aprendizagem e suporte
+description: Notas de versão para soluções Experience Cloud
 solution-hub-url: https://helpx.adobe.com/br/support/experience-cloud.html
 solution-icon: assets/assets/experience-cloud-logo-24.png
 getting-started-title: Introdução
@@ -8,20 +9,20 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: Tutoriais
 tutorials-url: https://helpx.adobe.com/br/experience-cloud/tutorials.html
 mini-toc-levels: 3
-git-repo: https://github.com/AdobeDocs/release-notes.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/release-notes.pt-BR
 index: true
 translation-type: tm+mt
-source-git-commit: d5f592e1e804a94619ccf3ce34a4a310867f9f70
+source-git-commit: 644ea51d605f87693109d6b0e96afbdf365aaa2b
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: '175'
+ht-degree: 96%
 
 ---
 
 
 # Metadados para uso interno
 
-O arquivo metadata.md inclui metadados de nível de repositório transmitidos para os arquivos TOC.md do guia do usuário no repositório. Se desejar alterar o conteúdo metadata. md para qualquer guia do usuário, faça isso em qualquer arquivo TOC. md.
+O arquivo metadata.md inclui metadados de nível de repositório transmitidos para os arquivos TOC.md do guia do usuário no repositório. Se desejar alterar o conteúdo metadata.md para qualquer guia do usuário, faça isso em qualquer arquivo TOC.md.
 
 | metadata | o que faz |
 |--- |--- |
@@ -37,7 +38,7 @@ O arquivo metadata.md inclui metadados de nível de repositório transmitidos pa
 
 No arquivo TOC.md
 
-| metadata | o que faz |
+| metadados | o que faz |
 |--- |--- |
 | user-guide-title | Usado no cabeçalho do artigo como link |
 | user-guide-url | Abre a página helpx hub |
