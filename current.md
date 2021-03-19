@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: da0cc40fb828e5f64d832c2e4e5dba931d2f2e99
+source-git-commit: 1cde3fd4f91f53c6f2281b95397257bbcf1f5672
 workflow-type: tm+mt
-source-wordcount: '6120'
+source-wordcount: '6130'
 ht-degree: 36%
 
 ---
@@ -148,7 +148,7 @@ AN-206099; AN-237460; AN-241803; AN-243735; AN-244081; AN-244615; AN-244687; AN-
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
 | [!UICONTROL Processamento VISTA do Same-as-SiteCatalyst]  = ON | 17 de março de 2021 | Em 17 de junho de 2021, todos os conjuntos de relatórios serão atualizados para terem o [!UICONTROL Processamento VISTA do mesmo SiteCatalyst] definido como ATIVADO.  Essa alteração afetará os relatórios de [!UICONTROL Data Warehouse] processando os dados para corresponder às regras de processamento.  Para dúvidas ou esclarecimentos, entre em contato com o Atendimento ao cliente do Adobe. |
-| EOL de [!UICONTROL Processamento Completo] [!UICONTROL Fontes de Dados] | 10 de março de 2021 | O Adobe planeja descontinuar [!UICONTROL Processamento completo] [!UICONTROL Fontes de dados] no futuro. A partir de 25 de março de 2021, novas importações desse tipo não poderão mais ser criadas. Use a [API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) para importar esse tipo de dados. |
+| EOL de [!UICONTROL Processamento Completo] [!UICONTROL Fontes de Dados] | 10 de março de 2021 | O Adobe planeja descontinuar [!UICONTROL Processamento completo] [!UICONTROL Fontes de dados] no futuro. A partir de 25 de março de 2021, novas importações desse tipo não poderão mais ser criadas. Use a [API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) para importar esse tipo de dados. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
 | Opções de Reports &amp; Analytics da página de aterrissagem | 19 de fevereiro de 2021 | Em 25 de março de 2021, as opções para definir novos painéis de Reports &amp; Analytics ou outro conteúdo como sua página de aterrissagem do Adobe Analytics serão removidas. Se você tiver definido anteriormente uma página de Reports &amp; Analytics como sua página de aterrissagem personalizada, ela continuará a funcionar até que sua página de aterrissagem seja modificada em [!UICONTROL Preferências do usuário]. |
 | Fim da vida útil do Ad Hoc Analysis | Janeiro de 2021 | [!UICONTROL A Ad Hoc Analysis] chegará ao fim da vida útil em 1º de março de 2021. Para obter mais informações, visite [Discover Workspace](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Fim da vida útil para três serviços de API do Analytics | 6 de janeiro de 2021 | Em 30 de abril de 2021, os serviços de API herdados a seguir do Analytics estão programados para atingir sua data de fim de vida e serão encerrados. Quaisquer integrações atuais criadas com esses serviços deixarão de funcionar nesse dia.<ul><li>APIs do Analytics 1.3</li><li>APIs do SOAP Analytics 1.4</li><li>Autenticação OAuth herdada (OAuth e JWT)</li></ul>Fornecemos uma seção [Perguntas frequentes sobre fim da vida útil da API herdada](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) para ajudar a responder às suas perguntas e fornecer orientação sobre como proceder. As integrações de API que empregam esses serviços podem migrar para as [APIs REST do Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou as [APIs do Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). As contas OAuth herdadas podem migrar para uma conta de integração do [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics, que pode ser usada para acessar as APIs do Analytics 1.4 e as APIs do Analytics 2.0. |
