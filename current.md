@@ -179,7 +179,7 @@ Para obter as atualizações mais recentes das versões do AppMeasurement, consu
 
 ## ![Ícone](/assets/audience-manager.png) Adobe Audience Manager {#aam}
 
-Correções e melhorias no Audience Manager.
+Correções e aprimoramentos no Audience Manager.
 
 ### Correções e melhorias {#aam-fixes-and-improvements}
 
@@ -225,7 +225,7 @@ O AEM 6.5, Service Pack 8 (6.5.8.0 lançado em 11 de março de 2021), é uma atu
    * [Notas de versão](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=pt-BR#service-pack)
    * [Resultados da versão do AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html?lang=pt-BR#forms-updates)
 
-   * **AEM 6.4.8.4**
+* **AEM 6.4.8.4**
 AEM 6.4, Service Pack 8, Cumulative Fix Pack 4 (6.4.8.4 lançado em 25 de fevereiro de 2021) é uma atualização importante que inclui várias correções internas e de clientes desde a disponibilização geral do AEM 6.4, Service Pack 8 (6.4.8.0), em março de 2020.
    * [Notas de versão](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=pt-BR)
    * [Resultados da versão do AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html#forms-updates)
