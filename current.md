@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bb6a42b34458a8f1959d4206f546992f4c8e5747
+source-git-commit: b563bfd3582fbbf197dbe3b6590b1f681b7e38cc
 workflow-type: tm+mt
-source-wordcount: '7120'
-ht-degree: 31%
+source-wordcount: '7045'
+ht-degree: 32%
 
 ---
 
@@ -451,13 +451,6 @@ Os seguintes recursos serão lançados ao longo do trimestre:
 * **Desativação do suporte ao Internet Explorer:** a partir do lançamento realizado em 31 de julho de 2020, a interface do usuário do Marketo Engage não será mais compatível com o Internet Explorer.
 
 ## ![Ícone](/assets/document-cloud-24.png) Document Cloud {#doc-cloud}
-
-Novos vídeos, tutoriais ou cursos publicados na Adobe Document Cloud.
-
-| Publicado | Nome | Solução | Descrição |
-| -----------| ---------- | ---------- | ---------- |
-| 25 de fevereiro de 2021 | [Primeiras impressões - Email de boas-vindas](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/welcome-emails.html) | Vídeo | Saiba quais devem ser os principais elementos da sua estratégia de boas-vindas. |
-| 25 de fevereiro de 2021 | [Primeiras impressões - Coleta de endereços e crescimento de listas](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html) | Vídeo | Saiba quais são as melhores fontes para novos endereços de email, como garantir alta qualidade dos dados e alinhamento às diretrizes legais. |
 
 Para obter ajuda sobre a Document Cloud, consulte:
 
