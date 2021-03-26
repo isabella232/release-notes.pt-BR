@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 17179b1ec08435b065a940850b52bb36183276f7
+source-git-commit: 99f32ddc69aa869be32186b9b0746aae27a79113
 workflow-type: tm+mt
-source-wordcount: '7534'
+source-wordcount: '7556'
 ht-degree: 30%
 
 ---
@@ -151,7 +151,7 @@ Data de lançamento: **25 de março de 2021**
 | Analysis Workspace: [!UICONTROL Componentes] > [!UICONTROL Preferências do usuário] | 25 de março de 2021 | A página [!UICONTROL Componentes] > [!UICONTROL Preferências do usuário] permite gerenciar as configurações [!UICONTROL Analysis Workspace] e seus componentes relacionados para o usuário. [!UICONTROL As ] preferências do usuário se aplicam a todos os novos projetos e painéis. <br>**Observação:** as configurações a seguir foram movidas para o   User preferencespage:<ul><li>Configurações do relatório: Separador de milhares (agora chamado de _Number format_)</li><li>Configurações do relatório: Separador CSV</li><li>Projetos do Workspace: Ajuda > Ativar dicas</li><li>Projetos do Workspace: Painel em branco _Iniciar novos projetos com esta opção de painel_</li></ul> |
 | Analysis Workspace: [!UICONTROL Previsão do bucket inteligente do histograma] | 25 de março de 2021 | [!UICONTROL O Histograma ] Predição de bucket inteligente ajuda com histogramas de métricas de alta cardinalidade, identificando automaticamente a largura e o número corretos de buckets para sua propagação de dados. Para métricas de baixa cardinalidade, a visualização se comporta da mesma forma que antes. |
 | [!UICONTROL Usage ] LogAPI | 25 de março de 2021 | Esta é uma nova API v2.0 do Analytics que permite acesso programático aos mesmos dados de log de uso disponíveis em **[!UICONTROL Admin]** > **[!UICONTROL Log]** > **[!UICONTROL Log de uso e acesso]**. Detalhes adicionais sobre autenticação, esquema e resposta de amostra estão disponíveis [aqui](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md). |
-| Suporte a painéis do Analytics para intervalos de datas personalizados | 25 de março de 2021 | Os criadores do Scorecard podem criar e aplicar intervalos de datas personalizados a projetos do scorecard móvel. Os criadores podem escolher entre predefinições de intervalo de datas familiar e móvel ou criar um intervalo de datas personalizado. |
+| Suporte a painéis do Analytics para intervalos de datas personalizados | 22 de abril de 2021 | Os criadores do Scorecard podem criar e aplicar intervalos de datas personalizados a projetos do scorecard móvel. Os criadores podem escolher entre predefinições de intervalo de datas familiar e móvel ou criar um intervalo de datas personalizado. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html#mobapp). |
 
 ### Novos recursos no Customer Journey Analytics {#cust-journey}
 
@@ -160,7 +160,7 @@ Data de lançamento: **25 de março de 2021**
 | Suporte para [!UICONTROL painéis do Adobe Analytics] | 25 de março de 2021 | [!UICONTROL O Customer Journey Analytics]  (CJA) agora é compatível com o  [!UICONTROL Adobe Analytics Dashboards Scorecard ] Builder e o aplicativo móvel. Isso permite que executivos e usuários empresariais vejam seus KPIs entre canais com base em dados de CJA, usando o mesmo aplicativo que já pode estar usando para o Adobe Analytics. |
 | Analysis Workspace: **[!UICONTROL Componentes]** > **[!UICONTROL Preferências do usuário]** | 25 de março de 2021 | A página [!UICONTROL Componentes] > [!UICONTROL Preferências do usuário] permite gerenciar as configurações [!UICONTROL Analysis Workspace] e seus componentes relacionados para o usuário. [!UICONTROL As ] preferências do usuário se aplicam a todos os novos projetos e painéis. <br>**Observação:** as configurações a seguir foram movidas para o   User preferencespage:<ul><li>Projetos do Workspace: Ajuda > Ativar dicas</li><li>Projetos do Workspace: Painel em branco _Iniciar novos projetos com esta opção de painel_</li></ul> |
 | Analysis Workspace: [!UICONTROL Previsão do bucket inteligente do histograma] | 25 de março de 2021 | [!UICONTROL O Histograma ] Predição de bucket inteligente ajuda com histogramas de métricas de alta cardinalidade, identificando automaticamente a largura e o número corretos de buckets para sua propagação de dados. Para métricas de baixa cardinalidade, a visualização se comporta da mesma forma que antes. |
-| Suporte a painéis do Analytics para o Customer Journey Analytics | 25 de março de 2021 | O aplicativo de painéis do Analytics agora é compatível com o Customer Journey Analytics. Os usuários com o Customer Journey Analytics podem exibir KPIs de qualquer dado assimilado no Adobe Experience Platform no aplicativo de painéis do Analytics. O Customer Journey Analytics permite combinar várias fontes de dados para obter uma visualização verdadeira e de vários canais da experiência do cliente. Agora, com o aplicativo de painéis do Analytics, você pode obter uma visualização holística e atualizada de sua empresa, a qualquer hora e em qualquer lugar. |
+| Suporte a painéis do Analytics para o Customer Journey Analytics | 25 de março de 2021 | O aplicativo de painéis do Analytics agora é compatível com o Customer Journey Analytics. Os usuários com o Customer Journey Analytics podem exibir KPIs de qualquer dado assimilado no Adobe Experience Platform no aplicativo de painéis do Analytics. O Customer Journey Analytics permite combinar várias fontes de dados para obter uma visualização verdadeira e de vários canais da experiência do cliente. Agora, com o aplicativo de painéis do Analytics, você pode obter uma visualização holística e atualizada de sua empresa, a qualquer hora e em qualquer lugar. [Saiba mais](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/curator.html?lang=en#cja-dashboards). |
 
 ### Correções no Adobe Analytics {#aa-fixes}
 
