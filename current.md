@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 99f32ddc69aa869be32186b9b0746aae27a79113
+source-git-commit: 153ab33f4f0e709d606efd5121b7e65bb1b9caf2
 workflow-type: tm+mt
-source-wordcount: '7556'
+source-wordcount: '7773'
 ht-degree: 30%
 
 ---
@@ -429,15 +429,21 @@ Notas de versão da Adobe Advertising Cloud.
 
 ### Novos recursos no [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Última atualização: **22 de janeiro de 2021, para lançamento em 23 de janeiro**
+Última atualização: **29 de março de 2022, para a versão de 27 de março**
 
 | Recurso | Descrição |
 | -----------| ---------- |
-| [!UICONTROL Campanhas de pesquisa]<br> Relatórios | A Advertising Cloud Search não reporta mais novos dados de posição média para campanhas Microsoft® Advertising. A coluna Posição média mostra valores de zero (0) para datas a partir de 23 de janeiro. Esse processo é uma preparação para a descontinuação dos dados de posição média da Microsoft em janeiro de 2021.<br>Os dados de posição média coletados até 22 de janeiro ainda estão disponíveis nos relatórios. |
+| [!UICONTROL Campanhas de pesquisa]<br> Relatórios | (Campanhas do Microsoft Ads) O suporte de lance está disponível para a estratégia de lance de custo por clique (eCPC) aprimorada da Microsoft, que é a estratégia de lance padrão para campanhas do Microsoft Advertising. Agora você pode especificar uma [!UICONTROL Estratégia de lance] no nível da campanha para suas campanhas. As opções incluem [!UICONTROL CPC Manual] e [!UICONTROL CPC Avançado]. Você pode usar [!UICONTROL CPC aprimorado] com campanhas de pesquisa, publicidade de pesquisa dinâmica existente e de compras.<br>Quando você adiciona uma campanha com eCPC a um portfólio otimizado do Advertising Cloud, o Advertising Cloud otimiza as ofertas básicas e, quando a opção &quot;Ajustar automaticamente os limites de orçamento da campanha&quot; está ativada, o orçamento da campanha. A Microsoft aplica todos os ajustes de lances e pode alterar os lances gerados pela Advertising Cloud no momento da consulta do usuário com base em dados e insights proprietários.<br>A coluna  [!UICONTROL Estratégias ] de lance personalizadas está disponível na exibição   Campanhas e em relatórios. |
+| [!UICONTROL Campanhas de pesquisa]<br> [!UICONTROL Bulksheets] | (Campanhas Microsoft Advertising) Para anúncios de texto expandidos, o suporte agora está disponível para um terceiro título opcional ([!UICONTROL Título de anúncio 3]) e uma segunda descrição opcional ([!UICONTROL Descrição 2]). O suporte está disponível na visualização [!UICONTROL Anúncios] e em [!UICONTROL Bulksheets]. |
+| [!UICONTROL Insights de publicidade] | Dois novos [!UICONTROL Insights de publicidade] estão disponíveis:<ul><li>[!UICONTROL Receita] atrasada: Mede o atraso de conversão (o tempo decorrido entre um clique de SEM e uma conversão subsequente) de um portfólio e mostra quaisquer diferenças na receita ponderada, no ROI e na precisão do modelo devido ao atraso.</li><li>[!UICONTROL Correspondência] cruzada de consultas: Encontra instâncias de consultas de pesquisa que o Google correspondeu a mais de uma palavra-chave e fornece sugestões para onde direcionar o tráfego.</li></ul> |
 
-### Tutoriais e cursos da Ad Cloud
+### Tutoriais e cursos da Advertising Cloud
 
-Atualizado: **2 de dezembro de 2020**
+Atualizado em: **23 de fevereiro de 2021**
+
+| Tutorial | Descrição |
+| -----------| ---------- |
+| [Introdução ao Workspace e Relatórios](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=pt-BR) | Saiba como você pode usar seus dados do Advertising Cloud para criar relatórios visuais no Adobe Analytics Analysis Workspace. |
 
 ## ![Ícone](/assets/magento.png) [!DNL Magento] {#magento}
 
