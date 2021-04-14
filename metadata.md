@@ -11,9 +11,9 @@ tutorials-url: https://helpx.adobe.com/br/experience-cloud/tutorials.html
 mini-toc-levels: 3
 git-repo: https://git.corp.adobe.com/AdobeDocs/release-notes.pt-BR
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b742d2cf0f14d2b25ed540245c0f1f571fd2319b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ O arquivo metadata.md inclui metadados de nível de repositório transmitidos pa
 
 No arquivo TOC.md
 
-| metadados | o que faz |
+| metadata | o que faz |
 |--- |--- |
 | user-guide-title | Usado no cabeçalho do artigo como link |
 | user-guide-url | Abre a página helpx hub |
