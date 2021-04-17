@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: April 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e5c34b37703cc4aaf0c6711dc5da7857321375ae
+source-git-commit: 21fdbc0a354a87723097e294db15d88e9877061c
 workflow-type: tm+mt
-source-wordcount: '5431'
+source-wordcount: '5430'
 ht-degree: 42%
 
 ---
@@ -343,7 +343,7 @@ Notas de versão da Adobe Advertising Cloud.
 | -----------| ---------- |
 | Novo Ajuda | (Versão de 28 de outubro) A ajuda herdada foi substituída por páginas atualizadas, que estão disponíveis no link Ajuda no menu principal do DSP e também estão sempre disponíveis em [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=pt-BR](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=pt-BR) |
 | Campanhas | (Versão de 28 de outubro) As visualizações anteriores do Campaigns Beta agora são as visualizações padrão do Campaigns, para obter insights mais rápidos, fluxos de trabalho simplificados e visualizações personalizadas. |
-| Inventário privado | (Versão de 15 de outubro) Todos os usuários agora podem configurar e editar informações da ID de negócios usando um novo formulário, que é uma versão simplificada do formulário antigo de [!UICONTROL Veiculação de anúncios inteligentes]. Para configurar os detalhes da ID da nova negociação, vá para **[!UICONTROL Inventário]** > **!UICONTROL Contratos]**, clique em **[!UICONTROL Criar]** e clique em **[!UICONTROL ID da transação Beta]**. |
+| Inventário privado | (Versão de 15 de outubro) Todos os usuários agora podem configurar e editar informações da ID de negócios usando um novo formulário, que é uma versão simplificada do formulário antigo de Veiculação de anúncios inteligentes. Para configurar os detalhes da ID da nova negociação, vá para **[!UICONTROL Inventário]** > **[!UICONTROL Contratos]** > **[!UICONTROL Criar]** e clique em **[!UICONTROL ID da transação Beta]**. |
 | Previsão de posicionamento | (Versão de 15 de outubro) Para inserções com ritmo de nível de inserção, a seção [!UICONTROL Previsão] das configurações de inserção inclui uma nova seção [!UICONTROL Máximos estimados], que indica quanta capacidade está disponível com a configuração de direcionamento atual. |
 
 ### Novos recursos no [!DNL Advertising Cloud Search] {#adcloud-search}
