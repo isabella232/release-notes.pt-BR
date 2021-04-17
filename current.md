@@ -5,15 +5,15 @@ doc-type: release notes
 last-update: April 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 21fdbc0a354a87723097e294db15d88e9877061c
+source-git-commit: 626651efb9a0ae76ac1b2681d178dcf6677e9d6b
 workflow-type: tm+mt
-source-wordcount: '5430'
+source-wordcount: '5428'
 ht-degree: 42%
 
 ---
 
 
-# REVISÃO INTERNA - Notas de versão da Adobe Experience Cloud - abril de 2021
+# Notas de versão da Adobe Experience Cloud - Abril de 2021
 
 ![Banner](assets/experience-cloud-banner-3.png)
 
@@ -27,7 +27,7 @@ As soluções e os serviços da Experience Cloud são atualizados mensalmente. E
 >
 >Assine a [Atualização mensal do produto de prioridade da Adobe](https://www.adobe.com/subscription/priority-product-update.html) para receber notificações por email sobre atualizações nesta página. Esta página é mantida durante todo o mês. Portanto, verifique regularmente se há atualizações de produtos empresariais da Adobe e da documentação da Experience League.
 
-Última atualização: **15 de abril de 2021**
+Última atualização: **16 de abril de 2021**
 
 * [Status do sistema da Adobe](#status) (não atualizado)
 * [Componentes, serviços e administração da interface da Experience Cloud](#ecloud)
