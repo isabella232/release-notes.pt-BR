@@ -6,10 +6,10 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 75fc19a753d94ad35337ad43f98aaa0aff52bdc1
+source-git-commit: 7b542cb233b84542e0058ac2f4c39b0349e3fb73
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '5381'
+ht-degree: 42%
 
 ---
 
@@ -402,7 +402,7 @@ Novos vídeos, tutoriais ou cursos publicados na Adobe Document Cloud.
 | -----------| ---------- | ---------- | ---------- |
 | Abril de 2021 | [[Adobe Sign] Enviar lembretes usando Adobe Sign para Salesforce e Marketo - Vídeo de recurso](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/marketo/marketo-salesforce-reminder-video.html) | Vídeo | Neste tutorial em vídeo, você aprenderá a enviar um lembrete de email do Marketo quando um contrato não for assinado após um período de tempo. Essa integração usa o Adobe Sign para Salesforce, Marketo e a sincronização entre Marketo e Salesforce. |
 
-### Novos cursos e tutoriais do Document Cloud
+### Tutoriais do Document Cloud
 
 | Publicado | Nome | Solução | Descrição |
 | -----------| ---------- | ---------- | ---------- |
