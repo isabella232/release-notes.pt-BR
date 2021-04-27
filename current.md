@@ -6,10 +6,10 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 1f88b532306f86768a9981d6bba06a21050affe7
+source-git-commit: 070e4ff0a9c3ab6f1d16680edc6a2aa787be8f69
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '5499'
+ht-degree: 36%
 
 ---
 
@@ -274,6 +274,10 @@ Novos vídeos, tutoriais e cursos publicados no mês passado.
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
+| Abril de 2021 | [Editor de SPA e SPA remota - Visão geral - Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/remote-spa/overview.html) | Tutorial | Saiba como um SPA Remoto, ou um SPA executado fora do contexto de AEM, pode ser atualizado para consumir e fornecer conteúdo criado em AEM. Este tutorial baseia-se no aplicativo GraphQL da WKND, um aplicativo React que consome AEM conteúdo do Fragmento de conteúdo sobre as APIs GraphQL da AEM. |
+| Abril de 2021 | [Noções básicas do modelo GraphQL](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/modeling-basics.html) | Vídeo | Saiba como definir e usar Fragmentos de conteúdo no Adobe Experience Manager (AEM) para uso com GraphQL. |
+| Abril de 2021 | [Modelagem avançada para GraphQL](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/advanced-modeling.html) | Vídeo | Saiba como criar relacionamentos entre Modelos de fragmento de conteúdo no Adobe Experience Manager (AEM) e como aproveitar esses relacionamentos em consultas GraphQL. |
+| Abril de 2021 | [Criação de consultas GraphQL](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/creating-graphql-queries.html) | Vídeo | Saiba como criar consultas GraphQL para retornar conteúdo do Adobe Experience Manager (AEM) e como usar a ferramenta GraphiQL para testar, refinar e depurar consultas rapidamente. |
 | Abril de 2021 | [Criar primeiro formulário  [!UICONTROL adaptável]](https://video.tv.adobe.com/v/332571) | Vídeo | Saiba como criar um primeiro formulário adaptável. |
 | Abril de 2021 | [Testar a criação de um Lead no Salesforce no evento de clique de um botão](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/integrate-with-salesforce/create-lead-click-event.html?lang=en#forms) | Vídeo | Crie um objeto de lead chamando a operação POST do Modelo de dados de formulário no evento de clique de um botão. |
 | Abril de 2021 | [Integrar  [!UICONTROL AEM ] formulários com [!DNL Salesforce]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/integrate-with-salesforce/introduction.html?lang=en#forms) | Vídeo | Vídeo de introdução para o curso de integração Forms + Salesforce . |
