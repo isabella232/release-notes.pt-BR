@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: f981d08b9a7200776706028b0408bd94a1e5e246
+source-git-commit: 4cad20ae0aa6d4a6e9776aa7861e2ba3b39f9e6b
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 99%
@@ -161,7 +161,7 @@ Consulte as [Notas de versão do Data Workbench](https://docs.adobe.com/content/
 * Correção
 * Correção
 
-Consulte o [Histórico de versões do AppMeasurement](https://experienceleague.corp.adobe.com/docs/analytics/implementation/appmeasurement-updates.html) para obter um histórico das versões do AppMeasurement nas seguintes plataformas:
+Consulte o [Histórico de versões do AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html) para obter um histórico das versões do AppMeasurement nas seguintes plataformas:
 
 * [!DNL JavaScript]
 * [!DNL iOS]
