@@ -4,10 +4,9 @@ description: Notas de versão da Experience Cloud
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: tm+mt
-source-git-commit: 4cad20ae0aa6d4a6e9776aa7861e2ba3b39f9e6b
+source-git-commit: 48000898226fa1d926948dedc64610cee0bc7f65
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1344'
 ht-degree: 99%
 
 ---
@@ -30,14 +29,14 @@ Novos recursos e correções na Adobe Experience Cloud.
 **Data de lançamento: 2020**
 
 * [Status de sistema da Adobe](#status)
-* [Interface da Experience Cloud](#ecloud)
+* [Interface da Experience Cloud ](#ecloud)
 * [Experience Platform](#platform)
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
 * [Target](https://docs.adobe.com/content/help/pt-BR/target/using/release-notes/target-release-notes.html) (links para a ajuda da solução)
-* [Advertising Cloud](#adcloud)
+* [Publicidade](#adcloud)
 * [Magento](#magento)
 * [Marketo](#marketo)
 * [Primetime](https://helpx.adobe.com/br/primetime/user-guide.html) (links para a ajuda da solução)
@@ -66,7 +65,7 @@ Para ver a documentação do produto, consulte [Interface da Experience Cloud](h
 
 ### Administração e desenvolvedor {#admin}
 
-Destaques e correções.
+Recursos e correções.
 
 Para obter a documentação do produto, consulte [Gerenciar usuários e produtos](https://docs.adobe.com/content/help/pt-BR/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
@@ -77,11 +76,11 @@ Notas de versão para [!DNL Experience Platform,] incluir [!DNL Experience Platf
 * [Serviço da Experience Cloud ID](#ecid)
 * [Notas de versão da Experience Platform](https://docs.adobe.com/content/help/pt-BR/experience-platform/release-notes/latest.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
-* [Orquestração da jornada](#journey)
+* [Journey Orchestration](#journey)
 * [Mobile Services e SDKs móveis](#mobile)
 * [Boletins e conselhos de segurança](https://helpx.adobe.com/br/security.html) (Todos os produtos da Adobe)
 
-### [!UICONTROL Serviço de Experience Cloud ID] {#ecid}
+### [!UICONTROL Serviço da Experience Cloud ID] {#ecid}
 
 Recursos e correções.
 
@@ -91,7 +90,7 @@ Para obter a documentação do produto, consulte [Serviço da Experience Cloud I
 
 Consulte [Experience Platform Launch](https://docs.adobe.com/content/help/pt-BR/launch/using/intro/release-notes/current.html) para obter as notas de versão e a documentação do produto.
 
-### [!UICONTROL Orquestração de jornadas] {#journey}
+### [!UICONTROL Journey Orchestration] {#journey}
 
 Usando a Adobe [!UICONTROL Experience Platform,] orquestre jornaldas individuais de clientes em escala nos canais de experiência, antecipando, de maneira inteligente, as necessidades de cada indivíduo em tempo real, onde quer que a jornada o leve.
 
@@ -270,7 +269,7 @@ O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagen
 * Adobe Campaign Classic: [Documentação](https://helpx.adobe.com/br/support/campaign/classic.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/release-notes/latest-release.html) - [Vídeos explicativos](https://docs.adobe.com/content/help/pt-BR/campaign-learn/campaign-classic-tutorials/overview.html)
 * Painel de controle do Adobe Campaign: [Documentação](https://docs.adobe.com/content/help/pt-BR/control-panel/using/control-panel-home.html) - [Notas de versão](https://docs.adobe.com/content/help/pt-BR/control-panel/using/release-notes.html)
 
-## Advertising Cloud {#adcloud}
+## Publicidade {#adcloud}
 
 | Recurso | Descrição |
 | ------- | ------- |
