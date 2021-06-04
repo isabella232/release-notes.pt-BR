@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: May 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 9c51e3e514064371614c7379ae7f87ff194159e8
+source-git-commit: 710ca78745979b414c4299ff20561b07bc698478
 workflow-type: tm+mt
 source-wordcount: '5360'
 ht-degree: 94%
@@ -409,7 +409,7 @@ Novos vídeos, tutoriais ou cursos publicados na Adobe Document Cloud.
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
 | Maio de 2021 | [Criar experiências de assinatura eletrônica e documento incorporadas](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/develop/custom/embeddedesignature.html?lang=pt-BR#develop) | Artigo | Saiba como usar APIs do Adobe Sign para incorporar experiências de assinatura eletrônica e documento em suas plataformas da Web e sistemas de gerenciamento de conteúdo e documentos. (Quatro partes.) |
-| Maio de 2021 | [Automação de documentos com Adobe Sign para Microsoft® Power Platform](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/microsoft/documentautomation.html) | Artigo | Saiba como ativar e usar os conectores Adobe Sign e Adobe PDF Tools para Microsoft® Power Apps. Crie fluxos de trabalho que automatizam os processos de aprovação e assinatura corporativa de forma rápida e segura, sem código. (Quatro partes.) |
+| Maio de 2021 | [Automação de documentos com Adobe Sign para Microsoft® Power Platform](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/microsoft/documentautomation.html) | Artigo | Saiba como ativar e usar os conectores Adobe Sign e Adobe PDF Tools para Microsoft® Power Apps. Crie fluxos de trabalho que automatizam os processos de aprovação e assinatura corporativa de forma rápida e segura, sem código. (Quatro partes.) |
 
 {style=&quot;table-layout:auto&quot;}
 
