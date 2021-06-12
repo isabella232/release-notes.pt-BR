@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 3d7d30975cb241633f0d847a6b7689134bb56749
+source-git-commit: 22f12b5bc45f0ed2c191c395c55314e646a330f2
 workflow-type: tm+mt
-source-wordcount: '5019'
+source-wordcount: '5062'
 ht-degree: 51%
 
 ---
@@ -29,11 +29,11 @@ Os aplicativos e os serviços da Experience Cloud são atualizados mensalmente. 
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [Analytics](#analytics) e [Customer Journey Analytics](#cust-journey) 
-* [Audience Manager](#aam)
-* [Experience Manager](#aem)
-* [Campaign](#ac)
-* [Publicidade](#adcloud)
+* [[!DNL Analytics]](#analytics) e [Customer Journey Analytics](#cust-journey) 
+* [[!DNL Audience Manager]](#aam)
+* [[!DNL Experience Manager]](#aem)
+* [[!DNL Campaign]](#ac)
+* [[!DNL Advertising]](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
@@ -45,7 +45,7 @@ Precisa de ajuda? Visite a [Adobe Experience League](https://experienceleague.ad
 
 ## ![](/assets/ec_appicon_24.png) ÍconeComponentes da interface do usuário central da Experience Cloud {#ecloud}
 
-Os Componentes da interface central do Experience Cloud incluem atualizações das preferências de autoajuda, pesquisa e conta de usuário. Também inclui atualizações para recursos e serviços de aplicativos cruzados acessados a partir do cabeçalho da interface unificada, como Atributos do cliente e Biblioteca de público-alvo.
+Os Componentes da interface central do Experience Cloud incluem atualizações a serem acessadas no cabeçalho unificado do produto, como autoajuda, pesquisa e preferências da conta de usuário. As atualizações para Pessoas, Locais (Localização) e gerenciamento de produtos podem ser encontradas aqui.
 
 | Recurso | Data | Descrição |
 | ------- | ------- | ------- |
@@ -54,6 +54,11 @@ Os Componentes da interface central do Experience Cloud incluem atualizações d
 
 {style=&quot;table-layout:auto&quot;}
 
+**Mais recursos de ajuda**
+
+* Ajuda administrativa para [Componentes da interface central](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en) e gerenciamento de usuários
+* Ajuda e notas de versão para [Places - Serviço de localização](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=en)
+* Ajuda sobre [Pessoas - Atributos do cliente e Biblioteca de público-alvo](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=en)
 Para obter a documentação do produto sobre esses recursos, consulte [Componentes da interface central do Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en).
 
 ## ![Ícone](/assets/adobe.png) Adobe da sistema de Status {#status}
@@ -267,12 +272,12 @@ Todas as notas de versão do Experience Manager são mantidas nas seguintes pág
 
 * [Informações sobre a versão do Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=en)
 * [Notas de versão do Experience Manager Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=pt-BR)
-* [Notas de versão do Serviço de conversão automatizada de formulários](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=pt-BR)
+* [Notas de versão do Serviço de conversão automatizada de formulários](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=en)
 * [Notas de versão do Service Pack do Experience Manager 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=en)
 * [Notas de versão do Cumulative Fix Pack do Experience Manager 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=pt-BR)
 * [Notas de versão do Experience Manager Assets Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html?lang=pt-BR)
 * [Notas de versão do Experience Manager Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html?lang=pt-BR)
-* [Notas de versão do aplicativo para desktop Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html?lang=pt-BR)
+* [Notas de versão do aplicativo para desktop Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html?lang=en)
 * [Notas de versão do Experience Manager Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/getting-started/release-notes.html?lang=pt-BR)
 * [Notas de versão do Livefyre](https://experienceleague.adobe.com/docs/livefyre/using/release-notes/c-rn.html?lang=pt-BR)
 
@@ -336,7 +341,7 @@ Saiba mais sobre recursos, melhorias e correções mais recentes lançados:
 
 * Adobe Campaign Standard: [Centro de ajuda](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=pt-BR) - [Notas de versão](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [Vídeos explicativos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR) - [Planejamento de lançamento](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=pt-BR) - [Atualizações mais recentes da documentação](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=pt-BR)
 * Adobe Campaign Classic: [Centro de ajuda](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=pt-BR) - [Notas de versão](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [Vídeos explicativos](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=pt-BR)- [Atualizações mais recentes da documentação](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=pt-BR)
-* Painel de controle do Adobe Campaign: [Documentação](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR) - [Notas de versão](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR)  - Vídeos explicativos do [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=pt-BR)/[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=br)
+* Painel de controle do Adobe Campaign: [Documentação](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en) - [Notas de versão](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en)  - Vídeos explicativos do [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=pt-BR)/[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=br)
 
 ## ![Ícone](/assets/advertising-cloud.png) Anúncio {#adcloud}
 
