@@ -6,10 +6,10 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 26fb9b46a6cf48db7cd98a75439f35a98e342898
+source-git-commit: 42bcb928d8eb34cc13017dab09f8490a673368a5
 workflow-type: tm+mt
-source-wordcount: '5042'
-ht-degree: 51%
+source-wordcount: '4910'
+ht-degree: 52%
 
 ---
 
@@ -235,13 +235,7 @@ Novos recursos, correções e atualizações no Experience Manager (AEM). A Adob
       * [Plug-in](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/build-analyzer-maven-plugin.html?lang=en) Maven do Analisador de build do Experience Manager as a Cloud Service SDK: Atualize seus projetos maven para a versão mais recente, que inclui uma verificação da API Java™ obsoleta e outras melhorias.
    * **Experience Manager Sites as a Cloud Service**
 
-      * **Endpoints GraphQL:** agora é possível habilitar a API GraphQL do Experience Manager para configurações individuais de Sites do Experience Manager e criar pontos de extremidade GraphQL personalizados para essas configurações usando uma nova interface do usuário do console GraphQL. A interface do usuário também permite o gerenciamento de pontos de extremidade GraphQL.
-      * **Modelos de conteúdo, tipo de dados aprimorado de Data e hora:**  agora é possível configurar o tipo de data e hora para permitir a criação apenas de data, hora ou informações de data e hora.
-      * **Modelos de conteúdo, tipo de dados Tags aprimoradas:**  agora é possível configurar o tipo de dados Tags para permitir a criação de tags únicas ou múltiplas.
-      * **Modelos de conteúdo, novo tipo de dados de Espaço reservado de guia:** o novo tipo de dados de Espaço reservado de guia permite agrupar tipos de dados em seções que são renderizadas em guias no editor de fragmento de conteúdo.
-   * **Experience Manager Assets as a Cloud Service**
-
-      Agora você pode verificar o conteúdo em um novo [Camada de visualização](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/previewing-content.html?lang=en) para simular a aparência da experiência final e a experiência como faria no nível de Publicação. Essa nova funcionalidade é habilitada pelo assistente de Publicação gerenciada dos sites do Experience Manager, que permite escolher um destino de publicação entre [!UICONTROL Publicar] ou [!UICONTROL Visualizar]. As experiências em [!UICONTROL Preview] podem ser acessadas por meio de um URL dedicado. Após a validação em [!UICONTROL Visualizar], o conteúdo pode ser publicado de [!UICONTROL Autor] para [!UICONTROL Publicar] como de costume. Habilitar o Serviço de [!UICONTROL Visualização] no Experience Manager como um ambiente de Cloud Service está gradualmente saindo nas próximas semanas.
+      Agora você pode verificar o conteúdo em um novo [Camada de visualização](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/previewing-content.html?lang=en) para simular a aparência da experiência final e a experiência como faria no nível de Publicação. Essa nova funcionalidade é ativada pelo assistente de Publicação gerenciada dos sites do Experience Manager, que permite escolher um destino de publicação entre [!UICONTROL Publicar] ou [!UICONTROL Visualizar]. As experiências em [!UICONTROL Preview] podem ser acessadas por meio de um URL dedicado. Após a validação em [!UICONTROL Visualizar], você pode publicar o conteúdo de [!UICONTROL Autor] para [!UICONTROL Publicar] como de costume. Habilitar o Serviço de [!UICONTROL Visualização] no Experience Manager como um ambiente de Cloud Service está gradualmente saindo nas próximas semanas.
 
    * **Experience Manager Assets as a Cloud Service**
 
@@ -254,7 +248,6 @@ Novos recursos, correções e atualizações no Experience Manager (AEM). A Adob
       Novos recursos em [!UICONTROL Dynamic Media]:
 
       * A Proporção de pixels do dispositivo de imagem inteligente (DPR) e a otimização da largura de banda da rede permitem que você forneça imagens de melhor qualidade com eficiência, em dispositivos com telas de alta resolução e largura de banda de rede restrita. Consulte as [perguntas frequentes sobre a geração inteligente de imagens](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/imaging-faq.html?lang=en).
-
 
 
 
