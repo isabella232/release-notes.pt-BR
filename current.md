@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e198a57703d4be29e32e9b2919af157858651d74
+source-git-commit: c6aea555356863f7674dcda54fad19ea31394775
 workflow-type: tm+mt
-source-wordcount: '4926'
+source-wordcount: '4930'
 ht-degree: 52%
 
 ---
@@ -89,7 +89,7 @@ Novos vídeos, tutoriais ou cursos publicados para a Experience Platform e servi
 | Junho de 2021 | [Criar tipos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-data-types.html) | Vídeo | Saiba como criar seus próprios tipos de dados no Adobe Experience Platform para usar em esquemas do Experience Data Model (XDM). |
 | Junho de 2021 | [Converter seu modelo de dados em um modelo de dados de experiência](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/convert-your-data-model-to-xdm.html) | Vídeo | Saiba como os arquitetos de dados podem pegar seus modelos de dados transacionais existentes e convertê-los em um Experience Data Model. Este vídeo mostra a diferença nas abordagens de modelagem usando diagramas de relação de entidade. |
 | Junho de 2021 | [Planejar o modelo de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/plan-your-data-model.html) | Vídeo | Saiba o que fazer antes de começar a criar seus esquemas no Adobe Experience Platform. Documente seus casos de uso de negócios, entenda sua licença da Platform, conheça as medidas de proteção do produto e identifique quais dados devem ser assimilados antes de finalizar seu modelo de dados. |
-| Junho de 2021 | [Tableau](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/psql-client-tableau.html) | Vídeo | Saiba como se conectar ao [!UICONTROL Serviço de consulta] de vários aplicativos de cliente de desktop que oferecem suporte ao protocolo `PostgreSQL` e como usar ferramentas e drivers `PostgreSQL` para conectar e gravar consultas. |
+| Junho de 2021 | [Conectar o Tableau ao Serviço de Consulta](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/psql-client-tableau.html) | Vídeo | Saiba como se conectar ao [!UICONTROL Serviço de consulta] de vários aplicativos de cliente de desktop que oferecem suporte ao protocolo `PostgreSQL` e como usar ferramentas e drivers `PostgreSQL` para conectar e gravar consultas. |
 | Junho de 2021 | [Funções definidas pelo Adobe](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/adobe-defined-functions.html) | Vídeo | Saiba como usar funções definidas pelo Adobe no Adobe Experience Platform [!UICONTROL Serviço de query] para executar tarefas comerciais comuns nos dados do evento de experiência. |
 | Junho de 2021 | [Exploração de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html) | Vídeo | Saiba como validar dados assimilados, visualizar dados e explorar propriedades estatísticas e analíticas de dados usando funções SQL. |
 | Junho de 2021 | [Visão geral do serviço de query](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html) | Vídeo | Saiba mais sobre o Serviço de query no Adobe Experience Platform e como ele ajuda a entender o comportamento do cliente e gerar insights impactantes. |
