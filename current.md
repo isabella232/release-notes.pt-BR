@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 42bcb928d8eb34cc13017dab09f8490a673368a5
+source-git-commit: 823476f3b4553a0bd9aae8670652bec1259cd84f
 workflow-type: tm+mt
-source-wordcount: '4910'
+source-wordcount: '4914'
 ht-degree: 52%
 
 ---
@@ -213,16 +213,16 @@ Novos recursos, correções e atualizações no Experience Manager (AEM). A Adob
 >
 >A Adobe recomenda visitar a página de [Atualizações e roteiros de versão do Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=pt-BR) para se manter atualizado sobre as informações de lançamento.
 
-### AEM atualizações de produtos
+### Atualizações de produto do Experience Manager
 
 * **Experience Manager 6.5.9.0**
 
-   O AEM 6.5, Service Pack 9.0 (6.5.9.0, lançado em 27 de maio de 2021), é uma atualização importante que inclui novos recursos, principais melhorias solicitadas pelo cliente, melhor desempenho, estabilidade e segurança, lançados desde a disponibilização geral do AEM 6.5 em abril de 2019.
+   O Experience Manager 6.5, Service Pack 9.0 (6.5.9.0 lançado em 27 de maio de 2021), é uma atualização importante que inclui novos recursos, principais melhorias solicitadas pelo cliente, melhor desempenho, estabilidade e segurança, lançados desde a disponibilização geral do AEM 6.5 em abril de 2019.
 
    * [Notas de versão](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=pt-BR)
    * [Resultados da versão do AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html?lang=en)
 
-### Versões de produto AEM
+### Versões de produto Experience Manager
 
 * **Experience Manager as a Cloud Service**
 
@@ -251,7 +251,7 @@ Novos recursos, correções e atualizações no Experience Manager (AEM). A Adob
 
 
 
-### **Comunidade AEM**
+### **Comunidade Experience Manager**
 
 * [One-Stop-Shop para todos os Experience Manager Blogs](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/bd-p/adobe-experience-manager-discussions)
 
