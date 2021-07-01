@@ -9,7 +9,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 99885f10a13d7b51702ffac182362f1abd09f141
 workflow-type: tm+mt
 source-wordcount: '4984'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -59,7 +59,7 @@ Os componentes da interface central do Experience Cloud incluem atualizações a
 
 * Ajuda administrativa para [Componentes da interface central](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=pt-BR) e gerenciamento de usuários
 * Ajuda e notas de versão para [Places — serviço de localização](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=pt-BR)
-* Ajuda em [Pessoas - Atributos do cliente e Biblioteca de público-alvo](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=pt-BR).
+* Ajuda sobre [Pessoas — Atributos do cliente e Biblioteca de público-alvo](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=pt-BR).
 
 ## ![Ícone](/assets/adobe.png) Adobe da sistema de Status {#status}
 
@@ -80,7 +80,7 @@ Novos vídeos, tutoriais ou cursos publicados para a Experience Platform e servi
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
-| Junho de 2021 | [Preparar dados com o Serviço de query](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/prepare-data.html?lang=pt-BR) | Vídeo | Saiba como limpar, preparar e combinar dados de vários conjuntos de dados para criar um novo usando as funções Criar tabela AS (CTAS) e Spark SQL para relatórios e painéis. |
+| Junho de 2021 | [Preparar dados com o serviço de consulta](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/prepare-data.html?lang=pt-BR) | Vídeo | Saiba como limpar, preparar e combinar dados de vários conjuntos de dados para criar um novo usando as funções Criar tabela AS (CTAS) e Spark SQL para relatórios e painéis. |
 | Junho de 2021 | [Copiar esquemas entre sandboxes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/copy-schemas-between-sandboxes.html?lang=pt-BR) | Vídeo | Saiba como copiar um esquema de uma sandbox para outra no Adobe Experience Platform usando a opção [!UICONTROL Exportar/Importar esquema de API]. Crie e teste seus esquemas em sandboxes de desenvolvimento e, em seguida, copie-os para produção. |
 | Junho de 2021 | [Atualizar esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/update-schemas.html?lang=pt-BR) | Vídeo | Saiba mais sobre os aspectos básicos a serem observados ao atualizar esquemas existentes no Adobe Experience Platform. |
 | Junho de 2021 | [Blocos de construção de esquema](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schema-building-blocks.html?lang=pt-BR) | Vídeo | Saiba mais sobre os elementos principais dos blocos de construção de esquemas do modelo de dados de experiência (XDM), incluindo campos, tipos de dados, grupos de campos de esquemas, classes e comportamento. |
@@ -89,11 +89,11 @@ Novos vídeos, tutoriais ou cursos publicados para a Experience Platform e servi
 | Junho de 2021 | [Criar tipos de dados de esquema](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-data-types.html?lang=pt-BR) | Vídeo | Saiba como criar seus próprios tipos de dados no Adobe Experience Platform para usar em esquemas do modelo de dados de experiência (XDM). |
 | Junho de 2021 | [Converter seu modelo de dados em um modelo de dados de experiência](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/convert-your-data-model-to-xdm.html?lang=pt-BR) | Vídeo | Saiba como os arquitetos de dados podem converter seu modelo de dados transacionais existente em um modelo de dados de experiência. Este vídeo mostra a diferença nas abordagens de modelagem usando diagramas de relação de entidade. |
 | Junho de 2021 | [Planejar seu modelo de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/plan-your-data-model.html?lang=pt-BR) | Vídeo | Saiba o que fazer antes de começar a criar seus esquemas no Adobe Experience Platform. Documente os casos de uso de sua empresa, entenda sua licença do Platform, conheça as medidas de proteção do produto e identifique quais dados devem ser assimilados antes de finalizar seu modelo de dados. |
-| Junho de 2021 | [Conectar o Tableau ao Serviço de Consulta](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/psql-client-tableau.html?lang=pt-BR) | Vídeo | Saiba como se conectar ao [!UICONTROL Serviço de consulta] de vários aplicativos de cliente de desktop que oferecem suporte ao protocolo `PostgreSQL` e como usar ferramentas e drivers `PostgreSQL` para conectar e gravar consultas. |
-| Junho de 2021 | [Funções definidas pelo Adobe no Serviço de query](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/adobe-defined-functions.html?lang=pt-BR) | Vídeo | Saiba como usar funções definidas pela Adobe no [!UICONTROL Serviço de consulta] do Adobe Experience Platform para executar tarefas comerciais comuns em dados de evento de experiência. |
-| Junho de 2021 | [Exploração de dados com o Serviço de query](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=pt-BR) | Vídeo | Saiba como validar dados assimilados, pré-visualizar dados e explorar as propriedades estatísticas e analíticas de dados usando funções SQL. |
+| Junho de 2021 | [Conectar o Tableau ao Serviço de consulta](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/psql-client-tableau.html?lang=pt-BR) | Vídeo | Saiba como se conectar ao [!UICONTROL Serviço de consulta] de vários aplicativos de cliente de desktop que oferecem suporte ao protocolo `PostgreSQL` e como usar ferramentas e drivers `PostgreSQL` para conectar e gravar consultas. |
+| Junho de 2021 | [Funções definidas pela Adobe no Serviço de consulta](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/adobe-defined-functions.html?lang=pt-BR) | Vídeo | Saiba como usar funções definidas pela Adobe no [!UICONTROL Serviço de consulta] do Adobe Experience Platform para executar tarefas comerciais comuns em dados de evento de experiência. |
+| Junho de 2021 | [Exploração de dados com o Serviço de consulta](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=pt-BR) | Vídeo | Saiba como validar dados assimilados, pré-visualizar dados e explorar as propriedades estatísticas e analíticas de dados usando funções SQL. |
 | Junho de 2021 | [Visão geral do serviço de consulta](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=pt-BR) | Vídeo | Saiba mais sobre o serviço de consulta no Adobe Experience Platform e como ele ajuda a entender o comportamento do cliente e gerar insights de impacto. |
-| Junho de 2021 | [Visão geral da interface do usuário do serviço de query](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/query-service-ui.html?lang=pt-BR) | Vídeo | Saiba como gravar e executar consultas, exibir consultas executadas anteriormente e acessar consultas salvas por outros usuários em sua Organização IMS no serviço de consulta do Adobe Experience Platform. |
+| Junho de 2021 | [Visão geral da interface de usuário do Serviço de consulta](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/query-service-ui.html?lang=pt-BR) | Vídeo | Saiba como gravar e executar consultas, exibir consultas executadas anteriormente e acessar consultas salvas por outros usuários em sua Organização IMS no serviço de consulta do Adobe Experience Platform. |
 | Junho de 2021 | [Consultar API](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/query-service-api.html?lang=pt-BR) | Vídeo | Saiba como gravar e executar consultas, criar consultas de agendamento e criar um template de consulta usando a [!UICONTROL API de serviço de consulta] do Adobe Experience Platform. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -217,12 +217,12 @@ Novos recursos, correções e atualizações no Experience Manager (AEM). A Adob
 
 * **Experience Manager 6.5.9.0**
 
-   O Experience Manager 6.5, Service Pack 9.0 (6.5.9.0 lançado em 27 de maio de 2021), é uma atualização importante que inclui novos recursos, principais melhorias solicitadas pelo cliente, melhor desempenho, estabilidade e segurança, lançados desde a disponibilização geral do AEM 6.5 em abril de 2019.
+   O Experience Manager 6.5, Service Pack 9.0 (6.5.9.0 lançado em 27 de maio de 2021) é uma atualização importante que inclui novos recursos, importantes melhorias solicitadas por clientes, além de melhor desempenho, estabilidade e segurança, lançado desde a disponibilização geral do AEM 6.5, em abril de 2019.
 
    * [Notas de versão](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=pt-BR)
    * [Resultados da versão do AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html?lang=pt-BR)
 
-### Versões de produto Experience Manager
+### Versões de produto do Experience Manager
 
 * **Experience Manager as a Cloud Service**
 
@@ -239,7 +239,7 @@ Novos recursos, correções e atualizações no Experience Manager (AEM). A Adob
       * [Plug-in Maven Experience Manager as a Cloud Service SDK Build Analyzer](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/build-analyzer-maven-plugin.html?lang=pt-BR): atualize os projetos maven para a versão mais recente, o que inclui uma verificação de API Java™ descontinuada e outras melhorias.
    * **Experience Manager Sites as a Cloud Service**
 
-      Agora você pode verificar o conteúdo em um novo [Camada de pré-visualização](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/previewing-content.html?lang=pt-BR) para simular a aparência e a experiência finais como faria na camada de Publicação. Essa nova funcionalidade é ativada pelo assistente de Publicação gerenciada dos sites do Experience Manager, que permite escolher um destino de publicação entre [!UICONTROL Publicar] ou [!UICONTROL Visualizar]. As experiências em [!UICONTROL Preview] podem ser acessadas por meio de um URL dedicado. Após a validação em [!UICONTROL Visualizar], você pode publicar o conteúdo de [!UICONTROL Autor] para [!UICONTROL Publicar] como de costume. Habilitar o Serviço de [!UICONTROL Visualização] no Experience Manager como um ambiente de Cloud Service está gradualmente saindo nas próximas semanas.
+      Agora você pode verificar o conteúdo em um novo [Camada de pré-visualização](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/previewing-content.html?lang=pt-BR) para simular a aparência e a experiência finais como faria na camada de Publicação. Essa nova funcionalidade é habilitada pelo assistente de Publicação gerenciada dos sites do Experience Manager, que permite escolher um destino de publicação entre [!UICONTROL Publicação] ou [!UICONTROL Pré-visualização]. As experiências na [!UICONTROL Pré-visualização] podem ser acessadas por meio de um URL dedicado. Após a validação na [!UICONTROL Pré-visualização], o conteúdo pode ser publicado de [!UICONTROL Autor] e [!UICONTROL Publicação] como de costume. A habilitação do serviço de [!UICONTROL Pré-visualização] no Experience Manager como um ambiente de serviço em nuvem será liberada gradualmente nas próximas semanas.
 
    * **Experience Manager Assets as a Cloud Service**
 
@@ -255,7 +255,7 @@ Novos recursos, correções e atualizações no Experience Manager (AEM). A Adob
 
 
 
-### **Comunidade Experience Manager**
+### **Comunidade do Experience Manager**
 
 * [Local central para todos os blogs do Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/bd-p/adobe-experience-manager-discussions)
 
@@ -316,11 +316,11 @@ O Adobe Campaign oferece uma maneira intuitiva e automatizada de enviar mensagen
 
 Saiba mais sobre recursos, melhorias e correções mais recentes lançados:
 
-* **O novo Adobe Campaign v8** oferece infraestrutura, segurança, deliverability e melhorias significativas de monitoramento. O Adobe Campaign v8 melhora consideravelmente sua escala e velocidade, com a capacidade de gerenciar um número mais significativo de perfis de clientes, bem como taxas de delivery e transações por hora muito mais altas. Para saber mais, consulte a [documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=pt-BR).
+* O **novo Adobe Campaign v8** oferece melhorias significativas em infraestrutura, segurança, capacidade de entrega e monitoramento. O Adobe Campaign v8 apresenta melhoras consideráveis em sua escala e velocidade, com a capacidade de gerenciar um número muito maior de perfis de clientes, bem como superiores taxas de entrega e transações por hora. Para saber mais, consulte a [documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=pt-BR).
 
-* **Versão 21.1.3 do Adobe Campaign Classic v7:** saiba mais nas Notas de versão do  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=pt-BR?lang=pt-BR).
+* **Adobe Campaign Classic v7 versão 21.1.3**: para saber mais, consulte as [Notas de versão do Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=pt-BR?lang=pt-BR).
 
-* **Versão 21.2 do Adobe Campaign Standard:** saiba mais nas Notas de versão do  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=pt-BR).
+* **Adobe Campaign Standard versão 21.2 :** para saber mais, consulte as [Notas de versão do Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=pt-BR).
 
 ### [!UICONTROL Campaign]: novos cursos e tutoriais {#tutorials-campaign}
 
@@ -408,9 +408,9 @@ Para obter ajuda sobre a Document Cloud, consulte:
 * [Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=pt-BR)
 * [Aprendizagem e suporte da Document Cloud](https://helpx.adobe.com/br/support/document-cloud.html)
 
-## ![](/assets/creative-cloud-24.png) ÍconeCreative Cloud para empresas {#creative-cloud}
+## ![Ícone](/assets/creative-cloud-24.png) Creative Cloud para corporações {#creative-cloud}
 
-Novos vídeos, tutoriais ou cursos publicados do Creative Cloud para empresas.
+Novos vídeos, tutoriais ou cursos publicados do Creative Cloud para corporações.
 
 | Publicado | Nome | Tipo | Descrição |
 | ----------| --------- | --------- | --------- |
