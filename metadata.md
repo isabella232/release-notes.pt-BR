@@ -1,19 +1,13 @@
 ---
 cloud: Experience Cloud
-solution-title: Aprendizagem e suporte
-description: Notas de versão de soluções da Experience Cloud
-solution-hub-url: https://helpx.adobe.com/br/support/experience-cloud.html
-solution-icon: assets/assets/experience-cloud-logo-24.png
-getting-started-title: Introdução
-getting-started-url: https://landing.adobe.com/experience-league/
-tutorials-title: Tutoriais
-tutorials-url: https://helpx.adobe.com/br/experience-cloud/tutorials.html
+type: Documentation
+solution: Experience Cloud
 mini-toc-levels: 2
 git-repo: https://git.corp.adobe.com/AdobeDocs/release-notes.pt-BR
 index: true
-source-git-commit: 3d7d30975cb241633f0d847a6b7689134bb56749
-workflow-type: ht
-source-wordcount: '175'
+source-git-commit: 759707638404f746de2e71ac27bd16926a8d1151
+workflow-type: tm+mt
+source-wordcount: '153'
 ht-degree: 100%
 
 ---
@@ -37,7 +31,7 @@ O arquivo metadata.md inclui metadados de nível de repositório transmitidos pa
 
 No arquivo TOC.md
 
-| metadata | o que faz |
+| metadados | o que faz |
 |--- |--- |
 | user-guide-title | Usado no cabeçalho do artigo como link |
 | user-guide-url | Abre a página helpx hub |
