@@ -1,18 +1,16 @@
 ---
 description: Informações para ajudá-lo a entrar em contato com a Adobe e compreender as questões jurídicas relativas à utilização deste produto e documentação.
-keywords: dynamic tag management;release notes
+keywords: gerenciamento dinâmico de tags; notas de versão
 seo-description: Informações para ajudá-lo a entrar em contato com a Adobe e compreender as questões jurídicas relativas à utilização deste produto e documentação.
 seo-title: Contato e informações legais
-solution: Experience Cloud
 title: Contato e informações legais
 uuid: be6810fd-8a50-4e88-af09-ab00187e4082
 internal: n
 translate: y
-translation-type: tm+mt
-source-git-commit: 00226294d475d0c8f323692272bedf0d2705fd20
+source-git-commit: 759707638404f746de2e71ac27bd16926a8d1151
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 97%
+source-wordcount: '258'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +42,7 @@ Adobe Systems welcome any suggestions or feedback regarding this solution. You c
  <li> Published by Adobe Systems Incorporated. </li> 
 </ul>
 
-[Termos de uso](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Central de privacidade](https://www.adobe.com/br/privacy/policy.html)
+[Termos de uso](https://www.adobe.com/go/marketingcloud_terms_of_use_br) | [Central de privacidade](https://www.adobe.com/br/privacy/policy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
