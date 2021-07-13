@@ -9,7 +9,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 99885f10a13d7b51702ffac182362f1abd09f141
 workflow-type: tm+mt
 source-wordcount: '4984'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Novos vídeos, tutoriais ou cursos publicados para a Experience Platform e servi
 
 {style=&quot;table-layout:auto&quot;}
 
-## ![Ícone](/assets/experience_platform_appicon_24.png) do Journey Orchestration {#journey-orch}
+## ![Ícone](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
 Use o Experience Platform para orquestrar a jornada de um cliente em escala nos canais de experiência, antecipando de forma inteligente as necessidades de cada indivíduo em tempo real.
 
@@ -230,7 +230,7 @@ Novos recursos, correções e atualizações no Experience Manager (AEM). A Adob
 
    >[!NOTE]
    >
-   >A versão de recurso do Experience Manager as a Cloud Service June está disponível. Para experimentar os novos recursos, verifique se você está no mínimo no Experience Manager 2021.6.5561.
+   >A versão de junho do recurso do Experience Manager as a Cloud Service já está disponível. Para experimentar os novos recursos, verifique se você está ao menos na versão 2021.6.5561 do Experience Manager.
 
    * **Adobe Experience Manager as a Cloud Service Foundation**
 
@@ -268,8 +268,8 @@ Novos recursos, correções e atualizações no Experience Manager (AEM). A Adob
 Todas as notas de versão do Experience Manager são mantidas nas seguintes páginas:
 
 * [Informações sobre a versão do Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=pt-BR)
-* [Notas de versão do Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=en)
-* [Notas de versão do Experience Manager Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=en)
+* [Notas de versão do Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=pt-BR)
+* [Notas de versão do Experience Manager Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=pt-BR)
 * [Notas de versão do Serviço de conversão automatizada de formulários](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=pt-BR)
 * [Notas de versão do Service Pack do Experience Manager 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=en)
 * [Notas de versão do Cumulative Fix Pack do Experience Manager 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=pt-BR)
@@ -364,7 +364,7 @@ Notas de versão do [!DNL Adobe Advertising].
 
 | Recurso | Descrição |
 | -----------| ---------- |
-| [!UICONTROL Centro de notificações beta] | O [!UICONTROL Centro de notificações beta] está disponível para todos os usuários. Use-a para assinar notificações da Web e por email sobre erros de autenticação de conta, alertas personalizados acionados e a conclusão dos [!UICONTROL Insights de publicidade] gerados.<br>É possível exibir as notificações pelo:<ul><li>Painel [!UICONTROL Notificações], que é aberto no link Notificações no canto superior direito de qualquer página.</li><li>[!UICONTROL Centro de notificações] em [!UICONTROL Insights e Relatórios >Centro de notificação beta].</li></ul><br><b>Observação:</b> devido a aprimoramentos no modo como as notificações são armazenadas, todas as notificações existentes foram apadagas. |
+| [!UICONTROL Centro de notificações beta] | O [!UICONTROL Centro de notificações beta] está disponível para todos os usuários. Use-a para assinar notificações da Web e por email sobre erros de autenticação de conta, alertas personalizados acionados e a conclusão dos [!UICONTROL Insights de publicidade] gerados.<br>É possível exibir as notificações pelo:<ul><li>Painel [!UICONTROL Notificações], que é aberto no link Notificações no canto superior direito de qualquer página.</li><li>[!UICONTROL Centro de notificações] em [!UICONTROL Insights e Relatórios > Centro de notificação beta].</li></ul><br><b>Observação:</b> devido a aprimoramentos no modo como as notificações são armazenadas, todas as notificações existentes foram apadagas. |
 
 {style=&quot;table-layout:auto&quot;}
 
