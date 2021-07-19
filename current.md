@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 96f2c28dfcebf903d11fa5fc02ab90405e0e4888
+source-git-commit: d33f6947012a86061ab4431f1b58c56dfa53910a
 workflow-type: tm+mt
-source-wordcount: '3950'
-ht-degree: 57%
+source-wordcount: '3936'
+ht-degree: 55%
 
 ---
 
@@ -47,7 +47,7 @@ Precisa de ajuda? Visite a [Adobe Experience League](https://experienceleague.ad
 
 ## ![Ícone](/assets/ec_appicon_24.png) Componentes da interface central da Experience Cloud {#ecloud}
 
-Os componentes da interface central do Experience Cloud incluem atualizações a serem acessadas do cabeçalho unificado do produto, como autoajuda, pesquisa e preferências da conta do usuário. As atualizações para Pessoas, Places (Localização) e gerenciamento de produtos são encontradas aqui.
+Os Componentes da interface central do Experience Cloud incluem atualizações acessadas no cabeçalho unificado do produto, como autoajuda, pesquisa e preferências da conta de usuário. As atualizações para Pessoas, Places (Localização) e gerenciamento de produtos são encontradas aqui.
 
 | Recurso | Data | Descrição |
 | ------- | ------- | -------|
@@ -72,7 +72,7 @@ As atualizações mais recentes do Status do sistema da Adobe são encontradas e
 Inclui informações de atualização de versão e nova documentação para o Experience Platform e Experience Platform Launch.
 
 * **Notas de versão de 30 de junho de 2021** [](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR)
-* **17 de maio de 2021** [Notas de versão da coleta de dados do Experience Platform](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=pt-BR)  (antigo Experience Platform Launch)
+* **17 de maio de 2021** [Notas de versão da coleta de dados do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html)  (antigo Experience Platform Launch)
 
 ### Tutoriais e cursos da Experience Platform {#tutorials-platform}
 
@@ -138,7 +138,7 @@ Data de lançamento: **22 de julho de 2021**
 
 | Recurso | Descrição | [Disponibilidade geral](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=pt-BR) - Data do Target |
 | ----------- | ---------- | ------- |
-| Nova página de aterrissagem do Adobe Analytics (Beta aberto) | A nova página de aterrissagem do Adobe Analytics reúne a Analysis Workspace e o Reports &amp; Analytics em uma única interface e ponto de acesso sob o guarda-chuva do Workspace. Ela apresenta uma nova página inicial do gerente de projeto, um menu de relatórios atualizado com relatórios modernizados, bem como uma nova seção de aprendizado que ajuda você a começar de forma mais eficaz. A nova página melhora a capacidade de descoberta e orienta os usuários do Reports &amp; Analytics para uma experiência de relatório aprimorada no Workspace. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) | 26 de julho de 2021 |
+| Nova página de aterrissagem do Adobe Analytics (Beta aberto) | A nova página de aterrissagem do Adobe Analytics reúne a Analysis Workspace e o Reports &amp; Analytics em uma única interface e ponto de acesso sob o guarda-chuva do Workspace. Ele apresenta uma nova página inicial do gerente de projeto, um menu de relatórios atualizado e relatórios modernizados, bem como uma nova seção de aprendizado que ajuda você a começar de forma mais eficaz. A nova página melhora a capacidade de descoberta e orienta os usuários do Reports &amp; Analytics para uma experiência de relatório aprimorada no Workspace. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html) | 26 de julho de 2021 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -152,7 +152,7 @@ Data de lançamento: **22 de julho de 2021**
 
 ### Correções no Adobe Analytics {#aa-fixes}
 
-* Correção de um problema que fazia com que alertas não fossem enviados e erros fossem exibidos ao criar novos alertas. (AN-263962)
+* Correção de um problema que fazia com que alertas não fossem enviados e erros fossem exibidos ao criar alertas. (AN-263962)
 * Correção de um problema com conjuntos de relatórios virtuais no Analysis Workspace: Os dados fora do intervalo de datas especificado foram extraídos. (AN-263121)
 * Correção de um problema em que os projetos do Workspace não abriam (tempo limite esgotado). (AN-247248)
 * Correção de um problema que impedia o carregamento de dados de uso do conjunto de relatórios em [!UICONTROL Uso de chamadas do servidor]. (AN-264215)
@@ -168,7 +168,7 @@ AN-160022; AN-186365; AN-234768 (CJA); AN-253041; AN-255098; AN-256319; AN-25656
 | Fim da vida útil para três serviços de API do Analytics | 15 de julho de 2021 | Em **18 de agosto de 2021**, os seguintes serviços de API do Analytics Legacy chegarão à data de término da vida útil e serão encerrados. Quaisquer integrações atuais criadas com esses serviços deixarão de funcionar nesse dia.<ul><li>APIs do Analytics 1.3</li><li>APIs do SOAP Analytics 1.4</li><li>Autenticação OAuth herdada (OAuth e JWT)</li></ul>A Adobe forneceu uma seção de [Perguntas frequentes sobre EOL da API herdada](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) para ajudar a responder às suas perguntas e fornecer orientações sobre como proceder. As integrações de API que empregam esses serviços podem migrar para as [APIs REST do Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou as [APIs do Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). As contas OAuth herdadas podem migrar para uma conta de integração do Analytics [Adobe I/O](https://console.adobe.io/home?mv=email#), que pode ser usada para acessar as APIs do Analytics 1.4 e as APIs do Analytics 2.0. |
 | Fim da vida útil do Data Connectors da Adobe | 13 de julho de 2020 | Os [!UICONTROL Data Connectors] da Adobe são alimentados por tecnologia herdada que não é mais viável ou compatível. Um novo padrão está disponível no [Programa de parceiro Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud). Você pode usar esse padrão para que qualquer integração continue a ser oferecida e suportada. A data oficial do fim da vida útil é **1º de agosto de 2021**. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=pt-BR) |
 | Fim da vida útil das fontes de dados de processamento completo | 12 de abril de 2021 | O Adobe planeja descontinuar as fontes de dados de processamento completo **em 31 de julho de 2021**. A partir de 25 de março de 2021, novas importações desse tipo não poderão mais ser criadas. Use a [API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) para importar esse tipo de dados. |
-| Atualização de logon no [!UICONTROL Report Builder] | 9 de abril de 2021 | Em 14 de janeiro de 2021, as atualizações de logon do [!UICONTROL Report Builder] removeram as dependências das tecnologias herdadas e alinharam o processo de logon com a Experience Cloud. A Experience Cloud usa sua Enterprise ID (email e senha). Para garantir acesso ininterrupto ao [!UICONTROL Report Builder], atualize o suplemento [!UICONTROL Report Builder]**para a versão 5.6.47 ou posterior até 22 de julho de 2021**. O Report Builder versão 5.6.47 e posterior oferecerá suporte apenas ao logon da Experience Cloud e não oferecerá suporte ao logon único. |
+| Fazer logon para atualizar para o [!UICONTROL Report Builder] | 9 de abril de 2021 | Em 14 de janeiro de 2021, as atualizações de logon do [!UICONTROL Report Builder] removeram as dependências das tecnologias herdadas e alinharam o processo de logon com a Experience Cloud. A Experience Cloud usa sua Enterprise ID (email e senha). Para garantir acesso ininterrupto ao [!UICONTROL Report Builder], atualize o suplemento [!UICONTROL Report Builder]**para a versão 5.6.47 ou posterior até 22 de julho de 2021**. O Report Builder versão 5.6.47 e posterior oferecerá suporte apenas ao logon da Experience Cloud e não oferecerá suporte ao logon único. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -202,16 +202,14 @@ Correções e aprimoramentos no Audience Manager.
 
 ## ![Ícone](/assets/aem.png) Experience Manager {#aem}
 
-Novos recursos, correções e atualizações no Experience Manager. A Adobe recomenda que os clientes com implantações no local implantem os patches mais recentes de forma a assegurar maior estabilidade, segurança e desempenho.
+O Adobe recomenda visitar a página [Experience Manager release updates and roadmaps](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=pt-BR) frequentemente para manter-se atualizado com as informações de lançamento.
 
->[!NOTE]
->
->O Adobe recomenda visitar a página [Experience Manager release updates and roadmaps](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=pt-BR) frequentemente para manter-se atualizado com as informações de lançamento.
+### Informações sobre a versão do Experience Manager {#aem-links}
 
-Links para informações de versão do Experience Manager:
+As notas de versão e outros links de informações de versão do Experience Manager estão aqui:
 
-* [Informações sobre a versão do Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=pt-BR)
 * [Notas de versão do Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=pt-BR)
+* [Informações sobre a versão do Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=pt-BR)
 * [Notas de versão do Experience Manager Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=pt-BR)
 * [Notas de versão do Serviço de conversão automatizada de formulários](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=pt-BR)
 * [Notas de versão do Service Pack do Experience Manager 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=pt-BR)
@@ -234,12 +232,12 @@ Novos vídeos, tutoriais e cursos publicados no mês passado.
 
 {style=&quot;table-layout:auto&quot;}
 
-### Outros recursos de Ajuda do Experience Manager
+### Outros recursos de ajuda do Experience Manager
 
 * [Guias do Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=pt-BR)
 * [Página de aprendizagem e suporte do Experience Manager 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/home.html?lang=pt-BR)
 * [Página de aprendizagem e suporte do Experience Manager 6.4](https://experienceleague.adobe.com/docs/experience-manager-64.html?lang=pt-BR)
-* [Página de aprendizagem e suporte do Experience Manager 6.3](https://helpx.adobe.com/br/support/experience-manager/6-3.html)
+* [Página de aprendizagem e suporte do Experience Manager 6.3](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=pt-BR)
 * [Página de aprendizagem e suporte do Experience Manager 6.2](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=pt-BR#previous-updates)
 * [Versões anteriores da documentação do Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en#previous-updates)
 * [Guia do Usuário do Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=pt-BR)
@@ -335,14 +333,14 @@ Novos vídeos, tutoriais ou cursos publicados na Adobe Document Cloud.
 | Julho de 2021 | [Modo líquido no Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/mobile/mobile-tutorials/liquidmode.html) | Vídeo | Saiba como o Modo líquido melhora a experiência de assinatura móvel. Reduz o aperto e o zoom para se concentrar facilmente em campos preenchíveis. |
 | Julho de 2021 | [Introdução à API do Adobe Sign](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/signapi.html) | Artigo | Saiba como os desenvolvedores podem usar a API de assinatura para aprimorar aplicativos e fluxos de trabalho criados com os Serviços de documento do Adobe. |
 | Julho de 2021 | [Publicação de documentos digitais com a API de inserção do Adobe PDF](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/ddppdfembedapi.html) | Artigo | Ao incorporar um visualizador de PDF em suas páginas da Web, você pode permitir que os usuários visualizem documentos sem reprojetar seu HTML e CSS ou obstruir o acesso ao seu site. |
-| Julho de 2021 | [Colaboração de alunos e professores com APIs de serviços de documento do Adobe](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/educationcollab.html) | Artigo | Saiba mais sobre um SDK oficial para aplicativos `Node.js` para acessar a API de serviços em PDF. Isso permite converter documentos como Microsoft Word ou Microsoft Excel em PDF. |
+| Julho de 2021 | [Colaboração de alunos e professores com APIs de serviços de documento do Adobe](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/educationcollab.html) | Artigo | Saiba mais sobre um SDK oficial para aplicativos `Node.js` para acessar a API de serviços em PDF. Isso permite converter documentos como Microsoft® Word ou Microsoft® Excel em PDF. |
 | Julho de 2021 | [Postando trabalhos com APIs de serviços de documento do Adobe](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/jobposting.html?lang=en) | Artigo | Ao operar um site com vários usuários, é crucial projetar uma experiência que garanta uma experiência perfeita para todos. Saiba como converter automaticamente todos os documentos carregados em PDFs e incorporá-los em linha na publicação. |
 | Julho de 2021 | [Criação e edição de relatórios com APIs de serviços de documento do Adobe](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/reportcreation.html?lang=en) | Artigo | Os PDFs facilitam o compartilhamento de documentos ricos, com tabelas, gráficos e conteúdo interativo, em um formato que todos podem visualizar. Saiba como compartilhar essas estatísticas com seus executivos, acionistas, doadores ou outros participantes. |
 | Julho de 2021 | [Revisões e aprovações com APIs de serviços de documento do Adobe](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/reviews.html?lang=en) | Artigo | Saiba como resolver um caso de uso de revisão e aprovação prática usando várias APIs de serviços de documento do Adobe. |
 | Julho de 2021 | [Pesquisar e indexar com APIs de serviços de documento do Adobe](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/searching.html?lang=en) | Artigo | Este tutorial explora os recursos fantásticos das APIs do Adobe Document Services e como eles podem ser usados facilmente para arquivar e digitalizar documentos. Nós exploramos esses recursos criando um aplicativo Express NodeJS e, em seguida, integrando APIs de serviços de documento para arquivamento, digitalização e transformação de documento. |
-| Julho de 2021 | [Gerenciando cartas de ofertas de funcionários com APIs de serviços de documento do Adobe](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/offer.html) | Artigo | Este tutorial aborda a configuração de um projeto do Node Express que exibirá um formulário web para um usuário preencher com detalhes do funcionário. Esses detalhes usarão os Serviços de documento na Web para gerar uma carta de oferta como um PDF que poderá ser entregue subsequentemente a um cliente para assinatura usando a API do Adobe Sign. |
+| Julho de 2021 | [Gerenciando cartas de ofertas de funcionários com APIs de serviços de documento do Adobe](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/offer.html) | Artigo | Este tutorial aborda a configuração de um projeto do Node Express que exibirá um formulário web para um usuário preencher com detalhes do funcionário. Esses detalhes usam os Serviços de documento na Web para gerar uma carta de oferta como um PDF que pode ser entregue posteriormente a um cliente para assinatura usando a API do Adobe Sign. |
 | Julho de 2021 | [Gerenciando contratos legais com APIs de serviços de documento do Adobe](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/legal.html) | Artigo | Neste tutorial, exploramos os recursos das APIs do Adobe Document Services na geração de campos de entrada personalizados em documentos. Também exploramos como é possível converter facilmente esses documentos gerados em um formato de documento portátil protegido (PDF) para impedir a manipulação de dados. |
-| Julho de 2021 | [Criação de um NDA com APIs de serviços de documento do Adobe](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/nda.html) | Artigo | Saiba como criar um modelo do Microsoft Word para o NDA da sua empresa. O suplemento gratuito do Adobe para o Microsoft Word, Adobe Document Generation Tagger, ajuda a inserir &quot;tags&quot; para inserir os valores dinâmicos. Você também aprenderá a transmitir os dados JSON para o modelo e criar um PDF dinâmico. Em seguida, você pode enviar esse PDF por email ou mostrá-lo aos seus colaboradores em seu navegador, dependendo de suas necessidades e metas de negócios. |
+| Julho de 2021 | [Criação de um NDA com APIs de serviços de documento do Adobe](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/nda.html) | Artigo | Saiba como criar um modelo do Microsoft® Word para o NDA da sua empresa. O suplemento gratuito do Adobe para o Microsoft® Word, Adobe Document Generation Tagger, ajuda a inserir &quot;tags&quot; para inserir os valores dinâmicos. Você também aprenderá a transmitir os dados JSON para o modelo e criar um PDF dinâmico. Em seguida, você pode enviar esse PDF por email ou mostrá-lo aos seus colaboradores em seu navegador, dependendo de suas necessidades e metas de negócios. |
 | Julho de 2021 | [Gerenciando propostas de vendas e contratos com APIs de serviços de documento do Adobe](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/sales.html) | Artigo | Saiba como usar dados dinâmicos e fluxos de trabalho para criar um processo eficiente para criar propostas de vendas. |
 | Julho de 2021 | [Lidando com faturas com a API de geração de documento do Adobe](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/invoices.html?lang=en) | Artigo | Saiba como usar a API Adobe Document Generation para gerar faturas automaticamente, proteger por senha os PDFs e enviar uma fatura a cada cliente. Basta ter um pouco de conhecimento sobre Node.js, JavaScript, Express.js, HTML e CSS. |
 
