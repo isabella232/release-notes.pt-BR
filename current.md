@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 3621c31c456cf7fc9de8ed65991aeab9fc8fedc8
+source-git-commit: a168806cc4b7e5ab5e9d1ab9c71583a4b89c020b
 workflow-type: tm+mt
-source-wordcount: '4909'
+source-wordcount: '4923'
 ht-degree: 46%
 
 ---
@@ -213,6 +213,9 @@ O Adobe recomenda visitar com frequência as [atualizações de versões do Expe
       * **Sistema de gerenciamento de conteúdo de componentes nativos em nuvem**  - A Documentação XML do Adobe Experience Manager está disponível como um Cloud Service. Obtenha o ambiente que permite criar, gerenciar e fornecer documentação e conteúdo em escala.
       * **Documentação alimentada por IA**  - recurso de marcação inteligente para identificar e extrair automaticamente palavras-chave de metadados relevantes do texto para rotulagem de metadados.
       * **Nova aparência para o editor da Web**  - Nova aparência com alterações da interface do usuário, tornando-a mais intuitiva. A arquitetura subjacente foi alterada de coral para espectro baseado em reação.
+
+      Visite a [Documentação XML do Adobe Experience Manager](https://www.adobe.com/products/xml-documentation-for-experience-manager.html) para obter mais informações.
+
    * **Cloud Manager no AEM as a Cloud Service**
 
       * [!UICONTROL O ] Serviço de visualização é implantado continuamente em todos os Programas. Os clientes são notificados no produto quando o Programa está ativado para [!UICONTROL Serviço de visualização]. Consulte [Acessando o Serviço de Visualização](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=en#access-preview-service).
