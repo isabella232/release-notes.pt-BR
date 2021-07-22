@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 5de9bc92bc3752726b7af80dd0abf91e253a5c33
+source-git-commit: 272c8da44a241b5a8eb5930462cc53b3e6c43297
 workflow-type: tm+mt
-source-wordcount: '5139'
-ht-degree: 44%
+source-wordcount: '5023'
+ht-degree: 45%
 
 ---
 
@@ -22,14 +22,6 @@ Os aplicativos e os serviços da Experience Cloud são atualizados mensalmente. 
 >[!NOTE]
 >
 >Assine a [Atualização mensal do produto de prioridade da Adobe](https://www.adobe.com/subscription/priority-product-update.html) para receber notificações por email sobre atualizações nesta página. Esta página é mantida durante todo o mês. Portanto, verifique regularmente se há atualizações de produtos empresariais da Adobe e da documentação da Experience League.
-
-## Experience League Live
-
-[Implementação do Adobe Analytics - Dicas e truques](https://www.youtube.com/watch?v=lxOvLCzEGBI)
-
-Você o viu no palco na Summit. Você o ouviu compartilhar conselhos de especialistas no Adobe Insider Tours. Você pode até ter tido a vantagem de trabalhar com ele em sua própria implementação do Adobe Analytics. Agora, Eric Matisoff está trazendo suas três Dicas de implementação favoritas do Adobe Analytics para esta discussão exclusiva do Experience League Live.
-
-Junte-se a nós para ouvir dicas concretas que cada equipe de implementação da Adobe Analytics deve saber — e tenha suas perguntas respondidas por Eric no pod de chat. Este é um evento ao vivo, portanto não há necessidade de se registrar antecipadamente, mas certifique-se de incluí-lo no seu calendário para que você não perca o tempo!
 
 Última atualização: **20 de julho de 2021**
 
@@ -146,7 +138,7 @@ Data de lançamento: **22 de julho de 2021**
 
 Junte-se a nós para ouvir dicas concretas que cada equipe de implementação da Adobe Analytics deve saber — e tenha suas perguntas respondidas por Eric Matisoff no pod de chat. Este é um evento ao vivo, portanto não há necessidade de se registrar antecipadamente, mas certifique-se de incluí-lo no seu calendário para que você não perca o tempo!
 
-[Implementação do Adobe Analytics - Dicas e truques](https://www.youtube.com/watch?v=lxOvLCzEGBI)
+**Evento:** [Implementação do Adobe Analytics - Dicas e truques](https://www.youtube.com/watch?v=lxOvLCzEGBI)
 
 **Quando:** 29 de julho de 2021 às 9:00 PDT
 
