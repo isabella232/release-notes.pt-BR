@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 272c8da44a241b5a8eb5930462cc53b3e6c43297
+source-git-commit: 563d306d19333cdfe78c7eb1077b9b8309fadd4e
 workflow-type: tm+mt
-source-wordcount: '5023'
+source-wordcount: '5036'
 ht-degree: 45%
 
 ---
@@ -23,8 +23,9 @@ Os aplicativos e os serviços da Experience Cloud são atualizados mensalmente. 
 >
 >Assine a [Atualização mensal do produto de prioridade da Adobe](https://www.adobe.com/subscription/priority-product-update.html) para receber notificações por email sobre atualizações nesta página. Esta página é mantida durante todo o mês. Portanto, verifique regularmente se há atualizações de produtos empresariais da Adobe e da documentação da Experience League.
 
-Última atualização: **20 de julho de 2021**
+Última atualização: **22 de julho de 2021**
 
+* [Aviso do evento para Experience League Live](#events)  - 29  **de julho de 2021**
 * [Componentes da interface central da Experience Cloud](#ecloud)
 * [Status de sistema da Adobe](#status)
 * [Experience Platform](#platform)
@@ -127,6 +128,7 @@ Consulte [Notas de versão do Offer Decisioning](https://experienceleague.adobe.
 
 Data de lançamento: **22 de julho de 2021**
 
+* [Aviso de evento para Experience League Live](#events)
 * [Novos recursos no Adobe Analytics](#aa-features)
 * [Novos recursos no Customer Journey Analytics](#cust-journey) (Atualizado em: 19 de julho de 2021)
 * [Correções no Adobe Analytics](#aa-fixes)
@@ -134,7 +136,7 @@ Data de lançamento: **22 de julho de 2021**
 * [Cursos e tutoriais do Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
-### Aviso de evento para Experience League Live - Implementação do Analytics
+## Aviso de evento para Experience League Live - Implementação do Analytics {#events}
 
 Junte-se a nós para ouvir dicas concretas que cada equipe de implementação da Adobe Analytics deve saber — e tenha suas perguntas respondidas por Eric Matisoff no pod de chat. Este é um evento ao vivo, portanto não há necessidade de se registrar antecipadamente, mas certifique-se de incluí-lo no seu calendário para que você não perca o tempo!
 
