@@ -9,7 +9,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 0a6bbad001bc4aeb0b8f6537d87d8d98131af5d5
 workflow-type: tm+mt
 source-wordcount: '5034'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,10 +70,10 @@ As atualizações mais recentes do Status do sistema da Adobe são encontradas e
 
 ## ![Ícone](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
-Inclui informações de atualização de versão e nova documentação para marcação de Experience Platform e plataforma.
+Inclui informações de atualização de versão e nova documentação para a Experience Platform e marcação da Platform.
 
 * **30 de junho de 2021:** [Notas de versão da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR)
-* **** [Notas de versão das tags do Experience Platform de 17 de maio de 2021](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html?lang=pt-BR)  (antigo Experience Platform Launch)
+* **17 de maio de 2021:** [Notas de versão de tags da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html?lang=pt-BR) (antigo Experience Platform Launch)
 
 ### Tutoriais e cursos da Experience Platform {#tutorials-platform}
 
