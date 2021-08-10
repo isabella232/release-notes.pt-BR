@@ -6,7 +6,7 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: b3b30ac28d820aa30482c823ccd537bcf9cdcfb3
+source-git-commit: 78eda24b09b4fd09e6dbddde9ba32104cca40261
 workflow-type: tm+mt
 source-wordcount: '5036'
 ht-degree: 99%
@@ -32,7 +32,7 @@ Os aplicativos e os serviços da Experience Cloud são atualizados mensalmente. 
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) e [Customer Journey Analytics](#cust-journey) **(Atualizado em 3 de agosto de 2021)**
+* [[!DNL Analytics]](#analytics) e [Customer Journey Analytics](#cust-journey) **(Atualizado em 10 de agosto de 2021)**
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -130,7 +130,7 @@ Data de lançamento: **22 de julho de 2021**
 
 * [Aviso de evento para o Experience League Live](#events)
 * [Novos recursos no Adobe Analytics](#aa-features)
-* [Novos recursos no Customer Journey Analytics](#cust-journey) (Atualizado em: 19 de julho de 2021)
+* [Novos recursos no Customer Journey Analytics](#cust-journey) (Atualizado em 10 de agosto de 2021)
 * [Correções no Adobe Analytics](#aa-fixes)
 * [Avisos importantes para administradores do Analytics](#aa-notices)(Atualizado em 3 de agosto de 2021)
 * [Cursos e tutoriais do Analytics](#tutorials-analytics)
@@ -162,7 +162,7 @@ Junte-se a nós para ouvir dicas concretas que cada equipe de implementação do
 
 | Recurso | Descrição | [Disponibilidade geral](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - Data do Target |
 | ----------- | ---------- | ----- |
-| Nova experiência de informações de conexões | Esse aprimoramento na interface das conexões permite saber se e quando os dados estão prontos para serem usados em relatórios. Também permite rastrear quaisquer problemas no processamento de dados. [Saiba mais](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=pt-BR) | 10 de agosto de 2021 |
+| Nova experiência de informações de conexões | Esse aprimoramento na interface das conexões permite saber se e quando os dados estão prontos para serem usados em relatórios. Também permite rastrear quaisquer problemas no processamento de dados. [Saiba mais](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=pt-BR) | 19 de agosto de 2021 |
 
 {style=&quot;table-layout:auto&quot;}
 
