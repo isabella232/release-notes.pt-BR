@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 78eda24b09b4fd09e6dbddde9ba32104cca40261
+source-git-commit: a93d9deb8ad36d396899d0b0505b1d6bf9441c3b
 workflow-type: tm+mt
-source-wordcount: '5036'
-ht-degree: 99%
+source-wordcount: '5002'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ Os aplicativos e os serviços da Experience Cloud são atualizados mensalmente. 
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
-* [[!DNL Advertising]](#adcloud)
+* [[!DNL Advertising Cloud]](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Commerce]](#magento) (Magento)
 * [[!DNL Marketo Engage]](#marketo)
@@ -366,30 +366,30 @@ Saiba mais sobre recursos, melhorias e correções mais recentes lançados:
 * Adobe Campaign Classic: [Centro de ajuda](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=pt-BR) - [Notas de versão](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [Vídeos explicativos](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=pt-BR)- [Atualizações mais recentes da documentação](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=pt-BR)
 * Painel de controle do Adobe Campaign: [Documentação](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR) - [Notas de versão](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR) - Vídeos explicativos do [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=pt-BR)/[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=pt-BR)
 
-## ![Ícone](/assets/advertising-cloud.png) Anúncio {#adcloud}
+## ![Ícone](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
-Notas de versão do [!DNL Adobe Advertising].
+Notas de versão do [!DNL Adobe Advertising Cloud].
 
-* [Novos recursos na Advertising DSP](#adcloud-dsp)
-* [Novos recursos na Advertising Search](#adcloud-search)
+* [Novos recursos na Advertising Cloud DSP](#adcloud-dsp)
+* [Novos recursos na Advertising Cloud Search](#adcloud-search)
 
-### Novos recursos no [!DNL Advertising DSP] {#adcloud-dsp}
+### Novos recursos no [!DNL Advertising Cloud DSP] {#adcloud-dsp}
 
 Última atualização: **10 de junho de 2021 para a versão de 16 de junho**
 
 | Recurso | Descrição |
-| -----------| ---------- |
+| ------- | ----------- |
 | Gerenciamento de campanhas | (Versão de 16 de junho) A previsão está disponível para disposições de exibição padrão com ritmo de posicionamento em nível e orçamentos. |
 
 {style=&quot;table-layout:auto&quot;}
 
-### Novos recursos no [!DNL Advertising Search] {#adcloud-search}
+### Novos recursos no [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Última atualização: **19 de maio de 2021, para a versão 18 de maio**
+Última atualização: **Para a versão de 24 de julho**
 
 | Recurso | Descrição |
-| -----------| ---------- |
-| [!UICONTROL Centro de notificações beta] | O [!UICONTROL Centro de notificações beta] está disponível para todos os usuários. Use-a para assinar notificações da Web e por email sobre erros de autenticação de conta, alertas personalizados acionados e a conclusão dos [!UICONTROL Insights de publicidade] gerados.<br>É possível exibir as notificações pelo:<ul><li>Painel [!UICONTROL Notificações], que é aberto no link Notificações no canto superior direito de qualquer página.</li><li>[!UICONTROL Centro de notificações] em [!UICONTROL Insights e Relatórios > Centro de notificação beta].</li></ul><br><b>Observação:</b> devido a aprimoramentos no modo como as notificações são armazenadas, todas as notificações existentes foram apadagas. |
+| ------- | ----------- |
+| [!UICONTROL Ferramentas] | Se sua conta do anunciante estiver configurada para usar otimização híbrida, a Advertising Cloud poderá, opcionalmente, carregar os objetivos da conta no Google Ads e no Microsoft Ads como conversões para que você possa usá-los para otimização híbrida. Você pode ativar o recurso de [!UICONTROL Pesquisar] > [!UICONTROL Ferramentas] > [!UICONTROL Configuração de upload de conversão]. |
 
 {style=&quot;table-layout:auto&quot;}
 
