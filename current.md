@@ -9,7 +9,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 7a9c166e6b3efc239e039f7aa2c2d52a7fadd680
 workflow-type: tm+mt
 source-wordcount: '5003'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ Os aplicativos e os serviços da Experience Cloud são atualizados mensalmente. 
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
-* [[!DNL Advertising Cloud]](#adcloud) (Atualizado em 11  **de agosto de 2021**)
+*  [[!DNL Advertising Cloud]](#adcloud)**(Atualizado em 11 de agosto de 2021**)
 * [[!DNL Target]](#target)
 * [[!DNL Commerce]](#magento) (Magento)
 * [[!DNL Marketo Engage]](#marketo)
