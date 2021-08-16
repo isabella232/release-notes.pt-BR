@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: cfeac2dbfaef453f24b54450c45d22e737510281
+source-git-commit: c0e65e13f424913c82f6608b24a8f797ee7a0341
 workflow-type: tm+mt
-source-wordcount: '4362'
+source-wordcount: '4360'
 ht-degree: 51%
 
 ---
@@ -122,7 +122,7 @@ Novos vídeos, tutoriais ou cursos publicados do Adobe Campaign.
 
 [!UICONTROL O Offer Decisioning] é um serviço de aplicativos integrado à Adobe Experience Platform. Use o [!UICONTROL Offer Decisioning] para fornecer a melhor oferta e experiência aos seus clientes em todos os pontos de contato na hora certa.
 
-* **Versão de junho de 2021: a classificação de IA permite criar estratégias de classificação diferentes (com base nas metas de seus negócios).** Essas estratégias podem ser usadas por um sistema de modelo treinado para classificar as ofertas elegíveis a serem exibidas para um determinado perfil.
+* **Versão de julho de 2021:** a nova guia   Visão geral guia você pelas principais etapas para começar a criar decisões de oferta. Uma vez integrado, a mesma guia permite acesso rápido às ofertas, coleções e decisões mais recentes.
 
 Consulte [Notas de versão do Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=pt-BR#new) para se manter atualizado.
 
