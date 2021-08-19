@@ -9,7 +9,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 98ff0e6871649fdf5e88c4119de1b21f27de21bf
 workflow-type: tm+mt
 source-wordcount: '4363'
-ht-degree: 51%
+ht-degree: 53%
 
 ---
 
@@ -109,10 +109,10 @@ Novos vídeos, tutoriais ou cursos publicados do Adobe Campaign.
 
 | Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
-| Agosto de 2021 | [Introdução à criação de uma jornada](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html) | Vídeo | Entenda as noções básicas para construir uma jornada na tela de jornada. |
-| Agosto de 2021 | [Configurar dados - visão geral](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/set-up-data-overview.html) | Vídeo | Saiba mais sobre os dados de perfil do cliente em tempo real e quais etapas são necessárias para configurar os dados de perfil do cliente para o Journey Optimizer. |
-| Agosto de 2021 | [Mapear identidades](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/map-identities.html) | Vídeo | Saiba como e quando rotular um campo de esquema como uma identidade, como criar um namespace, quando tornar uma identidade primária e como assimilar e verificar dados de identidade. |
-| Agosto de 2021 | [Caso de uso: Mensagem de Burst](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-read-burst-message.html) | Vídeo | Entenda os casos de uso aplicáveis para mensagens de interrupção. Saiba como configurar uma jornada para mensagens de explosão e quais práticas recomendadas serão aplicadas. |
+| Agosto de 2021 | [Introdução à criação de uma jornada](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html) | Vídeo | Entenda as noções básicas para a criação de uma jornada na tela de jornada. |
+| Agosto de 2021 | [Configurar dados - visão geral](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/set-up-data-overview.html) | Vídeo | Saiba mais sobre os dados de perfil do cliente em tempo real e as etapas necessárias para configurá-los no Journey Optimizer. |
+| Agosto de 2021 | [Mapear identidades](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/map-identities.html) | Vídeo | Saiba como e quando rotular um campo de esquema como uma identidade, como criar um namespace, quando definir uma identidade como primária e como assimilar e verificar dados de identidade. |
+| Agosto de 2021 | [Caso de uso: Mensagem de Burst](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-read-burst-message.html) | Vídeo | Entenda os casos de uso aplicáveis para mensagens de interrupção. Saiba como configurar uma jornada para mensagens de interrupção e quais práticas recomendadas aplicar. |
 
 **Recursos adicionais do Journey Orchestration**
 
@@ -135,7 +135,7 @@ Consulte [Notas de versão do Offer Decisioning](https://experienceleague.adobe.
 Data de lançamento: **19 de agosto de 2021**
 
 * [Novos recursos no Adobe Analytics](#aa-features)
-* [Novos recursos no Customer Journey Analytics](#cust-journey) (Atualizado em **17 de agosto de 2021**)
+* [Novos recursos no Customer Journey Analytics](#cust-journey)  (Atualizado em **17 de agosto de 2021**)
 * [Correções no Adobe Analytics](#aa-fixes)
 * [Avisos importantes para administradores do Analytics](#aa-notices)
 * [Cursos e tutoriais do Analytics](#tutorials-analytics)
