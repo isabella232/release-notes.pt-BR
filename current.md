@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: fd638c92e6804ccdec2adfc9aec1f571c610b798
+source-git-commit: 0f1c37e20e20740e60c6e6c72e465c8611e4a60b
 workflow-type: tm+mt
-source-wordcount: '4430'
+source-wordcount: '4445'
 ht-degree: 52%
 
 ---
@@ -23,10 +23,10 @@ Os aplicativos e os serviços da Experience Cloud são atualizados mensalmente. 
 >
 >Assine a [Atualização mensal do produto de prioridade da Adobe](https://www.adobe.com/subscription/priority-product-update.html) para receber notificações por email sobre atualizações nesta página. Esta página é mantida durante todo o mês. Portanto, verifique regularmente se há atualizações de produtos empresariais da Adobe e da documentação da Experience League.
 
-Última atualização: **20 de agosto de 2021**
+Última atualização: **25 de agosto de 2021**
 
 * [Componentes da interface central da Experience Cloud](#ecloud)
-* [Experience Platform](#platform)
+* [Experience Platform](#platform)  (atualizado em 25  **de agosto de 2021**)
 * [Status de sistema da Adobe](#status)
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
@@ -71,7 +71,13 @@ Você pode encontrar as informações mais recentes da versão para o Status do 
 
 Inclui informações de atualização de versão e nova documentação para a Experience Platform e marcação da Platform.
 
-* **28 de julho de 2021** [Notas de versão do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR)  (Próximo lançamento planejado - 25  **de agosto**)
+**As atualizações de 25 de agosto de 2021**  para os recursos existentes no Experience Platform incluem:
+
+* Insights de capacidade de observação
+* Perfil do cliente em tempo real
+* Fontes
+
+Consulte [Notas de versão do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR) para obter detalhes.
 
 ### Tutoriais e cursos da Experience Platform {#tutorials-platform}
 
