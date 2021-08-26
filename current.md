@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 8b1a49bf761607dccb2793e0223c072cd6121be3
+source-git-commit: c402b360cc166a76c694b383806a21a34ccd2e60
 workflow-type: tm+mt
-source-wordcount: '4503'
+source-wordcount: '4508'
 ht-degree: 51%
 
 ---
@@ -46,13 +46,11 @@ Os aplicativos e os serviços da Experience Cloud são atualizados mensalmente. 
 
 Precisa de ajuda? Visite a [Adobe Experience League](https://experienceleague.adobe.com/?lang=pt-BR#home) para encontrar documentação técnica e de produtos, cursos com curadoria da Adobe, tutoriais em vídeo, respostas rápidas, insight da comunidade e treinamento ministrado por instrutores.
 
-## Aviso de evento para Experience League Live - Torne seu próximo segmento de público-alvo mais inteligente do que nunca {#events}
+## ![](/assets/experience-league.png) IconExperience League Live {#events}
 
-Conheça o Construtor de segmentos no Experience Platform LIVE com Aaron Shields, Yaya Wang e Andres Monroy!
+**26 de agosto de 2021**  |  [Torne seu próximo segmento de público-alvo mais inteligente do que nunca](https://www.youtube.com/watch?v=rogVKsTFbWk)  - Conheça o Construtor de segmentos no Experience Platform com Doug Moore, Aaron Shields, Yaya Wang e Andres Monroy!
 
-**Evento:** [torne seu próximo segmento de público-alvo mais inteligente do que nunca](https://www.youtube.com/watch?v=rogVKsTFbWk)
-
-**Quando:** 26 de agosto de 2021 às 9:00 PST
+Para obter mais vídeos, visite o [Canal Adobe Experience League](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) no YouTube.
 
 ## ![Ícone](/assets/ec_appicon_24.png) Componentes da interface central da Experience Cloud {#ecloud}
 
