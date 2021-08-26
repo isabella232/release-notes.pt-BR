@@ -6,10 +6,10 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 0f1c37e20e20740e60c6e6c72e465c8611e4a60b
+source-git-commit: 8b1a49bf761607dccb2793e0223c072cd6121be3
 workflow-type: tm+mt
-source-wordcount: '4445'
-ht-degree: 52%
+source-wordcount: '4503'
+ht-degree: 51%
 
 ---
 
@@ -23,8 +23,9 @@ Os aplicativos e os serviços da Experience Cloud são atualizados mensalmente. 
 >
 >Assine a [Atualização mensal do produto de prioridade da Adobe](https://www.adobe.com/subscription/priority-product-update.html) para receber notificações por email sobre atualizações nesta página. Esta página é mantida durante todo o mês. Portanto, verifique regularmente se há atualizações de produtos empresariais da Adobe e da documentação da Experience League.
 
-Última atualização: **25 de agosto de 2021**
+Última atualização: **26 de agosto de 2021**
 
+* [Aviso do evento para Experience League Live](#events)  - 26  **de agosto de 2021**
 * [Componentes da interface central da Experience Cloud](#ecloud)
 * [Experience Platform](#platform)  (atualizado em 25  **de agosto de 2021**)
 * [Status de sistema da Adobe](#status)
@@ -44,6 +45,14 @@ Os aplicativos e os serviços da Experience Cloud são atualizados mensalmente. 
 * [Creative Cloud para corporações](#creative-cloud)
 
 Precisa de ajuda? Visite a [Adobe Experience League](https://experienceleague.adobe.com/?lang=pt-BR#home) para encontrar documentação técnica e de produtos, cursos com curadoria da Adobe, tutoriais em vídeo, respostas rápidas, insight da comunidade e treinamento ministrado por instrutores.
+
+## Aviso de evento para Experience League Live - Torne seu próximo segmento de público-alvo mais inteligente do que nunca {#events}
+
+Conheça o Construtor de segmentos no Experience Platform LIVE com Aaron Shields, Yaya Wang e Andres Monroy!
+
+**Evento:** [torne seu próximo segmento de público-alvo mais inteligente do que nunca](https://www.youtube.com/watch?v=rogVKsTFbWk)
+
+**Quando:** 26 de agosto de 2021 às 9:00 PST
 
 ## ![Ícone](/assets/ec_appicon_24.png) Componentes da interface central da Experience Cloud {#ecloud}
 
