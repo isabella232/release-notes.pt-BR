@@ -9,7 +9,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: c402b360cc166a76c694b383806a21a34ccd2e60
 workflow-type: tm+mt
 source-wordcount: '4508'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ Os aplicativos e os serviços da Experience Cloud são atualizados mensalmente. 
 
 Última atualização: **26 de agosto de 2021**
 
-* [Aviso do evento para Experience League Live](#events)  - 26  **de agosto de 2021**
+* [Aviso de evento do Experience League Live](#events) — **26 de agosto de 2021**
 * [Componentes da interface central da Experience Cloud](#ecloud)
-* [Experience Platform](#platform)  (atualizado em 25  **de agosto de 2021**)
+* [Experience Platform](#platform) (atualização em **25 de agosto de 2021**)
 * [Status de sistema da Adobe](#status)
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
@@ -46,11 +46,11 @@ Os aplicativos e os serviços da Experience Cloud são atualizados mensalmente. 
 
 Precisa de ajuda? Visite a [Adobe Experience League](https://experienceleague.adobe.com/?lang=pt-BR#home) para encontrar documentação técnica e de produtos, cursos com curadoria da Adobe, tutoriais em vídeo, respostas rápidas, insight da comunidade e treinamento ministrado por instrutores.
 
-## ![](/assets/experience-league.png) IconExperience League Live {#events}
+## ![Ícone](/assets/experience-league.png) Experience League Live {#events}
 
-**26 de agosto de 2021**  |  [Torne seu próximo segmento de público-alvo mais inteligente do que nunca](https://www.youtube.com/watch?v=rogVKsTFbWk)  - Conheça o Construtor de segmentos no Experience Platform com Doug Moore, Aaron Shields, Yaya Wang e Andres Monroy!
+**26 de agosto de 2021** | [Torne seu próximo segmento de público mais inteligente do que nunca](https://www.youtube.com/watch?v=rogVKsTFbWk) — conheça o Construtor de segmentos na Experience Platform com Doug Moore, Aaron Shields, Yaya Wang e Andres Monroy.
 
-Para obter mais vídeos, visite o [Canal Adobe Experience League](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) no YouTube.
+Para ver mais vídeos, acesse o [Canal da Adobe Experience League](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) no YouTube.
 
 ## ![Ícone](/assets/ec_appicon_24.png) Componentes da interface central da Experience Cloud {#ecloud}
 
@@ -58,7 +58,7 @@ Os componentes da interface central da Experience Cloud incluem atualizações a
 
 | Recurso | Data | Descrição |
 | ------- | ------- | -------|
-| [!UICONTROL Recentes unificados] — suporte estendido para objetos de negócios acessados recentemente | 10 de agosto de 2021 | Os [!UICONTROL Recentes unificados] são estendidos para objetos de negócios adicionais no Journey Optimizer e na Experience Platform. Os clientes do Journey Optimizer podem encontrar os objetos acessados recentemente (Mensagens, Jornadas, Segmentos, Esquemas, Conjuntos de dados, Fontes de dados, Eventos, Ações, Fontes e Destinos) na página inicial do Adobe Journey Optimizer. |
+| [!UICONTROL Recentes unificados] — suporte estendido para objetos de negócios acessados recentemente | 10 de agosto de 2021 | [!UICONTROL Os Recentes unificados ]são estendidos para objetos comerciais adicionais no Journey Optimizer e na Experience Platform. Os clientes do Journey Optimizer podem encontrar os objetos acessados recentemente (Mensagens, Jornadas, Segmentos, Esquemas, Conjuntos de dados, Fontes de dados, Eventos, Ações, Fontes e Destinos) na página inicial do Adobe Journey Optimizer. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -78,13 +78,13 @@ Você pode encontrar as informações mais recentes da versão para o Status do 
 
 Inclui informações de atualização de versão e nova documentação para a Experience Platform e marcação da Platform.
 
-**As atualizações de 25 de agosto de 2021**  para os recursos existentes no Experience Platform incluem:
+As atualizações de **25 de agosto de 2021** para os recursos existentes na Experience Platform incluem:
 
 * Insights de capacidade de observação
 * Perfil do cliente em tempo real
 * Fontes
 
-Consulte [Notas de versão do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR) para obter detalhes.
+Consulte as [notas de versão da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR) para obter mais detalhes.
 
 ### Tutoriais e cursos da Experience Platform {#tutorials-platform}
 
@@ -132,7 +132,7 @@ Novos vídeos, tutoriais ou cursos publicados para o Adobe Campaign.
 
 ## ![Ícone](/assets/experience_platform_appicon_24.png) Offer Decisioning {#offer-decisioning}
 
-[!UICONTROL O Offer Decisioning] é um serviço de aplicativos integrado à Adobe Experience Platform. Use o [!UICONTROL Offer Decisioning] para fornecer a melhor oferta e experiência aos seus clientes em todos os pontos de contato na hora certa.
+O [!UICONTROL Offer Decisioning] é um serviço de aplicativos integrado à Adobe Experience Platform. Use o [!UICONTROL Offer Decisioning] para fornecer a melhor oferta e experiência aos seus clientes em todos os pontos de contato na hora certa.
 
 * **Versão de julho de 2021:** a nova guia [!UICONTROL Visão geral] o orienta sobre as etapas principais para começar a criar decisões de oferta. Uma vez integrado, a mesma guia permite acesso rápido às ofertas, coleções e decisões mais recentes.
 
@@ -147,7 +147,7 @@ Consulte [Notas de versão do Offer Decisioning](https://experienceleague.adobe.
 Data de lançamento: **19 de agosto de 2021**
 
 * [Novos recursos no Adobe Analytics](#aa-features)
-* [Novos recursos no Customer Journey Analytics](#cust-journey)  (Atualizado em **17 de agosto de 2021**)
+* [Novos recursos no Customer Journey Analytics](#cust-journey) (Atualizado em **17 de agosto de 2021**)
 * [Correções no Adobe Analytics](#aa-fixes)
 * [Avisos importantes para administradores do Analytics](#aa-notices)
 * [Cursos e tutoriais do Analytics](#tutorials-analytics)
@@ -182,7 +182,7 @@ AN-211870; AN-255578; AN-258376; AN-260732; AN-260854; AN-261294; AN-263094; AN-
 
 | Aviso | Data de adição ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
-| Fim da vida útil dos conectores de dados da Adobe | 3 de agosto de 2020 | Os [!UICONTROL Data Connectors] da Adobe são alimentados por tecnologia herdada que não é mais viável ou compatível. Um novo padrão está disponível no [Programa de parceiro Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud). Você pode usar esse padrão para que qualquer integração continue a ser oferecida e suportada. A data de término oficial é em **19º de agosto de 2021**. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=pt-BR) |
+| Fim da vida útil do Data Connectors da Adobe | 3 de agosto de 2020 | Os [!UICONTROL Data Connectors] da Adobe são alimentados por tecnologia herdada que não é mais viável ou compatível. Um novo padrão está disponível no [Programa de parceiro Adobe Exchange](https://partners.adobe.com/exchangeprogram/experiencecloud). Você pode usar esse padrão para que qualquer integração continue a ser oferecida e suportada. A data de término oficial é em **19º de agosto de 2021**. [Saiba mais...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=pt-BR) |
 | Fim da vida útil de três serviços de API do Analytics | 15 de julho de 2021 | Em **18 de agosto de 2021**, os serviços de API herdados do Analytics a seguir estão programados para atingir sua data de fim de vida e serão encerrados. Quaisquer integrações atuais criadas com esses serviços deixarão de funcionar nesse dia.<ul><li>APIs do Analytics 1.3</li><li>APIs do SOAP Analytics 1.4</li><li>Autenticação OAuth herdada (OAuth e JWT)</li></ul>A Adobe forneceu uma seção de [Perguntas frequentes sobre EOL da API herdada](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) para ajudar a responder às suas perguntas e fornecer orientações sobre como proceder. As integrações de API que empregam esses serviços podem migrar para as [APIs REST do Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou as [APIs do Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). As contas OAuth herdadas podem migrar para uma conta de integração do Analytics [Adobe I/O](https://console.adobe.io/home?mv=email#), que pode ser usada para acessar as APIs do Analytics 1.4 e as APIs do Analytics 2.0. |
 | Fim da vida útil das fontes de dados de processamento completo | 12 de abril de 2021 | A Adobe substituiu as fontes de dados de processamento completo **em 31 de julho de 2021**. A partir de 25 de março de 2021, novas importações desse tipo não poderão mais ser criadas. Use a [API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) para importar esse tipo de dados. |
 | Fazer logon para atualizar para o [!UICONTROL Report Builder] | 9 de abril de 2021 | Em 14 de janeiro de 2021, as atualizações de logon do [!UICONTROL Report Builder] removeram as dependências das tecnologias herdadas e alinharam o processo de logon com a Experience Cloud. A Experience Cloud usa sua Enterprise ID (email e senha). Para garantir acesso ininterrupto ao [!UICONTROL Report Builder], atualize o suplemento [!UICONTROL Report Builder] para a versão 5.6.47 ou posterior **até 22 de julho de 2021**. O Report Builder versão 5.6.47 e posterior oferecerá suporte apenas ao logon da Experience Cloud e não oferecerá suporte ao logon único. |
@@ -364,7 +364,7 @@ Saiba mais sobre recursos, melhorias e correções mais recentes lançados:
 * Adobe Campaign v8: [Centro de ajuda](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=pt-BR) — [Notas de versão](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=pt-BR) — [Guias de implementação](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=pt-BR)
 * Adobe Campaign Standard: [Centro de ajuda](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=pt-BR) — [Notas de versão](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) — [Vídeos explicativos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR) — [Planejamento de lançamento](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=pt-BR) — [Atualizações mais recentes da documentação](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=pt-BR)
 * Adobe Campaign Classic: [Centro de ajuda](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=pt-BR) — [Notas de versão](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) — [Vídeos explicativos](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=pt-BR) — [Atualizações mais recentes da documentação](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=pt-BR)
-* Painel de controle do Adobe Campaign: [Documentação](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR) — [Notas de versão](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR) - Vídeos explicativos do [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=pt-BR)/[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=pt-BR)
+* Painel de controle do Adobe Campaign: [Documentação](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR) — [Notas de versão](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=pt-BR) — Vídeos explicativos do [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=pt-BR)/[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=pt-BR)
 
 ## ![Ícone](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
@@ -389,7 +389,7 @@ Notas de versão do [!DNL Adobe Advertising Cloud].
 
 | Recurso | Descrição |
 | ------- | ----------- |
-| — | A nova tag beta Advertising Cloud Javascript usa o Serviço da Adobe Experience Cloud ID (ECID), bem como a ef_id e gsurferid herdadas para medir as conversões. A nova tag cria [cookies próprios de Experience Cloud_ecid](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) e fornece uma integração mais estreita com outros produtos de Experience Cloud.<br><br>A tag herdada do Advertising Cloud Javascript com mapeamento ITP será substituída em setembro de 2021.<br><br>O gerente de conta do Adobe entrará em contato com você para obter mais informações e instruções de implementação. |
+| — | A nova tag beta Advertising Cloud JavaScript usa o Serviço da Adobe Experience Cloud ID (ECID), bem como a ef_id e gsurferid herdadas para medir as conversões. A nova tag cria [cookies próprios s_ecid da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=pt-BR) e fornece uma integração mais estreita com outros produtos da Experience Cloud.<br><br>A tag herdada do Advertising Cloud Javascript com mapeamento ITP será descontinuada em setembro de 2021.<br><br>O gerente de conta da Adobe entrará em contato com você para obter mais informações e instruções de implementação. |
 | [!UICONTROL Portfólios] | Novos [!UICONTROL Objetivos Beta] com recomendações de peso automatizadas estão disponíveis para todos os usuários. A nova interface apresenta mais orientação sobre como criar objetivos e definir pesos da meta inicial. Recomendações de peso estão disponíveis apenas para métricas de assistência. |
 
 {style=&quot;table-layout:auto&quot;}
