@@ -6,9 +6,9 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 86c72625cfc50612c0a7cf0c9893b3d6dc4e90f4
+source-git-commit: 462d61e20e2a12671be96cf653d639c07fd6bf96
 workflow-type: tm+mt
-source-wordcount: '6299'
+source-wordcount: '6301'
 ht-degree: 36%
 
 ---
@@ -194,10 +194,12 @@ Novos vídeos, tutoriais ou cursos publicados para a Experience Platform e servi
 
 Recursos, correções e novo conteúdo de ajuda do Journey Orchestration.
 
+**Agosto de 2021**
+
 * **Cabeçalhos dinâmicos:** agora é possível passar dados dinâmicos em parâmetros do cabeçalho HTTP. Esses parâmetros podem ser usados pelos sistemas de integração que recebem as chamadas HTTP da ação de jornada, por exemplo, carimbo de data e hora ou ID de rastreamento. [Leia mais...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
 * **Caminhos dinâmicos do URL:** agora é possível configurar caminhos dinâmicos do URL para ações personalizadas. [Leia mais...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
 
-* **Agosto de 2021**  - Consulte as Notas de versão do  [Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=pt-BR)
+Consulte [Notas de versão do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=pt-BR) para obter detalhes.
 
 #### Novos tutoriais e cursos do Journey Orchestration {#tutorials-ajo}
 
