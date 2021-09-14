@@ -6,10 +6,10 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: cc9f1d42093c54689b6d15c640879891e4d4ce24
+source-git-commit: fcba6592d43896676fff4a62d15756823c8a1b20
 workflow-type: tm+mt
-source-wordcount: '6298'
-ht-degree: 36%
+source-wordcount: '6343'
+ht-degree: 35%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 36%
 >
 >Assine a [Atualização mensal do produto de prioridade da Adobe](https://www.adobe.com/subscription/priority-product-update.html) para receber notificações por email sobre atualizações nesta página. Esta página é mantida durante todo o mês. Portanto, verifique regularmente se há atualizações de produtos empresariais da Adobe e da documentação da Experience League.
 
-Última atualização: **10 de setembro de 2021**
+Última atualização: **14 de setembro de 2021**
 
 * [[!DNL Experience League] Eventos ao vivo](#events)
 * [[!DNL Experience Cloud Central Interface Components] &amp; Administração](#ecloud)
 * [Adobe [!UICONTROL Status do Sistema]](#status)
 * [[!DNL Adobe Analytics]](#analytics) e [Customer Journey Analytics](#cust-journey)
-* [[!DNL Adobe Audience Manager]](#aam)
+* [[!DNL Adobe Audience Manager]](#aam) (atualizado em 14  **de setembro de 2021**)
 * [[!DNL Adobe Experience Platform]](#platform)
 * [[!DNL Adobe Journey Optimizer]](#journey-opt)
 * [[!DNL Adobe Experience Manager]](#aem)
@@ -163,7 +163,11 @@ Novos cursos, tutoriais e artigos no [!DNL Analytics] e no [!UICONTROL Customer 
 
 ## ![Ícone](/assets/audience-manager.png) Audience Manager {#aam}
 
-Não atualizado.
+Novos recursos no Audience Manager - atualizado em **14 de setembro de 2021**:
+
+| Recurso | Descrição |
+| ------- | ------- |
+| Consentimento para coleta de dados da ID móvel | Adição de suporte para consentimento da coleta de dados da ID de dispositivos móveis. Para se beneficiarem desta atualização, os clientes devem atualizar para [AEP Mobile SDK iOS Core 2.8.0](https://aep-sdks.gitbook.io/docs/foundation-extensions/mobile-core/mobile-core-release-notes#november-4-2020) ou posterior. |
 
 ## ![Ícone](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
