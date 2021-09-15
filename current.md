@@ -6,7 +6,7 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: fcba6592d43896676fff4a62d15756823c8a1b20
+source-git-commit: f94180b097c70ad3b4c8b93599c0d26db15892c6
 workflow-type: tm+mt
 source-wordcount: '6343'
 ht-degree: 35%
@@ -99,7 +99,7 @@ Data de lançamento: **15 de setembro de 2021**
 | ----------- | ---------- | ----- |
 | Desduplicação de métrica | O Customer Journey Analytics (CJA) agora pode desduplicar instâncias de uma métrica. Se o mesmo valor for visto em uma coluna (ela mesma ou outra coluna), é possível evitar que uma métrica aumente. A desduplicação impede a contagem excessiva de métricas principais e aumenta a confiança em seus dados. | 16 de setembro de 2021 |
 | Suporte de horário de verão para relatórios | Todos os dados no CJA são armazenados em UTC (não com um fuso horário específico). [!UICONTROL As ] visualizações de dados no CJA agora podem transferir dados para contabilizar o aumento ou a diminuição de 1 hora com base no horário de verão. | 16 de setembro de 2021 |
-| [!UICONTROL Calendários personalizados] | Permite selecionar um tipo de calendário diferente (como [!UICONTROL retail 4-4-5]) para uma visualização de dados. Você pode criar várias visualizações de dados com base na mesma conexão para ver os mesmos dados em diferentes formatos de calendário. | 16 de setembro de 2021 |
+| [!UICONTROL Calendários personalizados] | Permite selecionar um tipo de calendário diferente (como [!UICONTROL retail 4-4-5]) para uma visualização de dados. É possível criar várias visualizações de dados com base na mesma conexão para ver os mesmos dados em diferentes formatos de calendário. | 16 de setembro de 2021 |
 | Suporte a campo booleano | O CJA agora oferece suporte a campos booleanos. | 16 de setembro de 2021 |
 | Nova experiência de [!UICONTROL Conexões] Informações | Este aprimoramento da interface [!UICONTROL Connections] permite saber se e quando seus dados estão prontos para serem usados nos relatórios. Também permite rastrear quaisquer problemas no processamento de dados. [Saiba mais](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=pt-BR) | 20 de setembro de 2021 |
 
