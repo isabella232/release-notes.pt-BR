@@ -6,10 +6,10 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: dfec28cdcc99e9f8840e0eb1dec5c721775d65b8
+source-git-commit: 9ab0cd435039085791c186a439f16954c317c2df
 workflow-type: tm+mt
 source-wordcount: '6533'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -206,15 +206,6 @@ Recursos, correções e novo conteúdo de ajuda do Journey Orchestration.
 
 Consulte [Notas de versão do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=pt-BR) para obter detalhes.
 
-#### Novos tutoriais e cursos do Journey Orchestration {#tutorials-ajo}
-
-| Publicado | Nome | Tipo | Descrição |
-| -----------| ---------- | ---------- | ---------- |
-| Agosto de 2021 | [Introdução à criação de uma jornada](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=pt-BR) | Vídeo | Entenda as noções básicas para a criação de uma jornada na tela de jornada. |
-| Agosto de 2021 | [Configurar dados do perfil do cliente - visão geral](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/set-up-data-overview.html?lang=pt-BR) | Vídeo | Saiba mais sobre os dados de perfil do cliente em tempo real e as etapas necessárias para configurá-los no Journey Optimizer. |
-| Agosto de 2021 | [Mapear identidades](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/map-identities.html?lang=pt-BR) | Vídeo | Saiba como e quando rotular um campo de esquema como uma identidade, como criar um namespace, quando definir uma identidade como primária e como assimilar e verificar dados de identidade. |
-| Agosto de 2021 | [Caso de uso - Mensagem de interrupção](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html?lang=pt-BR) | Vídeo | Entenda os casos de uso aplicáveis para mensagens de interrupção. Saiba como configurar uma jornada para mensagens de interrupção e quais práticas recomendadas aplicar. |
-
 {style=&quot;table-layout:auto&quot;}
 
 #### Recursos adicionais do Journey Orchestration
@@ -247,6 +238,15 @@ Consulte [Notas de versão e logs de alteração](https://aep-sdks.gitbook.io/do
 | [!UICONTROL Lista de supressão] | A adição de endereços de email e domínios à lista de supressão agora está disponível na interface do usuário, um por um, ou no modo em massa por meio de um upload de arquivo CSV. |
 
 Consulte [Notas de versão do Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=pt-BR) para obter detalhes.
+
+#### Novos tutoriais e cursos do Journey Optimizer {#tutorials-ajo}
+
+| Publicado | Nome | Tipo | Descrição |
+| -----------| ---------- | ---------- | ---------- |
+| Agosto de 2021 | [Introdução à criação de uma jornada](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=pt-BR) | Vídeo | Entenda as noções básicas para a criação de uma jornada na tela de jornada. |
+| Agosto de 2021 | [Configurar dados do perfil do cliente - visão geral](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/set-up-data-overview.html?lang=pt-BR) | Vídeo | Saiba mais sobre os dados de perfil do cliente em tempo real e as etapas necessárias para configurá-los no Journey Optimizer. |
+| Agosto de 2021 | [Mapear identidades](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/map-identities.html?lang=pt-BR) | Vídeo | Saiba como e quando rotular um campo de esquema como uma identidade, como criar um namespace, quando definir uma identidade como primária e como assimilar e verificar dados de identidade. |
+| Agosto de 2021 | [Caso de uso - Mensagem de interrupção](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html?lang=pt-BR) | Vídeo | Entenda os casos de uso aplicáveis para mensagens de interrupção. Saiba como configurar uma jornada para mensagens de interrupção e quais práticas recomendadas aplicar. |
 
 ### Mais recursos do Journey Optimizer
 
@@ -463,7 +463,7 @@ Notas de versão do [!DNL Adobe Advertising Cloud].
 
 {style=&quot;table-layout:auto&quot;}
 
-## ![Ícone](/assets/magento.png) [!DNL Commerce] (Magento) {#magento}
+## ![Ícone](/assets/magento.png) [!DNL Commerce]  (Magento) {#magento}
 
 Consulte os seguintes links para as notas de versão do Adobe Commerce:
 
