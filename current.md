@@ -6,7 +6,7 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e12356a1860ce775f703426a7bf7e883ad69e404
+source-git-commit: 705386fb5b736ff9bf05219162697926821cd686
 workflow-type: tm+mt
 source-wordcount: '6533'
 ht-degree: 99%
@@ -195,31 +195,6 @@ Novos vídeos, tutoriais ou cursos publicados para a Experience Platform e servi
 
 {style=&quot;table-layout:auto&quot;}
 
-### Journey Orchestration {#journey-orch}
-
-Recursos, correções e novo conteúdo de ajuda do Journey Orchestration.
-
-**Agosto de 2021**
-
-* **Cabeçalhos dinâmicos:** agora é possível passar dados dinâmicos em parâmetros do cabeçalho HTTP. Esses parâmetros podem ser usados pelos sistemas de integração que recebem as chamadas HTTP da ação de jornada, por exemplo, carimbo de data e hora ou ID de rastreamento. [Leia mais...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=pt-BR)
-* **Caminhos dinâmicos do URL:** agora é possível configurar caminhos dinâmicos do URL para ações personalizadas. [Leia mais...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
-
-Consulte [Notas de versão do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=pt-BR) para obter detalhes.
-
-#### Recursos adicionais do Journey Orchestration
-
-[Centro de ajuda](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=pt-BR) - [Notas de versão](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [Vídeos explicativos](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=pt-BR) - [Atualizações mais recentes da documentação](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=pt-BR)
-
-### [!UICONTROL Offer Decisioning] {#offer-decisioning}
-
-**Fluxo de representação:** a maneira como você adiciona e configura representações ao criar uma oferta foi atualizada para melhorar a experiência do usuário
-
-* Consulte [[!UICONTROL Notas de versão] do Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=pt-BR) para obter detalhes.
-
-#### Mais recursos do [!UICONTROL Offer Decisioning]
-
-[Centro de ajuda](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html?lang=pt-BR) - [Notas de versão](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=pt-BR#new) - [Vídeos explicativos](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html?lang=pt-BR) - [Atualizações mais recentes da documentação](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/documentation-updates.html?lang=pt-BR)
-
 ### SDK do Adobe Mobile
 
 Consulte [Notas de versão e logs de alteração](https://aep-sdks.gitbook.io/docs/release-notes) dos SDKs móveis da Adobe Experience Platform.
@@ -251,6 +226,31 @@ Consulte [Notas de versão do Journey Optimizer](https://experienceleague.adobe.
 ### Mais recursos do Journey Optimizer
 
 [Centro de ajuda](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=pt-BR) - [Notas de versão](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [Vídeos explicativos](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=pt-BR)
+
+### Journey Orchestration {#journey-orch}
+
+Recursos, correções e novo conteúdo de ajuda do Journey Orchestration.
+
+**Agosto de 2021**
+
+* **Cabeçalhos dinâmicos:** agora é possível passar dados dinâmicos em parâmetros do cabeçalho HTTP. Esses parâmetros podem ser usados pelos sistemas de integração que recebem as chamadas HTTP da ação de jornada, por exemplo, carimbo de data e hora ou ID de rastreamento. [Leia mais...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=pt-BR)
+* **Caminhos dinâmicos do URL:** agora é possível configurar caminhos dinâmicos do URL para ações personalizadas. [Leia mais...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
+
+Consulte [Notas de versão do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=pt-BR) para obter detalhes.
+
+#### Recursos adicionais do Journey Orchestration
+
+[Centro de ajuda](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=pt-BR) - [Notas de versão](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [Vídeos explicativos](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=pt-BR) - [Atualizações mais recentes da documentação](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=pt-BR)
+
+### [!UICONTROL Offer Decisioning] {#offer-decisioning}
+
+**Fluxo de representação:** a maneira como você adiciona e configura representações ao criar uma oferta foi atualizada para melhorar a experiência do usuário
+
+* Consulte [[!UICONTROL Notas de versão] do Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=pt-BR) para obter detalhes.
+
+#### Mais recursos do [!UICONTROL Offer Decisioning]
+
+[Centro de ajuda](https://experienceleague.adobe.com/docs/offer-decisioning/using/offer-decisioning-home.html?lang=pt-BR) - [Notas de versão](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=pt-BR#new) - [Vídeos explicativos](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/overview.html?lang=pt-BR) - [Atualizações mais recentes da documentação](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/documentation-updates.html?lang=pt-BR)
 
 ## ![Ícone](/assets/aem.png) Experience Manager {#aem}
 
