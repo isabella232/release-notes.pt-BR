@@ -6,7 +6,7 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 9ab0cd435039085791c186a439f16954c317c2df
+source-git-commit: e12356a1860ce775f703426a7bf7e883ad69e404
 workflow-type: tm+mt
 source-wordcount: '6533'
 ht-degree: 99%
@@ -206,8 +206,6 @@ Recursos, correções e novo conteúdo de ajuda do Journey Orchestration.
 
 Consulte [Notas de versão do Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=pt-BR) para obter detalhes.
 
-{style=&quot;table-layout:auto&quot;}
-
 #### Recursos adicionais do Journey Orchestration
 
 [Centro de ajuda](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=pt-BR) - [Notas de versão](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [Vídeos explicativos](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=pt-BR) - [Atualizações mais recentes da documentação](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=pt-BR)
@@ -247,6 +245,8 @@ Consulte [Notas de versão do Journey Optimizer](https://experienceleague.adobe.
 | Agosto de 2021 | [Configurar dados do perfil do cliente - visão geral](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/set-up-data-overview.html?lang=pt-BR) | Vídeo | Saiba mais sobre os dados de perfil do cliente em tempo real e as etapas necessárias para configurá-los no Journey Optimizer. |
 | Agosto de 2021 | [Mapear identidades](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/map-identities.html?lang=pt-BR) | Vídeo | Saiba como e quando rotular um campo de esquema como uma identidade, como criar um namespace, quando definir uma identidade como primária e como assimilar e verificar dados de identidade. |
 | Agosto de 2021 | [Caso de uso - Mensagem de interrupção](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html?lang=pt-BR) | Vídeo | Entenda os casos de uso aplicáveis para mensagens de interrupção. Saiba como configurar uma jornada para mensagens de interrupção e quais práticas recomendadas aplicar. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Mais recursos do Journey Optimizer
 
