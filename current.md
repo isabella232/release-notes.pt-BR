@@ -6,9 +6,9 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e3a7e1b80d25a3b9625ca0ee31a07bae674eda6f
+source-git-commit: bee65444e8ef1c12779c991fa9e199d93b8028f0
 workflow-type: tm+mt
-source-wordcount: '5278'
+source-wordcount: '5361'
 ht-degree: 39%
 
 ---
@@ -48,12 +48,12 @@ Precisa de ajuda? Visite a [Adobe Experience League](https://experienceleague.ad
 
 [!DNL Experience League] Eventos ao vivo são discussões com especialistas da Adobe e convidados especiais que são fundamentais para trazer a tecnologia da Adobe até você. Veja a programação a seguir e junte-se a nós ao vivo ou assista aos eventos previamente gravados.
 
-| Data do evento | Nome do evento | Tipo | Descrição |
-| -----------| ---------- | ---------- | ---------- |
-| 21 de outubro de 2021 | TBD | Evento de vídeo ao vivo | Detalhes em breve. |
-| 23 de setembro de 2021 | [Dicas de especialistas para fazer suas campanhas de fim de ano se destacarem](https://www.youtube.com/watch?v=bsU1lAv0xes) | Evento de vídeo ao vivo | Assim como nunca é cedo demais para começar as compras de Natal, nunca é cedo demais para começar a planejar uma campanha de marketing de fim de ano de grande sucesso. Com o Adobe Campaign, você pode projetar, planejar e executar campanhas que realizam todos os desejos de fim de ano da sua empresa.<br>Mas você sabe todas as dicas para executar campanhas que terminam o ano com um estrondo? Junte-se a Sandra para uma discussão ao vivo com três especialistas em Adobe que possuem especialistas em experiência coletiva em fazer exatamente isso. |
-| 26 de agosto de 2021 | [Torne seu próximo segmento de público-alvo mais inteligente do que nunca](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-02.html?lang=pt-BR) | Gravação de evento | O sucesso de toda boa campanha de marketing depende precisamente do direcionamento ao público-alvo. Com o novo [!UICONTROL Construtor de segmentos] da Adobe Experience Platform, você pode construir seu próximo segmento de público-alvo usando dados de perfil e comportamento do usuário com base no tempo em todos os canais. Não há melhor maneira de garantir que suas mensagens cheguem às pessoas que mais precisam ouvi-las. |
-| 29 de julho de 2021 | [Minhas três dicas de implementação favoritas do Adobe Analytics](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-01.html?lang=br-BR) | Gravação de evento | Você o viu no palco na Summit. Você o ouviu compartilhar conselhos de especialistas no Adobe Insider Tours. Você pode até ter tido a vantagem de trabalhar com ele em sua própria implementação do Adobe Analytics. Agora, Eric Matisoff está trazendo suas três dicas favoritas de implementação do Adobe Analytics para esta discussão exclusiva do Experience League Live. |
+| Data do evento | Hora | Nome do evento | Tipo | Descrição |
+| -----------| ---------- | ---------- | ---------- |---------- |
+| 21 de outubro de 2021 | 12:00 (EST) | [Quem clicou nisso? Relatórios avançados sobre cliques em links com Adobe Analytics](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) | Evento de vídeo ao vivo | Gerar relatórios sobre a interação do usuário com sua propriedade da Web ou móvel é fundamental para entender a jornada do cliente. Com o Adobe Analytics, você pode entender quem, o quê, por quê e onde de cada clique em seu aplicativo. Saiba mais com especialistas do Adobe Analytics sobre as principais dicas para usar classificações de Activity Map e atribuição personalizada para entender melhor o envolvimento do usuário. |
+| 23 de setembro de 2021 | Sob demanda | [Dicas de especialistas para fazer suas campanhas de fim de ano se destacarem](https://www.youtube.com/watch?v=bsU1lAv0xes) | Evento de vídeo ao vivo | Assim como nunca é cedo demais para começar as compras de Natal, nunca é cedo demais para começar a planejar uma campanha de marketing de fim de ano de grande sucesso. Com o Adobe Campaign, você pode projetar, planejar e executar campanhas que realizam todos os desejos de fim de ano da sua empresa.<br>Mas você sabe todas as dicas para executar campanhas que terminam o ano com um estrondo? Junte-se a Sandra para uma discussão ao vivo com três especialistas em Adobe que possuem especialistas em experiência coletiva em fazer exatamente isso. |
+| 26 de agosto de 2021 | Sob demanda | [Torne seu próximo segmento de público-alvo mais inteligente do que nunca](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-02.html?lang=pt-BR) | Gravação de evento | O sucesso de toda boa campanha de marketing depende precisamente do direcionamento ao público-alvo. Com o novo [!UICONTROL Construtor de segmentos] da Adobe Experience Platform, você pode construir seu próximo segmento de público-alvo usando dados de perfil e comportamento do usuário com base no tempo em todos os canais. Não há melhor maneira de garantir que suas mensagens cheguem às pessoas que mais precisam ouvi-las. |
+| 29 de julho de 2021 | Sob demanda | [Minhas três dicas de implementação favoritas do Adobe Analytics](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-01.html?lang=br-BR) | Gravação de evento | Você o viu no palco na Summit. Você o ouviu compartilhar conselhos de especialistas no Adobe Insider Tours. Você pode até ter tido a vantagem de trabalhar com ele em sua própria implementação do Adobe Analytics. Agora, Eric Matisoff está trazendo suas três dicas favoritas de implementação do Adobe Analytics para esta discussão exclusiva do Experience League Live. |
 
 {style=&quot;table-layout:auto&quot;}
 
