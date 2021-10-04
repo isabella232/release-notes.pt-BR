@@ -5,9 +5,10 @@ doc-type: release notes
 last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
-source-git-commit: ff7a3736e7490af8b815eda72e4ba0b363aef472
+exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
+source-git-commit: 2ad6cb4ae1ae0c9a9414df7c1360a3d4d428f1e5
 workflow-type: tm+mt
-source-wordcount: '5136'
+source-wordcount: '5271'
 ht-degree: 40%
 
 ---
@@ -339,9 +340,13 @@ Saiba mais sobre recursos, melhorias e correções mais recentes lançados:
 
 Tutoriais e cursos mais recentes do Adobe Campaign.
 
-| Publicado | Nome | aplicação | Descrição |
+| Publicado | Nome | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |
-| Outubro de 2021 | [Criar campanhas avançadas com o Adobe Campaign V8 para usuários empresariais](https://experienceleague.adobe.com/?recommended=Campaign-U-1.2021.1.v8) | Campaign V8 | Saiba como configurar e executar campanhas de marketing avançadas usando o Adobe Campaign V8. Saiba mais sobre os pré-requisitos, crie e configure campanhas avançadas, deliveries e gerencie assinaturas. |
+| Outubro de 2021 | [Criar campanhas avançadas com o Adobe Campaign V8 para usuários empresariais](https://experienceleague.adobe.com/?recommended=Campaign-U-1.2021.1.v8) | Curso | Saiba como configurar e executar campanhas de marketing avançadas usando o Adobe Campaign V8. Saiba mais sobre os pré-requisitos, crie e configure campanhas avançadas, deliveries e gerencie assinaturas. |
+| Outubro de 2021 | [Usar APIs SOAP em fluxos de trabalho - Introdução](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=en) | Tutorial | Saiba como usar as APIs do Adobe Campaign Soap e criar um workflow de delivery avançado com base nos dados recebidos por meio da API. |
+| Outubro de 2021 | [Criar eventos](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/create-events.html?lang=en) | Tutorial | Saiba como configurar um evento, especificar o endpoint de transmissão e a carga útil de um evento. |
+| Outubro de 2021 | [Configurar fontes de dados](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=en) | Tutorial | Entenda o que é uma fonte de dados e saiba como configurar o Experience Platform e fontes de dados externas. |
+| Outubro de 2021 | [Caso de uso - mensagens de explosão](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html?lang=en) | Tutorial | Entenda os casos de uso aplicáveis para mensagens de interrupção. Saiba como configurar uma jornada para mensagens de interrupção e quais práticas recomendadas aplicar. |
 
 {style=&quot;table-layout:auto&quot;}
 
