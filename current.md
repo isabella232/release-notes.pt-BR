@@ -6,10 +6,10 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 7cf9cf52da1afbbad7f5457077759b127a2e2312
+source-git-commit: e3facdc781ebcea6c4e623799ba1c431c83ae05f
 workflow-type: tm+mt
-source-wordcount: '5405'
-ht-degree: 39%
+source-wordcount: '5537'
+ht-degree: 38%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 39%
 >
 >Assine a [Atualização mensal do produto de prioridade da Adobe](https://www.adobe.com/subscription/priority-product-update.html) para receber notificações por email sobre atualizações nesta página. Esta página é mantida durante todo o mês. Portanto, verifique regularmente se há atualizações de produtos empresariais da Adobe e da documentação da Experience League.
 
-Última atualização: **4 de outubro de 2021**
+Última atualização: **7 de outubro de 2021**
 
 * [[!DNL Experience League] Eventos ao vivo](#events)
 * [[!DNL Experience Cloud Central Interface Components] &amp; Administração](#ecloud)
 * [Status do [!UICONTROL Sistema da Adobe]](#status)
-* [[!DNL Adobe Analytics]](#analytics) e do [Customer Journey Analytics](#cust-journey)
+* [[!DNL Adobe Analytics]](#analytics) e do [Customer Journey Analytics](#cust-journey)  **Atualizado em 7 de outubro de 2021**
 * [[!DNL Adobe Audience Manager]](#aam)
 * [[!DNL Adobe Experience Platform]](#platform)
 * [[!DNL Adobe Journey Optimizer]](#journey-opt)
@@ -87,7 +87,7 @@ O [!DNL Adobe System Status] fornece informações detalhadas, atualizações de
 Data de lançamento: **7 de outubro de 2021**
 
 * [Novos recursos no Adobe Analytics](#aa-features)
-* [Novos recursos no Customer Journey Analytics](#cust-journey)
+* [Novos recursos no Customer Journey Analytics](#cust-journey)  **Atualizado em 7 de outubro de 2021**
 * [Correções no Adobe Analytics](#aa-fixes)
 * [Avisos importantes para administradores do Analytics](#aa-notices)
 * [Cursos e tutoriais do Analytics](#tutorials-analytics)
@@ -109,6 +109,7 @@ Data de lançamento: **7 de outubro de 2021**
 
 | Recurso | Descrição | [Disponibilidade geral](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) — Data do Target |
 | ----------- | ---------- | ----- |
+| Janela de rolagem para retenção de dados [!UICONTROL Connection] | **Observação: Entre em contato com o Atendimento ao cliente ou o gerente de conta do Adobe para implementar essa configuração. Ele ainda não está disponível por meio da interface do usuário do CJA.**<p>Permite definir uma configuração de retenção de dados CJA como uma janela rolante em meses (3 meses, 6 meses etc.), em um nível [!UICONTROL conexão] (não em um nível [!UICONTROL conjunto de dados]). A retenção de dados tem por base os carimbos de data e hora do conjunto de dados do evento e se aplica somente aos conjuntos de dados do evento. Nenhuma configuração de retenção de dados existe para o perfil ou conjuntos de dados de pesquisa, pois não há carimbos de data e hora aplicáveis. O principal benefício é armazenar ou relatar apenas dados que sejam aplicáveis e úteis, além de excluir dados mais antigos que não sejam mais úteis. Ajuda você a ficar abaixo dos limites do contrato e reduz o risco de sobrecarga. | 7 de outubro de 2021 |
 | Suporte a Report Builder | O Report Builder é um Microsoft® [!DNL Excel] Add-in que permite criar, editar e atualizar facilmente relatórios personalizados usando dados de Customer Journey Analytics. Com o Report Builder e o Excel, você pode usar a interface do usuário de arrastar e soltar simples, mas flexível, para criar facilmente solicitações de dados complexas. Com o Report Builder for Customer Journey Analytics, você pode:<ul><li>Faça referência às células da planilha existentes para obter a ordem perfeita das linhas, o intervalo de datas ou o filtro</li><li>Criar datas personalizadas usando calendário, referências de célula ou correspondência de datas</li><li>Projete tabelas e visualizações com ferramentas de formatação familiares do Excel</li><li>Disponível para Excel no macOS, Microsoft 365 para Web e Microsoft Windows</li></ul>[Saiba mais](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/report-buider-overview.html#) | 7 de outubro de 2021 |
 | Visualizações para painéis do Analytics | O Analytics [!UICONTROL Dashboards] está apresentando três novas visualizações para fornecer aos executivos e aos tomadores de decisão uma melhor compreensão instantânea de seus dados. Os novos gráficos de rosca, linha e barra horizontal facilitam a visualização de dados de itens de dimensão individuais sem precisar abrir uma visualização de detalhes. [Saiba mais](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=en#apply-visualizations) | 7 de outubro de 2021 |
 | API de logs de auditoria do Customer Journey Analytics | O endpoint da API [Audit Log](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) permite solicitar dados de log de auditoria do Adobe. É uma parte importante da conformidade com a segurança e para a auditoria de dados ou ações do usuário. | 7 de outubro de 2021 |
