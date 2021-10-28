@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 99bb9c88f2aa8b9f62cf2f088671fe60c1e684ab
+source-git-commit: ed5f9c6b35b65bab0c26887788e2232a0e9a6ab5
 workflow-type: tm+mt
-source-wordcount: '4131'
-ht-degree: 64%
+source-wordcount: '4147'
+ht-degree: 63%
 
 ---
 
@@ -124,7 +124,7 @@ Data de lançamento: **28 de outubro de 2021**
 | [!UICONTROL Tempo gasto com a reprodução da mídia] | O recurso [!UICONTROL Tempo gasto] da reprodução de mídia de transmissão da Adobe fornece informações valiosas sobre o envolvimento do visualizador e permite que as organizações de mídia obtenham insights mais profundos e detalhados sobre o engajamento do usuário a cada minuto, por meio da análise avançada de tempo gasto com recursos de faixa horária. É possível observar o tempo gasto visualizando seus fluxos de mídia em um período específico. Você pode dividir a duração da reprodução por diferentes granularidades, incluindo novas granularidades de 5 minutos, 15 minutos e 30 minutos. [Saiba mais](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=pt-BR) | 18 de outubro de 2021 |
 | [!UICONTROL Construtor de segmentos] rápido | Permite que usuários empresariais apliquem segmentos básicos rapidamente em um fluxo de trabalho de projeto simplificado e alinhado. Não é necessário acessar o [!UICONTROL Construtor de segmentos]. [Saiba mais](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=pt-BR) | 21 de outubro de 2021 |
 | Melhorias na pesquisa no painel esquerdo do Analysis Workspace | Pesquisa no painel esquerdo 1) prioriza as correspondências exatas acima das correspondências amplas, além de continuar levando em conta a recenticidade e relevância do componente. 2) Destacar caracteres correspondentes para tornar os resultados da pesquisa mais compreensíveis. 3) Facilitar a identificação de classificações relacionadas a uma dimensão. 4) Por fim, ele oferece suporte à pesquisas com curinga (`*`) para encontrar mais facilmente os componentes específicos de que você precisa. Observação: a pesquisa com curinga ainda não funciona no nível do item de dimensão. | 21 de outubro de 2021 |
-| Tema escuro do Analysis Workspace | O tema escuro está disponível como uma opção de exibição. | 21 de outubro de 2021 |
+| Tema Escuro | [O tema escuro está disponível como uma opção de exibição.](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#dark-theme) | 21 de outubro de 2021 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -135,7 +135,7 @@ Data de lançamento: **28 de outubro de 2021**
 | Intervalos de datas em nível de minuto no Analysis Workspace | Você pode aplicar um intervalo de datas de minuto sob as configurações avançadas do calendário do painel ou ao criar um intervalo de datas personalizado. Se você estiver relatando um intervalo de datas que abrange muitos dias, a hora de início se aplica ao primeiro dia e a hora de término se aplica ao último dia do intervalo. | 18 de outubro de 2021 |
 | [!UICONTROL Construtor de filtros] rápido | Permite que usuários empresariais apliquem segmentos básicos rapidamente em um fluxo de trabalho de projeto simplificado e alinhado. Não é necessário acessar o [!UICONTROL Construtor de filtros]. [Saiba mais](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html) | 21 de outubro de 2021 |
 | Melhorias na pesquisa no painel esquerdo do Analysis Workspace | Pesquisa no painel esquerdo 1) prioriza as correspondências exatas acima das correspondências amplas, além de continuar levando em conta a recenticidade e relevância do componente. 2) Destacar caracteres correspondentes para tornar os resultados da pesquisa mais compreensíveis. 3) Facilitar a identificação de classificações relacionadas a uma dimensão. 4) Por fim, ele oferece suporte à pesquisas com curinga (`*`) para encontrar mais facilmente os componentes específicos de que você precisa. Observação: a pesquisa com curinga ainda não funciona no nível do item de dimensão. | 21 de outubro de 2021 |
-| Tema escuro do Analysis Workspace | O tema escuro está disponível como uma opção de exibição. | 21 de outubro de 2021 |
+| Tema Escuro | [O tema escuro está disponível como uma opção de exibição.](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=en#dark-theme) | 21 de outubro de 2021 |
 | Janela de pesquisa para alocação de dimensão | Uma janela de retrospectiva de até 90 dias é adicionada à configuração de alocação de dimensão em Persistência na configuração Visualizações de dados. [Saiba mais](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html) | 28 de outubro de 2021 |
 
 {style=&quot;table-layout:auto&quot;}
