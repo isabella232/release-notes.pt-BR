@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 4dfe2c2ab39fe82b40fc87e289d2c55c6ccc6735
+source-git-commit: 88923d059ec73215facae2efc1888b07b2e60fc7
 workflow-type: tm+mt
-source-wordcount: '4456'
-ht-degree: 59%
+source-wordcount: '4513'
+ht-degree: 58%
 
 ---
 
@@ -53,6 +53,7 @@ Precisa de ajuda? Visite a [Adobe Experience League](https://experienceleague.ad
 
 | Data do evento | Hora | Nome do evento | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |---------- |
+| 18 de novembro de 2021 | TBA | Entre em funcionamento mais rápido do que nunca com a criação rápida de sites no Experience Manager | Evento de vídeo ao vivo | O Experience Manager Sites inclui vários recursos para acelerar a entrega de uma experiência atraente na Web. Saiba como usar uma abordagem de código baixo para criar um site no Adobe Experience Manager usando um modelo de site predefinido. Mais detalhes estão por vir! |
 | 21 de outubro de 2021 | Por demanda | [Quem clicou nisso? Relatórios avançados sobre cliques em links com o Adobe Analytics](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) | Evento de vídeo ao vivo | Gerar relatórios sobre a interação do usuário com sua propriedade da web ou móvel é fundamental para entender a jornada do seu cliente. Com o Adobe Analytics, você pode entender o quê, quem, por quê e onde de cada clique em seu aplicativo. Aprenda com especialistas do Adobe Analytics as principais dicas para usar classificações de Activity Map e atribuição personalizada para entender melhor o engajamento do usuário. |
 | 4 de outubro de 2021 | Por demanda | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=pt-BR) | Vídeo | Ocorreu falta do evento ou da procura de uma repetição de uma sessão específica? Encontre-os no Experience League. Desenvolvedores Ao vivo exibe os mais recentes avanços tecnológicos e ferramentas de desenvolvedores que impulsionam o design, fluxos de trabalho de criação de conteúdo, serviços de documento e gerenciamento da experiência do cliente em todos os setores. Veja o endereço do keynote, saiba mais sobre APIs do Analytics, camada de dados do cliente, projetos de código aberto do Adobe I/O e muito mais. |
 
