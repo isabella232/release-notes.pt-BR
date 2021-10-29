@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: ed5f9c6b35b65bab0c26887788e2232a0e9a6ab5
+source-git-commit: 3a80d5d73e7b701242c7318729d5394062c544f8
 workflow-type: tm+mt
-source-wordcount: '4147'
-ht-degree: 63%
+source-wordcount: '4455'
+ht-degree: 59%
 
 ---
 
@@ -372,16 +372,32 @@ Consulte a página [[!DNL Workfront] lançamentos](https://one.workfront.com/s/p
 
 Notas de versão do [!DNL Adobe Advertising Cloud].
 
+* [Novos recursos em [!DNL Advertising Cloud]](#adcloud-all)
 * [Novos recursos no  [!DNL Advertising Cloud DSP]](#adcloud-dsp)
 * [Novos recursos no  [!DNL Advertising Cloud Search]](#adcloud-search)
 
-### Novos recursos no [!DNL Advertising Cloud DSP] {#adcloud-dsp}
+### Novos recursos em [!DNL Advertising Cloud] {#adcloud-all}
 
-Última atualização: **7 de outubro de 2021**
+Última atualização: **27 de outubro de 2021**
 
 | Recurso | Descrição |
 | ------- | ----------- |
-| Documentação | Todos [DSP e outra documentação do Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud.html?lang=pt-BR) on [!DNL Experience League] O agora é traduzido por máquina em todos os idiomas disponíveis. Para alterar o idioma exibido, use o menu “Alterar idioma” na parte inferior esquerda de qualquer página. |
+| Analytics para Advertising Cloud | Se sua organização quiser mudar de usar o Adobe Analytics herdado `visitorAPI.js` biblioteca para a biblioteca do Adobe Experience Platform (`alloy.js`) para a coleta de dados, será necessário fazer algumas alterações para ativar a compilação de ID. Consulte &quot;[Usar o [!DNL Last Event Service] Biblioteca JavaScript com Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/planning/web-sdk.html).&quot; |
+
+{style=&quot;table-layout:auto&quot;}
+
+### Novos recursos no [!DNL Advertising Cloud DSP] {#adcloud-dsp}
+
+Última atualização: **27 de outubro de 2021**
+
+| Recurso | Descrição |
+| ------- | ----------- |
+| Relatórios personalizados | Agora é possível criar e gerenciar [!DNL Amazon S3] e diferentes tipos de locais de entrega FTP, chamados de *[!DNL report destinations]*, para seus relatórios personalizados. Depois de configurar os destinos do relatório, você pode configurar cada um dos novos relatórios personalizados para serem entregues a um ou mais locais de um único tipo de destino, ou para destinatários de email. Atualizações ao seu [!DNL Amazon S3] As credenciais do e do FTP não interrompem a entrega do relatório.<br><br>Seus relatórios existentes ainda são enviados aos destinatários de email especificados. Para configurar o delivery para um destino de relatório diferente, crie um novo relatório com o novo destino. |
+| [!UICONTROL Pacotes], [!UICONTROL Posicionamentos]e [!UICONTROL Anúncios] exibições | Ao visualizar dados de um único dia, os gráficos de tendências agora incluem dados por hora. Mantenha o cursor sobre qualquer ponto para ver os dados daquela hora. |
+| [!UICONTROL Posicionamentos] | A disposição [!UICONTROL Inspetor] agora inclui um [!UICONTROL Inventário] , que mostra todas as ofertas e suas métricas associadas para a disposição. Use as informações para fazer ajustes rápidos ou solucionar problemas sem gerar um relatório personalizado. |
+| [!UICONTROL Anúncios] | (Usuários com permissão para incluir números Clearcastclock em seus anúncios) DSP não exibe mais um erro se você usar um número de relógio anexado a outro anúncio. **Observação:**  A prática recomendada é usar um número de relógio exclusivo para cada anúncio de vídeo. Caso contrário, o editor não aprovará todos os anúncios. |
+| [!UICONTROL IDs de contrato] | O [!UICONTROL ID do contrato] configurações e outros locais na interface do usuário refletem a nova marca para [!DNL Magnite] SSP:<br><ul><li>A PUP &quot;[!DNL Tremor]&quot; ([!DNL Telaria]) agora é &quot;[!DNL Magnite CTV].&quot;</li><li>Nas próximas semanas, [!DNL Rubicon]&quot; mudará para &quot;[!DNL Magnite DV+],&quot; onde [!DNL DV+] significa exibição, vídeo e outros formatos, como áudio.</li></ul> |
+| [!DNL Freewheel] acordos programáticos garantidos | Agora você pode encontrar o status dos anúncios para [!DNL Freewheel] acordos programáticos garantidos do [!UICONTROL Anúncios] exibir. Anteriormente, você podia verificar o status somente no [!UICONTROL Contratos] exibir. |
 
 {style=&quot;table-layout:auto&quot;}
 
