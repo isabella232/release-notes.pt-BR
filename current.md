@@ -6,9 +6,9 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 2877f5206f1baeb4d9ea33529e476bbfe220ac7a
+source-git-commit: 6c7006998126d9e8921d32777ddde423b2f3c863
 workflow-type: tm+mt
-source-wordcount: '4804'
+source-wordcount: '4724'
 ht-degree: 92%
 
 ---
@@ -61,10 +61,11 @@ Os agendamentos e eventos são os seguintes:
 
 [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=pt-BR) é um streaming ao vivo produzido pela equipe de Experience League. É uma chance de se conectar com especialistas em produtos do Adobe e aprender dicas, truques e estratégias acionáveis que podem ser aplicadas com os aplicativos do Adobe Experience Cloud.
 
+Eventos futuros:
+
 | Data do evento | Hora | Nome do evento | Tipo | Descrição |
 | -----------| ---------- | ---------- | ---------- |---------- |
 | 18 de novembro de 2021 | 12:00 (EST) | [Entre em funcionamento mais rápido do que nunca, com a criação rápida de sites no Adobe Experience Manager](https://www.youtube.com/watch?v=7-Lcw5PejhI) | Evento de vídeo ao vivo | Implante uma experiência da Web personalizada e repleta de recursos em dias, sem desenvolvimento de back-end. Saiba como usar uma abordagem de código baixo para criar um site no Adobe Experience Manager usando um [!UICONTROL Modelo do site]. Junte-se a nós para uma apresentação ao vivo e demonstração com os Adobe Product Managers Shankari Panchapakesan, Gabriel Walt e Danny Gordon. Você pode até ver algum código ao vivo! |
-| 21 de outubro de 2021 | 12:00 (EST) | [Quem clicou nisso? Relatórios avançados sobre cliques em links com o Adobe Analytics](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) | Por demanda | Gerar relatórios sobre a interação do usuário com sua propriedade da web ou móvel é fundamental para entender a jornada do seu cliente. Com o Adobe Analytics, você pode entender o quê, quem, por quê e onde de cada clique em seu aplicativo. Aprenda com especialistas do Adobe Analytics as principais dicas para usar classificações de Activity Map e atribuição personalizada para entender melhor o engajamento do usuário. |
 
 {style=&quot;table-layout:auto&quot;}
 
