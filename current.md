@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 6c7006998126d9e8921d32777ddde423b2f3c863
+source-git-commit: 89342047732a95ba2669eb58397d6a1dc936a8a3
 workflow-type: tm+mt
-source-wordcount: '4724'
-ht-degree: 95%
+source-wordcount: '4803'
+ht-degree: 94%
 
 ---
 
@@ -25,13 +25,14 @@ ht-degree: 95%
 
 Mês de lançamento: **novembro de 2021**
 
-Última atualização: **15 de novembro de 2021**
+Última atualização: **22 de novembro de 2021**
 
 * [[!DNL Experience League] Eventos](#events) (Atualizado em 15 de novembro de 2021)
 * [[!DNL Experience Cloud Central Interface Components] &amp; Administração](#ecloud)
 * [[!UICONTROL Status do Sistema] da Adobe](#status)
 * [[!DNL Adobe Experience Platform]](#platform)
-* [[!DNL Adobe Analytics]](#analytics) e do [Customer Journey Analytics](#cust-journey)
+* [[!DNL Adobe Analytics]](#analytics)(Atualizado: 22 de novembro de 2021)
+* [Customer Journey Analytics](#cust-journey)
 * [[!DNL Adobe Audience Manager]](#aam)
 * [[!DNL Adobe Experience Manager]](#aem)
 * [[!DNL Adobe Commerce]](#magento)
@@ -144,7 +145,7 @@ Data de lançamento: **28 de outubro de 2021**
 * [Novos recursos no Adobe Analytics](#aa-features)
 * [Novos recursos no Customer Journey Analytics](#cust-journey)
 * [Correções no Adobe Analytics](#aa-fixes)
-* [Avisos importantes para administradores do Analytics](#aa-notices)
+* [Avisos importantes para administradores do Analytics](#aa-notices) (Atualizado: 22 de novembro de 2021)
 * [Cursos e tutoriais do Analytics](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -196,6 +197,7 @@ AN-270649
 
 | Aviso | Data de adição  ou atualização | Descrição |
 | ----------- | ---------- | ---------- |
+| Tipo de RDC &quot;Global + China&quot; | 22 de novembro de 2021 | &quot;Global + China&quot; é um novo tipo de Coleta de dados regional (RDC) que simplifica o roteamento de tráfego para clientes globais que usam a variável [!UICONTROL Pacote do complemento China Performance Otimization]. Anteriormente, você tinha que determinar se os dados deveriam ser roteados para o endpoint de coleta da China ou para um dos endpoints de coleta Global . Agora você pode escolher essa RDC **type** para permitir que o Adobe determine o ponto de extremidade de coleção ideal com base na geolocalização do usuário. |
 | Fim da vida útil de três serviços de API do Analytics | 16 de setembro de 2021 | Em **20 de outubro de 2021**, os serviços de API herdados do Analytics a seguir estão programados para atingir sua data de fim de vida útil e serão encerrados. Quaisquer integrações atuais criadas com esses serviços deixarão de funcionar nesse dia.<ul><li>APIs do Analytics 1.3</li><li>APIs do SOAP Analytics 1.4</li><li>Autenticação OAuth herdada (OAuth e JWT)</li></ul>A Adobe forneceu uma seção de [Perguntas frequentes sobre o Fim da vida útil da API herdada](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) para ajudar a responder às suas perguntas e fornecer orientações sobre como proceder. As integrações de API que empregam esses serviços podem migrar para as [APIs REST do Analytics 1.4](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) ou as [APIs do Analytics 2.0](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email). As contas OAuth herdadas podem migrar para uma conta de integração do Analytics [Adobe I/O](https://developer.adobe.com/console), que pode ser usada para acessar as APIs do Analytics 1.4 e as APIs do Analytics 2.0. |
 | Fim da vida útil do processamento completo nas fontes de dados | 18 de outubro de 2021 | Em **31 de janeiro de 2022**, a Adobe encerrará a vida útil do processamento completo, que permite que os usuários assimilem dados de ocorrência offline no Analytics. Esse recurso está disponível por meio da [API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). [Saiba mais](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=pt-BR ) |
 
