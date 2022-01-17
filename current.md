@@ -72,7 +72,7 @@ As seguir estão os eventos e suas programações:
 
 Os episódios anteriores estão disponíveis em [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en).
 
-### Coffee breaks com perguntas e respostas da comunidade{#coffee}
+### Coffee breaks com perguntas e respostas da comunidade {#coffee}
 
 Gaste uma hora com um convidado especial e envie suas perguntas para o Experience League Communities. Obtenha respostas de perguntas dos especialistas do produto no Adobe!
 
@@ -83,7 +83,7 @@ Gaste uma hora com um convidado especial e envie suas perguntas para o Experienc
 
 {style=&quot;table-layout:auto&quot;}
 
-### Adobe Developer&#39;s Live{#dev-live}
+### Adobe Developer&#39;s Live {#dev-live}
 
 | Evento | Data e hora | Tipo | Descrição |
 | -----------| ---------- | ---------- |---------- |
