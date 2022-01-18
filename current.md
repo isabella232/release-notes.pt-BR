@@ -6,10 +6,10 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e8e9579245a74552a4dc9ee88eb45375162de6e1
+source-git-commit: 1b16256611eb979c223368409f6887d8c6826332
 workflow-type: tm+mt
-source-wordcount: '6416'
-ht-degree: 40%
+source-wordcount: '6587'
+ht-degree: 39%
 
 ---
 
@@ -289,6 +289,28 @@ A Adobe recomenda visitar a página de [Atualizações e roteiros de versão do 
 
 
 
+
+### Comunidade
+
+* **Webinário de GEMs do Experience Manager - Experience Manager as a Cloud Service** | Revisão de 2021 e perspectivas de 2022
+
+   **Data**: terça-feira, 25 de janeiro de 2022
+   **Hora**: 20:00 PST ou 17:00 CET ou IST às 21:30
+   **Duração**: 60 minutos
+   **Custo**: Livre!
+
+   * [Inscreva-se aqui](https://adobe.ly/3tAh3OC)
+   * [Perguntas frequentes](https://adobe.ly/3zJrS0f)
+
+* [Anúncio dos membros da Comunidade em 2021](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-community-members-of-the-year-2021/td-p/436782)
+
+   Queremos enviar um grande agradecimento a todos que participaram [comunidade Experience Manager](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community) em 2021 e ajudou outros com seus problemas.
+
+   A Experience Cloud Community homenageia todos os anos o membro que vai além e acima das suas funções e presta um apoio incrível a outros com o prêmio Community Member of the Year . Reconhecendo os esforços de forma pública, aqui anunciamos [@Asutosh_Jena_](https://experienceleaguecommunities.adobe.com/t5/user/viewprofilepage/user-id/7532759)  e [@Vijayalakshmi_S](https://experienceleaguecommunities.adobe.com/t5/user/viewprofilepage/user-id/11077056) como membros da Comunidade em 2021.
+
+* [Conteúdo de Experience League para janeiro de 2022](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/experience-league-content-for-month-of-january-2022/td-p/437137)
+
+   [Lista de todo o conteúdo do Experience Manager publicado no Experience League](https://adobe.ly/3tuGuRH)
 
 ### Novos cursos e tutoriais do Experience Manager {#tutorials-aem}
 
