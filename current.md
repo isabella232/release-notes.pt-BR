@@ -6,10 +6,10 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: a5fd2d7d8668a3b75718d24a8af14498e2192a1a
+source-git-commit: 3ecd5dfeeee5692b7fb5c5fa4dcac497b3c49ce0
 workflow-type: tm+mt
-source-wordcount: '6575'
-ht-degree: 39%
+source-wordcount: '6573'
+ht-degree: 42%
 
 ---
 
@@ -25,12 +25,12 @@ Saiba mais sobre as atualizações mais recentes da versão para [Produtos Adobe
 
 **Janeiro de 2022**
 
-Última atualização: **14 de janeiro de 2022**
+Última atualização: **26 de janeiro de 2022**
 
 * [[!DNL Experience League] Eventos](#events)
 * [[!DNL Experience Cloud Central Interface Components] &amp; Administração](#ecloud)
 * [[!UICONTROL Status do Sistema] da Adobe](#status)
-* [[!DNL Adobe Experience Platform]](#platform)
+* [[!DNL Adobe Experience Platform]](#platform) (Atualização: **26 de janeiro de 2022**)
 * [[!DNL Adobe Analytics]](#analytics)
 * [[!DNL Customer Journey Analytics]](#cust-journey)
 * [[!DNL Adobe Audience Manager]](#aam)
@@ -111,10 +111,9 @@ Leia o [notas de versão mais recentes](https://experienceleague.adobe.com/docs/
 
 Informações de atualização da versão e nova documentação do Experience Platform e [!UICONTROL SDK móvel]:
 
-* Próxima versão planejada: **26 de janeiro de 2022**
-* Versão mais recente: **17 de novembro de 2021**
+* Versão: **26 de janeiro de 2022**
 
-Consulte [Notas de versão do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR) para manter-se atualizado.
+Consulte [Notas de versão do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=pt-BR) para ler o mais recente.
 
 ### Novos tutoriais e cursos do Experience Platform {#tutorials-platform}
 
@@ -186,7 +185,7 @@ AN-253294; AN-254976; AN-255377; AN-255561; AN-258550; AN-259336; AN-263935; AN-
 | ----------- | ---------- | ---------- |
 | Expiração de lista de permissões extensão EOL de  para integrações OAuth/JWT herdadas do Analytics | 14 de janeiro de 2022 | Ligado **25 de maio de 2022**, o [API do Analytics 1.3, API SOAP 1.4 e EOL herdado do Analytics OAuth/JWT](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) lista de permissões extensão de  expirará. Foi oferecido para fornecer aos clientes o uso de [!DNL Adobe Analytics] As credenciais do OAuth/JWT proporcionam mais tempo para migrar as integrações de clientes para o [Credenciais do Adobe IMS](https://developer.adobe.com/console). Essa expiração afeta (mas não se limita a) [!DNL Adobe Analytics Livestream] e [!DNL Adobe Campaign] clientes que não concluíram as migrações de IMS necessárias. Clientes que estão usando o herdado no momento [!DNL Analytics] As credenciais do OAuth/JWT por meio da extensão do lista de permissões e que não concluírem a migração para credenciais do IMS até 25 de maio de 2022 perderão o acesso aos serviços da Adobe. Clientes do Livestream podem se referir a eles [instruções](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md) ao migrar seus aplicativos clientes para credenciais IMS. [!DNL Campaign] os clientes podem entrar em contato com a equipe da conta do Adobe para saber como atualizar para a versão mais recente de [!DNL Campaign]. |
 | EOL para [!DNL Reports & Analytics] | 4 de janeiro de 2022 | A partir de **31 de dezembro de 2023**, a Adobe pretende descontinuar o , juntamente com os relatórios e recursos que o acompanham. [!DNL Reports & Analytics] Os relatórios, visualizações e a tecnologia subjacente que alimentam [!DNL Reports & Analytics] O não atende mais às normas de tecnologia do Adobe. Mais [!DNL Reports & Analytics] estão disponíveis em [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=pt-BR). Desde o lançamento do Analysis Workspace em 2015, [!DNL Reports & Analytics] A funcionalidade e os recursos foram movidos para o Analysis Workspace e um limite de paridade de fluxo de trabalho foi atingido. [Este aviso](https://spark.adobe.com/page/6WnF8JK6IRDhf/) explica o processo do fim da vida útil. |
-| Atualização de serviços do Secure File Transfer Protocol (SFTP) | 13 de janeiro de 2022 | Ligado **2 de maio de 2022**, [!DNL Adobe Analytics] O atualizará os serviços do Protocolo de transferência segura de arquivo (SFTP) para fornecer segurança aprimorada para transferências de arquivos. Com essa alteração, algumas configurações de cliente SFTP não serão mais suportadas. Também adicionaremos algumas opções de conexão que estarão disponíveis por **1° de março de 2022**. Isso afetará somente os dados enviados ou recuperados da Adobe Analytics por meio do SFTP. O protocolo FTP não será afetado. Para evitar interrupções do serviço, verifique se os clientes SFTP (código, ferramentas, serviços) estão de acordo com as alterações detalhadas [here](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html). |
+| Atualização de serviços do Secure File Transfer Protocol (SFTP) | 13 de janeiro de 2022 | Ligado **2 de maio de 2022**, [!DNL Adobe Analytics] O atualizará os serviços do Protocolo de transferência segura de arquivo (SFTP) para fornecer segurança aprimorada para transferências de arquivos. Com essa alteração, não haverá mais suporte para algumas configurações de cliente SFTP. Também adicionaremos algumas opções de conexão que estarão disponíveis em **1 de março de 2022**. Isso afetará somente os dados enviados para ou recuperados do Adobe Analytics por meio do SFTP. O protocolo FTP não será afetado. Para evitar interrupções do serviço, verifique se os clientes SFTP (código, ferramentas, serviços) estão de acordo com as alterações detalhadas [here](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html). |
 | _Global + China_ Tipo de RDC | 22 de novembro de 2021 | _Global + China_ é um novo tipo de Coleta de dados regional (RDC) que simplifica o roteamento de tráfego para clientes globais que usam a variável [!UICONTROL Pacote do complemento China Performance Otimization]. Anteriormente, era preciso determinar se os dados deveriam ser roteados para o endpoint de coleta da China ou para um dos endpoints de coleta globais. Agora é possível escolher esse *tipo* de RDC para permitir que a Adobe determine o endpoint de coleta ideal com base na geolocalização do usuário. |
 | Fim da vida útil do processamento completo nas fontes de dados | 18 de outubro de 2021 | Em **31 de janeiro de 2022**, a Adobe encerrará a vida útil do processamento completo, que permite que os usuários assimilem dados de ocorrência offline no Analytics. Esse recurso está disponível por meio da [API de inserção de dados em massa](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). [Saiba mais](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=pt-BR ) |
 
@@ -250,8 +249,8 @@ A Adobe recomenda visitar a página de [Atualizações e roteiros de versão do 
       _Novos recursos no canal de pré-lançamento do Experience Manager Assets_
 
       * Dynamic Media - Agora você pode usar a interface Experience Manager Dynamic Media para configurar [!UICONTROL Configurações gerais] e [!UICONTROL Configuração de publicação] em vez de ter que passar pelo aplicativo de desktop do Dynamic Media Classic.
-      * O Dynamic Media agora é compatível com assimilação, visualização, reprodução e publicação de vídeos MXF. A anotação e o vídeo que pode ser comprado para vídeos MXF ainda não são suportados.
-      * Após configurar uma conexão entre implantações remotas de DAM e Sites, os ativos no DAM remoto são disponibilizados na implantação do Sites. Agora você pode executar o [atualizar, excluir, renomear e mover operações](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/use-assets-across-connected-assets-instances.html?lang=en) em ativos ou pastas remotos do DAM. As atualizações, com algum atraso, estão disponíveis automaticamente na implantação do Sites .
+      * O Dynamic Media agora é compatível com assimilação, visualização, reprodução e publicação de vídeos MXF. As funcionalidades de Anotação e vídeo que pode ser comprado ainda não são suportados para vídeos MXF.
+      * Após configurar uma conexão entre implantações remotas do DAM e do Sites, os ativos no DAM remoto são disponibilizados na implantação do Sites. Agora você pode executar o [atualizar, excluir, renomear e mover operações](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/use-assets-across-connected-assets-instances.html?lang=en) em ativos ou pastas remotos do DAM. As atualizações, com algum atraso, estão disponíveis automaticamente na implantação do Sites.
    * **Experience Manager Forms as a Cloud Service**
 
       _Novo recurso_
@@ -261,15 +260,15 @@ A Adobe recomenda visitar a página de [Atualizações e roteiros de versão do 
       _Novos recursos no canal de pré-lançamento do Experience Manager Forms_
 
       * **AEM Forms as a Cloud Service - Comunicações**: [APIs de comunicação](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/using-communications/aem-forms-cloud-service-communications.html?lang=en) ajuda a combinar um modelo e dados XML para gerar documentos de impressão em vários formatos. Com o serviço , é possível gerar documentos em modos síncronos e em lote. As APIs permitem que você crie aplicativos para fazer o seguinte:
-         * Gere documentos preenchendo arquivos de modelo (PDF e XDP) com dados XML.
+         * Gerar documentos preenchendo arquivos de modelo (PDF e XDP) com dados XML.
          * Gerar formulários de saída em vários formatos, incluindo fluxos de impressão PDF não interativos.
-      * **Fontes personalizadas para documentos de Documento de registro e PDF criados com APIs de comunicações**: Agora é possível usar fontes aprovadas pela marca em documentos PDF gerados usando APIs de comunicações para alinhar-se aos requisitos organizacionais.
-      * **Forms Portal**: Você pode usar [Forms Portal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-forms-portal.html?lang=en) para listar seus formulários adaptáveis publicados em uma página do Experience Manager Sites. Ajuda um visitante do site a descobrir todos os formulários disponíveis. Além disso, o visitante pode usar [!UICONTROL Forms Portal] para salvar e acessar rascunho de um formulário adaptável e examinar a versão PDF de um formulário adaptável enviado.
+      * **Fontes personalizadas para Documentos de Registro e documentos PDF criados com APIs de comunicações**: agora é possível usar fontes aprovadas pela marca em documentos PDF gerados pelo uso de APIs de comunicações para se alinhar aos requisitos organizacionais.
+      * **Forms Portal**: Você pode usar [Forms Portal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-forms-portal.html?lang=en) para listar seus formulários adaptáveis publicados em uma página do Experience Manager Sites. Isso ajuda um visitante do site a descobrir todos os formulários disponíveis. Além disso, o visitante pode usar [!UICONTROL Forms Portal] para salvar e acessar rascunho de um formulário adaptável e examinar a versão PDF de um formulário adaptável enviado.
    * **Cloud Manager**
 
       _Novos recursos_
 
-      * Agora os usuários podem usar os novos Pipelines do Front-End para implantar exclusivamente o código front-end de maneira acelerada. Consulte [Pipelines de Front-End do Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines.html?lang=en#front-end) para saber mais.
+      * Agora os usuários podem usar os novos Pipelines do Front-End para implantar exclusivamente o código front-end de maneira acelerada. Consulte [Pipelines de front-end do Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines.html?lang=en#front-end) para saber mais.
 
          >[!IMPORTANT]
          >
@@ -278,8 +277,8 @@ A Adobe recomenda visitar a página de [Atualizações e roteiros de versão do 
       * A duração do pipeline de qualidade de código é reduzida com a execução da análise de código de forma mais eficiente, sem a necessidade de criar uma imagem Experience Manager inteira. Essa alteração está ocorrendo progressivamente nas próximas semanas após o lançamento.
       * A ID de confirmação de Git agora é exibida nos detalhes de execução do pipeline, facilitando o rastreamento do código que foi criado.
       * [!UICONTROL Criação de programas] O agora está disponível por meio da API exposta publicamente.
-      * [!UICONTROL Criação de ambiente] O agora está disponível por meio da API exposta publicamente.
-      * O `x-request-id` o cabeçalho de resposta agora está visível no Reprodução da API em [www.adobe.io](https://www.adobe.io/). Esse cabeçalho é útil ao enviar problemas de atendimento ao cliente para solução de problemas.
+      * [!UICONTROL A Criação de ambiente agora está disponível por meio da API exposta publicamente.]
+      * O cabeçalho de resposta `x-request-id` agora está visível na API Playground em [www.adobe.io](https://www.adobe.io/). Esse cabeçalho é útil ao enviar problemas de atendimento ao cliente para solução de problemas.
       * Um novo [!UICONTROL Atividade] está disponível, onde atividades como pipeline e execuções de código podem ser visualizadas junto com seus detalhes associados. Com o tempo, as atividades listadas nesta página expandem o escopo junto com os detalhes fornecidos.
       * Um novo [!UICONTROL Pipelines] página com um status para fácil visualização do resumo dos detalhes agora está disponível. Você pode visualizar [!UICONTROL Pipeline] O é executado junto com seus detalhes associados.
       * O [!UICONTROL Editar pipeline] A API agora é compatível com a alteração do ambiente usado nas fases de implantação.
@@ -320,7 +319,7 @@ Novos vídeos, tutoriais e cursos publicados no mês passado.
 | -----------| ---------- | ---------- | ---------- | ----- |
 | Janeiro de 2022 | [Extensão do Adobe Experience Manager as a Cloud Service usando o Construtor de aplicativos do desenvolvedor do Adobe](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/configuring-and-extending/app-builder/extending-aem-with-app-builder.html?lang=en) | Vídeo (vários) | O novo Adobe Developer App Builder oferece uma estrutura de extensibilidade para um desenvolvedor estender facilmente AEM funcionalidade as a Cloud Service. | AEM as a Cloud Service |
 | Janeiro de 2022 | [Configuração rápida sem cabeçalho AEM para AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/quick-setup/cloud-service.html) | Vídeo | Consulte a configuração rápida AEM Headless . Ele leva você à prática com AEM headless usando conteúdo do projeto de amostra do WKND Site e um exemplo de Aplicativo React (um SPA) que consome o conteúdo sobre AEM APIs GraphQL sem cabeçalho. | AEM as a Cloud Service |
-| Janeiro de 2022 | [Rede avançada](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/networking/advanced-networking.html?lang=en) | Vídeo (vários) | Saiba como AEM as a Cloud Service oferece três opções para gerenciar a conectividade com serviços externos: Saída de porta flexível, endereço IP de saída dedicado e rede privada virtual. Um programa e ambientes do Cloud Manager AEM as a Cloud Service podem usar apenas um tipo de configuração avançada de rede de cada vez. | AEM as a Cloud Service |
+| Janeiro de 2022 | [Rede avançada](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/networking/advanced-networking.html?lang=pt-BR) | Vídeo (vários) | Saiba como AEM as a Cloud Service oferece três opções para gerenciar a conectividade com serviços externos: Saída de porta flexível, endereço IP de saída dedicado e rede privada virtual. Um programa e ambientes do Cloud Manager AEM as a Cloud Service podem usar apenas um tipo de configuração avançada de rede de cada vez. | AEM as a Cloud Service |
 | Janeiro de 2022 | [Enriqueça os dados do produto com o conteúdo de AEM associado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/storefront/authoring/enrich-product-associated-content.html?lang=en) | Vídeo | Saiba como os profissionais de marketing podem enriquecer dados de produtos com conteúdo associado do Adobe Experience Manager. Conteúdo, como ativos, [!UICONTROL Fragmentos de experiência]e [!UICONTROL Fragmentos de conteúdo] no AEM pode ser associado a produtos de comércio. | AEM as a Cloud Service |
 | Janeiro de 2022 | [Serviço de email](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/networking/examples/email-service.html?lang=en) | Vídeo | Envie emails de AEM as a Cloud Service configurando AEM `DefaultMailService` para usar portas avançadas de saída de rede. | AEM as a Cloud Service |
 | Janeiro de 2022 | [Noções básicas do conector avançado Workfront](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/basics.html?lang=en) | Vídeo | Saiba mais sobre as noções básicas do conector avançado Adobe Workfront e Experience Manager Assets. Saiba mais sobre [Pastas de projetos](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/project-folders.html?lang=en). | AEM Assets Service e Workfront |
