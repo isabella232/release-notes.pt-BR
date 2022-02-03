@@ -6,9 +6,9 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e50b1d99621d2a32597e7a28c1602decef814ead
+source-git-commit: 36c608bd0501936778dc791aac7f3c92bc6ce187
 workflow-type: tm+mt
-source-wordcount: '6590'
+source-wordcount: '6609'
 ht-degree: 99%
 
 ---
@@ -415,9 +415,10 @@ Consulte os seguintes links para as notas de versão do Adobe Commerce:
 
 ## ![Ícone](/assets/target.png) [!DNL Adobe Target] {#target}
 
-Última atualização: **10 de janeiro de 2022**
+Última atualização: **1 de fevereiro de 2022**
 
-Consulte as [notas de versão do Target](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=pt-BR) para obter as informações mais recentes.
+* Para obter informações de pré-lançamento do Adobe Target, consulte [Pré-lançamento do Adobe Target](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=pt-BR) notas de versão.
+* Para obter as informações da versão atual, consulte [Notas de versão do Target](https://experienceleague.adobe.com/docs/target/using/release-notes/release-notes.html?lang=en).
 
 ## ![Ícone](/assets/campaign.png) [!DNL Adobe Campaign] {#ac}
 
