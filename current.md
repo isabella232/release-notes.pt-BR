@@ -6,10 +6,10 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c73e91e379acb34734b4ed3a1d267688ea3f1222
+source-git-commit: 9e16facc25424bb8ce23e35230b7503195cf1a3d
 workflow-type: tm+mt
-source-wordcount: '6611'
-ht-degree: 99%
+source-wordcount: '6534'
+ht-degree: 98%
 
 ---
 
@@ -527,12 +527,11 @@ Notas de versão para [!DNL Adobe Advertising Cloud].
 
 ### Novos recursos no [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Última atualização: **7 de outubro de 2021**
+Última atualização: **4 de fevereiro de 2022**
 
 | Recurso | Descrição |
 | ------- | ----------- |
-| [!UICONTROL Relatórios], [!UICONTROL Central de notificações] | (Versão de 9 de outubro) Todas as notificações por e-mail dos relatórios, que o Advertising Cloud Search envia quando um relatório personalizado ou agendado é concluído ou falha, agora são tratadas pela [!UICONTROL Central de notificações]. As notificações por e-mail e notificações da web estão ativas por padrão para relatórios, mas você pode alterar as configurações de notificação, se desejar. Com esta alteração:<ul><li>Os destinatários de email são restritos aos usuários registrados e autenticados do Advertising Cloud Search e que têm acesso à conta do anunciante. Isso garante que nenhum dado confidencial seja enviado a usuários não autorizados.</li><li>O formato e o conteúdo do e-mail usam o modelo da [!UICONTROL Central de notificações], que inclui mais detalhes do relatório e links de download direto para todos os formatos de relatório.</li><li>As notificações de relatórios são um novo tipo de notificação, com suas próprias preferências de notificação, na [!UICONTROL Central de notificações].</li></ul>Se você usar qualquer automação para extrair relatórios das notificações por e-mail, talvez precise atualizar a lógica dos filtros para garantir a continuidade do processo. |
-| Insights de publicidade | Os insights adicionais estão disponíveis no modo beta. |
+| [!UICONTROL Bulksheets], [!UICONTROL Centro de notificação] | (Versão de 22 de janeiro) Todas as notificações por email para bulksheets, que o Advertising Cloud Search envia quando uma operação de bulksheet é concluída ou falhou, agora são manipuladas por [!UICONTROL Centro de notificação].<br><br>[!UICONTROL Bulksheets] é um novo tipo de notificação, com suas próprias preferências de notificação, em [!UICONTROL Centro de notificação]. Notificações por email e notificações da Web são ativadas por padrão, mas você pode, opcionalmente, alterar as configurações de notificação.<br><br>O formato e o conteúdo das notificações por email usam o [!UICONTROL Centro de notificação] e inclui um link de download direto para o arquivo de bulksheet ou arquivo de erro associado. |
 
 {style=&quot;table-layout:auto&quot;}
 
