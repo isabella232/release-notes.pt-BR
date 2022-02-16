@@ -6,10 +6,10 @@ last-update: February 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 10b5876c8ea0e21f0e10ea36165c0e3f1dab9665
+source-git-commit: f4b652db4759a65f38afe0fbd6dca07301875277
 workflow-type: tm+mt
-source-wordcount: '4940'
-ht-degree: 49%
+source-wordcount: '4963'
+ht-degree: 51%
 
 ---
 
@@ -220,10 +220,10 @@ A Adobe recomenda visitar a página de [Atualizações e roteiros de versão do 
       * O Dynamic Media agora oferece a flexibilidade para permitir [configurar uma conta de alias de empresa](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dm-alias-account.html?lang=en) na interface do usuário, para que os URLs do Dynamic Media e o código de inserção do visualizador sejam atualizados. Essa ação afeta positivamente a SEO, para refletir as atualizações feitas no contexto de negócios, como a reformulação da marca.
       * Agora é possível usar a interface do usuário do Experience Manager Assets para:
 
-         * Configure a detecção de ativos duplicados em um repositório.
+         * Configurar a detecção de ativos duplicados em um repositório.
          * Configure a adição de marcas d&#39;água digitais a imagens.
-      * Agora, os administradores podem configurar o serviço de email para downloads grandes. Permite que os usuários [ativar notificações por email para downloads grandes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/download-assets-from-aem.html?lang=en#enable-email-notifications-for-large-downloads) na interface do Experience Manager Assets. O usuário recebe uma notificação por email contendo o link de download da pasta zip arquivada após concluir o processo de download.
-      * O [Gerenciar publicação](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=en) O recurso é aprimorado com uma interface do usuário aprimorada. Os usuários podem publicar ou cancelar a publicação de conteúdo de e para o destino selecionado, e [Adicionar conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=en#add-content) para a lista de publicação em todo o repositório DAM. Eles também podem [Incluir configurações de pasta](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=en#include-folder-settings) para publicar o conteúdo das pastas selecionadas e aplicar filtros, e [agendar publicação](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=en#publish-assets-later) para uma data ou hora posterior.
+      * Agora, os administradores podem configurar o serviço de email para downloads grandes. Permite que os usuários [ativar notificações por email para downloads grandes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/download-assets-from-aem.html?lang=en#enable-email-notifications-for-large-downloads) na interface do Experience Manager Assets. O usuário recebe uma notificação por email contendo o link de download do arquivo ZIP após concluir o processo de download.
+      * O recurso [Gerenciar publicação](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=en) está aprimorado, com uma interface de usuário melhorada. Os usuários podem publicar ou cancelar a publicação de conteúdo de e para o destino selecionado, e [Adicionar conteúdo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=en#add-content) para a lista de publicação em todo o repositório DAM. Eles também podem [Incluir configurações de pasta](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=en#include-folder-settings) para publicar o conteúdo das pastas selecionadas e aplicar filtros, e [agendar publicação](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-publication.html?lang=en#publish-assets-later) para uma data ou hora posterior.
 
       _Correção de erros_
 
@@ -235,9 +235,9 @@ A Adobe recomenda visitar a página de [Atualizações e roteiros de versão do 
       * **Experience Manager Forms as a Cloud Service - Comunicações** — [APIs de comunicação](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/using-communications/aem-forms-cloud-service-communications.html?lang=pt-BR) ajuda a combinar um modelo e dados XML para gerar documentos de impressão em vários formatos. O serviço permite gerar documentos em modos síncronos e em lote. As APIs ajudam a criar aplicativos que permitem fazer o seguinte:
 
          * Gerar documentos preenchendo arquivos de modelo com dados XML.
-         * Gere formulários em vários formatos, incluindo fluxos de PDF não interativos.
-         * Gere PDF de impressão a partir de PDF de formulário XFA.
-         * Gere documentos PDF, PostScript, PCL e ZPL em massa ao mesclar vários conjuntos de dados com modelos de origem.
+         * Gerar formulários em vários formatos, incluindo fluxos de impressão de PDF não interativos.
+         * Gerar PDFs de impressão a partir de PDFs de formulário XFA.
+         * Gerar documentos PDF, PostScript, PCL e ZPL em massa ao mesclar vários conjuntos de dados com modelos de origem.
       * **Fontes personalizadas para documentos de Documento de registro e PDF criados com APIs de comunicações** — Agora é possível usar fontes aprovadas pela marca em documentos PDF gerados usando APIs de comunicações para alinhar-se aos requisitos organizacionais.
 
       _Novo no canal de pré-lançamento do Forms_
@@ -290,7 +290,7 @@ Novos vídeos, tutoriais e cursos publicados no mês passado.
 | Fevereiro de 2022 | [Migração do arquétipo de AEM antigo](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/developing-for-cloud-service/updating-project-archetype.html?lang=en) | Vídeo | Desc. | Forms CS |
 | Fevereiro de 2022 | [Externalizar o armazenamento de dados do workflow no AEM Forms CS](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/create-aem-workflow/externalize-workflow.html?lang=en) | Vídeo | Saiba como armazenar seus dados de workflow no armazenamento do Azure. O AEM Forms CS tem novo recurso de armazenar seus dados de fluxo de trabalho, como variáveis, anexos e assim por diante, em uma conta de armazenamento externa. | AEM Forms CS |
 | Fevereiro de 2022 | [Integrar o Adobe Analytics com a automação de configuração do Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/adobe-analytics-exc-setup-automation.html) | Vídeo | Saiba como a Experience Cloud Setup Automation fornece uma maneira simples e automatizada de integrar e instrumentar o Experience Manager Sites com o Experience Platform Launch e o Adobe Analytics. | AEM Sites |
-| Fevereiro de 2022 | [Recommendations do produto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/storefront/authoring/product-recommendations.html) | Vídeo | Saiba como inserir dinamicamente essas recomendações de produto em uma loja da Adobe Experience Manager (AEM). O Adobe Commerce tem um mecanismo de recomendação desenvolvido pela Adobe Sensei. | AEM e Adobe Commerce |
+| Fevereiro de 2022 | [Recomendações do produto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/content-and-commerce/storefront/authoring/product-recommendations.html) | Vídeo | Saiba como inserir dinamicamente essas recomendações de produto em uma loja da Adobe Experience Manager (AEM). O Adobe Commerce tem um mecanismo de recomendação desenvolvido pela Adobe Sensei. | AEM e Adobe Commerce |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -473,10 +473,11 @@ Notas de versão para [!DNL Adobe Advertising Cloud].
 
 ### Novos recursos no [!DNL Advertising Cloud Search] {#adcloud-search}
 
-Última atualização: **4 de fevereiro de 2022**
+Última atualização: **16 de fevereiro de 2022**
 
 | Recurso | Descrição |
 | ------- | ----------- |
+| [!UICONTROL Campanhas], [!UICONTROL Bulksheets] | (Versão de 22 de janeiro) ([!DNL Microsoft Advertising accounts]) Agora é possível criar e gerenciar anúncios de pesquisa responsivos (RSAs) na [!UICONTROL Campanhas] > [!UICONTROL Anúncios] exibir e de [!UICONTROL Campanhas] > [!UICONTROL Bulksheets]. |
 | [!UICONTROL Bulksheets], [!UICONTROL Centro de notificação] | (Versão de 22 de janeiro) Todas as notificações por email para bulksheets, que o Advertising Cloud Search envia quando uma operação de bulksheet é concluída ou falhou, agora são manipuladas por [!UICONTROL Centro de notificação].<br><br>[!UICONTROL Bulksheets] é um novo tipo de notificação, com suas próprias preferências de notificação, em [!UICONTROL Centro de notificação]. Notificações por email e notificações da Web são ativadas por padrão, mas você pode, opcionalmente, alterar as configurações de notificação.<br><br>O formato e o conteúdo das notificações por email usam o [!UICONTROL Centro de notificação] e inclui um link de download direto para o arquivo de bulksheet ou arquivo de erro associado. |
 
 {style=&quot;table-layout:auto&quot;}
